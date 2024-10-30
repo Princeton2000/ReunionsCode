@@ -3,6 +3,8 @@ import Ignite
 
 struct Home: StaticPage {
     var title = "Home"
+	var description: String = "Bid Every Care Withdraw: Princeton 2000s 25th Reunion, May 22-25, 2025"
+	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
 
     func body(context: PublishingContext) -> [BlockElement] {
 		Section {

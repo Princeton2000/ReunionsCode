@@ -10,6 +10,8 @@ import Ignite
 
 struct Kids: StaticPage {
 	var title = "Kids"
+	var description: String = "What you need to know about our Kids' Schedule."
+	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
 
 	func body(context: PublishingContext) -> [BlockElement] {
 		Group{

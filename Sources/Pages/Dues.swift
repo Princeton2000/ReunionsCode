@@ -10,6 +10,8 @@ import Ignite
 
 struct Dues: StaticPage {
 	var title = "Class Dues"
+	var description: String = "Pay your dues…we need them!!"
+	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
 
 	func body(context: PublishingContext) -> [BlockElement] {
 		Group {

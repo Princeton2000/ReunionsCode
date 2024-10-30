@@ -10,6 +10,9 @@ import Ignite
 
 struct Jacket: StaticPage {
 	var title = "Jacket"
+	var description: String = "Learn about our incredible 25th jacket"
+	var image: String? = "/images/jacket/P2000_jacket_sketch.png"
+	
 	let jacketUpdateImages = (1...22).map({"/images/jacket/presentation/Slide\($0).png"})
 	let jacketTestSlides = [1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14, 19, 20, 21, 22].map({"/images/jacket/testSlides/testSlides.\(String(format: "%03d", $0)).png"})
 	let jacketImages = ["/images/jacket/6FB9D9B5-6DA6-4D6C-B8D8-CEC5D029ADCC.JPG","/images/jacket/Image 10-29-21 at 1.46 PM (2).JPG", "/images/jacket/Image 10-29-21 at 1.47 PM.JPG", "/images/jacket/917479EB-F940-49DC-BECA-80D16ACA546C.JPG", "/images/jacket/E6420ED7-0C9C-4559-AB4F-B504120082CD.JPG",  "/images/jacket/IMG_0983.jpeg", "/images/jacket/IMG_0984.jpeg", "/images/jacket/IMG_0985.jpeg", "/images/jacket/IMG_0986.jpeg", "/images/jacket/IMG_5359.jpeg", "/images/jacket/RenderedImage.jpeg"]

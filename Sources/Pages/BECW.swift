@@ -10,6 +10,9 @@ import Ignite
 
 struct BidEveryCareWithdraw: StaticPage {
 	var title = "Bid Every Care Withdraw"
+	var description: String = "Learn about our theme: Bid Every Care Withdraw"
+	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
+	
 	let jacketUpdateImages = (1...22).map({"/images/jacket/testSlides/testSlide.\(String(format: "%03d", $0)).png"})
 	
 	func body(context: PublishingContext) -> [BlockElement] {

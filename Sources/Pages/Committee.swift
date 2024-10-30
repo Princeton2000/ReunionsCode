@@ -10,6 +10,8 @@ import Ignite
 
 struct Committee: StaticPage {
 	var title = "Committee"
+	var description: String = "Your incredible Reunions Committee"
+	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
 
 	func body(context: PublishingContext) -> [BlockElement] {
 		var committee: [CommitteeMember] { let decoder = JSONDecoder(); let data = try! Data(contentsOf: URL(fileURLWithPath: "/Users/jpurnell/Dropbox/Computer/Development/Swift/Princeton/Website/ExampleSite/Resources/committee.json")); let committeeMembers = try? decoder.decode([CommitteeMember].self, from: data); return committeeMembers?.sorted(by: {$0.priority < $1.priority && $0.role < $1.role}) ?? []}

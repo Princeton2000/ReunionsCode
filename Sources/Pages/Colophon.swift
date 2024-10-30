@@ -10,7 +10,9 @@ import Ignite
 
 struct Colophon: StaticPage {
 	var title = "Colophon"
-
+	var description: String = "How our site is built."
+	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
+	
 	func body(context: PublishingContext) -> [BlockElement] {
 		Section {
 			for content in context.content(ofType: ("colophon")) {
