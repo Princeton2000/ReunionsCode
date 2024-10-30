@@ -19,22 +19,37 @@ struct Jacket: StaticPage {
 			Text("Here it is! We're so pleased to share this sketch of our 25th Class Jacket.")
 				.fontWeight(.bold)
 				.horizontalAlignment(.center)
-					Image("/images/jacket/P2000_jacket_sketch.png", description: "A seersucker-type jacket with wide orange stripes and small black accent stripes. The lining is cream, with the lyrics of Old Nassau, interrupted occasionally with a sketch of the Nassau Hall tiger in profile, and overlid with a large \"'00\" in Princeton Orange").resizable().width(12)
+			Image("/images/jacket/P2000_jacket_sketch.png", description: "A seersucker-type jacket with wide orange stripes and small black accent stripes. The lining is cream, with the lyrics of Old Nassau, interrupted occasionally with a sketch of the Nassau Hall tiger in profile, and overlid with a large \"'00\" in Princeton Orange")
+			.class("fade-in-image")
+			.resizable()
+			.width(12)
 			Spacer()
 			Text {
 				Link("Make sure it fits! Here's our measuring guide to make sure you get the perfect fit.", target: "/images/jacket/P2000_25th_Jacket_Sizing_Chart.pdf")
 					.target(.newWindow)
 					.relationship(.noOpener, .noReferrer)
-			}.font(.title4).fontWeight(.semibold).horizontalAlignment(.center)
+			}.font(.title5).fontWeight(.semibold).horizontalAlignment(.center)
+		Text {
+			Link("Got your sizing? Order your jacket now! Orders must be received by Dec 13", target: "https://princeton.reunioniq.com/shop/classof00")
+				.target(.newWindow)
+				.relationship(.noOpener, .noReferrer)
+		}.font(.title3).fontWeight(.semibold).horizontalAlignment(.center)
 		Spacer()
-		Text("How we got here").font(.title3).fontWeight(.semibold)
+		Text("How we got here").class("tayLennon").font(.title1)
 		Section {
-			Carousel {
-				for image in jacketTestSlides {
-					Slide(background: image)
+			Accordion {
+				Item("Learn more about how our jacket came to be") {
+					Carousel {
+						for image in jacketTestSlides {
+							Slide(background: image) {
+		//						Image(image).resizable().frame(width: 600, minWidth: 200, height: 600, minHeight: 200, maxHeight: 900, alignment: .center)
+								Text("Test Text").font(.title4).background(.princetonOrange).opacity(0.7)
+							}
+						}
+					}.carouselStyle(.move)
 				}
-			}.carouselStyle(.move)
-		}.columns(8).horizontalAlignment(.center)
+				}
+			}
 		Divider()
 		Accordion {
 			for content in context.content(ofType: "faq").filter({$0.tags.contains("jacket")}).sorted(by: {$0.tags[0] < $1.tags[0]}) {

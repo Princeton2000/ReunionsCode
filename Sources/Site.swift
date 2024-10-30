@@ -6,7 +6,7 @@ struct IgniteWebsite {
 	static func main() async {
 		let site = Princeton2000()
 		do {
-			try await site.publish()
+			try await site.publish(buildDirectoryPath: "docs")
 		} catch {
 			print(error.localizedDescription)
 		}
