@@ -5,8 +5,8 @@ struct MyTheme: Theme {
     func render(page: Page, context: PublishingContext) -> HTML {
         HTML {
 			Head(for: page, in: context) {
-				MetaTag(property: "og:image:type", content: "image/svg+xml")
-				MetaTag(property: "og:image", content: "\(deployment().rawValue)/images/logos/P2000_25th_Lounging_Tiger.svg")
+				MetaTag(property: "og:image:type", content: "image/png")
+				MetaTag(property: "og:image", content: "\(deployment().rawValue)/images/logos/P2000_25th_Lounging_Tiger.png")
 //				MetaTag(property: "og:title", content: "Bid Every Care Withdraw: 25th Reunion")
 				MetaTag(name: "fediverse:creator", content: "@princeton2000@mastodon.social")
 				MetaLink(href: "/css/css_add-ins.css", rel: "stylesheet")
