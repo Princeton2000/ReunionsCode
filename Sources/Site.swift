@@ -15,7 +15,7 @@ struct IgniteWebsite {
 
 public enum SiteLocation: String {
 	case production = "https://reunions.princeton2000.org"
-	case staging = "https://keepitfun.biz"
+	case staging = "https://staging.princeton2000.org"
 }
 
 func siteLocation(_ site: SiteLocation) -> String {
