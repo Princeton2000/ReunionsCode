@@ -1,0 +1,57 @@
+[
+	{
+		"image": "/images/gear/shirt_classmate_t-shirt.png",
+		"priority": 1,
+		"name": "Classmate T-Shirt",
+		"description": "Tees will have our custom 25th graphic across the chest and be in a dark grey heather. Tri-blend jersey, super soft, with a classic modern fit.",
+		"sizeChart": {
+			"title": "Size Chart",
+			"headers": ["Size","Chest","Waist"],
+			"rows": [["S", "35\"-37\"", "28\"-30\""], ["M", "38\"-40\"", "31\"-33\""], ["L", "41\"-43\"", "34\"-36\""], ["XL", "44\"-46\"", "37\"-39\""], ["XXL", "47\"-49\"", "40\"-42\""], ["3XL", "50\"-52\"", "43\"-45\""]]
+		}
+	},
+	{
+		"image": "/images/gear/shirt_classmate_v-neck.png",
+		"priority": 2,
+		"name": "V-Neck",
+		"description": "Tees will have our custom 25th graphic across the chest and be in a dark grey heather. Tri-blend jersey, super soft with stretch. Slightly tailored cut but comfy oversized fit. V-neck.",
+		"sizeChart": {
+			"title": "Size Chart",
+			"headers": ["Size","Chest","Waist"],
+			"rows": [["S (4-6)", "34\"-35.5\"", "26\"-27.5\""],["M (8-10)", "36\"-37.5\"", "29\"-30.5\""],["L (12-14)", "38\"-40\"", "31\"-32.5\""],["XL (16)", "41\"-42\"", "33\"-34\""]]
+		}
+	},
+	{
+		"image": "/images/gear/shirt_guest_adult.png",
+		"priority": 3,
+		"name": "Child/Teen/Adult Guest T-Shirt",
+		"description": "Tees will have a unique kids custom graphic across the chest and be in a light grey heather. Gildan brand soft-style cotton blend tee. Soft feel, modern classic fit.",
+		"sizeChart": {
+			"title": "Size Chart",
+			"headers": ["Size","Width","Length"],
+			"rows": [["XS", "16\"","27\""], ["S", "18\"", "28\""], ["M", "20\"", "29\""], ["L", "22\"", "30\""], ["XL", "24\"", "31\""], ["XXL", "26\"", "32\""], ["3XL", "28\"", "33\""]]
+		}
+	},
+	{
+		"image": "/images/gear/shirt_guest_youth.png",
+		"name": "Child Guest Youth T-Shirt",
+		"priority": 5,
+		"description": "Tees will have a unique kids custom graphic across the chest and be in a light grey heather. Gildan brand softstyle cotton tee. Runs true to size.",
+		"sizeChart": {
+			"title": "Size Chart",
+			"headers": ["Size","Width","Length"],
+			"rows": [["XS","14\"", "18\""], ["S", "16\"", "20.5\""], ["M", "17\"", "22\""], ["L", "18\"", "23.5\""], ["XL","19\"","25\""]]
+		}
+	},
+	{
+		"image": "/images/gear/shirt_guest_toddler.png",
+		"name": "Child Guest Toddler T-Shirt",
+		"priority": 5,
+		"description": "Tees will have a unique kids custom graphic across the chest and be in a light grey heather. 100% cotton Gildan brand. Tends to run a bit small.",
+		"sizeChart": {
+			"title": "Size Chart",
+			"headers": ["Size","Width","Length"],
+			"rows": [["2T", "11\"", "15\""], ["3T", "12\"", "16\""], ["4T", "13\"", "17\""], ["5T", "14\"", "18\""], ["6T", "15\"", "19\""]]
+		}
+	},
+]
