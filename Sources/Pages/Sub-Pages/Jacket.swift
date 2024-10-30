@@ -40,17 +40,20 @@ struct Jacket: StaticPage {
 			}.carouselStyle(.move)
 		}
 		Spacer()
+		Alert {
 			Text {
-				Link("Make sure it fits! Here's our measuring guide to make sure you get the perfect fit.", target: "/images/jacket/P2000_25th_Jacket_Sizing_Chart.pdf")
+					Link("Make sure it fits! Here's our measuring guide to make sure you get the perfect fit.", target: "/images/jacket/P2000_25th_Jacket_Sizing_Chart.pdf")
+						.target(.newWindow)
+						.relationship(.noOpener, .noReferrer)
+				}.font(.title5).fontWeight(.semibold).horizontalAlignment(.center)
+		}.role(.secondary)
+		Alert {
+			Text {
+				Link("Got your sizing? Order your jacket now! Orders must be received by Dec 13!", target: "https://princeton.reunioniq.com/shop/classof00")
 					.target(.newWindow)
 					.relationship(.noOpener, .noReferrer)
-			}.font(.title5).fontWeight(.semibold).horizontalAlignment(.center)
-		Text {
-			Link("Got your sizing? Order your jacket now! Orders must be received by Dec 13", target: "https://princeton.reunioniq.com/shop/classof00")
-				.target(.newWindow)
-				.relationship(.noOpener, .noReferrer)
-		}.font(.title3).fontWeight(.semibold).horizontalAlignment(.center)
-
+			}.font(.title3).fontWeight(.semibold).horizontalAlignment(.center)
+		}.role(.danger)
 		Divider()
 		Accordion {
 			for content in context.content(ofType: "faq").filter({$0.tags.contains("jacket")}).sorted(by: {$0.tags[0] < $1.tags[0]}) {
