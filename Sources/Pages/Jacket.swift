@@ -45,7 +45,7 @@ struct Jacket: StaticPage {
 		Spacer()
 		Alert {
 			Text {
-					Link("Make sure it fits! Here's our measuring guide to make sure you get the perfect fit.", target: "/images/jacket/P2000_25th_Jacket_Sizing_Chart.pdf")
+					Link("Get your fit right! Here's our measuring guide to make sure you get the perfect size.", target: "/images/jacket/P2000_25th_Jacket_Sizing_Chart.pdf")
 						.target(.newWindow)
 						.relationship(.noOpener, .noReferrer)
 				}.font(.title5).fontWeight(.semibold).horizontalAlignment(.center)

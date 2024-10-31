@@ -35,7 +35,13 @@ struct MyTheme: Theme {
 					}.role(.secondary)
 				}
                 page.body
-
+				Accordion {
+					for content in context.content(ofType: "faq").filter({$0.tags.map({$0.lowercased()	}) .contains("\(String(describing: page.title.lowercased))")}).sorted(by: {$0.tags[0] < $1.tags[0]}) {
+						Item(content.metadata["question"] as! InlineElement) {
+							Text(markdown: content.body)
+						}
+					}
+				}
 				Divider()
 				Group { SocialLinks() }.padding(.horizontal)
 				Group { Include("instagramEmbed.html") }.padding(.horizontal)
