@@ -18,14 +18,14 @@ struct Home: StaticPage {
 					Text("Look back on Reunions").font(.title3).fontWeight(.semibold)
 					Embed(vimeoID: [950880962, 831352768, 713233083].first!, title: "Reunions").aspectRatio(.r16x9)
 				} else {
-					Text("Commencement 2000").font(.title3).fontWeight(.semibold)
+					Text("Commencement 2000").class("tayLennon").font(.title3).fontWeight(.semibold)
 					Embed(youTubeID: "Tr8X5kst0bs", title: "Reunions")
 						.aspectRatio(.r4x3)
 				}
 			}
 			.width(8)
 			Group {
-				Text("The Latest on Reunions 2025…").font(.title3).fontWeight(.semibold).horizontalAlignment(.center)
+				Text("The Latest").class("tayLennon").font(.title3).fontWeight(.semibold).horizontalAlignment(.center)
 				Divider()
 				for content in context.content(ofType: "letters").filter({$0.metadata["hidden"] as? String != "true"}).sorted(by: {getDate($0.metadata["lastModified"] as? String ?? "") > getDate($1.metadata["lastModified"] as? String ?? "")}) {
 					Quote {
