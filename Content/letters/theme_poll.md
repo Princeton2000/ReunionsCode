@@ -11,13 +11,13 @@ Dear ‘00 Classmates,
 
 Our 25th Reunion is now less than a year away, and your volunteer organizers are in high gear selecting a theme and design elements.  The purpose of this message is (1) to provide an update on theme and jacket planning, and (2) to invite you to provide feedback on ideas.
 
-25th Reunion Costume
+**25th Reunion Costume**
 
 As you may recall from Reunions, the centerpiece of the 25th will be a new Reunions jacket.  This blazer is a more formal upgrade from the beer jacket we received at graduation, and classmates typically continue to wear their 25th blazers at future Reunions and other alumni events.  There will be other pieces to our 25th Reunion look, please stay tuned!
 
 The blazer will be a separate purchase from your registration fee, and classmates will be given the opportunity to order 25th blazers whether or not they are able to attend the 25th in person.  You’ll hear from us in the fall about ordering and sizing details.
 
-25th Reunion Theme
+**25th Reunion Theme**
 
 After having our 20th canceled due to COVID, classmate feedback ahead of our 25th is clear: We are hearing that you want “high attendance,” “broad participation,” and “to focus on being together.”  Your Reunions volunteers – more than 30 strong so far – fully agree!
 
