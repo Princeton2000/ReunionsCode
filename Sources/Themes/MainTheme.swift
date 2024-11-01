@@ -22,7 +22,7 @@ struct MyTheme: Theme {
             Body {
 				Include("/analytics/gtmBody.html")
 				NavBar()
-				if deployment() == .staging {
+				if deployment() == .production {
 					Alert {
 						Text {
 							Link("Registration is NOW OPEN…Register Here!", target: "https://princeton.reunioniq.com/go/2025/2000")

@@ -23,7 +23,7 @@ func siteLocation(_ site: SiteLocation) -> String {
 }
 
 public func deployment() -> SiteLocation {
-	return .staging
+	return .production
 }
 
 struct Princeton2000: Site {

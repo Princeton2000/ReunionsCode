@@ -12,4 +12,4 @@ Disallow: *
 User-agent: *
 Allow: /
 
-Sitemap: https://staging.princeton2000.org/sitemap.xml
+Sitemap: https://reunions.princeton2000.org/sitemap.xml

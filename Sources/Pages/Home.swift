@@ -9,30 +9,47 @@ struct Home: StaticPage {
     func body(context: PublishingContext) -> [BlockElement] {
 		Section {
 			Group {
-				Include("countdown.js").horizontalAlignment(.center)
-			}.horizontalAlignment(.center)
-		}.padding(.horizontal, 5)
+				Include("countdown.js")
+					.horizontalAlignment(.center)
+			}
+			.horizontalAlignment(.center)
+		}
+		.padding(.horizontal, 5)
 		Section {
 			Group {
-				if deployment() == .production {
-					Text("Look back on Reunions").font(.title3).fontWeight(.semibold)
-					Embed(vimeoID: [950880962, 831352768, 713233083].first!, title: "Reunions").aspectRatio(.r16x9)
-				} else {
-					Text("Commencement 2000").class("tayLennon").font(.title3).fontWeight(.semibold)
-					Embed(youTubeID: "Tr8X5kst0bs", title: "Reunions")
-						.aspectRatio(.r4x3)
-				}
+				Text("Commencement 2000")
+					.class("tayLennon")
+					.font(.title3)
+					.fontWeight(.semibold)
+					.padding(.vertical)
+				Embed(youTubeID: "Tr8X5kst0bs",
+					  title: "Reunions")
+					.aspectRatio(.r4x3)
 			}
 			.width(8)
 			Group {
-				Text("The Latest").class("tayLennon").font(.title3).fontWeight(.semibold).horizontalAlignment(.center)
-				Divider()
-				for content in context.content(ofType: "letters").filter({$0.metadata["hidden"] as? String != "true"}).sorted(by: {getDate($0.metadata["lastModified"] as? String ?? "") > getDate($1.metadata["lastModified"] as? String ?? "")}) {
+				Text("The Latest")
+					.class("tayLennon")
+					.font(.title3)
+					.fontWeight(.semibold)
+					.horizontalAlignment(.center)
+					.padding(.vertical)
+				for content in context
+					.content(ofType: "letters")
+					.filter({$0.metadata["hidden"] as? String != "true"})
+					.sorted(by: {
+						getDate($0.metadata["lastModified"] as? String ?? "") >
+						getDate($1.metadata["lastModified"] as? String ?? "")
+								}
+					)
+				{
 					Quote {
+						Divider()
 						Text {
-							Link("\(content.metadata["title"] as! String)", target: content.path)
-								.target(.newWindow)
-								.relationship(.noOpener, .noReferrer)
+							Link("\(content.metadata["title"] as! String)",
+								 target: content.path)
+							.target(.newWindow)
+							.relationship(.noOpener, .noReferrer)
 						}
 					} caption : {
 						"\(formatDate(content.metadata["lastModified"] as? String ?? "", .short, .short))"

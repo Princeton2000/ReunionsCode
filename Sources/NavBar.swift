@@ -47,8 +47,8 @@ public struct NavBar: Component {
 			Link(Text("Schedule").foregroundStyle(.princetonOrange), target: Schedule())
 			Link(Text("Kids").foregroundStyle(.princetonOrange), target: Kids())
 			Link(Text("FAQ").foregroundStyle(.princetonOrange), target: faq())
-			if deployment() == .staging { Link(Text("Theme").foregroundStyle(.princetonOrange), target: BidEveryCareWithdraw()) }
-			Link(Text("Jacket").foregroundStyle(.princetonOrange), target: deployment() == .production ? JacketPreLaunch() : Jacket())
+			if deployment() == .production { Link(Text("Theme").foregroundStyle(.princetonOrange), target: BidEveryCareWithdraw()) }
+			Link(Text("Jacket").foregroundStyle(.princetonOrange), target: /*deployment() == .production ? JacketPreLaunch() : */Jacket())
 			Link(Text("Committee").foregroundStyle(.princetonOrange), target: Committee())
 //			Link(Text("Table Video").foregroundStyle(.princetonOrange), target: TableVideo())
 //			Dropdown("Class News") {

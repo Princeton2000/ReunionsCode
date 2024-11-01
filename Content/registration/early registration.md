@@ -16,7 +16,7 @@ lastModified: 2024-10-25
 
 **Notes:**
 - Jackets are a separate purchase from Reunions Registration. Even if you can't make Reunions, *you **can** still buy a jacket!*
-- **Jacket orders MUST be received by December 13, 2024.**
+- **Jacket orders MUST be received by [December 13, 2024](/data/OrderMyReunionsJacket.ics).**
 - Jackets can be ordered [here](https://princeton.reunioniq.com/shop/classof00).
 - Some swag may not be available for late registrants. 
 - Depending on demand, we *may* do a follow-on order *after* Reunions for those who missed out and want their 25th jacket for future Princeton events.
