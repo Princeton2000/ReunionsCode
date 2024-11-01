@@ -5,6 +5,7 @@ title: Registration is now open!
 lastModified: 2024-10-25
 ---
 Reunions runs from Thursday, May 22 - Sunday, May 25, 2025.
+
 **Early registration will run through December 31, 2024.**
 
 **Please register early!** The more certainty we have around attendance, the more budget we can commit to making sure you and your guests have a great time.
