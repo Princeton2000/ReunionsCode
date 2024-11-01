@@ -32,7 +32,6 @@ struct Home: StaticPage {
 					.class("tayLennon")
 					.font(.title3)
 					.fontWeight(.semibold)
-					.horizontalAlignment(.center)
 					.padding(.vertical)
 				for content in context
 					.content(ofType: "letters")
