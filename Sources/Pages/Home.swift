@@ -21,7 +21,7 @@ struct Home: StaticPage {
 					.class("tayLennon")
 					.font(.title3)
 					.fontWeight(.semibold)
-					.padding(.vertical)
+					.padding(.top)
 				Embed(youTubeID: "Tr8X5kst0bs",
 					  title: "Reunions")
 					.aspectRatio(.r4x3)
@@ -32,7 +32,7 @@ struct Home: StaticPage {
 					.class("tayLennon")
 					.font(.title3)
 					.fontWeight(.semibold)
-					.padding(.vertical)
+					.padding(.top)
 				for content in context
 					.content(ofType: "letters")
 					.filter({$0.metadata["hidden"] as? String != "true"})
