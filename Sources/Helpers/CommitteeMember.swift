@@ -11,5 +11,6 @@ struct CommitteeMember: Codable {
 	let chair: String
 	let role: String
 	let photo: String
+	let email: String
 	let priority: Int
 }
