@@ -1,6 +1,6 @@
 ---
 layout: Email
-tags: Registration Week
+tags: registration, registration week, jacket
 image: /images/photos/whitman-arches.jpg
 title: Registration week update
 link: 
