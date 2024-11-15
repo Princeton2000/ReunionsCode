@@ -25,7 +25,8 @@ public struct SocialLinks: Component {
 					.margin(.trailing, "10px"), target: link.link)
 				.role(.secondary)
 				.target(.newWindow)
-				.relationship(.noOpener, .noReferrer)
+//				.relationship(.noOpener, .noReferrer)
+				.relationship(.me)
 			}
 		}.foregroundStyle(.princetonOrange)
 	}

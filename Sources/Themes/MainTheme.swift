@@ -10,6 +10,7 @@ struct MyTheme: Theme {
 //				MetaTag(property: "og:title", content: "Bid Every Care Withdraw: 25th Reunion")
 				MetaTag(name: "fediverse:creator", content: "@princeton2000@mastodon.social")
 				MetaLink(href: "/css/css_add-ins.css", rel: "stylesheet")
+				MetaLink(href: "https://mastodon.social/princeton2000", rel: "me")
 				deployment() == .production ? Script(code: """
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 					   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
