@@ -81,6 +81,22 @@
 		"endDateString": "2025-05-23T11:30:00-0400"
 	},
 	{
+		"name": "American Classical Orchestra Presents: Peter and the Wolf",
+		"type": "Entertainment",
+		"startDateString": "2025-05-23T14:00:00-0400",
+		"endDateString": "2025-05-23T15:00:00-0400",
+		"location": "Whitman College",
+		"placeID": "I937319645B09B29D",
+		"contingencyLocation": "Richardson Auditorium",
+		"contingencyLocationID": "I406B36ABBDCCDC43",
+		"eventSummary": "",
+		"description": "",
+		"organizer": "Class of 1970",
+		"ticketed": true,
+		"link": "",
+		"published": true
+	},
+	{
 		"startDateString": "2025-05-23T11:00:00-0400",
 		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
 		"type": "Alumni-Faculty Forum",
