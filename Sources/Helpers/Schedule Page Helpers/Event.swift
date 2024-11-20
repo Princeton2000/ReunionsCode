@@ -14,7 +14,9 @@ struct Event: Codable {
 	var startComponents: DateComponents { return Calendar.current.dateComponents([.year, .month, .day, .weekday, .hour, .minute], from: startDate) }
 	var endDateString: String
 	var endDate: Date { let df = ISO8601DateFormatter(); df.formatOptions = [.withFullDate, .withFullTime]; return df.date(from: endDateString) ?? df.date(from: "2020-01-01T00:00:00Z")! }
-	var endComponents: DateComponents { return Calendar.current.dateComponents([.year, .month, .day, .weekday, .hour, .minute, .timeZone], from: endDate) }
+	var endComponents: DateComponents { return Calendar.current.dateComponents([.year, .month, .day, .weekday, .hour, .minute, .timeZone], from: endDate)
+	}
+	var description: String?
 	
 // MARK: - Refactor to use eventStartEnd as the schedule variable
 	var eventStartEnd: String {
@@ -41,6 +43,6 @@ struct Event: Codable {
 	var contingencyLocation: String?
 	var contingencyPlaceID: String?
 	var eventSummary: String?
-	var description: String {
+	var summary: String {
 		return "\(type.rawValue)\t\t\(runTime)\t\t\(name)\t\t\(location)"}
 }
