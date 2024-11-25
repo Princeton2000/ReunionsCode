@@ -6,7 +6,7 @@ lastModified: 2024-10-25
 ---
 
 - [Right here!](https://princeton.reunioniq.com/shop/classof00)
-- Make sure you've got the right size with our [sizing guide](/images/jacket/P2000_25th_Jacket_Sizing_Chart.pdf). 
+- Make sure you've got the right size with our [sizing guide](/images/jacket/P2000_25th_Jacket_Sizing_Chart.pdf), or [check out our video how-to](https://youtube.com/shorts/OZ3EhH3GHaY). 
 
 Note: orders **MUST** be received by [DECEMBER 13, 2024](/data/OrderMyReunionsJacket.ics).
 

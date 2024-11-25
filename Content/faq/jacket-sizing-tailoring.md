@@ -10,3 +10,5 @@ lastModified: 2024-11-20
 **Pro-tip:** If you’re thinking about getting your jacket tailored for future Reunions (you'll get them when you get to Reunions this year), it’s best to pick a size that lines up with your shoulder width, as that’s the hardest thing for a tailor to change. The shoulder width should go across your back from shoulder to shoulder, not from shoulder to the bottom of your collar and then back down.
 
 - In any case, get measured using our sizing guide [here](/images/jacket/P2000_25th_Jacket_Sizing_Chart.pdf). Best to have a tailor take your measurements, but anyone can help!
+
+- Check out our [video on how to measure an existing jacket](https://youtube.com/shorts/OZ3EhH3GHaY) in case you want a primer!

@@ -62,6 +62,11 @@ struct Jacket: StaticPage {
 			Embed(youTubeID: "NPH60NzIDwA", title: "Jacket, masculine cut").aspectRatio(.r4x3)
 		}
 		Spacer()
+		Text("Our team made a how-to video on getting your measurements from an existing jacket.")
+		Section {
+			Embed(youTubeID: "OZ3EhH3GHaY", title: "Measuring your jacket").aspectRatio(.r4x3)
+		}
+		Spacer()
 		Divider()
 		Accordion {
 			for content in context.content(ofType: "faq").filter({$0.tags.contains("jacket")}).sorted(by: {$0.tags[0] < $1.tags[0]}) {
