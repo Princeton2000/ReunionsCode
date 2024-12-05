@@ -22,18 +22,6 @@ struct MyTheme: Theme {
             Body {
 				Include("/analytics/gtmBody.html")
 				NavBar()
-//				if deployment() == .production {
-//					Alert {
-//						Text {
-//							Link("Registration is NOW OPEN…Register Here!", target: "https://princeton.reunioniq.com/go/2025/2000")
-//								.target(.newWindow)
-//								.relationship(.noOpener, .noReferrer)
-//						}
-//						.font(.title1)
-//						.fontWeight(.semibold)
-//						.horizontalAlignment(.center)
-//					}.role(.secondary)
-//				}
 				Alert {
 					Text {
 						Link("Order your jacket now! Orders must be received by FRIDAY, DEC 13!", target: "https://princeton.reunioniq.com/shop/classof00")
@@ -41,6 +29,18 @@ struct MyTheme: Theme {
 							.relationship(.noOpener, .noReferrer)
 					}.font(.title3).fontWeight(.semibold).horizontalAlignment(.center)
 				}.role(.danger)
+				if deployment() == .production {
+					Alert {
+						Text {
+							Link("Registration is NOW OPEN…Register Here!", target: "https://princeton.reunioniq.com/go/2025/2000")
+								.target(.newWindow)
+								.relationship(.noOpener, .noReferrer)
+						}
+						.font(.title1)
+						.fontWeight(.semibold)
+						.horizontalAlignment(.center)
+					}.role(.secondary)
+				}
                 page.body
 				Accordion {
 					for content in context.content(ofType: "faq").filter({$0.tags.map({$0.lowercased()	}) .contains("\(String(describing: page.title.lowercased))")}).sorted(by: {$0.tags[0] < $1.tags[0]}) {
