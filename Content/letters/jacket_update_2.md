@@ -4,7 +4,7 @@ tags: Class Letter
 image: /images/logos/Tiger_Lounging_Long_Background.png
 title: Three Days left…
 link: 
-lastModified: 2024-12-10T19:15:00Z-0400
+lastModified: 2024-12-10T19:32:49Z-0400
 published: true
 ---
 Hey team – I could say this is the last warning, but we all know you're getting another notice Friday. With the lead time required to actually manufacture our jackets, we need your order in by **_THIS FRIDAY, DECEMBER 13_**, or **you won't have one for Reunions**. We've had a great response from you all so far, but want to get the message out far and wide, so that you're looking your best at Reunions this year. [Get your order in, ASAP](https://princeton.reunioniq.com/shop/classof00), and check in with your friends to make sure they get theirs ordered as well!
