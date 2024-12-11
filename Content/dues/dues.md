@@ -23,6 +23,7 @@ Our goal is to raise our dues participation rate and build class funds to suppor
 - **Annual Dues:** [$50/classmate/year](https://www.princeton2000.org/memberships)
 - **Five Year Prepayment Regular Dues:** [$200/classmate](https://www.princeton2000.org/memberships)
 - **Lifetime Dues:** [$2,000/classmate](https://www.princeton2000.org/memberships)
+- **Catchup Dues:** [$50/classmate](https://www.princeton2000.org/memberships)
 
 Please consider donating at your earliest convenience and if you are unsure if you have paid your dues last year or this year, just email our treasurer.
 
