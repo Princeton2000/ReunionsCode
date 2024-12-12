@@ -31,7 +31,7 @@ struct Library: StaticPage {
 	func body(context: PublishingContext) -> [BlockElement] {
 		Include("styleInjection.html")
 		for classmate in classmates.filter({ entriesByClassmate($0).count > 0 }) {
-			Text("\(classmate.description.replacingOccurrences(of: "\n", with: "<p>"))").padding([.leading, .vertical]).font(.title1).fontWeight(.semibold).background(.princetonOrange).padding(.vertical)
+			Text("\(classmate.description.replacingOccurrences(of: "\n", with: "<p>"))").padding([.leading, .vertical]).font(.title1).fontWeight(.semibold).background(.princetonOrange).padding(.vertical).id(classmate.description)
 			Table {
 				for (index, entry) in entriesByClassmate(classmate).enumerated() {
 					entry.musicEntry ? libraryMusicRow(entry) : libraryRow(entry, includeDivider: index != entriesByClassmate(classmate).count - 1)

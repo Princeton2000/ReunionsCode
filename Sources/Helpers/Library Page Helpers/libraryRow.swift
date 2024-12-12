@@ -38,7 +38,7 @@ func libraryRow(_ libraryEntry: LibraryEntry, includeDivider: Bool = true) -> Ro
 			Column {
 				for link in libraryEntry.links.filter({$0.url != nil }) {
 					Link(
-						Image(libraryLinkList.first(where: {$0.source == link.source})!.logoImage, description: "Find \(libraryEntry.title ?? "") by \(libraryEntry.classmate.firstName) \(libraryEntry.classmate.lastName) on \(link.source.rawValue)").resizable().frame(maxWidth: 100).padding(.trailing).opacity(0.75), target: link.url ?? "#").target(.newWindow).relationship(.noOpener, .noReferrer)
+						Image(libraryLinkList.first(where: {$0.source == link.source})!.logoImage, description: "Find \(libraryEntry.title ?? "") by \(libraryEntry.classmate.firstName) \(libraryEntry.classmate.lastName) on \(link.source.rawValue)").resizable().frame(maxWidth: 100).padding(.trailing).opacity(0.75), target: link.url ?? "#").target(.newWindow).relationship(.noOpener, .noReferrer).id("\(libraryEntry.title ?? "") at \(link.source.rawValue)")
 				}
 					includeDivider ? Divider() : Spacer()
 			}.columnSpan(.max)
