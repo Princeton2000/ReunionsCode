@@ -16,7 +16,7 @@ public struct SocialLinks: Component {
 			for link in links {
 				Link(
 					Image(link.fullLink, description: link.site)
-						.frame(width: 24)
+						.frame(width: 24, height: 24)
 						.resizable()
 						.opacity(0.74)
 						.foregroundStyle(.secondary)
