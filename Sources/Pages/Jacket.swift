@@ -17,20 +17,13 @@ struct Jacket: StaticPage {
 		.map({"/images/jacket/testSlides/testSlides.\(String(format: "%03d", $0)).png"})
 	
 	func body(context: PublishingContext) -> [BlockElement] {
-		Alert {
-			Text {
-					Link("Get your fit right! Here's our measuring guide to make sure you get the perfect size.", target: "/images/jacket/P2000_25th_Jacket_Sizing_Chart.pdf")
-						.target(.newWindow)
-						.relationship(.noOpener, .noReferrer)
-				}.font(.title5).fontWeight(.semibold).horizontalAlignment(.center)
-		}.role(.secondary)
-		Alert {
-			Text {
-				Link("Got your sizing? Order your jacket now! Orders must be received by Dec 13!", target: "https://princeton.reunioniq.com/shop/classof00")
-					.target(.newWindow)
-					.relationship(.noOpener, .noReferrer)
-			}.font(.title3).fontWeight(.semibold).horizontalAlignment(.center)
-		}.role(.danger)
+//		Alert {
+//			Text {
+//					Link("Get your fit right! Here's our measuring guide to make sure you get the perfect size.", target: "/images/jacket/P2000_25th_Jacket_Sizing_Chart.pdf")
+//						.target(.newWindow)
+//						.relationship(.noOpener, .noReferrer)
+//				}.font(.title5).fontWeight(.semibold).horizontalAlignment(.center)
+//		}.role(.secondary)
 			Image("/images/jacket/P2000_jacket_sketch.png", description: "A seersucker-type jacket with wide orange stripes and small black accent stripes. The lining is cream, with the lyrics of Old Nassau, interrupted occasionally with a sketch of the Nassau Hall tiger in profile, and overlid with a large \"'00\" in Princeton Orange")
 			.class("fade-in-image")
 			.resizable()
@@ -39,7 +32,14 @@ struct Jacket: StaticPage {
 		Text("Here it is! We're so pleased to share this sketch of our 25th Class Jacket.")
 			.fontWeight(.bold)
 			.horizontalAlignment(.center)
-		
+		Alert {
+			Text {
+				"Orders are now closed, but you will be able to order after Reunions!"
+//				Link("Orders are now closed, but you will be able to order after Reunions!", target: "https://princeton.reunioniq.com/shop/classof00")
+//					.target(.newWindow)
+//					.relationship(.noOpener, .noReferrer)
+			}.font(.title3).fontWeight(.semibold).horizontalAlignment(.center)
+		}.role(.info)
 		Spacer()
 		Text("How we got here").class("tayLennon").font(.title1)
 		Group {

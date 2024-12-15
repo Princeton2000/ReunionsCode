@@ -3,6 +3,7 @@ tags: jacket, ordering, post-reunions
 type: faq
 question: Where can I order my jacket?
 lastModified: 2024-10-25
+published: false
 ---
 
 - [Right here!](https://princeton.reunioniq.com/shop/classof00)

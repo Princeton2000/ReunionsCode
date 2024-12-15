@@ -23,17 +23,17 @@ struct MyTheme: Theme {
             Body {
 				Include("/analytics/gtmBody.html")
 				NavBar()
-				Alert {
-					Text {
-						Link("Order your jacket now! Orders must be received by FRIDAY, DEC 13!", target: "https://princeton.reunioniq.com/shop/classof00")
-							.target(.newWindow)
-							.relationship(.noOpener, .noReferrer)
-					}.font(.title3).fontWeight(.semibold).horizontalAlignment(.center)
-				}.role(.danger)
+//				Alert {
+//					Text {
+//						Link("Order your jacket now! Orders must be received by FRIDAY, DEC 13!", target: "https://princeton.reunioniq.com/shop/classof00")
+//							.target(.newWindow)
+//							.relationship(.noOpener, .noReferrer)
+//					}.font(.title3).fontWeight(.semibold).horizontalAlignment(.center)
+//				}.role(.danger)
 				if deployment() == .production {
 					Alert {
 						Text {
-							Link("Registration is NOW OPEN…Register Here!", target: "https://princeton.reunioniq.com/go/2025/2000")
+							Link("Early Registration closes December 31…Register Now!", target: "https://princeton.reunioniq.com/go/2025/2000")
 								.target(.newWindow)
 								.relationship(.noOpener, .noReferrer)
 						}
