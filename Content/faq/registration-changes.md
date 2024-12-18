@@ -8,4 +8,4 @@ lastModified: 2024-07-19
 
 - **Option B:** Navigate to the Reunions registration site and log in with Tigernet. You should be able to update the registration from there.
 
-- **Option C:** If you have tried both of these steps without success, capture a screenshot of the errors and email those to the [Registration Chair](mailto:princeton2000reunions@gmail.com).
+- **Option C:** If you have tried both of these steps without success, capture a screenshot of the errors and email those to the [Registration Chair](mailto:princeton2000.reg@gmail.com).

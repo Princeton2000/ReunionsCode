@@ -1,7 +1,7 @@
 ---
 tags: jacket, sizing, post-reunions
 type: faq
-question: Thinking about tailoring (for future Reunions)?
+question: Thinking about tailoring your jacket (for future Reunions)?
 lastModified: 2024-11-20
 ---
 

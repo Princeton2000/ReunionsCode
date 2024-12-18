@@ -29,4 +29,4 @@ published: false
 <!--* **Friday:** 9:00 am – Midnight-->
 <!--* **Saturday:** 9:00 am – Midnight-->
 
-<!--Questions? Please email the [Registration Chair](mailto:princeton2000reunions@gmail.com).-->
+<!--Questions? Please email the [Registration Chair](mailto:princeton2000.reg@gmail.com).-->
