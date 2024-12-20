@@ -5,6 +5,7 @@ struct MyTheme: Theme {
     func render(page: Page, context: PublishingContext) -> HTML {
         HTML {
 			Head(for: page, in: context) {
+				MetaTag(name: "Last-Modified", content: "\(Date().asISO8601)")
 				MetaTag(name: "description", content: Princeton2000().description)
 				MetaTag(property: "og:image:type", content: "image/png")
 				MetaTag(property: "og:image", content: "\(deployment().rawValue)/images/logos/P2000_25th_TigerHead_BECW.png")

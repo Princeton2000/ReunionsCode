@@ -45,13 +45,58 @@
 		"location": "25th HQ"
 	},
 	{
-		"name": "Class DJs",
-		"published":  true,
+		"name": "Kids' Dance Party",
+		"type": "Children's Activity",
+		"startDateString": "2025-05-22T20:00:00-0400",
+		"endDateString": "2025-05-22T21:00:00-0400",
 		"location": "25th HQ",
-		"endDateString": "2025-05-23T01:00:00-0400",
-		"type": "Entertainment",
 		"placeID": "I937319645B09B29D",
-		"startDateString": "2025-05-22T21:00:00-0400"
+		"published":  true
+	},
+	{
+		"name": "Photo Booth",
+		"type": "Children's Activity",
+		"startDateString": "2025-05-23T11:30:00-0400",
+		"endDateString": "2025-05-23T14:00:00-0400",
+		"location": "25th HQ",
+		"placeID": "I937319645B09B29D",
+		"published":  true
+	},
+	{
+		"name": "Photo Booth",
+		"type": "Children's Activity",
+		"startDateString": "2025-05-23T20:30:00-0400",
+		"endDateString": "2025-05-23T22:30:00-0400",
+		"location": "25th HQ",
+		"placeID": "I937319645B09B29D",
+		"published":  true
+	},
+	{
+		"name": "Airbrush Tattoos",
+		"type": "Children's Activity",
+		"startDateString": "2025-05-23T10:00:00-0400",
+		"endDateString": "2025-05-23T12:00:00-0400",
+		"location": "25th HQ",
+		"placeID": "I937319645B09B29D",
+		"published":  true
+	},
+	{
+		"name": "Facepainting & Glitter Tattoos",
+		"type": "Children's Activity",
+		"startDateString": "2025-05-24T10:30:00-0400",
+		"endDateString": "2025-05-24T13:00:00-0400",
+		"location": "25th HQ",
+		"placeID": "I937319645B09B29D",
+		"published":  true
+	},
+	{
+		"name": "Class DJs",
+		"type": "Entertainment",
+		"startDateString": "2025-05-22T21:00:00-0400",
+		"endDateString": "2025-05-23T01:00:00-0400",
+		"location": "25th HQ",
+		"placeID": "I937319645B09B29D",
+		"published":  true
 	},
 	{
 		"startDateString": "2025-05-23T08:30:00-0400",

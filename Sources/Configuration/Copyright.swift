@@ -21,7 +21,6 @@ public struct Copyright: Component {
 			"Created with "
 			Link("Ignite", target: URL("https://github.com/twostraws/Ignite"))
 		}.font(.title6).foregroundStyle(.tertiary).addCustomAttribute(name: "style", value:  "font: 1rem/4.0;")
-			//		}.width(.max)
 	}
 	
 	public init() {}
