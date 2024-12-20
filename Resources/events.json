@@ -205,13 +205,22 @@
 		"endDateString": "2025-05-23T17:00:00-0400"
 	},
 	{
-		"startDateString": "2025-05-23T17:00:00-0400",
 		"name": "Class Reception",
 		"type": "Class Alumni, Friends, & Families",
-		"published":  true,
+		"startDateString": "2025-05-23T17:00:00-0400",
+		"endDateString": "2025-05-23T18:00:00-0400",
 		"location": "Jadwin Gym",
 		"placeID": "IA4B13A3A0A6ABF49",
-		"endDateString": "2025-05-23T18:00:00-0400"
+		"published":  true
+	},
+	{
+		"name": "Alumni Performances",
+		"type": "Entertainment",
+		"startDateString": "2025-05-23T17:00:00-0400",
+		"endDateString": "2025-05-23T18:00:00-0400",
+		"location": "Jadwin Gym",
+		"placeID": "IA4B13A3A0A6ABF49",
+		"published":  true
 	},
 	{
 		"startDateString": "2025-05-23T18:00:00-0400",
