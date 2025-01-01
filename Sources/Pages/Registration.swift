@@ -21,19 +21,16 @@ struct Registration: StaticPage {
 		Table {
 			Row {
 				"Classmate Only (3-day)"
-				"$500"
 				"$650"
 				"$750"
 			}
 			Row {
 				"Adult Guest (3-day)"
-				"$500"
 				"$650"
 				"$750"
 			}
 			Row {
 				"Child (Ages 3-20) (3-day)"
-				"$200"
 				"$250"
 				"$250"
 			}
@@ -46,25 +43,21 @@ struct Registration: StaticPage {
 			}
 			Row {
 				"Classmate Only (Saturday Only)"
-				"$250"
 				"$325"
 				"$350"
 			}
 			Row {
 				"Adult Guest (Saturday Only)"
-				"$250"
 				"$325"
 				"$350"
 			}
 			Row {
 				"Child (Ages 3-20) (Saturday Only)"
-				"$100"
 				"$125"
 				"$125"
 			}
 		} header: {
 			"Guest Type"
-			"Early Bird<br>(11/1/2024 - 12/31/2024)"
 			"Regular Registration<br>(1/1/2025 - 5/14/2025)"
 			"Late Registration<br>(5/15/2025 - )"
 		}.padding([.leading, .trailing])

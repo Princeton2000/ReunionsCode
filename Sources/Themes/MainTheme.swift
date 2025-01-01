@@ -34,11 +34,11 @@ struct MyTheme: Theme {
 				if deployment() == .production {
 					Alert {
 						Text {
-							Link("Early Registration closes December 31…Register Now!", target: "https://princeton.reunioniq.com/go/2025/2000")
+							Link("Reunions is May 22-25, 2025…Register Now!", target: "https://princeton.reunioniq.com/go/2025/2000")
 								.target(.newWindow)
 								.relationship(.noOpener, .noReferrer)
 						}
-						.font(.title1)
+						.font(.title2)
 						.fontWeight(.semibold)
 						.horizontalAlignment(.center)
 					}.role(.secondary)

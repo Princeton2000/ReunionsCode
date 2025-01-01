@@ -9,4 +9,5 @@ lastModified: 2024-12-01
 
 That said, you will be able to order one after Reunions, only it won't arrive until next Oct/Nov, and that’s no fun.
 
-https://princeton.reunioniq.com/shop/classof00
+
+[https://princeton.reunioniq.com/shop/classof00](https://princeton.reunioniq.com/shop/classof00)
