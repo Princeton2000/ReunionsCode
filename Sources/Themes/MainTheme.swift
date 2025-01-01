@@ -38,7 +38,7 @@ struct MyTheme: Theme {
 								.target(.newWindow)
 								.relationship(.noOpener, .noReferrer)
 						}
-						.font(.title2)
+						.font(.title4)
 						.fontWeight(.semibold)
 						.horizontalAlignment(.center)
 					}.role(.secondary)

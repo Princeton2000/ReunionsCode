@@ -35,12 +35,11 @@ struct Home: StaticPage {
 					.padding(.top)
 				for content in context
 					.content(ofType: "letters")
-					.filter({$0.metadata["hidden"] as? String != "true"})
 					.sorted(by: {
 						getDate($0.metadata["lastModified"] as? String ?? "") >
 						getDate($1.metadata["lastModified"] as? String ?? "")
 								}
-					)
+					)[0...5]
 				{
 					Quote {
 						Divider()

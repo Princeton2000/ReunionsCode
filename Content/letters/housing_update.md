@@ -5,7 +5,7 @@ image: /images/photos/99hqfence.jpeg
 title: Reunions Survey & Housing Update
 link: 
 lastModified: 2024-07-09T21:19:00Z-0400
-hidden: false
+published: true
 ---
 **Class Survey**
 
