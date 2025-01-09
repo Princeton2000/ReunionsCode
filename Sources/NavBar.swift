@@ -50,12 +50,13 @@ public struct NavBar: Component {
 			Link(Text("Theme").foregroundStyle(.princetonOrange), target: BidEveryCareWithdraw())
 			Link(Text("Jacket").foregroundStyle(.princetonOrange), target: Jacket())
 			Link(Text("Merch").foregroundStyle(.princetonOrange), target: "https://princeton.reunioniq.com/shop/classof00")
-			Dropdown("More"){
+//			Dropdown("More"){
 				Link(Text("Committee").foregroundStyle(.princetonOrange), target: Committee())
 				Link(Text("Notes").foregroundStyle(.princetonOrange), target: Notes())
 				Link(Text("Library").foregroundStyle(.princetonOrange), target: Library())
 				Link(Text("Dues").foregroundStyle(.princetonOrange), target: Dues())
-			}.cursor(.pointer).role(.secondary).dropdownSize(.small)
+//			}
+//			.role(.secondary).dropdownSize(.small)
 //			Link(Text("Notes").foregroundStyle(.princetonOrange), target: Notes())
 //			Link(Text("Library").foregroundStyle(.princetonOrange), target: Library())
 //			Link(Text("Dues").foregroundStyle(.princetonOrange), target: Dues())
