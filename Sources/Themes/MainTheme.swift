@@ -9,7 +9,10 @@ struct MyTheme: Theme {
 				MetaTag(name: "description", content: Princeton2000().description)
 				MetaTag(property: "og:image:type", content: "image/png")
 				MetaTag(property: "og:image", content: "\(deployment().rawValue)/images/logos/P2000_25th_TigerHead_BECW.png")
-//				MetaTag(property: "og:title", content: "Bid Every Care Withdraw: 25th Reunion")
+				MetaTag(property: "og:title", content: "Bid Every Care Withdraw: 25th Reunion, May 22-25, 2025")
+				if page.title == "Merch" {
+					MetaTag(httpEquiv: "refresh", content: "0; url=https://princeton.reunioniq.com/shop/classof00")
+				}
 				MetaTag(name: "fediverse:creator", content: "@princeton2000@mastodon.social")
 				MetaLink(href: "/css/css_add-ins.css", rel: "stylesheet")
 				MetaLink(href: "https://mastodon.social/@princeton2000", rel: "me")

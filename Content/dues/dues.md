@@ -16,6 +16,8 @@ As we ramp up for our 25th, we would like to enlist your support to keep our cla
 - **Class dues are 100% tax deductible!**
 
 **Dues Goals:**
+
+
 Our goal is to raise our dues participation rate and build class funds to support more class gatherings across the globe. We know you’re busy, and to make it easier, we've launched a variety of alternative dues payment plans. In addition to a simple one-time payment, we can now set up recurring annual payments, something many have asked for over the years. In addition, you can now set up a five-year advance payment option. Under this new structure, you can pay your dues with a 20% discount for this year and the next four to come so you can cross this action item off your list (at least until our 30th rolls around)! Finally, we've set up a one-time "lifetime" dues plan. If you'd like, you can make a one-time payment of…$2,000 and never worry about dues again! So there are now four options for paying your dues this fiscal year:
 
 **[Pay your dues!](https://www.princeton2000.org/memberships)** *(requires Tigernet login)*

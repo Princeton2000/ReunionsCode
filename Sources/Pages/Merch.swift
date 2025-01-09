@@ -1,16 +1,16 @@
 //
-//  Dues.swift
+//  Merch.swift
 //
 //
-//  Created by Justin Purnell on 7/8/24.
+//  Created by Justin Purnell on 1/9/25.
 //
 
 import Foundation
 import Ignite
 
-struct Gear: StaticPage {
-	var title = "Class Gear"
-	var description: String = "Size Charts and links to purchase Class of 2000 Gear"
+struct Merch: StaticPage {
+	var title = "Merch"
+	var description: String = "A redirect page to the Class of 2000 Merch page"
 	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
 
 	func body(context: PublishingContext) -> [BlockElement] {

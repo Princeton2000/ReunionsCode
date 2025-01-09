@@ -54,4 +54,46 @@
 			"rows": [["2T", "11\"", "15\""], ["3T", "12\"", "16\""], ["4T", "13\"", "17\""], ["5T", "14\"", "18\""], ["6T", "15\"", "19\""]]
 		}
 	},
+	{
+		"image": "/images/gear/shirt_guest_toddler.png",
+		"name": "Custom Class Hurrah Ribbon Belt",
+		"priority": 7,
+		"description": "Our custom Hurrah Hurrah Hurrah class ribbon over a nylon webbing to create a D ring style belt.",
+	},
+	{
+		"image": "/images/gear/shirt_guest_toddler.png",
+		"name": "Custom Class of 2000 Baseball Cap",
+		"priority": 7,
+		"description": "A white sports hat featuring an orange and white cord detail and a custom patch of a our class tiger head and the words Bid Every Care Withdraw.",
+	},
+	{
+		"image": "/images/gear/umbrella.png",
+		"name": "Custom Class of 2000 Umbrella",
+		"priority": 7,
+		"description": "This is a compact umbrella with a large graphic of a tiger head surrounded by our 0000 border. One size.",
+	},
+	{
+		"image": "/images/gear/shirt_guest_toddler.png",
+		"name": "Extra seersucker fabric by the yard",
+		"priority": 10,
+		"description": "Tees will have a unique kids custom graphic across the chest and be in a light grey heather. 100% cotton Gildan brand. Tends to run a bit small.",
+	},
+	{
+		"image": "/images/gear/shirt_guest_toddler.png",
+		"name": "Extra lining fabric by the yard",
+		"priority": 10,
+		"description": "Our blazer interior lining is a very lightweight printed cotton blend with the lyrics of Old Nass in a repeating design. This is suitable to line garments but probably too thin to make things out of. Will be shipped to you when available, before reunions. Please add a shipping option.",
+	},
+	{
+		"image": "/images/gear/shirt_guest_toddler.png",
+		"name": "Non-Blazer Shipping",
+		"priority": 12,
+		"description": "This is to indicate that you are unable to attend reunions and need to have the items shipped to you. This will happen AFTER REUNIONS. We are doing a flat rate domestic shipping. If you need international shipping do not buy this and please email Kate at P2000jackets@gmail.com",
+	},
+	{
+		"image": "/images/gear/shirt_guest_toddler.png",
+		"name": "July Blazer Shipping",
+		"priority": 12,
+		"description": "If you cannot attend reunions and would like your blazer shipped to you AFTER REUNIONS, we will arrange that. This is AFTER REUNIONS. For more information please email Kate at P2000jackets@gmail.com.",
+	},
 ]

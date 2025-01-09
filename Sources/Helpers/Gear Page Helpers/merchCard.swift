@@ -8,7 +8,7 @@
 import Foundation
 import Ignite
 
-struct Merch: Codable {
+struct Apparel: Codable {
 	let image: String
 	let name: String
 	let priority: Int
@@ -38,12 +38,12 @@ func sizeChart(_ chart: SizeChart) -> Accordion {
 	}.openMode(.individual).margin(.bottom, 10)
 }
 
-func merchCard(_ merch: Merch) -> Card {
-	Card(imageName: merch.image) {
-		Text("\(merch.description)").font(.title6)
-		if let chart = merch.sizeChart { sizeChart(chart) }
+func apparelCard(_ apparel: Apparel) -> Card {
+	Card(imageName: apparel.image) {
+		Text("\(apparel.description)").font(.title6)
+		if let chart = apparel.sizeChart { sizeChart(chart) }
 	}
-	header: { merch.name }
+	header: { apparel.name }
 	.frame(maxWidth: 500)
 	.contentPosition(.top)
 	.imageOpacity(1.0)

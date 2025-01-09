@@ -57,6 +57,7 @@ struct Princeton2000: Site {
 		Jacket()
 		JacketPreLaunch()
 		Gear()
+		Merch()
 		Prade()
 //		TableVideo()
 		BidEveryCareWithdraw()

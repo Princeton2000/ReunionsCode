@@ -47,17 +47,19 @@ public struct NavBar: Component {
 			Link(Text("Schedule").foregroundStyle(.princetonOrange), target: Schedule())
 			Link(Text("Kids").foregroundStyle(.princetonOrange), target: Kids())
 			Link(Text("FAQ").foregroundStyle(.princetonOrange), target: faq())
-			if deployment() == .production { Link(Text("Theme").foregroundStyle(.princetonOrange), target: BidEveryCareWithdraw()) }
-			Link(Text("Jacket").foregroundStyle(.princetonOrange), target: /*deployment() == .production ? JacketPreLaunch() : */Jacket())
-			Link(Text("Committee").foregroundStyle(.princetonOrange), target: Committee())
-//			Link(Text("Table Video").foregroundStyle(.princetonOrange), target: TableVideo())
-//			Dropdown("Class News") {
-//				Link(Text("Notes").foregroundStyle(.princetonOrange), target: Notes())
-//				Link(Text("Library").foregroundStyle(.princetonOrange), target: Library())
-//			}.foregroundStyle(.princetonOrange)
-			Link(Text("Notes").foregroundStyle(.princetonOrange), target: Notes())
-			Link(Text("Library").foregroundStyle(.princetonOrange), target: Library())
-			Link(Text("Dues").foregroundStyle(.princetonOrange), target: Dues())
+			Link(Text("Theme").foregroundStyle(.princetonOrange), target: BidEveryCareWithdraw())
+			Link(Text("Jacket").foregroundStyle(.princetonOrange), target: Jacket())
+			Link(Text("Merch").foregroundStyle(.princetonOrange), target: Merch())
+			Dropdown("More"){
+				Link(Text("Committee").foregroundStyle(.princetonOrange), target: Committee())
+				Link(Text("Notes").foregroundStyle(.princetonOrange), target: Notes())
+				Link(Text("Library").foregroundStyle(.princetonOrange), target: Library())
+				Link(Text("Dues").foregroundStyle(.princetonOrange), target: Dues())
+			}.cursor(.pointer).role(.secondary).dropdownSize(.small)
+//			Link(Text("Notes").foregroundStyle(.princetonOrange), target: Notes())
+//			Link(Text("Library").foregroundStyle(.princetonOrange), target: Library())
+//			Link(Text("Dues").foregroundStyle(.princetonOrange), target: Dues())
+			
 //			Link(Text("P-rade").foregroundStyle(.princetonOrange), target: Prade())
 		}
 		.navigationItemAlignment(.trailing)
