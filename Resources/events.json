@@ -139,7 +139,7 @@
 		"organizer": "Class of 1970",
 		"ticketed": true,
 		"link": "",
-		"published": true
+		"published": false
 	},
 	{
 		"startDateString": "2025-05-23T11:00:00-0400",

@@ -4,6 +4,7 @@
 		"priority": 1,
 		"name": "Classmate T-Shirt",
 		"description": "Tees will have our custom 25th graphic across the chest and be in a dark grey heather. Tri-blend jersey, super soft, with a classic modern fit.",
+		"link": "https://princeton.reunioniq.com/shop/classof00/product/41335143-4709-44f0-bb3c-a141a3be38dc",
 		"sizeChart": {
 			"title": "Size Chart",
 			"headers": ["Size","Chest","Waist"],
@@ -15,6 +16,7 @@
 		"priority": 2,
 		"name": "V-Neck",
 		"description": "Tees will have our custom 25th graphic across the chest and be in a dark grey heather. Tri-blend jersey, super soft with stretch. Slightly tailored cut but comfy oversized fit. V-neck.",
+		"link": "https://princeton.reunioniq.com/shop/classof00/product/cc47dc49-ab7c-495e-8ec1-3e540873aea5",
 		"sizeChart": {
 			"title": "Size Chart",
 			"headers": ["Size","Chest","Waist"],
@@ -22,10 +24,11 @@
 		}
 	},
 	{
-		"image": "/images/gear/shirt_guest_adult.png",
+		"image": "/images/gear/shirt_classmate_t-shirt.png",
 		"priority": 3,
 		"name": "Child/Teen/Adult Guest T-Shirt",
 		"description": "Tees will have a unique kids custom graphic across the chest and be in a light grey heather. Gildan brand soft-style cotton blend tee. Soft feel, modern classic fit.",
+		"link": "https://princeton.reunioniq.com/shop/classof00/product/a9f90e69-5d89-4d0b-b982-372a1c70780c",
 		"sizeChart": {
 			"title": "Size Chart",
 			"headers": ["Size","Width","Length"],
@@ -55,45 +58,57 @@
 		}
 	},
 	{
-		"image": "/images/gear/shirt_guest_toddler.png",
+		"image": "",
 		"name": "Custom Class Hurrah Ribbon Belt",
 		"priority": 7,
 		"description": "Our custom Hurrah Hurrah Hurrah class ribbon over a nylon webbing to create a D ring style belt.",
+		"link": "https://princeton.reunioniq.com/shop/classof00/product/f925912c-6965-429d-ae72-57a5a95997db",
+		"sizeChart": {
+			"title": "Size Chart",
+			"headers": ["Size","Pant/Waist Measurment","Length of belt"],
+			"rows": [["S", "28-32\"","40\""], ["M", "32-34\"", "44\""], ["L", "36-38\"", "48\""], ["XL", "40-42\"", "52\""], ["XXL", "44-46\"", "56\""]]
+			}
 	},
 	{
-		"image": "/images/gear/shirt_guest_toddler.png",
+		"image": "",
 		"name": "Custom Class of 2000 Baseball Cap",
 		"priority": 7,
 		"description": "A white sports hat featuring an orange and white cord detail and a custom patch of a our class tiger head and the words Bid Every Care Withdraw.",
+		"link": "https://princeton.reunioniq.com/shop/classof00/product/18d6f5a4-ec18-4beb-bccf-88e556392207"
 	},
 	{
 		"image": "/images/gear/umbrella.png",
 		"name": "Custom Class of 2000 Umbrella",
 		"priority": 7,
 		"description": "This is a compact umbrella with a large graphic of a tiger head surrounded by our 0000 border. One size.",
+		"link": "https://princeton.reunioniq.com/shop/classof00/product/38ed3cab-89bc-4713-83ae-03278b53066f"
 	},
 	{
-		"image": "/images/gear/shirt_guest_toddler.png",
+		"image": "/images/gear/fabric_seersucker.png",
 		"name": "Extra seersucker fabric by the yard",
 		"priority": 10,
-		"description": "Tees will have a unique kids custom graphic across the chest and be in a light grey heather. 100% cotton Gildan brand. Tends to run a bit small.",
+		"description": "Will be shipped when available, before reunions in time to craft, please select shipping as well.",
+		"link": "https://princeton.reunioniq.com/shop/classof00/product/6fc5bcb8-fc98-4bc6-a7f5-ac352021dd79"
 	},
 	{
-		"image": "/images/gear/shirt_guest_toddler.png",
+		"image": "/images/gear/fabric_lining.png",
 		"name": "Extra lining fabric by the yard",
 		"priority": 10,
 		"description": "Our blazer interior lining is a very lightweight printed cotton blend with the lyrics of Old Nass in a repeating design. This is suitable to line garments but probably too thin to make things out of. Will be shipped to you when available, before reunions. Please add a shipping option.",
+		"link": "https://princeton.reunioniq.com/shop/classof00/product/7ffe091a-607e-416d-9b60-fb8c8eb9428d"
 	},
 	{
-		"image": "/images/gear/shirt_guest_toddler.png",
+		"image": "",
 		"name": "Non-Blazer Shipping",
 		"priority": 12,
 		"description": "This is to indicate that you are unable to attend reunions and need to have the items shipped to you. This will happen AFTER REUNIONS. We are doing a flat rate domestic shipping. If you need international shipping do not buy this and please email Kate at P2000jackets@gmail.com",
+		"link": "https://princeton.reunioniq.com/shop/classof00/product/4e35e35d-bd1b-4f43-9966-8c31f29df51e"
 	},
 	{
-		"image": "/images/gear/shirt_guest_toddler.png",
+		"image": "",
 		"name": "July Blazer Shipping",
 		"priority": 12,
 		"description": "If you cannot attend reunions and would like your blazer shipped to you AFTER REUNIONS, we will arrange that. This is AFTER REUNIONS. For more information please email Kate at P2000jackets@gmail.com.",
+		"link": "https://princeton.reunioniq.com/shop/classof00/product/1a0b2d25-9bc6-44be-bd99-6722ee72c49e"
 	},
 ]
