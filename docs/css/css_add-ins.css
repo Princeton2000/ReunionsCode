@@ -301,8 +301,28 @@ a:active {
 	background-color: rgba(216, 149, 35, 0.5)!important
 }
 
+.dropdown-item {
+	padding: 0.5rem var(--bs-dropdown-item-padding-x);
+}
+
+
 b, strong {
 	font-weight: 600;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+	color: var(--bs-dropdown-link-active-color);
+	text-decoration: none;
+	background-color:#444;
+}
+
+.dropdown-toggle, .navbar-nav, .nav-link:active, .dropdown-toggle:active {
+	color: #EE7F2D;
+}
+
+.dropdown-menu {
+	--bs-dropdown-link-active-bg:#444;
+	--bs-dropdown-item-padding-y: 2rem;
 }
 
 .fade-in-image {
