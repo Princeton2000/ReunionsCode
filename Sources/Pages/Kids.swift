@@ -25,9 +25,9 @@ struct Kids: StaticPage {
 		Group {
 			Text("Register for Tiger Camp").font(.title1)
 			Text(markdown: "Princeton has partnered with **[YWCA Princeton](https://www.ywcaprinceton.org)** to offer its traditional **“Tiger Camp”** childcare during Reunions from **Friday, May 23** to **Saturday, May 24**.")
-			 Text(markdown: "Registration for kids 3 months to 12 years old will open soon.🐯")
-			Link("Tiger Camp Information", target: "https://reunions.princeton.edu/tiger-camp/").linkStyle(.button).buttonSize(.large).role(.dark).padding()
-			Group {			
+			 Text(markdown: "Registration for kids 3 months to 12 years is now open!🐯")
+			Link("Tiger Camp Information", target: "https://www.ywcaprinceton.org/tiger-reunion-childcare").linkStyle(.button).buttonSize(.large).role(.dark).padding()
+			Group {
 				Image("/images/photos/IMG_0464.jpeg.webp", description: "Tiger Cubs play Jenga at Tiger Camp").resizable().padding(.vertical, 20)
 			}
 		}.horizontalAlignment(.center)
