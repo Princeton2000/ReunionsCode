@@ -1,7 +1,7 @@
 ---
 layout: Story
 tags: Class Notes, Ben Runkle
-image: /images/news/runkleBen.jpg
+image: /images/news/runkleBen.webp
 title: Runkle Honored With AGU Sulzman Award for Scientific Excellence in Education and Mentoring
 link: https://news.uark.edu/articles/71243/runkle-honored-with-agu-sulzman-award-for-scientific-excellence-in-education-and-mentoring
 date: 2024-09-18 00:00

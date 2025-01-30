@@ -18,13 +18,7 @@ struct Notes: StaticPage {
 		dateFormatter.dateFormat = "yyyy-MM-dd hh:mm"
 		return dateFormatter
 	}
-	
-	func notesImage(name: String, description: String) -> Image {
-		return Image(name, description: description)
-			.resizable()
-			.style("object-fit: contain; object-position: 100% 0px; border-radius: 5px; height: 360px;")
-	}
-	
+		
 	func body(context: PublishingContext) -> [BlockElement] {
 		
 		Section {
@@ -44,7 +38,7 @@ struct Notes: StaticPage {
 								.resizable()
 						}
 					}
-					.addCustomAttribute(name: "style", value: "border-radius: 5px; width: 100%; height: 60%; max-height: 60%; object-fit: cover; object-position: 100% 56%; border-radius: 5px; ")
+					.addCustomAttribute(name: "style", value: "border-radius: 5px; width: 100%; height: 60%; max-height: 418px; object-fit: cover; object-position: 100% 56%;")
 					Group {
 						Spacer()
 						Divider()
@@ -52,38 +46,17 @@ struct Notes: StaticPage {
 							Text(content.metadata["title"] as! String)
 								.font(.title4).fontWeight(.semibold).foregroundStyle(.princetonOrange)
 						}
-						
 						.target(.newWindow)
 						.relationship(.noOpener, .noReferrer)
 					}
-					.frame(height: 200)
+					.frame(height: "25%")
 				}
 				.contentPosition(.top)
-				.frame(height: 520, minHeight: 256)
+				.frame(height: "97.5%")
 				.width(3)
 				.margin(.bottom)
 				.padding(.horizontal, 5)
 			}
-			
-				//				header: {
-				//					Link(target: content.metadata["link"] as? String ?? "") {
-				//						Text(content.metadata["title"] as! String)
-				//							.font(.title4).fontWeight(.semibold).foregroundStyle(.princetonOrange)
-				//					}
-				//					.target(.newWindow)
-				//					.relationship(.noOpener, .noReferrer)
-				//				}
-				//				footer: {
-				//					let tagLinks = content.tagLinks(in: context)
-				//
-				//					if tagLinks.isEmpty == false {
-				//						Group {
-				//							tagLinks
-				//						}
-				//						.style("margin-top: -5px")
-				//					}
-				//				}
-			
 		}
 	}
 }

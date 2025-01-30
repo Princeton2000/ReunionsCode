@@ -1,7 +1,7 @@
 ---
 layout: Story
-tags: Class Notes
-image: /images/news/saftBrad.jpg
+tags: Class Notes, Brad Saft
+image: /images/news/saftBrad.webp
 title: Brad Saft ’00 is positively Princeton
 link: https://alumni.princeton.edu/stories/brad-saft-00-positively-princeton
 date: 2021-05-14 00:00

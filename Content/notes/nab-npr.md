@@ -7,7 +7,7 @@ embed: https://www.npr.org/player/embed/nx-s1-5107417/nx-s1-760e6c90-970f-44ef-8
 link: https://www.npr.org/2024/09/18/nx-s1-5107417/overdose-fatal-fentanyl-death-opioid
 date: 2024-09-18 00:00
 lastModified: 2024-09-18
-published: false
+published: true
 ---
 
 NPR: U.S. overdose deaths plummet, saving thousands of lives
