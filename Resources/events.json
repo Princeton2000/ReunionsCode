@@ -171,9 +171,9 @@
 	{
 		"name": "A Capella Set TBD",
 		"placeID": "I937319645B09B29D",
+		"startDateString": "2025-05-23T12:15:00-0400",
 		"endDateString": "2025-05-23T12:30:00-0400",
 		"type": "Entertainment",
-		"startDateString": "2025-05-23T12:15:00-0400",
 		"published":  true,
 		"location": "25th HQ"
 	},
@@ -214,13 +214,13 @@
 		"published":  true
 	},
 	{
-		"name": "Alumni Performances",
+		"name": "Tigerlillies",
 		"type": "Entertainment",
-		"startDateString": "2025-05-23T17:00:00-0400",
-		"endDateString": "2025-05-23T18:00:00-0400",
+		"startDateString": "2025-05-23T18:15:00-0400",
+		"endDateString": "2025-05-23T18:30:00-0400",
 		"location": "Jadwin Gym",
 		"placeID": "IA4B13A3A0A6ABF49",
-		"published":  true
+		"published":  false
 	},
 	{
 		"startDateString": "2025-05-23T18:00:00-0400",
@@ -232,22 +232,22 @@
 		"endDateString": "2025-05-23T20:00:00-0400"
 	},
 	{
-		"name": "Band: The Band",
+		"name": "Fresh Kids of Bel-Air",
 		"placeID": "I937319645B09B29D",
-		"endDateString": "2025-05-23T23:00:00-0400",
+		"startDateString": "2025-05-23T21:00:00-0400",
+		"endDateString": "2025-05-23T23:30:00-0400",
 		"type": "Entertainment",
-		"startDateString": "2025-05-23T20:00:00-0400",
 		"published":  true,
 		"location": "25th HQ"
 	},
 	{
-		"name": "DJ: Mr. DJ",
+		"name": "DJ Jen Urban",
 		"published":  true,
 		"location": "25th HQ",
+		"startDateString": "2025-05-23T23:30:00-0400",
 		"endDateString": "2025-05-24T02:00:00-0400",
 		"type": "Entertainment",
-		"placeID": "I937319645B09B29D",
-		"startDateString": "2025-05-23T23:00:00-0400"
+		"placeID": "I937319645B09B29D"
 	},
 	{
 		"startDateString": "2025-05-23T23:30:00-0400",
@@ -295,22 +295,33 @@
 		"endDateString": "2025-05-23T12:30:00-0400"
 	},
 	{
-		"startDateString": "2025-05-24T11:00:00-0400",
 		"name": "Class Brunch",
 		"type": "Food & Drink",
+		"startDateString": "2025-05-24T11:00:00-0400",
+		"endDateString": "2025-05-24T12:45:00-0400",
 		"published":  true,
 		"location": "25th HQ",
-		"placeID": "I937319645B09B29D",
-		"endDateString": "2025-05-24T13:00:00-0400"
+		"placeID": "I937319645B09B29D"
+		
 	},
 	{
-		"startDateString": "2025-05-24T13:00:00-0400",
+		"name": "A Capella Set TBD",
+		"placeID": "I937319645B09B29D",
+		"startDateString": "2025-05-24T12:30:00-0400",
+		"endDateString": "2025-05-24T12:45:00-0400",
+		"type": "Entertainment",
+		"published":  true,
+		"location": "25th HQ"
+	},
+
+	{
 		"name": "Class Photo",
 		"type": "Class Alumni",
-		"published":  true,
+		"startDateString": "2025-05-24T13:00:00-0400",
+		"endDateString": "2025-05-24T13:15:00-0400",
 		"location": "Blair Arch",
 		"placeID": "",
-		"endDateString": "2025-05-24T13:15:00-0400"
+		"published":  true
 	},
 	{
 		"startDateString": "2025-05-24T13:15:00-0400",
@@ -329,6 +340,15 @@
 		"location": "FitzRandolph Gate",
 		"placeID": "IC55FE11E2B2671CA",
 		"endDateString": "2025-05-24T16:00:00-0400"
+	},
+	{
+		"name": "Post-P-Rade Performance: Let's Sing Taylor Swift!",
+		"type": "Entertainment",
+		"startDateString": "2025-05-24T16:30:00-0400",
+		"endDateString": "2025-05-24T18:30:00-0400",
+		"location": "25th HQ",
+		"placeID": "I937319645B09B29D",
+		"published":  true
 	},
 	{
 		"startDateString": "2025-05-24T18:30:00-0400",
@@ -359,12 +379,12 @@
 	},
 	{
 		"name": "Band: The Band",
-		"placeID": "I937319645B09B29D",
-		"endDateString": "2025-05-24T23:45:00-0400",
 		"type": "Entertainment",
+		"location": "25th HQ",
+		"placeID": "I937319645B09B29D",
 		"startDateString": "2025-05-24T21:30:00-0400",
-		"published":  true,
-		"location": "25th HQ"
+		"endDateString": "2025-05-24T23:45:00-0400",
+		"published":  true
 	},
 	{
 		"startDateString": "2025-05-24T23:00:00-0400",
@@ -376,13 +396,13 @@
 		"endDateString": "2025-05-24T23:00:00-0400"
 	},
 	{
-		"name": "DJ: Dr. DJ",
-		"published":  true,
-		"location": "25th HQ",
-		"endDateString": "2025-05-25T02:00:00-0400",
+		"name": "DJ BOB",
 		"type": "Entertainment",
+		"location": "25th HQ",
 		"placeID": "I937319645B09B29D",
-		"startDateString": "2025-05-24T23:45:00-0400"
+		"startDateString": "2025-05-25T00:00:00-0400",
+		"endDateString": "2025-05-25T02:00:00-0400",
+		"published":  true
 	},
 	{
 		"startDateString": "2025-05-25T08:30:00-0400",

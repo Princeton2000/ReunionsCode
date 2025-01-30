@@ -19,6 +19,12 @@ struct Notes: StaticPage {
 		return dateFormatter
 	}
 	
+	func notesImage(name: String, description: String) -> Image {
+		return Image(name, description: description)
+			.resizable()
+			.style("object-fit: contain; object-position: 100% 0px; border-radius: 5px; height: 360px;")
+	}
+	
 	func body(context: PublishingContext) -> [BlockElement] {
 		
 		Section {
@@ -34,14 +40,11 @@ struct Notes: StaticPage {
 						} else if let genericURL = content.metadata["url"] as? String {
 							Embed(title: content.title, url: genericURL).aspectRatio(.r16x9)
 						} else if let image = content.image {
-							Image(image, description: content.imageDescription)
+							Image(image, description: content.description).accessibilityLabel(content.tags.filter({$0 != "Class Notes"}).joined(separator: ", "))
 								.resizable()
-								.cornerRadius(5)
-								.frame(maxHeight: 418)
-								.horizontalAlignment(.center)
-//								.style("object-fit: scale-down; object-position: center; height: 200px ;")
 						}
 					}
+					.addCustomAttribute(name: "style", value: "border-radius: 5px; width: 100%; height: 60%; max-height: 60%; object-fit: cover; object-position: 100% 56%; border-radius: 5px; ")
 					Group {
 						Spacer()
 						Divider()
@@ -55,7 +58,7 @@ struct Notes: StaticPage {
 					}
 					.frame(height: 200)
 				}
-				.contentPosition(.overlay(alignment: .top))
+				.contentPosition(.top)
 				.frame(height: 520, minHeight: 256)
 				.width(3)
 				.margin(.bottom)
