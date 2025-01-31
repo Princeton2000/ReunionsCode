@@ -5,7 +5,7 @@ image: /images/news/peppers.webp
 title: Two generations of NASA scientists share their love and knowledge during eclipse
 link: template
 date: 2024-04-09 00:00
-lastModified: 2024-06-01
+lastModified: 2025-01-31
 published: false
 ---
 
