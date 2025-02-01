@@ -44,7 +44,7 @@ struct Notes: StaticPage {
 						Divider()
 						Link(target: content.metadata["link"] as? String ?? "") {
 							Text(content.metadata["title"] as! String)
-								.font(.title4).fontWeight(.semibold).foregroundStyle(.princetonOrange)
+								.font(.title5).fontWeight(.semibold).foregroundStyle(.princetonOrange)
 						}
 						.target(.newWindow)
 						.relationship(.noOpener, .noReferrer)
