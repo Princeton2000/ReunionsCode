@@ -56,7 +56,7 @@
 		"email": "",
 	},
 	{
-		"chair" : "Mary-Bonner Baker, Kate Elliot, Alex Leigh,<br>Katie Oman & Alice Teti",
+		"chair" : "Mary-Bonner Baker, Kate Elliot, Alex Leigh,<br>Katie Oman, & Alice Teti",
 		"role" : "Costumes",
 		"priority" : 1,
 		"photo": "",
@@ -93,6 +93,13 @@
 	{
 		"chair" : "Courtney Chlebus",
 		"role" : "Housing",
+		"priority" : 1,
+		"photo": "",
+		"email": "",
+	},
+	{
+		"chair" : "Jo Chen, Andrea Hagemann,<br>Jennifer Paulson, & Tristan Snell",
+		"role" : "Millennial Lecture Series",
 		"priority" : 1,
 		"photo": "",
 		"email": "",
