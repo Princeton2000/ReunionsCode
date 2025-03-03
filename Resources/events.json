@@ -442,7 +442,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-22T13:00:00-0400",
 		"endDateString": "2025-05-22T14:25:00-0400",
@@ -451,7 +451,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-22T14:30:00-0400",
 		"endDateString": "2025-05-22T16:25:00-0400",
@@ -460,7 +460,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-22T14:30:00-0400",
 		"endDateString": "2025-05-22T16:25:00-0400",
@@ -469,7 +469,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-22T16:30:00-0400",
 		"endDateString": "2025-05-22T18:25:00-0400",
@@ -478,7 +478,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-22T18:30:00-0400",
 		"endDateString": "2025-05-22T20:25:00-0400",
@@ -487,7 +487,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-23T08:00:00-0400",
 		"endDateString": "2025-05-23T09:25:00-0400",
@@ -496,7 +496,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-23T09:30:00-0400",
 		"endDateString": "2025-05-23T10:55:00-0400",
@@ -505,7 +505,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-23T11:00:00-0400",
 		"endDateString": "2025-05-23T12:25:00-0400",
@@ -514,7 +514,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-23T13:00:00-0400",
 		"endDateString": "2025-05-23T14:25:00-0400",
@@ -523,7 +523,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-23T14:30:00-0400",
 		"endDateString": "2025-05-23T16:25:00-0400",
@@ -532,7 +532,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-23T14:30:00-0400",
 		"endDateString": "2025-05-23T16:25:00-0400",
@@ -541,7 +541,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-23T16:30:00-0400",
 		"endDateString": "2025-05-23T18:25:00-0400",
@@ -550,7 +550,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-23T18:30:00-0400",
 		"endDateString": "2025-05-23T20:25:00-0400",
@@ -568,7 +568,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-24T08:00:00-0400",
 		"endDateString": "2025-05-24T09:25:00-0400",
@@ -577,7 +577,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-24T09:30:00-0400",
 		"endDateString": "2025-05-24T10:55:00-0400",
@@ -586,7 +586,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-24T11:00:00-0400",
 		"endDateString": "2025-05-24T12:25:00-0400",
@@ -595,7 +595,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-24T16:30:00-0400",
 		"endDateString": "2025-05-24T18:25:00-0400",
@@ -604,7 +604,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-24T18:30:00-0400",
 		"endDateString": "2025-05-24T20:25:00-0400",
@@ -613,7 +613,7 @@
 	},
 	{
 		"name": "Movie: TBD",
-		"published":  true,
+		"published":  false,
 		"location": "The Class of 1970 Theater",
 		"startDateString": "2025-05-24T20:30:00-0400",
 		"endDateString": "2025-05-24T11:55:00-0400",
