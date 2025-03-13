@@ -23,6 +23,7 @@ struct MyTheme: Theme {
 		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 		})(window,document,'script','dataLayer','GTM-TT98XLGL');
 """) : Script(string: "")
+				Script(file: "https://analytics.ahrefs.com/analytics.js\" data-key=\"n6eM095/RZ9GaCjlJX7thQ\"")
 			}
             Body {
 				Include("/analytics/gtmBody.html")
