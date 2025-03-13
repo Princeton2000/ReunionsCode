@@ -10,8 +10,12 @@ import Ignite
 
 struct Story: ContentPage {
 	func body(content: Content, context: PublishingContext) -> [any BlockElement] {
-		Text(content.metadata["title"] as? String ?? "\(content.title)")
-			.font(.title2)
+		Text {
+			Link(target: content.metadata["link"] as? String ?? "#") {
+				Text(content.metadata["title"] as? String ?? "\(content.title)")
+					.font(.title2)
+			}
+		}
 
 		if let image = content.image {
 			Image(image, description: content.imageDescription)
@@ -30,5 +34,10 @@ struct Story: ContentPage {
 		}
 
 		Text(content.body)
+		Text {
+			Link(target: content.metadata["link"] as? String ?? "#") {
+				"Read more..."
+			}
+		}
 	}
 }
