@@ -29,7 +29,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Air Hockey & Table Tennis",
@@ -45,7 +45,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Bracelets",
@@ -61,7 +61,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Movie #2",
@@ -77,7 +77,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Movie #3",
@@ -93,7 +93,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Registration",
@@ -125,7 +125,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Air Hockey & Table Tennis",
@@ -141,7 +141,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Bracelets",
@@ -157,7 +157,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Photo Booth",
@@ -173,7 +173,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Inflatable Games",
@@ -189,7 +189,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Carnival Games",
@@ -205,7 +205,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Airbrush Tatoos",
@@ -221,7 +221,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Movie #5",
@@ -237,7 +237,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Photo Booth",
@@ -253,7 +253,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Inflatable Games",
@@ -269,7 +269,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Carnival Games",
@@ -285,7 +285,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "American Classical Orchestra Presents: Peter and the Wolf",
@@ -317,7 +317,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Class Reception",
@@ -349,7 +349,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Class Dinner",
@@ -397,7 +397,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "DJ Loki",
@@ -445,7 +445,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Air Hockey & Table Tennis",
@@ -461,7 +461,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Bracelets",
@@ -477,7 +477,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Photo Booth",
@@ -493,7 +493,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Facepainting / Glitter Tatoos",
@@ -509,7 +509,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Inflatable Games",
@@ -525,7 +525,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Carnival Games",
@@ -541,7 +541,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Movie #9",
@@ -557,7 +557,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Class Memorial",
@@ -573,7 +573,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Class Photo",
@@ -637,7 +637,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Inflatable Games",
@@ -653,7 +653,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Carnival Games",
@@ -669,7 +669,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Air Hockey & Table Tennis",
@@ -685,7 +685,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Bracelets",
@@ -701,7 +701,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Photo Booth",
@@ -717,7 +717,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Princeton University Orchestra Lawn Concert",
@@ -749,7 +749,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Band: Fresh Kids of Bel-Air",
@@ -829,7 +829,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Princeton Class of 2000 Millennial Lecture Series: New developments in climate science and mitigation",
@@ -845,7 +845,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Princeton Class of 2000 Millennial Lecture Series: ECO 101: An update since you graduated",
@@ -861,7 +861,7 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	},
 	{
 		"name": "Princeton Class of 2000 Millennial Lecture Series: Doing business amid rising US-China tensions",
@@ -877,6 +877,6 @@
 		"organizer": "",
 		"ticketed": false,
 		"link": "",
-		"published": false
+		"published": true
 	}
 ]
