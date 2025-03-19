@@ -55,11 +55,13 @@ public struct NavBar: Component {
 				Link(Text("Notes").margin(.bottom, 0).foregroundStyle(.princetonOrange), target: Notes())
 				Link(Text("Library").margin(.bottom, 0).foregroundStyle(.princetonOrange), target: Library())
 				Link(Text("Dues").margin(.bottom, 0).foregroundStyle(.princetonOrange), target: Dues())
+				Link(Text("Constitution").margin(.bottom, 0).foregroundStyle(.princetonOrange), target: Constitution())
 			}
 			.role(.secondary).dropdownSize(.large)
 //			Link(Text("Notes").foregroundStyle(.princetonOrange), target: Notes())
 //			Link(Text("Library").foregroundStyle(.princetonOrange), target: Library())
 //			Link(Text("Dues").foregroundStyle(.princetonOrange), target: Dues())
+//			Link(Text("Constitution").margin(.bottom, 0).foregroundStyle(.princetonOrange), target: Constitution())
 			
 //			Link(Text("P-rade").foregroundStyle(.princetonOrange), target: Prade())
 		}

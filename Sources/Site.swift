@@ -63,6 +63,7 @@ struct Princeton2000: Site {
 		BidEveryCareWithdraw()
 		Colophon()
 		Dues()
+		Constitution()
 	}
 	
 	var layouts: [any ContentPage] {
