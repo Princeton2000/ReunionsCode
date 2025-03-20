@@ -4,7 +4,7 @@
 		"name": "Registration – Thursday",
 		"type": "Registration",
 		"published":  true,
-		"location": "25th HQ - Whitman College",
+		"primaryLocation": "25th HQ - Whitman College",
 		"placeID": "I937319645B09B29D",
 		"endDateString": "2025-05-22T23:00:00-0400"
 	},
@@ -15,12 +15,12 @@
 		"type": "Registration",
 		"startDateString": "2025-05-23T09:00:00-0400",
 		"published":  true,
-		"location": "25th HQ - Whitman College"
+		"primaryLocation": "25th HQ - Whitman College"
 	},
 	{
 		"name": "Registration – Saturday",
 		"published":  true,
-		"location": "25th HQ - Whitman College",
+		"primaryLocation": "25th HQ - Whitman College",
 		"endDateString": "2025-05-24T22:00:00-0400",
 		"type": "Registration",
 		"placeID": "I937319645B09B29D",
@@ -31,7 +31,7 @@
 		"name": "Dinner",
 		"type": "Food & Drink",
 		"published":  true,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
 		"endDateString": "2025-05-22T20:30:00-0400"
 	},
@@ -42,14 +42,14 @@
 		"type": "Entertainment",
 		"startDateString": "2025-05-22T19:15:00-0400",
 		"published":  true,
-		"location": "25th HQ"
+		"primaryLocation": "25th HQ"
 	},
 	{
 		"name": "Kids' Dance Party!!!",
 		"type": "Children's Activity",
 		"startDateString": "2025-05-22T20:00:00-0400",
 		"endDateString": "2025-05-22T21:00:00-0400",
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
 		"published":  true
 	},
@@ -58,7 +58,7 @@
 		"type": "Children's Activity",
 		"startDateString": "2025-05-23T11:30:00-0400",
 		"endDateString": "2025-05-23T14:00:00-0400",
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
 		"published":  true
 	},
@@ -67,7 +67,7 @@
 		"type": "Children's Activity",
 		"startDateString": "2025-05-23T20:30:00-0400",
 		"endDateString": "2025-05-23T22:30:00-0400",
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
 		"published":  true
 	},
@@ -76,7 +76,7 @@
 		"type": "Children's Activity",
 		"startDateString": "2025-05-23T10:00:00-0400",
 		"endDateString": "2025-05-23T12:00:00-0400",
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
 		"published":  true
 	},
@@ -85,7 +85,7 @@
 		"type": "Children's Activity",
 		"startDateString": "2025-05-24T10:30:00-0400",
 		"endDateString": "2025-05-24T13:00:00-0400",
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
 		"published":  true
 	},
@@ -94,7 +94,7 @@
 		"type": "Entertainment",
 		"startDateString": "2025-05-22T21:00:00-0400",
 		"endDateString": "2025-05-23T01:00:00-0400",
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
 		"published":  true
 	},
@@ -103,7 +103,7 @@
 		"name": "Breakfast",
 		"type": "Food & Drink",
 		"published":  true,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
 		"endDateString": "2025-05-23T10:30:00-0400"
 	},
@@ -112,7 +112,7 @@
 		"name": "Event",
 		"type": "Featured Event",
 		"published":  true,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
 		"endDateString": "2025-05-23T10:30:00-0400"
 	},
@@ -121,7 +121,7 @@
 		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
 		"type": "Alumni-Faculty Forum",
 		"published":  true,
-		"location": "East Pyne 100",
+		"primaryLocation": "East Pyne 100",
 		"placeID": "I1DA3E648A16DC2DB",
 		"endDateString": "2025-05-23T11:30:00-0400"
 	},
@@ -130,7 +130,7 @@
 		"type": "Children's Activity",
 		"startDateString": "2025-05-23T14:00:00-0400",
 		"endDateString": "2025-05-23T15:00:00-0400",
-		"location": "Richardson Auditorium",
+		"primaryLocation": "Richardson Auditorium",
 		"placeID": "I406B36ABBDCCDC43",
 		"contingencyLocation": "Richardson Auditorium",
 		"contingencyLocationID": "I406B36ABBDCCDC43",
@@ -146,7 +146,7 @@
 		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
 		"type": "Alumni-Faculty Forum",
 		"published":  true,
-		"location": "McCosh 10",
+		"primaryLocation": "McCosh 10",
 		"placeID": "I25D019DD5E734921",
 		"endDateString": "2025-05-23T12:00:00-0400"
 	},
@@ -155,7 +155,7 @@
 		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
 		"type": "Alumni-Faculty Forum",
 		"published":  true,
-		"location": "McCosh 50",
+		"primaryLocation": "McCosh 50",
 		"placeID": "I25D019DD5E734921",
 		"endDateString": "2025-05-23T12:30:00-0400"
 	},
@@ -164,7 +164,7 @@
 		"name": "Lunch",
 		"type": "Food & Drink",
 		"published":  true,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
 		"endDateString": "2025-05-23T14:00:00-0400"
 	},
@@ -175,7 +175,7 @@
 		"endDateString": "2025-05-23T12:30:00-0400",
 		"type": "Entertainment",
 		"published":  true,
-		"location": "25th HQ"
+		"primaryLocation": "25th HQ"
 	},
 	{
 		"name": "Class Community Service Event",
@@ -184,14 +184,14 @@
 		"type": "Community Service",
 		"startDateString": "2025-05-23T14:00:00-0400",
 		"published":  true,
-		"location": "25th HQ"
+		"primaryLocation": "25th HQ"
 	},
 	{
 		"startDateString": "2025-05-23T15:45:00-0400",
 		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
 		"type": "Alumni-Faculty Forum",
 		"published":  true,
-		"location": "McCosh 10",
+		"primaryLocation": "McCosh 10",
 		"placeID": "I25D019DD5E734921",
 		"endDateString": "2025-05-23T17:00:00-0400"
 	},
@@ -200,7 +200,7 @@
 		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
 		"type": "Alumni-Faculty Forum",
 		"published":  true,
-		"location": "McCosh 10",
+		"primaryLocation": "McCosh 10",
 		"placeID": "I25D019DD5E734921",
 		"endDateString": "2025-05-23T17:00:00-0400"
 	},
@@ -209,7 +209,7 @@
 		"type": "Class Alumni, Friends, & Families",
 		"startDateString": "2025-05-23T17:00:00-0400",
 		"endDateString": "2025-05-23T18:00:00-0400",
-		"location": "Jadwin Gym",
+		"primaryLocation": "Jadwin Gym",
 		"placeID": "IA4B13A3A0A6ABF49",
 		"published":  true
 	},
@@ -218,7 +218,7 @@
 		"type": "Entertainment",
 		"startDateString": "2025-05-23T18:15:00-0400",
 		"endDateString": "2025-05-23T18:30:00-0400",
-		"location": "Jadwin Gym",
+		"primaryLocation": "Jadwin Gym",
 		"placeID": "IA4B13A3A0A6ABF49",
 		"published":  false
 	},
@@ -227,7 +227,7 @@
 		"name": "Class Dinner",
 		"type": "Food & Drink",
 		"published":  true,
-		"location": "Jadwin Gym",
+		"primaryLocation": "Jadwin Gym",
 		"placeID": "IA4B13A3A0A6ABF49",
 		"endDateString": "2025-05-23T20:00:00-0400"
 	},
@@ -238,12 +238,12 @@
 		"endDateString": "2025-05-23T23:30:00-0400",
 		"type": "Entertainment",
 		"published":  true,
-		"location": "25th HQ"
+		"primaryLocation": "25th HQ"
 	},
 	{
 		"name": "DJ Jen Urban",
 		"published":  true,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"startDateString": "2025-05-23T23:30:00-0400",
 		"endDateString": "2025-05-24T02:00:00-0400",
 		"type": "Entertainment",
@@ -254,7 +254,7 @@
 		"name": "Hoagie Haven Drop",
 		"type": "Food & Drink",
 		"published":  false,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
 		"endDateString": "2025-05-23T23:30:00-0400"
 	},
@@ -263,7 +263,7 @@
 		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
 		"type": "Alumni-Faculty Forum",
 		"published":  true,
-		"location": "East Pyne 010",
+		"primaryLocation": "East Pyne 010",
 		"placeID": "I1DA3E648A16DC2DB",
 		"endDateString": "2025-05-24T11:45:00-0400"
 	},
@@ -272,7 +272,7 @@
 		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
 		"type": "Alumni-Faculty Forum",
 		"published":  true,
-		"location": "East Pyne 100",
+		"primaryLocation": "East Pyne 100",
 		"placeID": "I1DA3E648A16DC2DB",
 		"endDateString": "2025-05-24T11:45:00-0400"
 	},
@@ -281,7 +281,7 @@
 		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
 		"type": "Alumni-Faculty Forum",
 		"published":  true,
-		"location": "McCosh 10",
+		"primaryLocation": "McCosh 10",
 		"placeID": "I25D019DD5E734921",
 		"endDateString": "2025-05-23T12:00:00-0400"
 	},
@@ -290,7 +290,7 @@
 		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
 		"type": "Alumni-Faculty Forum",
 		"published":  true,
-		"location": "McCosh 50",
+		"primaryLocation": "McCosh 50",
 		"placeID": "I25D019DD5E734921",
 		"endDateString": "2025-05-23T12:30:00-0400"
 	},
@@ -300,7 +300,7 @@
 		"startDateString": "2025-05-24T11:00:00-0400",
 		"endDateString": "2025-05-24T12:45:00-0400",
 		"published":  true,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D"
 		
 	},
@@ -311,7 +311,7 @@
 		"endDateString": "2025-05-24T12:45:00-0400",
 		"type": "Entertainment",
 		"published":  true,
-		"location": "25th HQ"
+		"primaryLocation": "25th HQ"
 	},
 
 	{
@@ -319,7 +319,7 @@
 		"type": "Class Alumni",
 		"startDateString": "2025-05-24T13:00:00-0400",
 		"endDateString": "2025-05-24T13:15:00-0400",
-		"location": "Blair Arch",
+		"primaryLocation": "Blair Arch",
 		"placeID": "",
 		"published":  true
 	},
@@ -328,7 +328,7 @@
 		"name": "P-Rade Prep",
 		"type": "Class Alumni, Friends, & Families",
 		"published":  true,
-		"location": "FitzRandolph Gate",
+		"primaryLocation": "FitzRandolph Gate",
 		"placeID": "IC55FE11E2B2671CA",
 		"endDateString": "2025-05-24T14:00:00-0400"
 	},
@@ -337,7 +337,7 @@
 		"name": "The One and Only P-Rade!",
 		"type": "Class Alumni, Friends, & Families",
 		"published":  true,
-		"location": "FitzRandolph Gate",
+		"primaryLocation": "FitzRandolph Gate",
 		"placeID": "IC55FE11E2B2671CA",
 		"endDateString": "2025-05-24T16:00:00-0400"
 	},
@@ -346,7 +346,7 @@
 		"type": "Entertainment",
 		"startDateString": "2025-05-24T16:30:00-0400",
 		"endDateString": "2025-05-24T18:30:00-0400",
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
 		"published":  true
 	},
@@ -355,7 +355,7 @@
 		"name": "Class Dinner",
 		"type": "Food & Drink",
 		"published":  true,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
 		"endDateString": "2025-05-24T20:30:00-0400"
 	},
@@ -366,7 +366,7 @@
 		"type": "Entertainment",
 		"startDateString": "2025-05-24T20:00:00-0400",
 		"published":  true,
-		"location": "Princeton Stadium"
+		"primaryLocation": "Princeton Stadium"
 	},
 	{
 		"name": "Fireworks!",
@@ -375,12 +375,12 @@
 		"type": "University Alumni",
 		"startDateString": "2025-05-24T21:15:00-0400",
 		"published":  true,
-		"location": "Princeton Stadium"
+		"primaryLocation": "Princeton Stadium"
 	},
 	{
 		"name": "Band: The Band",
 		"type": "Entertainment",
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
 		"startDateString": "2025-05-24T21:30:00-0400",
 		"endDateString": "2025-05-24T23:45:00-0400",
@@ -391,14 +391,14 @@
 		"name": "Hoagie Haven Drop",
 		"type": "Food & Drink",
 		"published":  false,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
 		"endDateString": "2025-05-24T23:00:00-0400"
 	},
 	{
 		"name": "DJ BOB",
 		"type": "Entertainment",
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
 		"startDateString": "2025-05-25T00:00:00-0400",
 		"endDateString": "2025-05-25T02:00:00-0400",
@@ -409,14 +409,14 @@
 		"name": "Breakfast",
 		"type": "Food & Drink",
 		"published":  true,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
 		"endDateString": "2025-05-25T10:30:00-0400"
 	},
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-22T08:00:00-0400",
 		"endDateString": "2025-05-22T09:25:00-0400",
 		"type": "Movie",
@@ -425,7 +425,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-22T09:30:00-0400",
 		"endDateString": "2025-05-22T10:55:00-0400",
 		"type": "Movie",
@@ -434,7 +434,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-22T11:00:00-0400",
 		"endDateString": "2025-05-22T12:25:00-0400",
 		"type": "Movie",
@@ -443,7 +443,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-22T13:00:00-0400",
 		"endDateString": "2025-05-22T14:25:00-0400",
 		"type": "Movie",
@@ -452,7 +452,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-22T14:30:00-0400",
 		"endDateString": "2025-05-22T16:25:00-0400",
 		"type": "Movie",
@@ -461,7 +461,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-22T14:30:00-0400",
 		"endDateString": "2025-05-22T16:25:00-0400",
 		"type": "Movie",
@@ -470,7 +470,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-22T16:30:00-0400",
 		"endDateString": "2025-05-22T18:25:00-0400",
 		"type": "Movie",
@@ -479,7 +479,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-22T18:30:00-0400",
 		"endDateString": "2025-05-22T20:25:00-0400",
 		"type": "Movie",
@@ -488,7 +488,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-23T08:00:00-0400",
 		"endDateString": "2025-05-23T09:25:00-0400",
 		"type": "Movie",
@@ -497,7 +497,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-23T09:30:00-0400",
 		"endDateString": "2025-05-23T10:55:00-0400",
 		"type": "Movie",
@@ -506,7 +506,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-23T11:00:00-0400",
 		"endDateString": "2025-05-23T12:25:00-0400",
 		"type": "Movie",
@@ -515,7 +515,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-23T13:00:00-0400",
 		"endDateString": "2025-05-23T14:25:00-0400",
 		"type": "Movie",
@@ -524,7 +524,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-23T14:30:00-0400",
 		"endDateString": "2025-05-23T16:25:00-0400",
 		"type": "Movie",
@@ -533,7 +533,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-23T14:30:00-0400",
 		"endDateString": "2025-05-23T16:25:00-0400",
 		"type": "Movie",
@@ -542,7 +542,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-23T16:30:00-0400",
 		"endDateString": "2025-05-23T18:25:00-0400",
 		"type": "Movie",
@@ -551,7 +551,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-23T18:30:00-0400",
 		"endDateString": "2025-05-23T20:25:00-0400",
 		"type": "Movie",
@@ -560,7 +560,7 @@
 	{
 		"name": "Facepainting",
 		"published":  true,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"startDateString": "2025-05-24T10:00:00-0400",
 		"endDateString": "2025-05-24T13:00:00-0400",
 		"type": "Children's Activity",
@@ -569,7 +569,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-24T08:00:00-0400",
 		"endDateString": "2025-05-24T09:25:00-0400",
 		"type": "Movie",
@@ -578,7 +578,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-24T09:30:00-0400",
 		"endDateString": "2025-05-24T10:55:00-0400",
 		"type": "Movie",
@@ -587,7 +587,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-24T11:00:00-0400",
 		"endDateString": "2025-05-24T12:25:00-0400",
 		"type": "Movie",
@@ -596,7 +596,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-24T16:30:00-0400",
 		"endDateString": "2025-05-24T18:25:00-0400",
 		"type": "Movie",
@@ -605,7 +605,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-24T18:30:00-0400",
 		"endDateString": "2025-05-24T20:25:00-0400",
 		"type": "Movie",
@@ -614,7 +614,7 @@
 	{
 		"name": "Movie: TBD",
 		"published":  false,
-		"location": "The Class of 1970 Theater",
+		"primaryLocation": "The Class of 1970 Theater",
 		"startDateString": "2025-05-24T20:30:00-0400",
 		"endDateString": "2025-05-24T11:55:00-0400",
 		"type": "Movie",
@@ -623,7 +623,7 @@
 	{
 		"name": "Air Hockey Tournament - Prelims",
 		"published":  true,
-		"location": "Whitman College Commons",
+		"primaryLocation": "Whitman College Commons",
 		"startDateString": "2025-05-22T13:00:00-0400",
 		"endDateString": "2025-05-22T23:55:00-0400",
 		"type": "Children's Activity",
@@ -632,7 +632,7 @@
 	{
 		"name": "Air Hockey Tournament - Tournament Play",
 		"published":  true,
-		"location": "Whitman College Commons",
+		"primaryLocation": "Whitman College Commons",
 		"startDateString": "2025-05-23T08:30:00-0400",
 		"endDateString": "2025-05-23T23:55:00-0400",
 		"type": "Children's Activity",
@@ -641,7 +641,7 @@
 	{
 		"name": "Air Hockey Tournament - Playoffs",
 		"published":  true,
-		"location": "Whitman College Commons",
+		"primaryLocation": "Whitman College Commons",
 		"startDateString": "2025-05-24T08:30:00-0400",
 		"endDateString": "2025-05-24T23:55:00-0400",
 		"type": "Children's Activity",
@@ -650,7 +650,7 @@
 	{
 		"name": "Ping-Pong Tournament - Prelims",
 		"published":  true,
-		"location": "Whitman College Commons",
+		"primaryLocation": "Whitman College Commons",
 		"startDateString": "2025-05-22T13:00:00-0400",
 		"endDateString": "2025-05-22T23:55:00-0400",
 		"type": "Children's Activity",
@@ -659,7 +659,7 @@
 	{
 		"name": "Ping-Pong Tournament - Tournament Play",
 		"published":  true,
-		"location": "Whitman College Commons",
+		"primaryLocation": "Whitman College Commons",
 		"startDateString": "2025-05-23T08:30:00-0400",
 		"endDateString": "2025-05-23T23:55:00-0400",
 		"type": "Children's Activity",
@@ -668,7 +668,7 @@
 	{
 		"name": "Ping-Pong Tournament - Playoffs",
 		"published":  true,
-		"location": "Whitman College Commons",
+		"primaryLocation": "Whitman College Commons",
 		"startDateString": "2025-05-24T08:30:00-0400",
 		"endDateString": "2025-05-24T23:55:00-0400",
 		"type": "Children's Activity",
@@ -677,7 +677,7 @@
 	{
 		"name": "Scavenger Hunt - Day 1",
 		"published":  true,
-		"location": "Whitman College Commons",
+		"primaryLocation": "Whitman College Commons",
 		"startDateString": "2025-05-23T08:30:00-0400",
 		"endDateString": "2025-05-23T23:55:00-0400",
 		"type": "Children's Activity",
@@ -686,7 +686,7 @@
 	{
 		"name": "Scavenger Hunt - Day 2",
 		"published":  true,
-		"location": "Whitman College Commons",
+		"primaryLocation": "Whitman College Commons",
 		"startDateString": "2025-05-24T08:30:00-0400",
 		"endDateString": "2025-05-24T23:55:00-0400",
 		"type": "Children's Activity",
@@ -695,7 +695,7 @@
 	{
 		"name": "Arts & Crafts Table",
 		"published":  true,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"startDateString": "2025-05-22T13:00:00-0400",
 		"endDateString": "2025-05-22T20:55:00-0400",
 		"type": "Children's Activity",
@@ -704,7 +704,7 @@
 	{
 		"name": "Arts & Crafts Table",
 		"published":  true,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"startDateString": "2025-05-23T08:30:00-0400",
 		"endDateString": "2025-05-23T20:55:00-0400",
 		"type": "Children's Activity",
@@ -713,7 +713,7 @@
 	{
 		"name": "Arts & Crafts Table",
 		"published":  true,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"startDateString": "2025-05-24T08:30:00-0400",
 		"endDateString": "2025-05-24T12:55:00-0400",
 		"type": "Children's Activity",
@@ -722,7 +722,7 @@
 	{
 		"name": "Arts & Crafts Table",
 		"published":  true,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"startDateString": "2025-05-24T16:30:00-0400",
 		"endDateString": "2025-05-24T20:55:00-0400",
 		"type": "Children's Activity",
@@ -731,7 +731,7 @@
 	{
 		"name": "Friendship Bracelet Station",
 		"published":  true,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"startDateString": "2025-05-22T13:00:00-0400",
 		"endDateString": "2025-05-22T23:55:00-0400",
 		"type": "Children's Activity",
@@ -740,7 +740,7 @@
 	{
 		"name": "Friendship Bracelet Station",
 		"published":  true,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"startDateString": "2025-05-23T08:30:00-0400",
 		"endDateString": "2025-05-23T23:55:00-0400",
 		"type": "Children's Activity",
@@ -749,7 +749,7 @@
 	{
 		"name": "Friendship Bracelet Station",
 		"published":  true,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"startDateString": "2025-05-24T08:30:00-0400",
 		"endDateString": "2025-05-24T12:55:00-0400",
 		"type": "Children's Activity",
@@ -758,7 +758,7 @@
 	{
 		"name": "Friendship Bracelet Station",
 		"published":  true,
-		"location": "25th HQ",
+		"primaryLocation": "25th HQ",
 		"startDateString": "2025-05-24T16:30:00-0400",
 		"endDateString": "2025-05-24T20:55:00-0400",
 		"type": "Children's Activity",

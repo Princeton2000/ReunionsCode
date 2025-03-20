@@ -2,6 +2,7 @@
 layout: Email
 tags: Class Letter
 image: /images/logos/Tiger_Lounging_Long_Background.png
+alt: Restful Tiger
 title: Three Days left…
 link: 
 lastModified: 2024-12-10T19:32:49Z-0400

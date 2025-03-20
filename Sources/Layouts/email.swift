@@ -13,7 +13,7 @@ struct Email: ContentPage {
 	func body(content: Content, context: PublishingContext) -> [any BlockElement] {
 		Group {
 			Text(content.metadata["title"] as? String ?? "\(content.title)")
-				.font(.title4)
+				.font(.title1)
 			Text(formatDate(content.metadata["lastModified"] as? String ?? "", .medium, .short))
 
 			if let image = content.image {

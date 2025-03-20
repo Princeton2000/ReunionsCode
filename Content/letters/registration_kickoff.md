@@ -2,6 +2,7 @@
 layout: Email
 tags: registration, jacket
 image: /images/logos/P2000_25th_Lounging_Tiger.svg
+alt: Restful Tiger
 title: Registration is OPEN
 link: 
 lastModified: 2024-11-01T19:15:07Z-0400

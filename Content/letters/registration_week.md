@@ -2,6 +2,7 @@
 layout: Email
 tags: registration, registration week, jacket
 image: /images/photos/whitman-arches.jpg
+alt: Whitman Arches
 title: Registration week update
 link: 
 lastModified: 2024-10-28T21:25:00Z-0400

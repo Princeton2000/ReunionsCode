@@ -2,6 +2,7 @@
 layout: Email
 tags: Class Letter
 image: /images/photos/whitman-arches.jpg
+alt: The Whitman Arches
 title: Early Registration Ends Tonight
 link: 
 lastModified: 2024-12-31T20:25:00Z-0400

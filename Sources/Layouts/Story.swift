@@ -12,8 +12,8 @@ struct Story: ContentPage {
 	func body(content: Content, context: PublishingContext) -> [any BlockElement] {
 		Text {
 			Link(target: content.metadata["link"] as? String ?? "#") {
-				Text(content.metadata["title"] as? String ?? "\(content.title)")
-					.font(.title2)
+				Text(content.metadata["question"] as? String ?? "\(content.metadata["title"] ?? "")")
+					.font(.title1)
 			}
 		}
 
@@ -27,16 +27,21 @@ struct Story: ContentPage {
 
 		if content.hasTags {
 			Group {
-				Text("Tagged with: \(content.tags.joined(separator: ", "))")
-
-				Text("\(content.estimatedWordCount) words; \(content.estimatedReadingMinutes) minutes to read.")
+//				Text("\(content.estimatedWordCount) words; \(content.estimatedReadingMinutes) minutes to read.")
+				if content.hasTags {
+						Text {
+							content.tagLinks(in: context)
+						}.font(.title6)
+				}
 			}
 		}
 
 		Text(content.body)
-		Text {
-			Link(target: content.metadata["link"] as? String ?? "#") {
-				"Read more..."
+		if content.metadata["link"] as? String != nil {
+			Text {
+				Link(target: content.metadata["link"] as? String ?? "#") {
+					"Read more..."
+				}
 			}
 		}
 	}

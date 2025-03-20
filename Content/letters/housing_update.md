@@ -2,6 +2,7 @@
 layout: Email
 tags: housing, survey
 image: /images/photos/99hqfence.jpeg
+alt: The 99 HQ Fence
 title: Reunions Survey & Housing Update
 link: 
 lastModified: 2024-07-09T21:19:00Z-0400

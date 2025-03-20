@@ -2,6 +2,7 @@
 layout: Email
 tags: reunions2024, volunteering
 image: /images/photos/99hqfence.jpeg
+alt: 99 HQ Fence
 title: Time for us to Roar
 link: 
 lastModified: 2024-05-28T19:28:00Z-0400

@@ -29,7 +29,7 @@ public func deployment() -> SiteLocation {
 struct Princeton2000: Site {
 	var name = "Reunions 2025"
 	var titleSuffix = " – Princeton 2000"
-	var description = "Official Informational Site for Princeton's Class of 2000 25th Reunions, May 22-25, 2025"
+	var description = "Bid Every Care Withdraw: Princeton's Class of 2000 celebrates its 25th Reunion, May 22-25, 2025"
 	
 	var language: Locale.Language = .init(identifier: "en-US")
 	var url = URL(string: deployment().rawValue)!

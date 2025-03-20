@@ -16,7 +16,7 @@ struct Colophon: StaticPage {
 	func body(context: PublishingContext) -> [BlockElement] {
 		Section {
 			for content in context.content(ofType: ("colophon")) {
-				Text(content.title).font(.title2)
+				Text(title).font(.title1)
 				Text(content.body)
 			}
 		}.columns(.max)

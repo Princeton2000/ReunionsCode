@@ -23,7 +23,7 @@ struct Tags: TagPage {
 		List {
 			for article in articles {
 				Text {
-					Link((article.metadata["question"] ?? article.title) as! String, target: article.path)
+					Link((article.metadata["question"] ?? article.metadata["title"]) as! String, target: article.path)
 				}
 			}
 		}

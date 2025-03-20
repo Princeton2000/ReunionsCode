@@ -2,6 +2,7 @@
 layout: Story
 tags: Class Letters
 image: /images/news/peppers.webp
+alt: The Peppers
 title: Two generations of NASA scientists share their love and knowledge during eclipse
 link: template
 lastModified: 2024-04-09

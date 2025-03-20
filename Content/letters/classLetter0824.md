@@ -2,6 +2,7 @@
 layout: Email
 tags: Class Letter
 image: /images/photos/whitman-arches.jpg
+alt: The Whitman Arches
 title: A Paper Letter…in 2024?
 link: 
 lastModified: 2024-09-05T16:25:00Z-0400

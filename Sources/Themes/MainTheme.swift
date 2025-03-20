@@ -6,7 +6,8 @@ struct MyTheme: Theme {
         HTML {
 			Head(for: page, in: context) {
 				MetaTag(name: "Last-Modified", content: "\(Date().asISO8601)")
-				MetaTag(name: "description", content: Princeton2000().description)
+				MetaTag(name: "description", content: "\(Princeton2000().description) - \(page.description)")
+				MetaTag(property: "og:type", content: "website")
 				MetaTag(property: "og:image:type", content: "image/png")
 				MetaTag(property: "og:image", content: "\(deployment().rawValue)/images/logos/P2000_25th_TigerHead_BECW.png")
 				MetaTag(property: "og:title", content: "Bid Every Care Withdraw: 25th Reunion, May 22-25, 2025")
