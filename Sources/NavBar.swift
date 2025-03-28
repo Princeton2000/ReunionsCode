@@ -19,7 +19,7 @@ public struct NavBar: Component {
 	public init() { }
 	
 	func logo(_ image: String = "/images/Logo_2000Reunion_TIGER_Color_60px.png", altText: String = "Princeton 2000 Tiger Logo", _ width: Int = 72, _ height: Int = 72, destination: String = "/") -> String  {
-		return "<a href=\"\(deployment().rawValue)\" class=\"navbar-brand\" aria-label=\"home\"><img src=\"\(image)\" aria-label=\"\(altText)\" class=\"img-fluid mx-auto\" style=\"width: \(width)px; height: \(height)px\"\" alt=\"\(altText)\"></a>"
+		return "<a href=\"\(deployment().rawValue)\" class=\"navbar-brand\" aria-label=\"home\" \" alt=\"\(altText)\"><img src=\"\(image)\" \" alt=\"\(altText)\" aria-label=\"\(altText)\" class=\"img-fluid mx-auto\" style=\"width: \(width)px; height: \(height)px\"></a>"
 	}
 	func header(_ message: String = "PRINCETON 2000", _ fontFamily: FontFamily = .princetonMonticello) -> String {
 		return "<a href=\"\(deployment().rawValue)\" class=\"navbar-brand\"><h3 style=\"font-family: \(fontFamily.rawValue); font-size: calc(1.2rem + .5vw); color: #EE7F2D; line-height: 2rem; margin-bottom: 0rem; text-align: center; class=\"text-center mx-auto\">\(message)</h2>"
@@ -62,7 +62,6 @@ public struct NavBar: Component {
 //			Link(Text("Library").foregroundStyle(.princetonOrange), target: Library())
 //			Link(Text("Dues").foregroundStyle(.princetonOrange), target: Dues())
 //			Link(Text("Constitution").margin(.bottom, 0).foregroundStyle(.princetonOrange), target: Constitution())
-			
 //			Link(Text("P-rade").foregroundStyle(.princetonOrange), target: Prade())
 		}
 		.navigationItemAlignment(.trailing)

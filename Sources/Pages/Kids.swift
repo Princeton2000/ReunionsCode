@@ -12,6 +12,8 @@ struct Kids: StaticPage {
 	var title = "Kids"
 	var description: String = "What you need to know about our Kids' Schedule."
 	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
+	let kidsGuideSlides = [1, 2, 3, 4, 5, 6]
+		.map({"/images/kidsGuide/kidsGuide.\(String(format: "%03d", $0)).png"})
 
 	func body(context: PublishingContext) -> [BlockElement] {
 		Group{
@@ -19,9 +21,11 @@ struct Kids: StaticPage {
 			Text(markdown: "**Note:** *We are not legally allowed to provide child care onsite.*")
 			
 			Text(markdown: "Check out the Kids' Schedule [here:](../schedule-kids/)")
-			Embed(youTubeID: "-fgCslr7N84", title: "Bouncy Tiger Comes Alive").aspectRatio(.r16x9)
-			Text(markdown: "To accompany our P-rade float, we are recruiting a junior tiger squad to [march in the P-rade](/prade/), handing out collectibles to P-Rade goers.")
+//			Embed(youTubeID: "-fgCslr7N84", title: "Bouncy Tiger Comes Alive").aspectRatio(.r16x9)
+//			Text(markdown: "To accompany our P-rade float, we are recruiting a junior tiger squad to [march in the P-rade](/prade/), handing out collectibles to P-Rade goers.")
 		}.padding(.horizontal, 5)
+		Embed(title: "Kids' Guide to Reunions", url: "/pdfs/reunionsKidsGuide.pdf").aspectRatio(.r4x3)
+		Divider()
 		Group {
 			Text("Register for Tiger Camp").font(.title1)
 			Text(markdown: "Princeton has partnered with **[YWCA Princeton](https://www.ywcaprinceton.org)** to offer its traditional **“Tiger Camp”** childcare during Reunions from **Friday, May 23** to **Saturday, May 24**.")

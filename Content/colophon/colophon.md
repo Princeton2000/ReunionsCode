@@ -3,7 +3,7 @@ layout: Story
 tags: Colophon
 image: 
 title: Colophon
-link: template
+link:
 lastModified: 2024-10-11
 published: true
 ---

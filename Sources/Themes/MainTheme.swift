@@ -6,7 +6,7 @@ struct MyTheme: Theme {
         HTML {
 			Head(for: page, in: context) {
 				MetaTag(name: "Last-Modified", content: "\(Date().asISO8601)")
-				MetaTag(name: "description", content: "\(Princeton2000().description) - \(page.description)")
+//				MetaTag(name: "description", content: "\(Princeton2000().description) - \(page.description)")
 				MetaTag(property: "og:type", content: "website")
 				MetaTag(property: "og:image:type", content: "image/png")
 				MetaTag(property: "og:image", content: "\(deployment().rawValue)/images/logos/P2000_25th_TigerHead_BECW.png")
@@ -29,13 +29,6 @@ struct MyTheme: Theme {
             Body {
 				Include("/analytics/gtmBody.html")
 				NavBar()
-//				Alert {
-//					Text {
-//						Link("Order your jacket now! Orders must be received by FRIDAY, DEC 13!", target: "https://princeton.reunioniq.com/shop/classof00")
-//							.target(.newWindow)
-//							.relationship(.noOpener, .noReferrer)
-//					}.font(.title3).fontWeight(.semibold).horizontalAlignment(.center)
-//				}.role(.danger)
 				if deployment() == .production {
 					Alert {
 						Text {

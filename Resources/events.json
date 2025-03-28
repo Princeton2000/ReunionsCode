@@ -205,10 +205,19 @@
 		"endDateString": "2025-05-23T17:00:00-0400"
 	},
 	{
+		"name": "Fal-Rooney Camp",
+		"type": "Children's Activity",
+		"startDateString": "2025-05-23T17:30:00-0400",
+		"endDateString": "2025-05-23T20:30:00-0400",
+		"primaryLocation": "Jadwin Gym",
+		"placeID": "IA4B13A3A0A6ABF49",
+		"published":  true
+	},
+	{
 		"name": "Class Reception",
 		"type": "Class Alumni, Friends, & Families",
-		"startDateString": "2025-05-23T17:00:00-0400",
-		"endDateString": "2025-05-23T18:00:00-0400",
+		"startDateString": "2025-05-23T17:30:00-0400",
+		"endDateString": "2025-05-23T18:30:00-0400",
 		"primaryLocation": "Jadwin Gym",
 		"placeID": "IA4B13A3A0A6ABF49",
 		"published":  true
@@ -223,13 +232,13 @@
 		"published":  false
 	},
 	{
-		"startDateString": "2025-05-23T18:00:00-0400",
+		"startDateString": "2025-05-23T18:30:00-0400",
 		"name": "Class Dinner",
 		"type": "Food & Drink",
 		"published":  true,
 		"primaryLocation": "Jadwin Gym",
 		"placeID": "IA4B13A3A0A6ABF49",
-		"endDateString": "2025-05-23T20:00:00-0400"
+		"endDateString": "2025-05-23T20:30:00-0400"
 	},
 	{
 		"name": "Fresh Kids of Bel-Air",
