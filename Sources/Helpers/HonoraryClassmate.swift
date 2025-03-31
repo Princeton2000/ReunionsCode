@@ -8,13 +8,13 @@
 
 import Foundation
 
-struct CrewMember: Codable, Comparable {
-	static func < (lhs: CrewMember, rhs: CrewMember) -> Bool {
+struct HonoraryClassmate: Codable, Comparable {
+	static func < (lhs: HonoraryClassmate, rhs: HonoraryClassmate) -> Bool {
 		if lhs.priority != rhs.priority {
 			return lhs.priority < rhs.priority
-		} else if lhs.year != rhs.year {
-			return lhs.year < rhs.year
-		} else {
+		} /*else if lhs.year != rhs.year {
+			return lhs.year ?? 0 < rhs.year ?? 0
+		}*/ else {
 			return lhs.lastName < rhs.lastName
 		}
 	}
@@ -22,10 +22,10 @@ struct CrewMember: Codable, Comparable {
 	let firstName: String
 	let lastName: String
 	let role: String
-	let year: Int
+	let year: Int?
 	let priority: Int
 	let photo: String
 	let email: String
 	let summary: String
-	var description: String { "\(firstName)  \(lastName) '\(year % 2000)" }
+	var description: String { "\(firstName) \(lastName)" }
 }

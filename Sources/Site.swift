@@ -62,6 +62,7 @@ struct Princeton2000: Site {
 		Prade()
 //		TableVideo()
 		BidEveryCareWithdraw()
+		HonoraryClassmates()
 		Colophon()
 		Dues()
 		Constitution()
