@@ -8,27 +8,27 @@
 import Foundation
 import Ignite
 
-struct Committee: StaticPage {
-	var title = "Committee"
-	var description: String = "Your incredible Reunions Committee"
+struct Crew: StaticPage {
+	var title = "Crew"
+	var description: String = "Our Outstanding Reunions Crew"
 	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
 
 	func body(context: PublishingContext) -> [BlockElement] {
-		var committee: [CommitteeMember] { let decoder = JSONDecoder(); let data = try! Data(contentsOf: URL(fileURLWithPath: "/Users/jpurnell/Dropbox/Computer/Development/Swift/Princeton/Website/ExampleSite/Resources/committee.json")); let committeeMembers = try? decoder.decode([CommitteeMember].self, from: data); return committeeMembers?.sorted(by: {$0.priority < $1.priority && $0.role < $1.role}) ?? []}
-		
-		Table {
-			for members in committee.batched(into: 3) {
-				Row {
-					for member in members {
-						Column {
-							member.photo == "" ?
-								Image.tiger.resizable().frame(width: 100, height: 100) :
-								Image(member.photo).resizable().frame(width: 100, height: 100)
-							Text(member.chair).fontWeight(.semibold)
-							Text(member.role)
-						}.horizontalAlignment(.center)
-					}
+		var crewMembers: [CrewMember] { let decoder = JSONDecoder(); let data = try! Data(contentsOf: URL(fileURLWithPath: "/Users/jpurnell/Dropbox/Computer/Development/Swift/Princeton/Website/ExampleSite/Resources/crew.json")); let crew = try? decoder.decode([CrewMember].self, from: data); return crew?.sorted(by: < ) ?? []}
+		Section {
+			for member in crewMembers.sorted(by: < ) {
+				Card {
+					Text(markdown: member.summary)
+				} header: {
+					Image("/images/crew/\(member.lastName.lowercased())\(member.firstName).png", description: "Photo of crew member \(member.firstName) \(member.lastName)").class("none").resizable().frame(height: 200)
+					Text("\(member.firstName) \(member.lastName) '\(member.year % 2000)").font(.title4).fontWeight(.semibold)
+					Text("\(member.role)").font(.title6).fontWeight(.regular)
 				}
+				.frame(height: "97.5%")
+				.width(3)
+				.horizontalAlignment(.center)
+				.margin(.bottom)
+				.padding(.horizontal, 5)
 			}
 		}
 	}

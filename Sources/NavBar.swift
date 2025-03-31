@@ -50,6 +50,7 @@ public struct NavBar: Component {
 			Link(Text("Theme").foregroundStyle(.princetonOrange), target: BidEveryCareWithdraw())
 			Link(Text("Jacket").foregroundStyle(.princetonOrange), target: Jacket())
 			Link(Text("Merch").foregroundStyle(.princetonOrange), target: "https://princeton.reunioniq.com/shop/classof00")
+			Link(Text("Crew").foregroundStyle(.princetonOrange), target: Crew())
 			Dropdown("Class Info"){
 				Link(Text("Committee").margin(.bottom, 0).foregroundStyle(.princetonOrange), target: Committee())
 				Link(Text("Notes").margin(.bottom, 0).foregroundStyle(.princetonOrange), target: Notes())

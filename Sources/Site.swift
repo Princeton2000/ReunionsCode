@@ -53,6 +53,7 @@ struct Princeton2000: Site {
 		ScheduleKids()
 		ScheduleMovies()
 		Committee()
+		Crew()
 		faq()
 		Jacket()
 		JacketPreLaunch()
