@@ -14,15 +14,11 @@ struct Gear: StaticPage {
 	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
 
 	func body(context: PublishingContext) -> [BlockElement] {
-		var apparel: [Apparel] {
-			let decoder = JSONDecoder()
-			let data = try! Data(contentsOf: URL(fileURLWithPath: "/Users/jpurnell/Dropbox/Computer/Development/Swift/Princeton/Website/ExampleSite/Resources/apparel.json"))
-			let apparelItems = try! decoder.decode([Apparel].self, from: data)
-			return apparelItems.sorted(by: {$0.priority < $1.priority})
-		}
 		Section {
-			for item in apparel {
-				apparelCard(item)
+			if let apparel = context.decode(resource: "apparel.json", as: [Apparel].self)?.sorted(by: { $0.priority < $1.priority }) {
+				for item in apparel {
+					apparelCard(item)
+				}
 			}
 		}
 		.margin()

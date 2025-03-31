@@ -20,9 +20,12 @@ struct Merch: StaticPage {
 			let apparelItems = try! decoder.decode([Apparel].self, from: data)
 			return apparelItems.sorted(by: {$0.priority < $1.priority})
 		}
+		
 		Section {
-			for item in apparel {
-				apparelCard(item)
+			if let apparel = context.decode(resource: "apparel.json", as: [Apparel].self)?.sorted(by: { $0.priority < $1.priority }) {
+				for item in apparel {
+					apparelCard(item)
+				}
 			}
 		}
 		.margin()

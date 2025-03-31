@@ -14,21 +14,22 @@ struct Crew: StaticPage {
 	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
 
 	func body(context: PublishingContext) -> [BlockElement] {
-		var crewMembers: [CrewMember] { let decoder = JSONDecoder(); let data = try! Data(contentsOf: URL(fileURLWithPath: "/Users/jpurnell/Dropbox/Computer/Development/Swift/Princeton/Website/ExampleSite/Resources/crew.json")); let crew = try? decoder.decode([CrewMember].self, from: data); return crew?.sorted(by: < ) ?? []}
-		Section {
-			for member in crewMembers.sorted(by: < ) {
-				Card {
-					Text(markdown: member.summary)
-				} header: {
-					Image("/images/crew/\(member.lastName.lowercased())\(member.firstName).png", description: "Photo of crew member \(member.firstName) \(member.lastName)").class("none").resizable().frame(height: 200)
-					Text("\(member.firstName) \(member.lastName) '\(member.year % 2000)").font(.title4).fontWeight(.semibold)
-					Text("\(member.role)").font(.title6).fontWeight(.regular)
+		if let crewMembers = context.decode(resource: "crew.json", as: [CrewMember].self) {
+			Section {
+				for member in crewMembers.sorted(by: < ) {
+					Card {
+						Text(markdown: member.summary)
+					} header: {
+						Image("/images/crew/\(member.lastName.lowercased())\(member.firstName).png", description: "Photo of crew member \(member.firstName) \(member.lastName)").class("none").resizable().frame(height: 200)
+						Text("\(member.firstName) \(member.lastName) '\(member.year % 2000)").font(.title4).fontWeight(.semibold)
+						Text("\(member.role)").font(.title6).fontWeight(.regular)
+					}
+					.frame(height: "97.5%")
+					.width(3)
+					.horizontalAlignment(.center)
+					.margin(.bottom)
+					.padding(.horizontal, 5)
 				}
-				.frame(height: "97.5%")
-				.width(3)
-				.horizontalAlignment(.center)
-				.margin(.bottom)
-				.padding(.horizontal, 5)
 			}
 		}
 	}
