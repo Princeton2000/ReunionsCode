@@ -3,7 +3,7 @@ layout: Email
 tags: Honorary Classmates, Sean Wilentz
 image: /images/honoraryClassmates/wilentz.png
 alt: Sean Wilentz h00
-title: Sean Wilentz, Honorary Classmate
+title: Sean Wilentz h00
 link: 
 lastModified: 2025-04-01T12:00:00Z-0400
 published: true

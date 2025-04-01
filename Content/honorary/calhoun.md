@@ -3,7 +3,7 @@ layout: Email
 tags: Honorary Classmates, Rochelle Calhoun
 image: /images/honoraryClassmates/calhoun.png
 alt: Rochelle Calhoun h00
-title: Rochelle Calhoun, Honorary Classmate
+title: Rochelle Calhoun h00
 link: 
 lastModified: 2025-04-01T12:00:00Z-0400
 published: true

@@ -3,7 +3,7 @@ layout: Email
 tags: Honorary Classmates, Sue Pierson
 image: /images/honoraryClassmates/pierson.png
 alt: Sue Wilusz Pierson, R.D. h60 h67 h71 h74 h78 more
-title: Sue W. Pierson, Honorary Classmate
+title: Sue W. Pierson h00
 link: 
 lastModified: 2025-04-01T12:00:00Z-0400
 published: true

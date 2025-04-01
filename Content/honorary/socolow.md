@@ -3,7 +3,7 @@ layout: Email
 tags: Honorary Classmates, Robert Socolow
 image: /images/honoraryClassmates/socolow.png
 alt: Robert Socolow h00
-title: Robert Socolow, Honorary Classmate
+title: Robert Socolow h00
 link: 
 lastModified: 2025-04-01T12:00:00Z-0400
 published: true

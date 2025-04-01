@@ -3,7 +3,7 @@ layout: Email
 tags: Honorary Classmates, Carla Berube
 image: /images/honoraryClassmates/berube.png
 alt: Carla Berube h00
-title: Carla Berube, Honorary Classmate
+title: Carla Berube h00
 link: 
 lastModified: 2025-04-01T12:00:00Z-0400
 published: true

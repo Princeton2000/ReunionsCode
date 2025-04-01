@@ -9,7 +9,7 @@ import Foundation
 import Ignite
 
 struct BidEveryCareWithdraw: StaticPage {
-	var title = "theme"
+	var title = "Bid Every Care Withdraw"
 	var description: String = "Learn about our theme: Bid Every Care Withdraw"
 	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
 	

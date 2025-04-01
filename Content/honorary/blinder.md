@@ -3,7 +3,7 @@ layout: Email
 tags: Honorary Classmates, Alan Blinder
 image: /images/honoraryClassmates/blinder.png
 alt: Alan Blinder h00
-title: Alan Blinder '67, Honorary Classmate
+title: Alan Blinder '67 h00
 link: 
 lastModified: 2025-04-01T12:00:00Z-0400
 published: true

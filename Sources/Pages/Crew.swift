@@ -9,7 +9,7 @@ import Foundation
 import Ignite
 
 struct Crew: StaticPage {
-	var title = "Crew"
+	var title = "Meet our Crew"
 	var description: String = "Our Outstanding Reunions Crew"
 	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
 

@@ -3,7 +3,7 @@ layout: Email
 tags: Honorary Classmates, Ted Borer
 image: /images/honoraryClassmates/borer.png
 alt: Ted Borer h00
-title: Ted Borer, Honorary Classmate
+title: Ted Borer h00
 link: 
 lastModified: 2025-04-01T12:00:00Z-0400
 published: true

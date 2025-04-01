@@ -3,7 +3,7 @@ layout: Email
 tags: Honorary Classmates, Tom Dunne
 image: /images/honoraryClassmates/dunne.png
 alt: Tom Dunne h00
-title: Tom Dunne, Honorary Classmate
+title: Tom Dunne h00
 link: 
 lastModified: 2025-04-01T12:00:00Z-0400
 published: true

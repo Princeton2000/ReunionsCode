@@ -2,7 +2,7 @@ import Foundation
 import Ignite
 
 struct Home: StaticPage {
-    var title = "Home"
+    var title = "P2000 – Reunions 2025"
 	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
 
     func body(context: PublishingContext) -> [BlockElement] {

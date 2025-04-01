@@ -15,6 +15,12 @@ struct Prade: StaticPage {
 		for content in context.content(ofType: "p-rade") {
 			Text(content.body)
 		}
+		Text {
+			Link("The Locomotive", target: "https://princetoniana.princeton.edu/traditions/current/cheers")
+		}
+		Text {
+			Link("The P-Rade", target: "https://alumni.princeton.edu/stories/reunions-history-princeton-p-rade")
+		}
 		
 		Include("appleMusicEmbed.html")
 	}

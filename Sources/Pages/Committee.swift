@@ -9,7 +9,7 @@ import Foundation
 import Ignite
 
 struct Committee: StaticPage {
-	var title = "Committee"
+	var title = "2025 Reunions Committee"
 	var description: String = "Your incredible Reunions Committee"
 	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
 

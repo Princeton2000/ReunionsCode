@@ -3,7 +3,7 @@ layout: Email
 tags: Honorary Classmates, Mibs Southerland
 image: /images/honoraryClassmates/southerland.png
 alt: Mibs Southerland S83 P16 h59 h62 h66 h00 more
-title: Mibs Southerland, Honorary Classmate
+title: Mibs Southerland h00
 link: 
 lastModified: 2025-04-01T12:00:00Z-0400
 published: true

@@ -9,7 +9,7 @@ import Foundation
 import Ignite
 
 struct faq: StaticPage {
-	var title = "faq"
+	var title = "Reunions FAQ"
 	var description: String = "Frequently Asked Questions about the 25th Reunion"
 	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
 	

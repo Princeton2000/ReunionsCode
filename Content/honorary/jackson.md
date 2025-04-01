@@ -3,7 +3,7 @@ layout: Email
 tags: Honorary Classmates, Lisa P. Jackson
 image: /images/honoraryClassmates/jackson.png
 alt: Lisa P. Jackson *86 h00
-title: Lisa P. Jackson *86, Honorary Classmate
+title: Lisa P. Jackson *86 h00
 link: 
 lastModified: 2025-04-01T12:00:00Z-0400
 published: true
