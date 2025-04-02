@@ -32,6 +32,26 @@ struct Home: StaticPage {
 					.font(.title3)
 					.fontWeight(.semibold)
 					.padding(.top)
+//				Table {
+//					for content in context
+//						.content(ofType: "letters")
+//						.sorted(by: {
+//							getDate($0.metadata["lastModified"] as? String ?? "") >
+//							getDate($1.metadata["lastModified"] as? String ?? "")
+//									}
+//						)[0...7] {
+//						Row {
+//							Image(content.image ?? image!, description: content.imageDescription).resizable().frame(maxWidth: 200, maxHeight: 100, alignment: .leading)
+//							Text {
+//								Link("\(content.metadata["title"] as! String)",
+//									 target: content.path)
+//								.target(.newWindow)
+//								.relationship(.noOpener, .noReferrer)
+//							}
+//							Text("\(formatDate(content.metadata["lastModified"] as? String ?? "", .short, .short))")
+//						}
+//					}
+//				}
 				for content in context
 					.content(ofType: "letters")
 					.sorted(by: {
