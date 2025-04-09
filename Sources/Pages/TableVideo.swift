@@ -9,7 +9,7 @@ import Foundation
 import Ignite
 
 struct TableVideo: StaticPage {
-	var title = "Video Page Test"
+	var title = "Keep It Fun"
 
 	func body(context: PublishingContext) -> [BlockElement] {
 		Image("/images/banners_adam.jpg", description: "Pally").resizable()

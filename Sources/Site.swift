@@ -60,7 +60,7 @@ struct Princeton2000: Site {
 		Gear()
 		Merch()
 		Prade()
-//		TableVideo()
+		TableVideo()
 		BidEveryCareWithdraw()
 		HonoraryClassmates()
 		Colophon()

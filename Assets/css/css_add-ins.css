@@ -246,7 +246,8 @@
 
 body {
   font: 0.875rem/1.15 "Libre Franklin";
-  line-height: 1.15rem
+  line-height: 1.15rem;
+  text-wrap: pretty;
 }
 
 .tayLennon {
