@@ -17,7 +17,7 @@ struct Schedule: StaticPage {
 		Alert {
 			Text(markdown: "**PLEASE NOTE:** This is just an indicative schedule, based off the '98s and '99s recent weekends. Come back frequently as we fill in details!").fontWeight(.semibold).horizontalAlignment(.center)
 		}.role(.info)
-		if let events = context.decode(resource: "events_real.json", as: [Event].self)?.sorted(by: { $0.startDate < $1.startDate }) {
+		if let events = context.decode(resource: "events.json", as: [Event].self)?.sorted(by: { $0.startDate < $1.startDate }) {
 			for day in dayBlurbs {
 				dailyBlock(events.filter({ $0.published == true }), dayNumber: day.0, blurb: day.1)
 			}

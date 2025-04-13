@@ -90,9 +90,18 @@
 		"published":  true
 	},
 	{
-		"name": "Class DJs",
+		"name": "Have Fun. Don't Die.",
 		"type": "Entertainment",
 		"startDateString": "2025-05-22T21:00:00-0400",
+		"endDateString": "2025-05-22T23:00:00-0400",
+		"primaryLocation": "25th HQ",
+		"placeID": "I937319645B09B29D",
+		"published":  true
+	},
+	{
+		"name": "DJ2000",
+		"type": "Entertainment",
+		"startDateString": "2025-05-22T23:00:00-0400",
 		"endDateString": "2025-05-23T01:00:00-0400",
 		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
@@ -117,13 +126,58 @@
 		"endDateString": "2025-05-23T10:30:00-0400"
 	},
 	{
-		"startDateString": "2025-05-23T10:30:00-0400",
-		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
+		"startDateString": "2025-05-24T10:30:00-0400",
+		"endDateString": "2025-05-24T11:45:00-0400",
+		"name": "Money in the Game: The New Business of College Sports – Moderated by John Mack '00",
 		"type": "Alumni-Faculty Forum",
 		"published":  true,
-		"primaryLocation": "East Pyne 100",
-		"placeID": "I1DA3E648A16DC2DB",
-		"endDateString": "2025-05-23T11:30:00-0400"
+		"primaryLocation": "Robertson Hall, Arthur Lewis Auditorium",
+		"placeID": ""
+	},
+	{
+		"startDateString": "2025-05-23T14:00:00-0400",
+		"endDateString": "2025-05-23T15:15:00-0400",
+		"name": "You're Doing What Now?: Stories of Career Transformation and Growth – Featuring Kristen Leone '00",
+		"type": "Alumni-Faculty Forum",
+		"published":  true,
+		"primaryLocation": "Thomas Auditorium 003",
+		"placeID": ""
+	},
+	{
+		"startDateString": "2025-05-24T10:30:00-0400",
+		"endDateString": "2025-05-24T11:45:00-0400",
+		"name": "Campus as a Catalyst: Student Activism and Social Change – Moderated by Regan Crotty '00",
+		"type": "Alumni-Faculty Forum",
+		"published":  true,
+		"primaryLocation": "Thomas Auditorium 003",
+		"placeID": "",
+	},
+	{
+		"startDateString": "2025-05-23T15:45:00-0400",
+		"endDateString": "2025-05-23T17:00:00-0400",
+		"name": "Beyond the Verdict: What Supreme Court Rulings on Affirmative Action Mean for College Access – Featuring Jen Jennings '00",
+		"type": "Alumni-Faculty Forum",
+		"published":  true,
+		"primaryLocation": "McCosh 50",
+		"placeID": "",
+	},
+	{
+		"startDateString": "2025-05-23T08:45:00-0400",
+		"endDateString": "2025-05-23T10:00:00-0400",
+		"name": "High Stakes: The Legal, Medical and Social Implications of Drugs in America – Featuring Nab Dasgupta '00",
+		"type": "Alumni-Faculty Forum",
+		"published":  true,
+		"primaryLocation": "McCosh 50",
+		"placeID": "",
+	},
+	{
+		"startDateString": "2025-05-24T10:30:00-0400",
+		"endDateString": "2025-05-24T11:45:00-0400",
+		"name": "The Future of War and Peace: Challenges, Risks and Opportunities for Global Stability – Featuring Susan Farbstein '00",
+		"type": "Alumni-Faculty Forum",
+		"published":  true,
+		"primaryLocation": "McCosh 50",
+		"placeID": "",
 	},
 	{
 		"name": "American Classical Orchestra Presents: Peter and the Wolf",
@@ -142,24 +196,6 @@
 		"published": false
 	},
 	{
-		"startDateString": "2025-05-23T11:00:00-0400",
-		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
-		"type": "Alumni-Faculty Forum",
-		"published":  true,
-		"primaryLocation": "McCosh 10",
-		"placeID": "I25D019DD5E734921",
-		"endDateString": "2025-05-23T12:00:00-0400"
-	},
-	{
-		"startDateString": "2025-05-23T11:30:00-0400",
-		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
-		"type": "Alumni-Faculty Forum",
-		"published":  true,
-		"primaryLocation": "McCosh 50",
-		"placeID": "I25D019DD5E734921",
-		"endDateString": "2025-05-23T12:30:00-0400"
-	},
-	{
 		"startDateString": "2025-05-23T12:00:00-0400",
 		"name": "Lunch",
 		"type": "Food & Drink",
@@ -169,10 +205,10 @@
 		"endDateString": "2025-05-23T14:00:00-0400"
 	},
 	{
-		"name": "A Capella Set TBD",
+		"name": "Tigressions",
 		"placeID": "I937319645B09B29D",
-		"startDateString": "2025-05-23T12:15:00-0400",
-		"endDateString": "2025-05-23T12:30:00-0400",
+		"startDateString": "2025-05-23T16:15:00-0400",
+		"endDateString": "2025-05-23T16:30:00-0400",
 		"type": "Entertainment",
 		"published":  true,
 		"primaryLocation": "25th HQ"
@@ -185,24 +221,6 @@
 		"startDateString": "2025-05-23T14:00:00-0400",
 		"published":  true,
 		"primaryLocation": "25th HQ"
-	},
-	{
-		"startDateString": "2025-05-23T15:45:00-0400",
-		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
-		"type": "Alumni-Faculty Forum",
-		"published":  true,
-		"primaryLocation": "McCosh 10",
-		"placeID": "I25D019DD5E734921",
-		"endDateString": "2025-05-23T17:00:00-0400"
-	},
-	{
-		"startDateString": "2025-05-23T15:45:00-0400",
-		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
-		"type": "Alumni-Faculty Forum",
-		"published":  true,
-		"primaryLocation": "McCosh 10",
-		"placeID": "I25D019DD5E734921",
-		"endDateString": "2025-05-23T17:00:00-0400"
 	},
 	{
 		"name": "Fal-Rooney Camp",
@@ -243,7 +261,7 @@
 	{
 		"name": "Fresh Kids of Bel-Air",
 		"placeID": "I937319645B09B29D",
-		"startDateString": "2025-05-23T21:00:00-0400",
+		"startDateString": "2025-05-23T21:30:00-0400",
 		"endDateString": "2025-05-23T23:30:00-0400",
 		"type": "Entertainment",
 		"published":  true,
@@ -254,7 +272,7 @@
 		"published":  true,
 		"primaryLocation": "25th HQ",
 		"startDateString": "2025-05-23T23:30:00-0400",
-		"endDateString": "2025-05-24T02:00:00-0400",
+		"endDateString": "2025-05-24T01:30:00-0400",
 		"type": "Entertainment",
 		"placeID": "I937319645B09B29D"
 	},
@@ -307,14 +325,14 @@
 		"name": "Class Brunch",
 		"type": "Food & Drink",
 		"startDateString": "2025-05-24T11:00:00-0400",
-		"endDateString": "2025-05-24T12:45:00-0400",
+		"endDateString": "2025-05-24T12:30:00-0400",
 		"published":  true,
 		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D"
 		
 	},
 	{
-		"name": "A Capella Set TBD",
+		"name": "Wildcats",
 		"placeID": "I937319645B09B29D",
 		"startDateString": "2025-05-24T12:30:00-0400",
 		"endDateString": "2025-05-24T12:45:00-0400",
@@ -322,7 +340,6 @@
 		"published":  true,
 		"primaryLocation": "25th HQ"
 	},
-
 	{
 		"name": "Class Photo",
 		"type": "Class Alumni",
@@ -353,8 +370,8 @@
 	{
 		"name": "Post-P-Rade Performance: Let's Sing Taylor Swift!",
 		"type": "Entertainment",
-		"startDateString": "2025-05-24T16:30:00-0400",
-		"endDateString": "2025-05-24T18:30:00-0400",
+		"startDateString": "2025-05-24T17:15:00-0400",
+		"endDateString": "2025-05-24T18:50:00-0400",
 		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
 		"published":  true
@@ -387,12 +404,12 @@
 		"primaryLocation": "Princeton Stadium"
 	},
 	{
-		"name": "Band: The Band",
+		"name": "Midtown Express",
 		"type": "Entertainment",
 		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
-		"startDateString": "2025-05-24T21:30:00-0400",
-		"endDateString": "2025-05-24T23:45:00-0400",
+		"startDateString": "2025-05-24T22:00:00-0400",
+		"endDateString": "2025-05-25T23:55:00-0400",
 		"published":  true
 	},
 	{
@@ -409,7 +426,7 @@
 		"type": "Entertainment",
 		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",
-		"startDateString": "2025-05-25T00:00:00-0400",
+		"startDateString": "2025-05-24T23:55:00-0400",
 		"endDateString": "2025-05-25T02:00:00-0400",
 		"published":  true
 	},
