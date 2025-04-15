@@ -286,42 +286,6 @@
 		"endDateString": "2025-05-23T23:30:00-0400"
 	},
 	{
-		"startDateString": "2025-05-24T10:30:00-0400",
-		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
-		"type": "Alumni-Faculty Forum",
-		"published":  true,
-		"primaryLocation": "East Pyne 010",
-		"placeID": "I1DA3E648A16DC2DB",
-		"endDateString": "2025-05-24T11:45:00-0400"
-	},
-	{
-		"startDateString": "2025-05-24T10:30:00-0400",
-		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
-		"type": "Alumni-Faculty Forum",
-		"published":  true,
-		"primaryLocation": "East Pyne 100",
-		"placeID": "I1DA3E648A16DC2DB",
-		"endDateString": "2025-05-24T11:45:00-0400"
-	},
-	{
-		"startDateString": "2025-05-24T11:00:00-0400",
-		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
-		"type": "Alumni-Faculty Forum",
-		"published":  true,
-		"primaryLocation": "McCosh 10",
-		"placeID": "I25D019DD5E734921",
-		"endDateString": "2025-05-23T12:00:00-0400"
-	},
-	{
-		"startDateString": "2025-05-24T11:30:00-0400",
-		"name": "Alumni-Faculty Forum – Featuring Tiger '00",
-		"type": "Alumni-Faculty Forum",
-		"published":  true,
-		"primaryLocation": "McCosh 50",
-		"placeID": "I25D019DD5E734921",
-		"endDateString": "2025-05-23T12:30:00-0400"
-	},
-	{
 		"name": "Class Brunch",
 		"type": "Food & Drink",
 		"startDateString": "2025-05-24T11:00:00-0400",
@@ -422,7 +386,7 @@
 		"endDateString": "2025-05-24T23:00:00-0400"
 	},
 	{
-		"name": "DJ BOB",
+		"name": "DJ Keith Nix",
 		"type": "Entertainment",
 		"primaryLocation": "25th HQ",
 		"placeID": "I937319645B09B29D",

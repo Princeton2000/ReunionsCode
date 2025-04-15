@@ -5,9 +5,7 @@ question: What are my options if I don't get on-campus housing?
 lastModified: 2024-07-19
 published: true
 ---
-- Hundreds of classmates will enter the lottery, and typically, twice as many people apply as there were beds allocated to our class by the University. Supply exceeded demand, and housing prices are fixed by the University.
-
-- We are investigating housing options at Rider University in Lawrenceville to help those who did not get housing through the lottery. The pricing is slightly different than Princeton University pricing, but still much more affordable than hotels. Rider has air conditioning, linen rental will be included, and it is on the shuttle route. Those who do not get on-campus housing need to indicate interest in Rider by the specified response deadline, and a survey link will be provided in an email.
+- The class has arranged for a number of rooms at Rider University in Lawrenceville for classmates who are still need for reunions housing.  The available beds are single bedroom dormitory accommodations within a 3-4 room suite with a common suite entrance, shared sitting area and bathroom.  Rider has air conditioning, linen rental is included, and is on the reunions shuttle route.   The pricing is slightly different than Princeton University on-campus pricing, but still much more affordable than hotels.  If interested in Rider housing, please reach out to [p2000.housing@gmail.com](p2000.housing@gmail.com).  Rider beds are available on a first-come first-serve basis through Friday, April 25 only.
 
 - You can also consider local hotels that might still have room block availability from the [hotels list](https://docs.google.com/spreadsheets/d/1chWYFV69EQlY-L3wMB8wqE0hravAz8YuFYw_Y0W5qkk/edit?gid=0#gid=0) that we created this past summer.
 
