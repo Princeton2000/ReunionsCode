@@ -358,3 +358,7 @@ b, strong {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+
+*, ::before {
+	line-height: 1.15em;
+}
