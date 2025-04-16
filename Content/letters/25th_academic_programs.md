@@ -14,11 +14,6 @@ published: true
 - Millennial Lecture Series
 - Class Offer - Blenders Discount
 
-_Up Next:_
-- Fashion - What to wear
-- Entertainment
-- Food and Beverage
-
 
 2000! We’re getting really close to Reunions…36 Days! As we all know, Reunions is more than tents and parades. We’ve got some really stimulating panels and lectures on tap and I wanted to highlight them for you!
 
@@ -77,12 +72,13 @@ _The Princeton Millennium Project was launched in 1998 by **Mike Bosworth** with
 
 
 - _Patriotism Versus Profit: Doing Business Amid Rising US-China Tensions._<br>
-	Moderated by **Raj Shah '00**<br>
+	Moderated by **Jill Goldenziel**<br>
 	Featuring:<br>
 		- Former Chairman of the Joint Chiefs of Staff, **[Gen. Mark Milley ’80 h00](https://reunions.princeton2000.org/honorary/milley/)**<br>
+		- **Raj Shah '00**, Principal, Shield Capital<br>
+		- **Chris Johnson '00**, Vice President of the F135 Program at Pratt & Whitney<br>
 		- Congressman **Raja Krishnamoorthi '95**, Ranking Member of the House Select Committee on Strategic Competition with the Chinese Communist Party<br>
 		- Former Congressman **Mike Gallagher '06**, former Chairman of the same committee and current head of Defense at Palantir<br>
-		- **Chris Johnson '00**, Vice President of the F135 Program at Pratt & Whitney<br>
 	Saturday, May 24, 10:30 - 11:45am, [Frist 302](https://campusmap.princeton.edu/poi/193/frist-campus-center)
 
 **Blenders**<br>
@@ -101,6 +97,7 @@ Go Tigers,<br>
 CEO, Blenders Eyewear<br>
 🐯
 ￼
+
 **Upcoming Emails**
 
 Reunions can be a blur, so we're trying to give you as much information as we can so that you can plan ahead and feel like you've made the most of what always feels like too little time. We've got some fun emails to come over the next few weeks, including a **what-to-wear guide** from our Costumes chairs, a **Food & Beverage update** (Did we say **4** signature cocktails, anyone?), and a preview of our entertainment (we're blowing it out, btw)
