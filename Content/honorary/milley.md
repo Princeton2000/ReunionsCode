@@ -2,8 +2,8 @@
 layout: Email
 tags: Honorary Classmates, Mark Milley
 image: /images/honoraryClassmates/milley.png
-alt: Gen. Mark A. Milley '80 h64 h00 H24
-title: Gen. Mark A. Milley '80 h00
+alt: Gen. Mark A. Milley (ret.) '80 h64 h00 H24
+title: Gen. Mark A. Milley (ret.) '80 h00
 link: 
 lastModified: 2025-04-01T12:00:00Z-0400
 published: true
