@@ -72,9 +72,9 @@ _The Princeton Millennium Project was launched in 1998 by **Mike Bosworth** with
 
 
 - _Patriotism Versus Profit: Doing Business Amid Rising US-China Tensions._<br>
-	Moderated by **Jill Goldenziel**<br>
+	Moderated by **Jill Goldenziel '00**<br>
 	Featuring:<br>
-		- Former Chairman of the Joint Chiefs of Staff, **[Gen. Mark Milley ’80 h00](https://reunions.princeton2000.org/honorary/milley/)**<br>
+		- Former Chairman of the Joint Chiefs of Staff, **[Gen. Mark Milley (ret.) ’80 h00](https://reunions.princeton2000.org/honorary/milley/)**<br>
 		- **Raj Shah '00**, Principal, Shield Capital<br>
 		- **Chris Johnson '00**, Vice President of the F135 Program at Pratt & Whitney<br>
 		- Congressman **Raja Krishnamoorthi '95**, Ranking Member of the House Select Committee on Strategic Competition with the Chinese Communist Party<br>
