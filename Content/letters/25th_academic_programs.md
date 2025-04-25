@@ -76,7 +76,7 @@ _The Princeton Millennium Project was launched in 1998 by **Mike Bosworth** with
 	Featuring:<br>
 		- Former Chairman of the Joint Chiefs of Staff, **[Gen. Mark Milley (ret.) ’80 h00](https://reunions.princeton2000.org/honorary/milley/)**<br>
 		- **Raj Shah '00**, Principal, Shield Capital<br>
-		- **Chris Johnson '00**, Vice President of the F135 Program at Pratt & Whitney<br>
+		- **Chris Johnson '00**, Vice President, F135 Program, Pratt & Whitney<br>
 		- Congressman **Raja Krishnamoorthi '95**, Ranking Member of the House Select Committee on Strategic Competition with the Chinese Communist Party<br>
 		- Former Congressman **Mike Gallagher '06**, former Chairman of the same committee and current head of Defense at Palantir<br>
 	Saturday, May 24, 10:30 - 11:45am, [Frist 302](https://campusmap.princeton.edu/poi/193/frist-campus-center)
