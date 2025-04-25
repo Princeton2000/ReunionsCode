@@ -72,7 +72,7 @@ _The Princeton Millennium Project was launched in 1998 by **Mike Bosworth** with
 
 
 - _Patriotism Versus Profit: Doing Business Amid Rising US-China Tensions._<br>
-	Moderated by **Jill Goldenziel '00**<br>
+	Moderated by **Jill Goldenziel '00**, Professor, National Defense University<br>
 	Featuring:<br>
 		- Former Chairman of the Joint Chiefs of Staff, **[Gen. Mark Milley (ret.) ’80 h00](https://reunions.princeton2000.org/honorary/milley/)**<br>
 		- **Raj Shah '00**, Principal, Shield Capital<br>
