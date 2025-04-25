@@ -4,11 +4,9 @@ type: faq
 question: What transportation will be available on-campus?
 lastModified: 2024-07-19
 ---
-- **Rovers** — clearly marked, student-driven golf carts that serve as a mini transit connection on the core of campus — will operate throughout Reunions, Thursday through Saturday night.
+- ADA-accessible TigerTransit buses will operate continuously on the perimeter of campus during Reunions.
 
-- Rovers are intended for alumni and guests with personal mobility limitations, the Old Guard, and families with young children.
-
-- Rovers will provide frequent service to the Theater Drive Garage and lot P20, the transit plaza, hotel shuttles, Forbes, and Reunions headquarters sites along Elm Drive and Chapel Drive.
+- Replacing the limited Rover golf-cart service, new trolley service with designated stops will provide rides along Elm Drive to Chapel Circle, from noon-1 a.m. on Thursday, and from 8-1 a.m. Friday and Saturday. (Due to the P-rade, trolley service on Elm Drive will be suspended from approximately 10 a.m.-6 p.m. on Saturday.) The trolleys are wheelchair-accessible, air-conditioned and can accommodate up to 38 guests.
 
 - In addition, the University’s new fleet of **electric shuttles** will loop the perimeter of campus, including the new Stadium Drive Garage and Lot 20 parking at the bottom of campus.
 

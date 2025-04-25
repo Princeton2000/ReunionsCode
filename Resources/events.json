@@ -196,6 +196,22 @@
 		"published": false
 	},
 	{
+		"name": "Artist's Reception: Mañana Never Comes: Alumni Artists Contemplate the Passing of Time",
+		"type": "Lecture/Seminar",
+		"startDateString": "2025-05-23T13:00:00-0400",
+		"endDateString": "2025-05-23T14:00:00-0400",
+		"primaryLocation": "Richardson Auditorium",
+		"placeID": "",
+		"contingencyLocation": "Lewis Center for the Arts - CoLab Gallery",
+		"contingencyLocationID": "",
+		"eventSummary": "Featuring Martha Russo '85, Mark Sheinkman '85, Kalliopi Monoyios '00, and Jon Levy-Warren '05",
+		"description": "This exhibit ties together the work of four alumni artists celebrating milestone reunions in a meditation on time. It explores how we can make sense of the passing of time despite being perpetually locked in the present moment. \”Live it up, mañana never comes.\” —Betye Saar",
+		"organizer": "Class of 2000",
+		"ticketed": true,
+		"link": "",
+		"published": false
+	},
+	{
 		"startDateString": "2025-05-23T12:00:00-0400",
 		"name": "Lunch",
 		"type": "Food & Drink",

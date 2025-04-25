@@ -12,9 +12,14 @@ func dailyBlock(_ events: [Event], dayNumber: Int, blurb: String) -> Group {
 	let d = DateFormatter()
 	d.dateFormat = "cccc"
 	let date = DateComponents(calendar: .current, timeZone: .current, weekday: dayNumber).date!
-	guard !events.isEmpty else { print("Events empty for day \(dayNumber)"); return Group {} }
+	guard !events.isEmpty else { print("No events scheduled for \(d.string(from: date))"); return Group {} }
 	return Group {
-		Text("\(d.string(from: date))").padding([.leading, .vertical]).font(.title2).fontWeight(.semibold).background(.princetonOrange).margin(.none)
+		Text("\(d.string(from: date))")
+			.padding([.leading, .vertical])
+			.font(.title2)
+			.fontWeight(.semibold)
+			.background(.princetonOrange)
+			.margin(.none)
 		Text("\(blurb)").padding()
 		Table {
 			for row in eventRow(events, day: dayNumber) {
