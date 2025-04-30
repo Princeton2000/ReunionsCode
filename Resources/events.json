@@ -770,4 +770,31 @@
 		"type": "Children's Activity",
 		"placeID": "I937319645B09B29D"
 	},
+	{
+		"startDateString": "2025-05-24T09:15:00-0400",
+		"endDateString": "2025-05-24T10:15:00-0400",
+		"name": "Princeton Class of 2000 Millennial Lecture Series: ECO 101: Then and Now - featuring Prof. Alan Blinder h00",
+		"type": "Lecture/Seminar",
+		"published":  true,
+		"primaryLocation": "Frist 302",
+		"placeID": ""
+	},
+	{
+		"startDateString": "2025-05-23T10:30:00-0400",
+		"endDateString": "2025-05-23T11:30:00-0400",
+		"name": "Princeton Class of 2000 Millennial Lecture Series: Democracy in America 2025 - Featuring Prof. Sean Wilenz h'00",
+		"type": "Lecture/Seminar",
+		"published":  true,
+		"primaryLocation": "Frist 301",
+		"placeID": ""
+	},
+	{
+		"startDateString": "2025-05-24T10:30:00-0400",
+		"endDateString": "2025-05-24T11:30:00-0400",
+		"name": "Princeton Class of 2000 Millennial Lecture Series: Doing business amid rising US-China tensions Panel Discussion featuring Raj Shah '00, Mark Milley '80 h'00, Raja Krishnamoorthi '95, Chris Johnson '00, moderated by Jill Goldenziel '00",
+		"type": "Lecture/Seminar",
+		"published":  true,
+		"primaryLocation": "Frist 302",
+		"placeID": "",
+	},
 ]
