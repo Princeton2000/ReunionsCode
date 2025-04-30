@@ -71,7 +71,6 @@
 		var ticketed: Bool?
 		var link: String?
 		var published: Bool
-		
 
 		var startDate: Date { let df = ISO8601DateFormatter(); df.formatOptions = [.withFullDate, .withFullTime]; return df.date(from: startDateString) ?? df.date(from: "2020-01-01T00:00:00Z")! }
 		var startComponents: DateComponents { return Calendar.current.dateComponents([.year, .month, .day, .weekday, .hour, .minute], from: startDate) }

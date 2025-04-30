@@ -13,6 +13,7 @@ func dailyBlock(_ events: [Event], dayNumber: Int, blurb: String) -> Group {
 	d.dateFormat = "cccc"
 	let date = DateComponents(calendar: .current, timeZone: .current, weekday: dayNumber).date!
 	guard !events.isEmpty else { print("No events scheduled for \(d.string(from: date))"); return Group {} }
+	print("getting events for \(dayNumber): \(events.filter({$0.startComponents.weekday == dayNumber}).count)")
 	return Group {
 		Text("\(d.string(from: date))")
 			.padding([.leading, .vertical])

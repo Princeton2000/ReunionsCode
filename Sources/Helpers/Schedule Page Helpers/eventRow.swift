@@ -40,13 +40,13 @@ import Ignite
 func eventRow(_ events: [Event], day value: Int) -> [Row] {
 	var rows: [Row] = []
 	for event in events.filter({$0.startComponents.weekday == value}) {
+		print(event.description)
 		let row =
 			Row {
-//				Image(systemName: eventTypeIcon(event.type).0).foregroundStyle(.princetonOrange)
 				Text("\(eventTypeIcon(event.type).1)").horizontalAlignment(.center)
 				Text(event.eventStartEnd)/*.frame(width: 160, alignment: .leading)*/
-				Text(event.name)/*.fontWeight(.medium).frame(width: 200, alignment: .leading)*/
-				Text(event.primaryLocation)/*.frame(width: 200, alignment: .leading)*/
+				Text(event.name).fontWeight(.medium).frame(width: 200, alignment: .leading)
+				Link(Text(event.primaryLocation), target: event.primaryLocationID!).target(.newWindow)
 			}
 		rows.append(row)
 		}
