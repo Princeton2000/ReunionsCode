@@ -64,8 +64,9 @@
 		var primaryLocationID: String?
 		var contingencyLocation: String?
 		var contingencyLocationID: String?
-		var eventSummary: String?
-		var description: String {
+		var eventSummary: String
+		var description: String
+		var fullDescription: String {
 			return "\(type.rawValue)\t\t\(runTime)\t\t\(name)\t\t\(primaryLocation)"}
 		var organizer: String?
 		var ticketed: Bool?
