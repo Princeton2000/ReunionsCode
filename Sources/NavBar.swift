@@ -50,6 +50,8 @@ public struct NavBar: Component {
 			Link(Text("Theme").foregroundStyle(.princetonOrange), target: BidEveryCareWithdraw())
 			Link(Text("Jacket").foregroundStyle(.princetonOrange), target: Jacket())
 			Link(Text("Merch").foregroundStyle(.princetonOrange), target: "https://princeton.reunioniq.com/shop/classof00")
+			Link(Text("Service").foregroundStyle(.princetonOrange), target: "https://www.letherplay.org/princeton-reunions-2025")
+//			Link(Text("P-rade").foregroundStyle(.princetonOrange), target: Prade())
 			Link(Text("Crew").foregroundStyle(.princetonOrange), target: Crew())
 			Dropdown("Class Info"){
 				Link(Text("Committee").margin(.bottom, 0).foregroundStyle(.princetonOrange), target: Committee())
@@ -58,6 +60,7 @@ public struct NavBar: Component {
 				Link(Text("Honorary Classmates").margin(.bottom, 0).foregroundStyle(.princetonOrange), target: HonoraryClassmates())
 				Link(Text("Dues").margin(.bottom, 0).foregroundStyle(.princetonOrange), target: Dues())
 				Link(Text("Constitution").margin(.bottom, 0).foregroundStyle(.princetonOrange), target: Constitution())
+				
 			}
 			.role(.secondary).dropdownSize(.large)
 //			Link(Text("Notes").foregroundStyle(.princetonOrange), target: Notes())
