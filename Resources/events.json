@@ -136,7 +136,7 @@
 		"primaryLocationID": "https://campusmap.princeton.edu/poi/803/whitman-college",
 		"contingencyLocation": "Whitman College",
 		"contingencyLocationID": "https://campusmap.princeton.edu/poi/803/whitman-college",
-		"eventSummary": "At the 25th, <strong>EVERYONE</strong> is on the dance floor! Enjoy a special, kid-friendly hour to get the whole gang in on the Reunions spirit.",
+		"eventSummary": "At the 25th, EVERYONE is on the dance floor! Enjoy a special, kid-friendly hour to get the whole gang in on the Reunions spirit.",
 		"description": "",
 		"organizer": "Justin Purnell",
 		"ticketed": false,
@@ -337,7 +337,7 @@
 	},
 	{
 		"name": "Art for All Ages",
-		"type": "Featured Event",
+		"type": "Children's Activity",
 		"startDateString": "2025-05-23T10:00:00-0400",
 		"endDateString": "2025-05-23T11:00:00-0400",
 		"primaryLocation": "Wallace Theater",
