@@ -29,6 +29,7 @@ public enum LinkSource: String, Codable {
 	case spotify = "Spotify"
 	case amazonMusic = "Amazon Music"
 	case appleTV = "Apple TV"
+	case paramountPlus = "Paramount Plus"
 	case vimeo = "Vimeo"
 	case youtube = "YouTube"
 	case primeVideo = "Prime Video"
@@ -57,6 +58,7 @@ public let libraryLinkList: [LibraryLinkImages] = [
 	LibraryLinkImages(source: .spotify, logoImage: "/images/library/Spotify_logo_with_text.svg"),
 	LibraryLinkImages(source: .amazonMusic, logoImage: "/images/library/AmazonMusicLogo.svg"),
 	LibraryLinkImages(source: .appleTV, logoImage: "/images/library/Apple_TV_logo.svg"),
+	LibraryLinkImages(source: .paramountPlus, logoImage: "/images/library/ParamountPlus_logo.svg"),
 	LibraryLinkImages(source: .vimeo, logoImage: "/images/library/Vimeo_Logo.svg"),
 	LibraryLinkImages(source: .youtube, logoImage: "/images/library/YouTube_Logo_2017.svg"),
 	LibraryLinkImages(source: .primeVideo, logoImage: "/images/library/Amazon_Prime_Video_logo.svg"),
