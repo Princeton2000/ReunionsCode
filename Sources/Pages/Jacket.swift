@@ -17,14 +17,15 @@ struct Jacket: StaticPage {
 		.map({"/images/jacket/testSlides/testSlides.\(String(format: "%03d", $0)).png"})
 	
 	func body(context: PublishingContext) -> [BlockElement] {
-			Image("/images/jacket/P2000_jacket_sketch.png", description: "A seersucker-type jacket with wide orange stripes and small black accent stripes. The lining is cream, with the lyrics of Old Nassau, interrupted occasionally with a sketch of the Nassau Hall tiger in profile, and overlid with a large \"'00\" in Princeton Orange")
-			.class("fade-in-image")
-			.resizable()
-			.width(12)
-			Spacer()
-		Text("Here it is! We're so pleased to share this sketch of our 25th Class Jacket.")
-			.fontWeight(.bold)
-			.horizontalAlignment(.center)
+		Embed(title: "Kids' Guide to Reunions", url: "/pdfs/styleGuide.pdf").aspectRatio(.r16x9)
+//			Image("/images/jacket/P2000_jacket_sketch.png", description: "A seersucker-type jacket with wide orange stripes and small black accent stripes. The lining is cream, with the lyrics of Old Nassau, interrupted occasionally with a sketch of the Nassau Hall tiger in profile, and overlid with a large \"'00\" in Princeton Orange")
+//			.class("fade-in-image")
+//			.resizable()
+//			.width(12)
+//			Spacer()
+//		Text("Here it is! We're so pleased to share this sketch of our 25th Class Jacket.")
+//			.fontWeight(.bold)
+//			.horizontalAlignment(.center)
 		Alert {
 					Text {
 						"Orders are now closed, but you will be able to order after Reunions!"

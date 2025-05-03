@@ -42,9 +42,10 @@ func eventRow(_ events: [Event], day value: Int) -> [Row] {
 	for event in events.filter({$0.startComponents.weekday == value}) {
 		let row =
 			Row {
-				Text("\(eventTypeIcon(event.type).1)").horizontalAlignment(.center).hint(text: event.type.rawValue)
-				Text(event.eventStartEnd)/*.frame(width: 160, alignment: .leading)*/
-				Text(event.name).fontWeight(.medium).frame(width: 200, alignment: .leading).hint(text: event.description == "" ? (event.eventSummary == "" ? event.name : event.eventSummary) : event.description)
+				Text("\(eventTypeIcon(event.type).1)").frame(minWidth: 20, maxWidth: 20).horizontalAlignment(.center).hint(text: event.type.rawValue)
+				Text(event.eventStartEnd).frame(minWidth: 120, maxWidth: 120, alignment: .leading)
+				Text(event.name).fontWeight(.medium).frame(minWidth: 200, maxWidth: 800, alignment: .leading)
+					.hint(text: event.description == "" ? (event.eventSummary == "" ? event.name : event.eventSummary) : event.description)
 				Link(Text(event.primaryLocation), target: event.primaryLocationID!).target(.newWindow)
 			}
 		rows.append(row)
