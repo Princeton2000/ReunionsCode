@@ -60,6 +60,7 @@ public struct NavBar: Component {
 				Link(Text("Notes").margin(.bottom, 0).foregroundStyle(.princetonOrange), target: Notes())
 				Link(Text("Library").margin(.bottom, 0).foregroundStyle(.princetonOrange), target: Library())
 				Link(Text("Dues").margin(.bottom, 0).foregroundStyle(.princetonOrange), target: Dues())
+				Link(Text("Donate").margin(.bottom, 0).foregroundStyle(.princetonOrange), target: "https://donate.stripe.com/7sI5n6bgzbsV06seUU")
 				Link(Text("Constitution").margin(.bottom, 0).foregroundStyle(.princetonOrange), target: Constitution())
 				
 			}
