@@ -49,13 +49,6 @@
 		"email": "",
 	},
 	{
-		"chair" : "Ana Samuel",
-		"role" : "Community Service",
-		"priority" : 1,
-		"photo": "",
-		"email": "",
-	},
-	{
 		"chair" : "Mary-Bonner Baker, Kate Elliot, Alex Leigh,<br>Katie Oman, & Alice Teti",
 		"role" : "Costumes",
 		"priority" : 1,
@@ -112,7 +105,7 @@
 		"email": "",
 	},
 	{
-		"chair" : "Cameron Snaith & Nicole Silva",
+		"chair" : "Nicole Silva",
 		"role" : "Programming",
 		"priority" : 1,
 		"photo": "",
@@ -133,7 +126,7 @@
 		"email": "",
 	},
 	{
-		"chair" : "Chris Phelen & Melissa DeMontrond",
+		"chair" : "Mitka Baker & Melissa DeMontrond",
 		"role" : "Student Crew",
 		"priority" : 1,
 		"photo": "",

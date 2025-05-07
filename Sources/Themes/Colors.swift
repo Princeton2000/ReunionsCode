@@ -13,3 +13,4 @@ extension Color {
 	public static let appleMusicRed = Color(hex: "#FF0033")
 	public static let spotifyGreen = Color(hex: "#33CC33")
 }
+
