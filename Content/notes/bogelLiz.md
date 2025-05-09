@@ -2,7 +2,7 @@
 layout: Story
 tags: Class Notes, Elizabeth Bogel
 image: /images/news/bogelLiz.webp
-title: ‘A Compassionate Realist’
+title: Dr. Elizabeth Ryan ’00 is on the front lines battling the opioid epidemic
 link: https://paw.princeton.edu/article/compassionate-realist
 date: 2019-05-05 00:00
 lastModified: 2025-01-31
