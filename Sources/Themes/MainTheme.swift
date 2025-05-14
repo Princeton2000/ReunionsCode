@@ -32,7 +32,7 @@ struct MyTheme: Theme {
 				if deployment() == .production {
 					Alert {
 						Text {
-							Link("Reunions is May 22-25, 2025…Register Now!", target: "https://princeton.reunioniq.com/go/2025/2000")
+							Link("Reunions is May 22-25, 2025. Early Registration ends May 15 – Register Now!", target: "https://princeton.reunioniq.com/go/2025/2000")
 								.target(.newWindow)
 								.relationship(.noOpener, .noReferrer)
 						}
