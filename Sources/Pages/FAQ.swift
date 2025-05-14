@@ -14,12 +14,12 @@ struct faq: StaticPage {
 	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
 	
 	func body(context: PublishingContext) -> [BlockElement] {
-		var allTagLinks = Set(context.content(ofType: "faq").filter({$0.tags[0] != "template"}).sorted(by: {$0.tags[0] < $1.tags[0]}).map({$0.tagLinks(in: context)}))
-		for tag in Set(allTagLinks) {
-			Text {
-				tag
-			}.font(.title6)
-		}
+		var allTagLinks = Array(Set(context.content(ofType: "faq").filter({$0.tags[0] != "template"}).sorted(by: {$0.tags[0] < $1.tags[0]}).flatMap({$0.tagLinks(in: context)}))).sorted(by: <)
+//		for tag in Set(allTagLinks) {
+//			Text {
+//				tag
+//			}.font(.title6)
+//		}
 		Accordion {
 			for content in context.content(ofType: "faq").filter({$0.tags[0] != "template"}).sorted(by: {$0.tags[0] < $1.tags[0]}) {
 				Item(content.metadata["question"] as! InlineElement) {
