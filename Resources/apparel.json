@@ -58,7 +58,7 @@
 		}
 	},
 	{
-		"image": "",
+		"image": "/images/gear/belt.png",
 		"name": "Custom Class Hurrah Ribbon Belt",
 		"priority": 7,
 		"description": "Our custom Hurrah Hurrah Hurrah class ribbon over a nylon webbing to create a D ring style belt.",
@@ -70,7 +70,7 @@
 			}
 	},
 	{
-		"image": "",
+		"image": "/images/gear/hat.png",
 		"name": "Custom Class of 2000 Baseball Cap",
 		"priority": 7,
 		"description": "A white sports hat featuring an orange and white cord detail and a custom patch of a our class tiger head and the words Bid Every Care Withdraw.",
