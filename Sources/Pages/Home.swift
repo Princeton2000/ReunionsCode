@@ -4,16 +4,20 @@ import Ignite
 struct Home: StaticPage {
     var title = "P2000 – Reunions 2025"
 	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
+	var reunionsStartDate = DateComponents(calendar: .autoupdatingCurrent, timeZone: .autoupdatingCurrent, year: 2025, month: 5, day: 22, hour: 12, minute: 0, second: 0)
+	var reunionsEndDate = DateComponents(calendar: .autoupdatingCurrent, timeZone: .autoupdatingCurrent, year: 2025, month: 5, day: 24, hour: 10, minute: 0, second: 0)
 
     func body(context: PublishingContext) -> [BlockElement] {
-		Section {
-			Group {
-				Include("countdown.js")
-					.horizontalAlignment(.center)
+		if Date() < reunionsEndDate.date ?? Date() {
+			Section {
+				Group {
+					Include("countdown.js")
+						.horizontalAlignment(.center)
+				}
+				.horizontalAlignment(.center)
 			}
-			.horizontalAlignment(.center)
+			.padding(.horizontal, 5)
 		}
-		.padding(.horizontal, 5)
 		Section {
 			Group {
 				Text("Commencement 2000")

@@ -2,6 +2,8 @@ import Foundation
 import Ignite
 
 struct MyTheme: Theme {
+	var reunionsStartDate = DateComponents(calendar: .autoupdatingCurrent, timeZone: .autoupdatingCurrent, year: 2025, month: 5, day: 22, hour: 12, minute: 0, second: 0)
+	var reunionsEndDate = DateComponents(calendar: .autoupdatingCurrent, timeZone: .autoupdatingCurrent, year: 2025, month: 5, day: 24, hour: 10, minute: 0, second: 0)
     func render(page: Page, context: PublishingContext) -> HTML {
         HTML {
 			Head(for: page, in: context) {
@@ -28,11 +30,14 @@ struct MyTheme: Theme {
 			}
             Body {
 				Include("/analytics/gtmBody.html")
+				if Date() < reunionsEndDate.date ?? Date() {
+					Text("\(reunionsEndDate.date?.asISO8601)")
+				}
 				NavBar()
-				if deployment() == .production {
+				if Date() < reunionsEndDate.date ?? Date() {
 					Alert {
 						Text {
-							Link("Reunions is May 22-25, 2025. Early Registration ends May 15 – Register Now!", target: "https://princeton.reunioniq.com/go/2025/2000")
+							Link("Reunions is May 22-25, 2025 – Register Now!", target: "https://princeton.reunioniq.com/go/2025/2000")
 								.target(.newWindow)
 								.relationship(.noOpener, .noReferrer)
 						}
