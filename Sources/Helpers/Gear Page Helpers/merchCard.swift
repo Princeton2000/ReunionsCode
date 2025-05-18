@@ -42,7 +42,7 @@ func sizeChart(_ chart: SizeChart) -> Accordion {
 func apparelCard(_ apparel: Apparel) -> Card {
 	Card(imageName: apparel.image) {
 		Text("\(apparel.description)").font(.title6)
-		if (apparel.link != nil) { Button { Link("Buy Now", target: apparel.link!) } }
+//		if (apparel.link != nil) { Button { Link("Buy Now", target: apparel.link!) } }
 		if let chart = apparel.sizeChart { sizeChart(chart) }
 	}
 	header: { apparel.name }
