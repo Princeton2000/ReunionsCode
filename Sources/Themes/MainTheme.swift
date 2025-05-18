@@ -30,9 +30,9 @@ struct MyTheme: Theme {
 			}
             Body {
 				Include("/analytics/gtmBody.html")
-				if Date() < reunionsEndDate.date ?? Date() {
-					Text("\(reunionsEndDate.date?.asISO8601)")
-				}
+//				if Date() < reunionsEndDate.date ?? Date() {
+//					Text("\(reunionsEndDate.date?.asISO8601)")
+//				}
 				NavBar()
 				if Date() < reunionsEndDate.date ?? Date() {
 					Alert {
