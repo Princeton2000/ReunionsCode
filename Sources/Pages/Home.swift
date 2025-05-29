@@ -19,15 +19,24 @@ struct Home: StaticPage {
 			.padding(.horizontal, 5)
 		}
 		Section {
+//			Group {
+//				Text("Commencement 2000")
+//					.class("tayLennon")
+//					.font(.title3)
+//					.fontWeight(.semibold)
+//					.padding(.top)
+//				Embed(youTubeID: "Tr8X5kst0bs",
+//					  title: "Reunions")
+//					.aspectRatio(.r4x3)
+//			}
 			Group {
-				Text("Commencement 2000")
+				Text("Reunions 2025")
 					.class("tayLennon")
 					.font(.title3)
 					.fontWeight(.semibold)
 					.padding(.top)
-				Embed(youTubeID: "Tr8X5kst0bs",
-					  title: "Reunions")
-					.aspectRatio(.r4x3)
+				Embed(vimeoID: 1087610735, title: "Reunions 2025")
+					.aspectRatio(.r16x9)
 			}
 			.width(8)
 			Group {
