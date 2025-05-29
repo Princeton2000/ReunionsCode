@@ -15,7 +15,7 @@ struct ScheduleKids: StaticPage {
 	let activityFilter: [EventType] = [.movie, .childrensActivity, .communityService, .classFamily, .foodDrink]
 	
 	func body(context: PublishingContext) -> [BlockElement] {
-		if let events = context.decode(resource: "events.json", as: [Event].self)?.filter({$0.endDate > Date()}).sorted(by: { $0.startDate < $1.startDate }) {
+		if let events = context.decode(resource: "events.json", as: [Event].self)?.sorted(by: { $0.startDate < $1.startDate }) {
 			for day in dayBlurbs {
 				if events.filter({$0.startComponents.weekday == day.0}).count > 0 {
 					dailyBlock(events.filter({activityFilter.contains($0.type) && $0.published == true }), dayNumber: day.0, blurb: day.1)
