@@ -46,4 +46,4 @@ Look out for an email today or tomorrow from “Princeton Class of 2000 - 25th R
 
 **WhatsApp Reminder**
 
-I think some people are inadvertently dropping from the WhatsApp group, potentially if you switch to a new device or your phone offloads the app. In any case, you can rejoin no problem [here](https://chat.whatsapp.com/ENjRGuGdb4iIJI1dBbiRaS). Particularly on Reunions Weekend, more of our communication is going to happen over there, so be sure to join!
+I think some people are inadvertently dropping from the WhatsApp group, potentially if you switch to a new device or your phone offloads the app. In any case, you can rejoin no problem [here](https://chat.whatsapp.com/LmxLL6m77Ae2tKRConATC2). Particularly on Reunions Weekend, more of our communication is going to happen over there, so be sure to join!

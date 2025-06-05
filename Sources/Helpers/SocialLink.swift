@@ -15,7 +15,7 @@ public struct SocialLink {
 }
 
 public let socialLinkList: [SocialLink] = [
-	SocialLink(site: "WhatsApp", logoImage: "whatsapp", link: "https://chat.whatsapp.com/ENjRGuGdb4iIJI1dBbiRaS"),
+//	SocialLink(site: "WhatsApp", logoImage: "whatsapp", link: "https://chat.whatsapp.com/LmxLL6m77Ae2tKRConATC2"),
 	SocialLink(site: "Instagram", logoImage: "instagram", link: "https://www.instagram.com/princetonclassof2000/"),
 	SocialLink(site: "Bluesky", logoImage: "bluesky", link: "https://bsky.app/profile/princeton2000.org"),
 	SocialLink(site: "Mastodon", logoImage: "mastodon", link: "https://mastodon.social/@princeton2000"),	

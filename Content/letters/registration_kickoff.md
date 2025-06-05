@@ -22,7 +22,7 @@ This is CRITICALLY IMPORTANT. With the lead time required to actually manufactur
 
 **WhatsApp Group**
 
-We've mentioned this quite a bit, but email deliverability is…not great. Hopefully, you've updated your address in TigerNet, but if you want to make sure you are up-to-date on what's going on with Reunions, [join our WhatsApp group](https://chat.whatsapp.com/ENjRGuGdb4iIJI1dBbiRaS). It is not a group chat, and we promise not to spam you…it's just a one-way channel for important announcements to ensure you don't miss anything. That said, please forward this to your friends, and make sure they know how to stay in touch!
+We've mentioned this quite a bit, but email deliverability is…not great. Hopefully, you've updated your address in TigerNet, but if you want to make sure you are up-to-date on what's going on with Reunions, [join our WhatsApp group](https://chat.whatsapp.com/LmxLL6m77Ae2tKRConATC2). It is not a group chat, and we promise not to spam you…it's just a one-way channel for important announcements to ensure you don't miss anything. That said, please forward this to your friends, and make sure they know how to stay in touch!
 
 **[REGISTER NOW](https://reunions.princeton2000.org/registration/)**
 

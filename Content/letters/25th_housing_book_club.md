@@ -90,4 +90,4 @@ One slipped through the cracks! A classmate accidentally ordered a second jacket
 
 **WhatsApp Reminder**
 
-I think some people are inadvertently dropping from the WhatsApp group, potentially if you switch to a new device or your phone offloads the app. In any case, you can rejoin no problem [here]( https://chat.whatsapp.com/ENjRGuGdb4iIJI1dBbiRaS). Particularly on Reunions Weekend, more of our communication is going to happen over there, so be sure to join!
+I think some people are inadvertently dropping from the WhatsApp group, potentially if you switch to a new device or your phone offloads the app. In any case, you can rejoin no problem [here](https://chat.whatsapp.com/LmxLL6m77Ae2tKRConATC2). Particularly on Reunions Weekend, more of our communication is going to happen over there, so be sure to join!
