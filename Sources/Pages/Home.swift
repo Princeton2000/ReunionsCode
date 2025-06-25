@@ -30,12 +30,13 @@ struct Home: StaticPage {
 //					.aspectRatio(.r4x3)
 //			}
 			Group {
-				Text("Reunions 2025")
+				Text("Our 25th Reunion")
 					.class("tayLennon")
 					.font(.title3)
 					.fontWeight(.semibold)
 					.padding(.top)
-				Embed(vimeoID: 1087610735, title: "Reunions 2025")
+//				Embed(vimeoID: 1087610735, title: "Reunions 2025")
+				Embed(youTubeID: "tlLpViZPwAs", title: "Our 25th Reunion")
 					.aspectRatio(.r16x9)
 			}
 			.width(8)
