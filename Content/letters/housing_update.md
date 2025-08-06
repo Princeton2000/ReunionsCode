@@ -6,7 +6,7 @@ alt: The 99 HQ Fence
 title: Reunions Survey & Housing Update
 link: 
 lastModified: 2024-07-09T21:19:00Z-0400
-published: true
+published: false
 ---
 **Class Survey**
 

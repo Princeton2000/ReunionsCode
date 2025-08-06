@@ -46,28 +46,18 @@ struct Home: StaticPage {
 					.font(.title3)
 					.fontWeight(.semibold)
 					.padding(.top)
-				for content in context
-					.content(ofType: "letters")
-					.sorted(by: {
-						getDate($0.metadata["lastModified"] as? String ?? "") >
-						getDate($1.metadata["lastModified"] as? String ?? "")
-								}
-					)[0...5]
-				{
-					Quote {
-						Divider()
-						Text {
-							Link("\(content.metadata["title"] as! String)",
-								 target: content.path)
-							.target(.newWindow)
-							.relationship(.noOpener, .noReferrer)
-						}
-					} caption : {
-						"\(formatDate(content.metadata["lastModified"] as? String ?? "", .short, .short))"
-				   }
+				Table {
+					for content in context
+						.content(ofType: "letters")
+						.filter({$0.type == "notes" || $0.type == "letters"})
+						.sorted(by: {getDate($0.metadata["lastModified"] as! String) > getDate($1.metadata["lastModified"] as! String)})[0...5] {
+						letterPreviewRow(content)
+					}
 				}
 			}
 			.width(4)
 		}.padding(.horizontal, 5)
     }
 }
+
+

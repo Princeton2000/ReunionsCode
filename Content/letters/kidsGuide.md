@@ -1,7 +1,7 @@
 ---
 layout: Email
 tags: Class Letter
-image: /images/logos/P2000_25th_TigerHead_BECW_300x300.png
+image: /images/photos/IMG_0464.jpeg.webp
 alt: The Whitman Arches
 title: Kids' Guide and a chance to set a record
 link: 

@@ -6,7 +6,7 @@ alt: The Whitman Arches
 title: Housing Update and Book Club Notice
 link: 
 lastModified: 2025-04-26T16:30:00Z
-published: true
+published: false
 ---
 Gang – We are less than a month away from the biggest Reunions of All-Time. The Reunions Committee is firing on all cylinders and doing some incredible work…it just keeps getting bigger and better! Make a note of our Pre-Reunions Book Club the next two Tuesday evenings – we thought it'd be a chill way to celebrate our classmates' work and see some familiar faces ahead of the craziness of the tents. Pop in and say hi, and definitely try our recommended pairings!
 

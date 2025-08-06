@@ -1,7 +1,7 @@
 ---
 layout: Email
 tags: Class Letter
-image: /images/logos/P2000_25th_TigerHead_BECW_300x300.png
+image: /images/photos/whitman-arches.jpg
 alt: The Whitman Arches
 title: Entertainment Roundup
 link: 

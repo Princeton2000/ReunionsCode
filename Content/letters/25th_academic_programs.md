@@ -1,7 +1,7 @@
 ---
 layout: Email
 tags: Class Letter
-image: /images/logos/P2000_25th_TigerHead_BECW_300x300.png
+image: https://m.media-amazon.com/images/I/71XKLtAVq7L._SL1500_.jpg
 alt: The Whitman Arches
 title: Pre-Reunions Book Club and Academic Programming!
 link: 

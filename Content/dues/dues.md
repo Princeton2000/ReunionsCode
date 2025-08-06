@@ -29,12 +29,12 @@ Our goal is to raise our dues participation rate and build class funds to suppor
 
 Please consider donating at your earliest convenience and if you are unsure if you have paid your dues last year or this year, just email our treasurer.
 
-**Dues Payers Receive Priority for On-Campus Reunions Housing**
-
-The Reunions committee has been hard at work securing housing both on and off campus for our class. As a thank you to those classmates whose continued participation enables our class to operate, we will be giving classmates who have paid dues for this year and last (FY 2024-2025 and 2023-2024 respectively) priority in the on-campus housing lottery. In years past, on campus housing has been limited and oversubscribed. This year is expected to be the same. Please note: Beds will first be assigned via a lottery among all classmates who meet the dues payment requirement by December 15, 2024. If you have not paid your 2023-2024 dues yet, you will have the opportunity to pay these dues in arrears in order to qualify. Any beds not assigned in this preferential lottery will then be made available in a lottery to the rest of the class.
-
-**For more 25th Reunion Housing details, including 2000 Hotel Blocks, please visit the Housing page**
-
-Finally, our class relies on the updates you send in with your dues! Even just a line or two about a recent move, a new job or baby, or a mini-Reunion with old friends keeps our Class Notes column current and fresh with news from classmates you may not see on Facebook or other social media. All updates submitted either via snail mail or the P2000 website are read! And, of course, you can always email Morey.
-
-Your ideas are always welcome. We hope to see you all in Tigertown this June for Reunions 2025 (May 22-25)!
+<!--**Dues Payers Receive Priority for On-Campus Reunions Housing**-->
+<!---->
+<!--The Reunions committee has been hard at work securing housing both on and off campus for our class. As a thank you to those classmates whose continued participation enables our class to operate, we will be giving classmates who have paid dues for this year and last (FY 2024-2025 and 2023-2024 respectively) priority in the on-campus housing lottery. In years past, on campus housing has been limited and oversubscribed. This year is expected to be the same. Please note: Beds will first be assigned via a lottery among all classmates who meet the dues payment requirement by December 15, 2024. If you have not paid your 2023-2024 dues yet, you will have the opportunity to pay these dues in arrears in order to qualify. Any beds not assigned in this preferential lottery will then be made available in a lottery to the rest of the class.-->
+<!---->
+<!--**For more 25th Reunion Housing details, including 2000 Hotel Blocks, please visit the Housing page**-->
+<!---->
+<!--Finally, our class relies on the updates you send in with your dues! Even just a line or two about a recent move, a new job or baby, or a mini-Reunion with old friends keeps our Class Notes column current and fresh with news from classmates you may not see on Facebook or other social media. All updates submitted either via snail mail or the P2000 website are read! And, of course, you can always email Morey.-->
+<!---->
+<!--Your ideas are always welcome. We hope to see you all in Tigertown this June for Reunions 2025 (May 22-25)!-->
