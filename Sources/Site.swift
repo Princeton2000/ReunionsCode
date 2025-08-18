@@ -54,6 +54,7 @@ struct Princeton2000: Site {
 		ScheduleMovies()
 		CommitteeAG()
 		CommitteeReunions()
+		Officers()
 //		Entertainment()
 		Crew()
 		faq()
