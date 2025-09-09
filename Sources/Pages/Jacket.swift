@@ -17,28 +17,28 @@ struct Jacket: StaticPage {
 		.map({"/images/jacket/testSlides/testSlides.\(String(format: "%03d", $0)).png"})
 	
 	func body(context: PublishingContext) -> [BlockElement] {
-		Embed(title: "Kids' Guide to Reunions", url: "/pdfs/styleGuide.pdf").aspectRatio(.r16x9)
-//			Image("/images/jacket/P2000_jacket_sketch.png", description: "A seersucker-type jacket with wide orange stripes and small black accent stripes. The lining is cream, with the lyrics of Old Nassau, interrupted occasionally with a sketch of the Nassau Hall tiger in profile, and overlid with a large \"'00\" in Princeton Orange")
-//			.class("fade-in-image")
-//			.resizable()
-//			.width(12)
-//			Spacer()
-//		Text("Here it is! We're so pleased to share this sketch of our 25th Class Jacket.")
-//			.fontWeight(.bold)
-//			.horizontalAlignment(.center)
 		Alert {
 					Text {
-						"Orders are now closed, but you will be able to order after Reunions!"
-		//				Link("Orders are now closed, but you will be able to order after Reunions!", target: "https://princeton.reunioniq.com/shop/classof00")
-		//					.target(.newWindow)
-		//					.relationship(.noOpener, .noReferrer)
+						Link("We're doing another run…buy a jacket now!", target: "https://tinyurl.com/2000jacket")
+							.target(.newWindow)
+							.relationship(.noOpener, .noReferrer)
 					}.font(.title3).fontWeight(.semibold).horizontalAlignment(.center)
 				}.role(.info)
+		Spacer()
+		Embed(title: "Kids' Guide to Reunions", url: "/pdfs/styleGuide.pdf").aspectRatio(.r16x9)
+			Image("/images/jacket/P2000_jacket_sketch.png", description: "A seersucker-type jacket with wide orange stripes and small black accent stripes. The lining is cream, with the lyrics of Old Nassau, interrupted occasionally with a sketch of the Nassau Hall tiger in profile, and overlid with a large \"'00\" in Princeton Orange")
+			.class("fade-in-image")
+			.resizable()
+			.width(12)
+			Spacer()
+		Text("Here it is! We're so pleased to share this sketch of our 25th Class Jacket.")
+			.fontWeight(.bold)
+			.horizontalAlignment(.center)
 		Spacer()
 		Text("How we got here").class("tayLennon").font(.title1)
 		Group {
 			for content in context.content(ofType: "jacket_design") {
-				Text(content.body)
+					Text(content.body)
 			}
 		}.padding(.horizontal, 20)
 		Section {
@@ -63,8 +63,10 @@ struct Jacket: StaticPage {
 		Spacer()
 		Divider()
 		Accordion {
-			for content in context.content(ofType: "faq").filter({$0.tags.contains("jacket")}).sorted(by: {$0.tags[0] < $1.tags[0]}) {
-				Item(content.metadata["question"] as! InlineElement) {
+			for content in context.content(ofType: "faq")
+				.filter({$0.tags.contains("jacket")})
+				.sorted(by: {$0.tags[0] < $1.tags[0]}) {
+					Item(content.metadata["question"] as! InlineElement) {
 					Text(markdown: content.body)
 				}
 			}
