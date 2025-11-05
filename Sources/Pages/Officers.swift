@@ -15,7 +15,7 @@ struct Officers: StaticPage {
 
 	func body(context: PublishingContext) -> [BlockElement] {
 		Table {
-			if let officers = context.decode(resource: "officers.json", as: [CommitteeMember].self)?.sorted(by: {$0.priority < $1.priority && $0.role < $1.role}) {
+			if let officers = context.decode(resource: "leadership.json", as: [CommitteeMember].self)?.filter({$0.priority == 0 }).sorted(by: { $0.lastName < $1.lastName }) {
 				for members in officers.batched(into: 2) {
 					Row {
 						for member in members {
@@ -27,8 +27,8 @@ struct Officers: StaticPage {
 										.fontWeight(.medium)
 								})
 							} header: {
-								Image(member.photo, description: member.chair) .resizable().frame(height: 200)
-								Text("\(member.chair) '00").font(.title4).fontWeight(.semibold)
+								Image(member.photo, description: member.name) .resizable().frame(height: 200)
+								Text("\(member.name) '00").font(.title4).fontWeight(.semibold)
 							}
 							.frame(height: "97.5%")
 							.width(4)
