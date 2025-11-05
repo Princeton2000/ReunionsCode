@@ -21,8 +21,8 @@ struct CommitteeAG: StaticPage {
 						for member in members {
 							Column {
 								member.photo == "" ?
-								Image.tiger.resizable().frame(height: 100) :
-								Image(member.photo, description: member.name).resizable().frame(height: 100)
+								Image.tiger.resizable().frame(height: 200) :
+								Image(member.photo, description: member.name).resizable().frame(height: 200)
 								Text(member.name).fontWeight(.semibold)
 								Text(member.role)
 							}.horizontalAlignment(.center)
