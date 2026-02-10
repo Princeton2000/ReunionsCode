@@ -17,6 +17,10 @@ func appleMusicElement(_ libraryEntry: LibraryEntry) -> String {
 	return idElement(libraryEntry, prefix: "Apple Music")
 }
 
+func bandcampElement(_ libraryEntry: LibraryEntry) -> String {
+	return idElement(libraryEntry, prefix: "Bandcamp")
+}
+
 func spotifyElement(_ libraryEntry: LibraryEntry) -> String {
 	return idElement(libraryEntry, prefix: "Spotify")
 }
@@ -86,6 +90,10 @@ func libraryMusicRow(_ libraryEntry: LibraryEntry) -> Row {
 					
 					Group {
 						for link in libraryEntry.links.filter({$0.url != nil }) {
+							if link.source == .bandcamp {
+								Link(
+									Image("/images/library/bandcamp_logo.svg", description: "Buy \(libraryEntry.title ?? "") by \(libraryEntry.classmate.firstName) \(libraryEntry.classmate.lastName) via Bandcamp").resizable().frame(maxWidth: 100).padding(.trailing).opacity(0.75), target: link.url ?? "#").target(.newWindow).relationship(.noOpener, .noReferrer).id("\(libraryEntry.title ?? "") at \(link.source.rawValue)")
+							}
 							if link.source == .appleMusic {
 								Image("/images/library/apple_music_logo.svg", description: "Listen to \(libraryEntry.title ?? "") by \(libraryEntry.classmate.firstName) \(libraryEntry.classmate.lastName) via Apple Music").resizable().frame(height: 20).onClick {
 										ShowElement(appleMusicElement(libraryEntry))

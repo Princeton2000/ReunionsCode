@@ -58,7 +58,7 @@ struct Princeton2000: Site {
 		Leadership()
 //		Entertainment()
 		Crew()
-		faq()
+//		faq()
 		Jacket()
 		JacketPreLaunch()
 		Gear()

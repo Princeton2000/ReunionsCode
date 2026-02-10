@@ -8,18 +8,14 @@
 import Foundation
 import Ignite
 
-extension Link: @retroactive Equatable {
-	public static func == (lhs: Link, rhs: Link) -> Bool {
-		return lhs.url == rhs.url
-	}
-	
-	public static func < (lhs: Link, rhs: Link) -> Bool {
-		return lhs.url < rhs.url
-	}
-}
-
-extension Link: @retroactive Hashable {
-	public func hash(into hasher: inout Hasher) {
-		url.hash(into: &hasher)
-	}
-}
+//extension Link: @retroactive Equatable {
+//    public static func == (lhs: Link, rhs: Link) -> Bool {
+//        String(describing: lhs) == String(describing: rhs)
+//    }
+//}
+//
+//extension Link: @retroactive Hashable {
+//    public func hash(into hasher: inout Hasher) {
+//        hasher.combine(String(describing: self))
+//    }
+//}

@@ -34,6 +34,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -103,6 +107,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -178,6 +186,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -247,6 +259,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -322,6 +338,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -391,6 +411,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -466,6 +490,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -535,6 +563,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -610,6 +642,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -680,6 +716,10 @@
 			{
 				"source": "Apple Music",
 				"url": "https://music.apple.com/us/album/last-night-i-saw-god-on-the-dance-floor/216803222"
+			},
+			{
+				"source": "Bandcamp",
+				"url": null
 			},
 			{
 				"source": "Spotify",
@@ -754,6 +794,10 @@
 				"url": "https://music.apple.com/us/album/by-any-other-name-ep/216803005"
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": "https://open.spotify.com/album/3HgdtjMvFHknZN1sqVk9pA?si=k0YIkuPsSSOgBHfXKMH5-Q"
 			},
@@ -824,6 +868,10 @@
 			{
 				"source": "Apple Music",
 				"url": "https://music.apple.com/us/album/fulton-lights/215193973"
+			},
+			{
+				"source": "Bandcamp",
+				"url": null
 			},
 			{
 				"source": "Spotify",
@@ -898,6 +946,10 @@
 				"url": "https://music.apple.com/us/album/the-way-we-ride/290128531"
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": "https://open.spotify.com/album/1aNHRBQG1FbzpcvxKxx1HB"
 			},
@@ -968,6 +1020,10 @@
 			{
 				"source": "Apple Music",
 				"url": "https://music.apple.com/us/album/healing-waters/388496207"
+			},
+			{
+				"source": "Bandcamp",
+				"url": null
 			},
 			{
 				"source": "Spotify",
@@ -1042,6 +1098,10 @@
 				"url": "https://music.apple.com/us/album/3-songs/388012658"
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": "https://open.spotify.com/album/5cDJTr4S1cldzVHEOqkMLi?si=g7O6Q_yrSoW0H8G1det8hg"
 			},
@@ -1114,6 +1174,10 @@
 				"url": "https://music.apple.com/us/album/moonwalking-into-the-future/1534112073"
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": "https://open.spotify.com/album/4NHH29d0cR2NNbVqzSBJXH"
 			},
@@ -1183,6 +1247,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -1258,6 +1326,10 @@
 				"url": "https://music.apple.com/us/album/dispatch/1702844385"
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": "https://open.spotify.com/album/4instyM1Vwhci6tL7wGX0r?si=TUMhdmhoTjyM282O6wihZA"
 			},
@@ -1328,6 +1400,10 @@
 			{
 				"source": "Apple Music",
 				"url": "https://music.apple.com/us/album/disaster-footage-at-night/1702844275"
+			},
+			{
+				"source": "Bandcamp",
+				"url": null
 			},
 			{
 				"source": "Spotify",
@@ -1402,6 +1478,10 @@
 				"url": "https://music.apple.com/us/album/years-in-the-great-interior/1702390564"
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": "https://open.spotify.com/album/3BsaXtiwGsUIZe4Hk0N6qN?si=4mMLPPQuQousHR0oi096ag"
 			},
@@ -1474,6 +1554,10 @@
 				"url": "https://music.apple.com/us/album/age-of-man/1703555550"
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": "https://open.spotify.com/album/4XVda1v7KGKXVPLv7i3Itr?si=TKhO13EeRJOduH_GWIOC9A"
 			},
@@ -1543,6 +1627,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -1618,6 +1706,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -1687,6 +1779,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -1762,6 +1858,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -1831,6 +1931,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -1906,6 +2010,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -1975,6 +2083,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -2050,6 +2162,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -2119,6 +2235,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -2194,6 +2314,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -2263,6 +2387,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -2338,6 +2466,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -2407,6 +2539,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -2482,6 +2618,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -2551,6 +2691,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -2626,6 +2770,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -2696,6 +2844,10 @@
 			{
 				"source": "Apple Music",
 				"url": "https://music.apple.com/us/album/leap-ep/1007478585"
+			},
+			{
+				"source": "Bandcamp",
+				"url": "https://ivavoice.bandcamp.com/album/leap"
 			},
 			{
 				"source": "Spotify",
@@ -2770,6 +2922,10 @@
 				"url": "https://music.apple.com/us/album/iva/188988880"
 			},
 			{
+				"source": "Bandcamp",
+				"url": "https://ivavoice.bandcamp.com/album/iva"
+			},
+			{
 				"source": "Spotify",
 				"url": "https://open.spotify.com/album/39bEOCqrXiyLhQb8KxaOMo"
 			},
@@ -2842,6 +2998,10 @@
 				"url": "https://music.apple.com/us/album/ivolution/1038924194"
 			},
 			{
+				"source": "Bandcamp",
+				"url": "https://ivavoice.bandcamp.com/album/ivolution"
+			},
+			{
 				"source": "Spotify",
 				"url": "https://open.spotify.com/album/3Jx910NIfOsZdi4DZPzksD"
 			},
@@ -2887,7 +3047,7 @@
 		"title": "Nobody's Woman",
 		"image": "https://i.scdn.co/image/ab67616d00001e02cce09cac7b21278c604961bc",
 		"dateString": "2023-03-03T00:00:00",
-		"description": "Recorded at Philadelphia’s famed Turtle Studios with producer and multi-instrumentalist Ross Bellenoit and engineer Doug Raus, the songs on Nobody’s Woman deal with heartbreak, addiction, friendship, and the dissolution of a long-term, abusive romantic relationship – all laced with confessional lyrics and soaring, ethereal vocals reminiscent of Aimee Mann and Natalie Mering (Weyes Blood).\n“Working with Ross was like coming home,” enthuses IVA. “We’ve played together for several years, but this was the first time he’s helmed the recording process. He is a beautiful human and ingenious at playing just what is needed on multiple instruments. After lockdown, it felt like family to coming together with the full band and recording songs we’d been playing live before Covid took us all inside. Ross was keenly sensitive and had gentle command of the sound and musicians. There was a feeling of trust and love among all who worked on the album. Engineer Doug Raus is also a dream to have in the studio and, among other feats, found the perfect vocal sound, and the three of us, along with my doggie Moxie, had many happy hours in the studio working on Nobody’s Woman.”\nThe EP kicks off with the Aimee Mann flavored “Mid Air” and features IVA’s passionate, plaintive vocals. “The writing of these songs came out of some lovely invitations to Nashville,” says IVA. “I’d worked with Kim Richey at the Banff music center, and she invited me to write with her and Bill Demain. I went into the session with “I feel poor in the morning, rich at night” and the song unfolded. I was amazed at how they tapped into a way I was feeling that I hadn’t yet put my finger on.”\nNext up is the most Americana-inspired song of the quartet, title track “Nobody’s Woman,” opening with IVA’s vocal and an acoustic guitar, lamenting “now I’m nobody’s woman and you’re everyone’s man.” As the song unfolds, Jaron Olevsky’s (Amos Lee) atmospheric Hammond organ gives the song a needed reverence. “A beloved partner and I had broken up due to substance abuse and I was feeling quite raw about it,” says the songstress. “Of all the songs, this is the one I’m most proud of. I wrote it at my spinet piano at a little farmhouse in Delaware as I wept … and owned up to myself.”\n“Oh Christian” was written in collaboration with Thom Donovan (Will Hogue) and adopts a Dap Kings-esque horn section and driving beat. “I wanted a rollicking big band sound” says IVA. “The band dove into this one and it took on a full life, especially with Matt Scarano’s drums and Sam Nobels’ bass. I was dancing around the studio, and we had so many laughs. For the vox, with Ross and Doug there, I could lean into the song and got wild at the end. I remember Ross saying at the end of a take, ‘And now, dismount’ as if I’d been riding a stallion.”\nThe EP’s final track, “Heart,” has an early rock and roll vibe, a Jerry Lee Lewis rhythm, and was written about the vocalist’s childhood friend who passed away suddenly. “Eric and I were on swim team when we were kids, and he had a condition that made it hard for him to move naturally” she explains. “Yet I remembered how happy he was, his eyes shining, and how brave he was every time he got in the pool to compete. He always finished the race and did his best. During the pandemic I played the song for his family and they asked for a recording of the song, which moved the needle on us going back into the studio. Fortunately, they were touched and considered the song a real tribute to their son.”\n“Working with IVA on her music was a real joy,” raves producer Bellinoit. “I’ve never felt more trusted as a producer to be a caretaker for someone’s songs. On the same token, her north star as an artist always kept us in check if things were getting off the mark (which frankly, very rarely happened).”\n“When we first got together to make some acoustic demos of some of the songs, I remember feeling how strong they were on their own simply with a guitar and voice,” he continues. “When you’re building a house, the foundation needs to be so incredibly solid that it can withstand any direction you want to decorate it in. When we started working together, the key word that kept coming up was retro. I wanted these songs to sound timeless, and at the same time, have her voice act as the thread that brought it into the future.”\nIVA is a vocalist and songwriter with an ethereal quality to her powerful voice and a cinematic feel to her music. Her work is transporting, taking the listener into a world of inspired imagery that evokes deep feelings of peace, inspiration, and longing. Early on she signed her original music with Universal Sweden, performing on national TV and radio while making her debut at the Swedish Royal Opera. Now IVA is the youngest laureate of the Vasa Order’s Swedish American of the Year award.\nShe’s been tapped “Who’s Next” by M Musicians Magazine, “supremely talented” by Guitar World’s Acoustic Nation, and featured in Billboard. She’s releasing her new record “Nobody’s Woman” this year after making a breakthrough with “Run” on Spotify and AAA radio. She lives between Brooklyn and outside of Philadelphia, where she leads her band.",
+		"description": "Recorded at Philadelphia’s famed Turtle Studios with producer and multi-instrumentalist Ross Bellenoit and engineer Doug Raus, the songs on Nobody’s Woman deal with heartbreak, addiction, friendship, and the dissolution of a long-term, abusive romantic relationship – all laced with confessional lyrics and soaring, ethereal vocals reminiscent of Aimee Mann and Natalie Mering (Weyes Blood).\n\"Working with Ross was like coming home,\" enthuses IVA. \"We’ve played together for several years, but this was the first time he’s helmed the recording process. He is a beautiful human and ingenious at playing just what is needed on multiple instruments. After lockdown, it felt like family to coming together with the full band and recording songs we’d been playing live before Covid took us all inside. Ross was keenly sensitive and had gentle command of the sound and musicians. There was a feeling of trust and love among all who worked on the album. Engineer Doug Raus is also a dream to have in the studio and, among other feats, found the perfect vocal sound, and the three of us, along with my doggie Moxie, had many happy hours in the studio working on Nobody’s Woman.\"\nThe EP kicks off with the Aimee Mann flavored \"Mid Air\" and features IVA’s passionate, plaintive vocals. \"The writing of these songs came out of some lovely invitations to Nashville,\" says IVA. \"I’d worked with Kim Richey at the Banff music center, and she invited me to write with her and Bill Demain. I went into the session with \"I feel poor in the morning, rich at night\" and the song unfolded. I was amazed at how they tapped into a way I was feeling that I hadn’t yet put my finger on.\"\nNext up is the most Americana-inspired song of the quartet, title track \"Nobody’s Woman,\" opening with IVA’s vocal and an acoustic guitar, lamenting \"now I’m nobody’s woman and you’re everyone’s man.\" As the song unfolds, Jaron Olevsky’s (Amos Lee) atmospheric Hammond organ gives the song a needed reverence. \"A beloved partner and I had broken up due to substance abuse and I was feeling quite raw about it,\" says the songstress. \"Of all the songs, this is the one I’m most proud of. I wrote it at my spinet piano at a little farmhouse in Delaware as I wept … and owned up to myself.\"\n\"Oh Christian\" was written in collaboration with Thom Donovan (Will Hogue) and adopts a Dap Kings-esque horn section and driving beat. \"I wanted a rollicking big band sound\" says IVA. \"The band dove into this one and it took on a full life, especially with Matt Scarano’s drums and Sam Nobels’ bass. I was dancing around the studio, and we had so many laughs. For the vox, with Ross and Doug there, I could lean into the song and got wild at the end. I remember Ross saying at the end of a take, ‘And now, dismount’ as if I’d been riding a stallion.\"\nThe EP’s final track, \"Heart,\" has an early rock and roll vibe, a Jerry Lee Lewis rhythm, and was written about the vocalist’s childhood friend who passed away suddenly. \"Eric and I were on swim team when we were kids, and he had a condition that made it hard for him to move naturally\" she explains. \"Yet I remembered how happy he was, his eyes shining, and how brave he was every time he got in the pool to compete. He always finished the race and did his best. During the pandemic I played the song for his family and they asked for a recording of the song, which moved the needle on us going back into the studio. Fortunately, they were touched and considered the song a real tribute to their son.\"\n\"Working with IVA on her music was a real joy,\" raves producer Bellinoit. \"I’ve never felt more trusted as a producer to be a caretaker for someone’s songs. On the same token, her north star as an artist always kept us in check if things were getting off the mark (which frankly, very rarely happened).\"\n\"When we first got together to make some acoustic demos of some of the songs, I remember feeling how strong they were on their own simply with a guitar and voice,\" he continues. \"When you’re building a house, the foundation needs to be so incredibly solid that it can withstand any direction you want to decorate it in. When we started working together, the key word that kept coming up was retro. I wanted these songs to sound timeless, and at the same time, have her voice act as the thread that brought it into the future.\"\nIVA is a vocalist and songwriter with an ethereal quality to her powerful voice and a cinematic feel to her music. Her work is transporting, taking the listener into a world of inspired imagery that evokes deep feelings of peace, inspiration, and longing. Early on she signed her original music with Universal Sweden, performing on national TV and radio while making her debut at the Swedish Royal Opera. Now IVA is the youngest laureate of the Vasa Order’s Swedish American of the Year award.\nShe’s been tapped \"Who’s Next\" by M Musicians Magazine, \"supremely talented\" by Guitar World’s Acoustic Nation, and featured in Billboard. She’s releasing her new record \"Nobody’s Woman\" this year after making a breakthrough with \"Run\" on Spotify and AAA radio. She lives between Brooklyn and outside of Philadelphia, where she leads her band.",
 		"links": [
 			{
 				"source": "BAM",
@@ -2912,6 +3072,10 @@
 			{
 				"source": "Apple Music",
 				"url": "https://music.apple.com/us/album/nobodys-woman-ep/1670678792"
+			},
+			{
+				"source": "Bandcamp",
+				"url": "https://ivavoice.bandcamp.com/album/nobodys-woman"
 			},
 			{
 				"source": "Spotify",
@@ -2986,6 +3150,10 @@
 				"url": "https://music.apple.com/us/album/live-at-turtle-studios-ep/1742690568"
 			},
 			{
+				"source": "Bandcamp",
+				"url": "https://ivavoice.bandcamp.com/album/live-at-turtle"
+			},
+			{
 				"source": "Spotify",
 				"url": "https://open.spotify.com/album/3wWYFSxNreFFqrbsbnYzzp"
 			},
@@ -3058,12 +3226,244 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": "https://ivavoice.bandcamp.com/album/traitor"
+			},
+			{
 				"source": "Spotify",
 				"url": "https://open.spotify.com/album/0BcOhx0DK9jHHk9ItGbgBl"
 			},
 			{
 				"source": "Amazon Music",
 				"url": "https://amazon.com/music/player/albums/B0D76FTV5F?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_LSFbGcntERTSCO4CpDI89zaMv"
+			},
+			{
+				"source": "Disney Plus",
+				"url": null
+			},
+			{
+				"source": "Apple TV",
+				"url": null
+			},
+			{
+				"source": "Paramount Plus",
+				"url": null
+			},
+			{
+				"source": "Vimeo",
+				"url": null
+			},
+			{
+				"source": "YouTube",
+				"url": null
+			},
+			{
+				"source": "Prime Video",
+				"url": null
+			},
+			{
+				"source": "Netflix",
+				"url": null
+			}
+		]
+	},
+	{
+		"classmate": {
+			"firstName": "Emily",
+			"lastName": "Tepe"
+		},
+		"title": "Fulbright Scandinavia Recital",
+		"image": "https://f4.bcbits.com/img/a1883426773_16.jpg",
+		"dateString": "2026-02-05T00:00:00",
+		"description": null,
+		"links": [
+			{
+				"source": "BAM",
+				"url": null
+			},
+			{
+				"source": "Barnes & Noble",
+				"url": null
+			},
+			{
+				"source": "Amazon",
+				"url": null
+			},
+			{
+				"source": "Apple Books",
+				"url": null
+			},
+			{
+				"source": "Bookshop",
+				"url": null
+			},
+			{
+				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
+				"url": "https://ivavoice.bandcamp.com/album/fulbright-scandinavian-recital"
+			},
+			{
+				"source": "Spotify",
+				"url": null
+			},
+			{
+				"source": "Amazon Music",
+				"url": null
+			},
+			{
+				"source": "Disney Plus",
+				"url": null
+			},
+			{
+				"source": "Apple TV",
+				"url": null
+			},
+			{
+				"source": "Paramount Plus",
+				"url": null
+			},
+			{
+				"source": "Vimeo",
+				"url": null
+			},
+			{
+				"source": "YouTube",
+				"url": null
+			},
+			{
+				"source": "Prime Video",
+				"url": null
+			},
+			{
+				"source": "Netflix",
+				"url": null
+			}
+		]
+	},
+	{
+		"classmate": {
+			"firstName": "Emily",
+			"lastName": "Tepe"
+		},
+		"title": "First Time",
+		"image": "https://f4.bcbits.com/img/a1376273865_16.jpg",
+		"dateString": "2024-07-19T00:00:00",
+		"description": null,
+		"links": [
+			{
+				"source": "BAM",
+				"url": null
+			},
+			{
+				"source": "Barnes & Noble",
+				"url": null
+			},
+			{
+				"source": "Amazon",
+				"url": null
+			},
+			{
+				"source": "Apple Books",
+				"url": null
+			},
+			{
+				"source": "Bookshop",
+				"url": null
+			},
+			{
+				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
+				"url": "https://ivavoice.bandcamp.com/track/first-time"
+			},
+			{
+				"source": "Spotify",
+				"url": null
+			},
+			{
+				"source": "Amazon Music",
+				"url": null
+			},
+			{
+				"source": "Disney Plus",
+				"url": null
+			},
+			{
+				"source": "Apple TV",
+				"url": null
+			},
+			{
+				"source": "Paramount Plus",
+				"url": null
+			},
+			{
+				"source": "Vimeo",
+				"url": null
+			},
+			{
+				"source": "YouTube",
+				"url": null
+			},
+			{
+				"source": "Prime Video",
+				"url": null
+			},
+			{
+				"source": "Netflix",
+				"url": null
+			}
+		]
+	},
+	{
+		"classmate": {
+			"firstName": "Emily",
+			"lastName": "Tepe"
+		},
+		"title": "Run",
+		"image": "https://f4.bcbits.com/img/a2801418296_16.jpg",
+		"dateString": "2022-01-28T00:00:00",
+		"description": "Running in the dark in the north of Sweden in the middle of winter at noon, and making the choice to get out there and keep going, finding the spark of inspiration in the darkness.",
+		"links": [
+			{
+				"source": "BAM",
+				"url": null
+			},
+			{
+				"source": "Barnes & Noble",
+				"url": null
+			},
+			{
+				"source": "Amazon",
+				"url": null
+			},
+			{
+				"source": "Apple Books",
+				"url": null
+			},
+			{
+				"source": "Bookshop",
+				"url": null
+			},
+			{
+				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
+				"url": "https://ivavoice.bandcamp.com/track/run"
+			},
+			{
+				"source": "Spotify",
+				"url": null
+			},
+			{
+				"source": "Amazon Music",
+				"url": null
 			},
 			{
 				"source": "Disney Plus",
@@ -3127,6 +3527,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -3202,6 +3606,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -3271,6 +3679,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -3346,6 +3758,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -3415,6 +3831,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -3490,6 +3910,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -3559,6 +3983,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -3634,6 +4062,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -3703,6 +4135,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -3778,6 +4214,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -3847,6 +4287,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -3922,6 +4366,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -3991,6 +4439,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -4066,6 +4518,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -4135,6 +4591,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -4210,6 +4670,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -4279,6 +4743,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -4354,6 +4822,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -4423,6 +4895,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -4498,6 +4974,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -4567,6 +5047,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -4642,6 +5126,10 @@
 				"url": "https://music.apple.com/us/album/and-then-there-were-three/964331066"
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": "https://open.spotify.com/album/4IbNByZJB09hbhRE50ZxZQ"
 			},
@@ -4714,6 +5202,10 @@
 				"url": "https://music.apple.com/us/album/pixel/1690232595"
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": "https://open.spotify.com/album/5t8OW8Up13GKeO7rMy11QJ"
 			},
@@ -4783,6 +5275,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -4858,6 +5354,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -4927,6 +5427,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -5002,6 +5506,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -5071,6 +5579,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{
@@ -5146,6 +5658,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -5218,6 +5734,10 @@
 				"url": null
 			},
 			{
+				"source": "Bandcamp",
+				"url": null
+			},
+			{
 				"source": "Spotify",
 				"url": null
 			},
@@ -5287,6 +5807,10 @@
 			},
 			{
 				"source": "Apple Music",
+				"url": null
+			},
+			{
+				"source": "Bandcamp",
 				"url": null
 			},
 			{

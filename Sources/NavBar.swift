@@ -57,7 +57,7 @@ public struct NavBar: Component {
 				Link(Text("Housing").foregroundStyle(.princetonOrange), target:  Housing())
 				Link(Text("Schedule").foregroundStyle(.princetonOrange), target: Schedule())
 				Link(Text("Kids").foregroundStyle(.princetonOrange), target: Kids())
-				Link(Text("FAQ").foregroundStyle(.princetonOrange), target: faq())
+//				Link(Text("FAQ").foregroundStyle(.princetonOrange), target: faq())
 				Link(Text("Theme").foregroundStyle(.princetonOrange), target: BidEveryCareWithdraw())
 				Link(Text("Jacket").foregroundStyle(.princetonOrange), target: Jacket())
 	//			Link(Text("Merch").foregroundStyle(.princetonOrange), target: "https://princeton.reunioniq.com/shop/classof00")
