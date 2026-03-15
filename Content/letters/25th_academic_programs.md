@@ -5,7 +5,7 @@ image: https://m.media-amazon.com/images/I/71XKLtAVq7L._SL1500_.jpg
 alt: The Whitman Arches
 title: Pre-Reunions Book Club and Academic Programming!
 link: 
-lastModified: 2025-04-16T15:00:00Z-0400
+lastModified: 2025-04-16 12:00
 published: true
 ---
 **_In this email:_**

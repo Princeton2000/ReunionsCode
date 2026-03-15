@@ -2,7 +2,7 @@
 tags: on-campus, transportation
 type: faq
 question: What transportation will be available on-campus?
-lastModified: 2024-07-19
+lastModified: 2024-07-19 12:00
 ---
 - ADA-accessible TigerTransit buses will operate continuously on the perimeter of campus during Reunions.
 

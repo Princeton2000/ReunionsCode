@@ -2,7 +2,7 @@
 tags: on-campus, transportation
 type: faq
 question: Are there ADA-accessible options if I don't get a golf cart?
-lastModified: 2025-04-02
+lastModified: 2025-04-02 12:00
 ---
 - ADA-accessible TigerTransit buses will operate continuously on the perimeter of campus during Reunions.
 

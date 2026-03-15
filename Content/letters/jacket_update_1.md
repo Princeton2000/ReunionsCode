@@ -5,7 +5,7 @@ image: /images/logos/P2000_25th_TigerHead_BECW_300x300.png
 alt: Bid Every Care Withdraw
 title: Get your jacket…Now that's a big deal!
 link: 
-lastModified: 2024-12-01T18:01:00Z-0400
+lastModified: 2024-12-01 18:01
 published: true
 ---
 Hope you all had a wonderful Thanksgiving. Tis' the season for deals and steals, so we wanted to remind you of the biggest deal of them all…your Reunions jacket! With the lead time required to actually manufacture our jackets, we need your order in by **_NEXT FRIDAY, DECEMBER 13_**, or **you won't have one for Reunions**. Our jacket is excellent, and we're going to be the best dressed at Reunions for years to come. [Get your order in, ASAP](https://princeton.reunioniq.com/shop/classof00), and check in with your friends to make sure they get theirs ordered as well!

@@ -4,7 +4,7 @@ tags: Colophon
 image: 
 title: Colophon
 link:
-lastModified: 2024-10-11
+lastModified: 2024-10-11 12:00
 published: true
 ---
 

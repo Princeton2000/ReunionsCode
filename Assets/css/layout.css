@@ -1,0 +1,55 @@
+body {
+  font: 0.875rem/1.15 "Libre Franklin";
+  line-height: 1.15rem;
+  text-wrap: pretty;
+}
+
+.tayLennon {
+	font-family: "TAYLennonRegular";
+}
+
+.blockquote {
+	padding-left: 5;
+	font-size: 1rem
+}
+
+.text-body-tertiary {
+	font-size: 0.4rem
+}
+
+.fade-in-image {
+	animation: fadeIn 5s;
+	-webkit-animation: fadeIn 5s;
+	  -moz-animation: fadeIn 5s;
+	  -o-animation: fadeIn 5s;
+	  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+*, ::before {
+	line-height: 1.15em;
+}

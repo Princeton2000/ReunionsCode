@@ -1,27 +1,31 @@
 //
-//  Housing.swift
+//  Prade.swift
+//  Princeton2000
 //
-//
-//  Created by Justin Purnell on 7/8/24.
+//  Migrated to new Ignite API
 //
 
 import Foundation
 import Ignite
 
 struct Prade: StaticPage {
-	var title = "The one and only P-rade"
+    @Environment(\.articles) var articles
 
-	func body(context: PublishingContext) -> [BlockElement] {
-		for content in context.content(ofType: "p-rade") {
-			Text(content.body)
-		}
-		Text {
-			Link("The Locomotive", target: "https://princetoniana.princeton.edu/traditions/current/cheers")
-		}
-		Text {
-			Link("The P-Rade", target: "https://alumni.princeton.edu/stories/reunions-history-princeton-p-rade")
-		}
-		
-		Include("appleMusicEmbed.html")
-	}
+    var title = "The one and only P-rade"
+
+    var body: some HTML {
+        for content in articles.typed("p-rade") {
+            Text(content.text)
+        }
+
+        Text {
+            Link("The Locomotive", target: "https://princetoniana.princeton.edu/traditions/current/cheers")
+        }
+
+        Text {
+            Link("The P-Rade", target: "https://alumni.princeton.edu/stories/reunions-history-princeton-p-rade")
+        }
+
+        Include("appleMusicEmbed.html")
+    }
 }

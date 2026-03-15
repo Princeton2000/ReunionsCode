@@ -2,7 +2,7 @@
 tags: registration, check-in
 type: faq
 question: What are registration hours to check-in for our 25th?
-lastModified: 2024-07-19
+lastModified: 2024-07-19 12:00
 ---
 Registration hours are: 
 - Thursday, May 22 | **Noon - 11:00 pm** 

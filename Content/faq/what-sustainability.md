@@ -2,7 +2,7 @@
 tags: sustainability
 type: faq
 question: What is the 25th Reunion doing to be more sustainable?
-lastModified: 2024-07-19
+lastModified: 2024-07-19 12:00
 ---
 Generating meaningful impact means a multi-pronged approach. Our class is striving to be more green on multiple fronts.
 

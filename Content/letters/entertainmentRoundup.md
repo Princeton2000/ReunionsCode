@@ -5,7 +5,7 @@ image: /images/photos/whitman-arches.jpg
 alt: The Whitman Arches
 title: Entertainment Roundup
 link: 
-lastModified: 2025-05-02T17:20:00Z
+lastModified: 2025-05-02 17:20
 published: true
 ---
 A deceptively dense email ahead of the weekend…

@@ -5,7 +5,7 @@ image: /images/photos/99hqfence.jpeg
 alt: 
 title: Donations & Sponsorships; Golf Carts & Transportation
 link: template
-lastModified: 2025-04-02T17:30:00Z-0400
+lastModified: 2025-04-02 17:30
 published: true
 ---
 

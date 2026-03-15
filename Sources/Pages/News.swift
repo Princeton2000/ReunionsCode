@@ -1,41 +1,37 @@
 //
-//  Housing.swift
+//  News.swift
+//  Princeton2000
 //
-//
-//  Created by Justin Purnell on 7/8/24.
+//  Migrated to new Ignite API
 //
 
 import Foundation
-import Cocoa
 import Ignite
 
 struct News: StaticPage {
-	var title = "News"
-	
-	func body(context: PublishingContext) -> [BlockElement] {
-		Section {
-			for content in context.content(ofType: ("news"))
-//				.filter({$0.metadata["published"] as? String == "true"})
-			{
-				Card {
-					if let image = content.image {
-						Image(image, description: content.imageDescription)
-							.resizable()
-							.cornerRadius(5)
-							.horizontalAlignment(.center)
-					}
-				} header: {
-					Link(target: content.metadata["link"] as? String ?? "") {
-						Text(content.metadata["title"] as! String)
-							.font(.title4).fontWeight(.medium)
-					}
-					.target(.newWindow)
-					.relationship(.noOpener, .noReferrer)
-				}
-				.width(3)
-				.margin(.bottom)
-				.padding(.horizontal, 5)
-			}
-		}
-	}
+    @Environment(\.articles) var articles
+
+    var title = "News"
+
+    var body: some HTML {
+        Section {
+            for content in articles.typed("news") {
+                Card {
+                    if let image = content.image {
+                        Image(image, description: content.imageDescription)
+                            .resizable()
+                            .cornerRadius(5)
+                            .horizontalAlignment(.center)
+                    }
+                } header: {
+                    Link(content.metadata["title"] as? String ?? content.title, target: content.metadata["link"] as? String ?? "")
+                        .target(.newWindow)
+                        .relationship(.noOpener, .noReferrer)
+                }
+                .width(3)
+                .margin(.bottom)
+                .padding(.horizontal, 5)
+            }
+        }
+    }
 }

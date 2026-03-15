@@ -1,30 +1,36 @@
 //
 //  Colophon.swift
+//  Princeton2000
 //
-//
-//  Created by Justin Purnell on 7/8/24.
+//  Migrated to new Ignite API
 //
 
 import Foundation
 import Ignite
 
 struct Colophon: StaticPage {
-	var title = "Colophon"
-	var description: String = "How our site is built."
-	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
-	
-	func body(context: PublishingContext) -> [BlockElement] {
-		Section {
-			for content in context.content(ofType: ("colophon")) {
-				Text(title).font(.title1)
-				Text(content.body)
-			}
-		}.columns(.max)
-		Text {
-			"Created with "
-			Link("Ignite", target: URL("https://github.com/twostraws/Ignite"))
-		}
-		.horizontalAlignment(.center)
-		.margin(.top, .extraLarge)
-	}
+    @Environment(\.articles) var articles
+
+    var title = "Colophon"
+    var description: String = "How our site is built."
+    var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
+
+    var colophonArticles: [Article] {
+        articles.typed("colophon")
+    }
+
+    var body: some HTML {
+        Text(title).font(.title1)
+
+        for content in colophonArticles {
+            Text(content.text)
+        }
+
+        Text {
+            "Created with "
+            Link("Ignite", target: "https://github.com/twostraws/Ignite")
+        }
+        .horizontalAlignment(.center)
+        .margin(.top, 50)
+    }
 }

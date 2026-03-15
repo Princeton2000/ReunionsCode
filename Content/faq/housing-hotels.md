@@ -2,7 +2,7 @@
 tags: housing
 type: faq
 question: Where should I stay?
-lastModified: 2024-07-19
+lastModified: 2024-07-19 12:00
 ---
 
 - Here is a [list of local hotels](https://docs.google.com/spreadsheets/d/1chWYFV69EQlY-L3wMB8wqE0hravAz8YuFYw_Y0W5qkk/edit?gid=0#gid=0) that have historically been serviced by Reunions Shuttles.

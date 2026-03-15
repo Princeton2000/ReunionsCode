@@ -1,19 +1,19 @@
 //
-//  Committee.swift
-//  IgniteStarter
+//  CommitteeMember.swift
+//  Princeton2000
 //
-//  Created by Justin Purnell on 10/15/24.
+//  Committee member model for leadership/officers
 //
 
 import Foundation
 
 struct CommitteeMember: Codable {
-	let firstName: String
-	let lastName: String
-	let chair: String
-	let role: String
-	let photo: String
-	let email: String
-	let priority: Int
-	var name: String { "\(firstName) \(lastName)"}
+    let firstName: String
+    let lastName: String
+    let chair: String
+    let role: String
+    let photo: String
+    let email: String
+    let priority: Int
+    var name: String { "\(firstName) \(lastName)" }
 }

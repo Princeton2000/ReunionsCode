@@ -2,7 +2,7 @@
 tags: sustainability
 type: faq
 question: Why is sustainability at our 25th Reunion a concern?
-lastModified: 2024-07-19
+lastModified: 2024-07-19 12:00
 ---
 
 - Like many large festivals, Reunions has a large environmental footprint. For example, alumni travel on average 1,900 miles round trip, which equates to a travel-related carbon footprint of ~7,900 tons of CO2 (comparable to the annual electricity use of 1,500 US homes).

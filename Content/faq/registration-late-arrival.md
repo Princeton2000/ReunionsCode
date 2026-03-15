@@ -2,7 +2,7 @@
 tags: registration, check-in
 type: faq
 question: What if I arrive after registration officially is closed?
-lastModified: 2025-03-03
+lastModified: 2025-03-03 12:00
 ---
 Registration hours are: 
 - Thursday, May 22 | **Noon - 11:00 pm** 

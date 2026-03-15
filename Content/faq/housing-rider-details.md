@@ -3,7 +3,7 @@ tags: housing, alternatives, rider
 type: faq
 question: What are the details for Rider housing?
 lastModified: 2024-07-19
-published: false
+published: false 12:00
 ---
 - All rooms, regardless of location, are student housing (ie. they do not come furnished with anything except a bed, dresser, closet, desk, and chair). They do not have trash cans or amenities like bathroom toiletries, etc.
 

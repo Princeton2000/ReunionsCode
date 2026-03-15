@@ -2,7 +2,7 @@
 tags: dues
 type: dues
 title: Class Letter on Dues
-lastModified: 2024-08-07
+lastModified: 2024-08-07 12:00
 ---
  - **What Are Class Dues and Why Are They Important?**
  - **Goals for Class Dues**

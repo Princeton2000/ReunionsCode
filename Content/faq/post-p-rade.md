@@ -2,7 +2,7 @@
 tags: locations, p-rade
 type: faq
 question: Where do we march in the P-rade, where do we go?
-lastModified: 2024-07-19
+lastModified: 2024-07-19 12:00
 ---
 - As the 25th Reunion class, we will be near the head of the P-rade, right behind the Old Guard. 
 

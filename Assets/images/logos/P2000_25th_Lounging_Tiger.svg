@@ -14,7 +14,7 @@
 				} }
 			@media (prefers-color-scheme: dark) { 
 				:root { 
-				--color: #BBBBBB; 
+				--color: #FFFFFF; 
 				--princeton: #F08C42;
 				} }
 			@font-face {

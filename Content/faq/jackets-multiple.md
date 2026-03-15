@@ -2,7 +2,7 @@
 tags: jacket, multiple jackets, post-reunions
 type: faq
 question: Can I order more than one jacket?
-lastModified: 2024-10-25
+lastModified: 2024-10-25 12:00
 ---
 
 - Absolutely! These things have to last a while.

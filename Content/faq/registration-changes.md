@@ -2,7 +2,7 @@
 tags: registration
 type: faq
 question: How do I change my registration?
-lastModified: 2024-07-19
+lastModified: 2024-07-19 12:00
 ---
 - **Option A:** Find your original registration email (subject: Reunions 2025 Confirmation). Scroll to the bottom. You should see one button for “View Registration Details” and one for “Update My Registration.” Use the “Update” button to make any changes.
 

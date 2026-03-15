@@ -2,7 +2,7 @@
 tags: jacket, deadlines, post-reunions
 type: faq
 question: Is the Jacket Deadline Real?
-lastModified: 2024-12-13
+lastModified: 2024-12-13 12:00
 ---
 
 - Is December 13 a real deadline?

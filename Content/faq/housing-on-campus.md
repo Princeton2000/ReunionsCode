@@ -3,7 +3,7 @@ layout: Story
 tags: housing, on-campus, faq
 question: What are on-campus housing options at the 25th?
 image: /images/photos/whitman-arches.jpg
-lastModified: 2024-07-08
+lastModified: 2024-07-08 12:00
 published: true
 ---
 

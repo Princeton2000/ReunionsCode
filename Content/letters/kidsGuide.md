@@ -5,7 +5,7 @@ image: /images/photos/IMG_0464.jpeg.webp
 alt: The Whitman Arches
 title: Kids' Guide and a chance to set a record
 link: 
-lastModified: 2025-03-28T16:45:00Z-0400
+lastModified: 2025-03-28 16:45
 published: true
 ---
 

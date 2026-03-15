@@ -1,30 +1,36 @@
 //
-//  Story.swift
-//  
+//  Email.swift
+//  Princeton2000
 //
-//  Created by Justin Purnell on 7/8/24.
+//  ArticlePage for rendering email-style content
+//  Migrated from ContentPage to ArticlePage
 //
 
 import Foundation
 import Ignite
 
-struct Email: ContentPage {	
-	
-	func body(content: Content, context: PublishingContext) -> [any BlockElement] {
-		Group {
-			Text(content.metadata["title"] as? String ?? "\(content.title)")
-				.font(.title1)
-			Text(formatDate(content.metadata["lastModified"] as? String ?? "", .medium, .short))
+struct Email: ArticlePage {
+    var body: some HTML {
+        Group {
+            // Title
+            Text(article.metadata["title"] as? String ?? article.title)
+                .font(.title1)
 
-			if let image = content.image {
-				Image(image, description: content.imageDescription)
-					.resizable()
-					.cornerRadius(10)
-					.horizontalAlignment(.center)
-			}
-			Text(content.body)
-		}
-		.frame(maxWidth: 900)
-		.padding(.horizontal, 5)
-	}
+            // Date
+            Text(formatDate(article.lastModified, .medium, .short))
+
+            // Featured image
+            if let image = article.image {
+                Image(image, description: article.imageDescription)
+                    .resizable()
+                    .cornerRadius(10)
+                    .horizontalAlignment(.center)
+            }
+
+            // Main content
+            Text(article.text)
+        }
+        .frame(maxWidth: 900)
+        .padding(.horizontal, 5)
+    }
 }

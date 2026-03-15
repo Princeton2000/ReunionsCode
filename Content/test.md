@@ -1,4 +1,5 @@
 ---
+type: news
 layout: Story
 tags: Swift, Story
 image: /images/photos/whitman-arches.jpg

@@ -3,7 +3,7 @@ layout: Story
 tags: Costumes
 image: /images/jacket/P2000_jacket_sketch.png
 title: How our 25th Jacket came to life 
-lastModified: 2024-10-30
+lastModified: 2024-10-30 12:00
 ---
 # A Reunions Jacket for the Ages
 

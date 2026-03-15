@@ -1,23 +1,26 @@
 //
-//  Housing.swift
+//  Constitution.swift
+//  Princeton2000
 //
-//
-//  Created by Justin Purnell on 7/8/24.
+//  Migrated to new Ignite API
 //
 
 import Foundation
 import Ignite
 
 struct Constitution: StaticPage {
-	var title = "Class Constitution"
+    var title = "Class Constitution"
 
-	func body(context: PublishingContext) -> [BlockElement] {
-		Text {
-			Link("Class Constitution", target: "/constitution/constitution.pdf")
-										.target(.newWindow)
-										.relationship(.noOpener, .noReferrer)
-		}.font(.title5).fontWeight(.semibold).horizontalAlignment(.center)
-		Include("constitution.html")
-		
-	}
+    var body: some HTML {
+        Text {
+            Link("Class Constitution", target: "/constitution/constitution.pdf")
+                .target(.newWindow)
+                .relationship(.noOpener, .noReferrer)
+        }
+        .font(.title5)
+        .fontWeight(.semibold)
+        .horizontalAlignment(.center)
+
+        Include("constitution.html")
+    }
 }

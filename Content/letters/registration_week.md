@@ -5,7 +5,7 @@ image: /images/photos/whitman-arches.jpg
 alt: Whitman Arches
 title: Registration week update
 link: 
-lastModified: 2024-10-28T21:25:00Z-0400
+lastModified: 2024-10-28 21:25
 published: true
 ---
 Hello 2000, and welcome to WhatsApp! I am thrilled to announce that thanks to the incredible work of your Reunions Committee, we are ahead of schedule, and started beta testing registration on Thursday! I wanted to give you all a rundown so you know what to expect this week.

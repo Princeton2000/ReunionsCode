@@ -1,24 +1,30 @@
 //
 //  Dues.swift
+//  Princeton2000
 //
-//
-//  Created by Justin Purnell on 7/8/24.
+//  Migrated to new Ignite API
 //
 
 import Foundation
 import Ignite
 
 struct Dues: StaticPage {
-	var title = "Class Dues"
-	var description: String = "Pay your dues…we need them!!"
-	var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
+    @Environment(\.articles) var articles
 
-	func body(context: PublishingContext) -> [BlockElement] {
-		Group {
-			Text("Dues").font(.title1).fontWeight(.semibold)
-			for content in context.content(ofType: "dues") {
-				Text(content.body)
-			}
-		}.padding(.horizontal, 20)
-	}
+    var title = "Class Dues"
+    var description: String = "Pay your dues…we need them!!"
+    var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
+
+    var body: some HTML {
+        Group {
+            Text("Dues")
+                .font(.title1)
+                .fontWeight(.semibold)
+
+            for content in articles.typed("dues") {
+                Text(content.text)
+            }
+        }
+        .padding(.horizontal, 20)
+    }
 }

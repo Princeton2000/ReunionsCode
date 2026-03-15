@@ -2,7 +2,7 @@
 tags: jacket, ordering, post-reunions
 type: faq
 question: Where can I order my jacket?
-lastModified: 2024-10-25
+lastModified: 2024-10-25 12:00
 published: false
 ---
 
