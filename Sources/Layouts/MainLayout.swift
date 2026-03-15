@@ -30,10 +30,6 @@ struct MainLayout: Layout {
             MetaLink(href: "/css/fonts.css", rel: .stylesheet)
             MetaLink(href: "/css/theme.css", rel: .stylesheet)
             MetaLink(href: "/css/layout.css", rel: .stylesheet)
-            Script(code: """
-                document.documentElement.setAttribute('data-light-theme', 'princeton-light-light');
-                document.documentElement.setAttribute('data-dark-theme', 'princeton-dark-dark');
-            """)
         }
 
         Body {
