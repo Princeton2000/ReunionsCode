@@ -7,7 +7,7 @@ let package = Package(
     name: "IgniteStarter",
     platforms: [.macOS(.v13)],
     dependencies: [
-        .package(url: "https://github.com/twostraws/Ignite.git", branch: "main")
+        .package(url: "https://github.com/jpurnell/Ignite.git", branch: "fix/merge-copy-assets")
     ],
     targets: [
         .executableTarget(
