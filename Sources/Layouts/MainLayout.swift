@@ -31,16 +31,9 @@ struct MainLayout: Layout {
             MetaLink(href: "/css/theme.css", rel: .stylesheet)
             MetaLink(href: "/css/layout.css", rel: .stylesheet)
             Script(code: """
-                function updateSocialIcons() {
-                    var isDark = document.documentElement.getAttribute('data-bs-theme')?.includes('dark');
-                    document.querySelectorAll('img[src*="/images/social/"]').forEach(function(img) {
-                        img.style.filter = isDark ? 'invert(1)' : '';
-                    });
-                }
-                new MutationObserver(updateSocialIcons).observe(
-                    document.documentElement, { attributes: true, attributeFilter: ['data-bs-theme'] }
-                );
-                document.addEventListener('DOMContentLoaded', updateSocialIcons);
+                var s = document.createElement('style');
+                s.textContent = '[data-bs-theme*=\"dark\"] img[src*=\"social\"] { filter: invert(1) !important; } [data-bs-theme*=\"dark\"] img[src*=\"TigerHead_BECW\"] { filter: invert(1) hue-rotate(180deg) !important; } [data-bs-theme*=\"dark\"] img[src*=\"Lounging_Tiger\"] { filter: invert(1) hue-rotate(180deg) !important; } [data-bs-theme*=\"dark\"] img[src*=\"headshots/P2000_25th_TigerHead\"] { filter: invert(1) !important; }';
+                document.head.appendChild(s);
             """)
         }
 

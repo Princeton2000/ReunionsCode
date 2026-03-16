@@ -64,16 +64,9 @@
     <link href="/css/fonts.css" rel="stylesheet" />
     <link href="/css/theme.css" rel="stylesheet" />
     <link href="/css/layout.css" rel="stylesheet" />
-    <script>    function updateSocialIcons() {
-        var isDark = document.documentElement.getAttribute('data-bs-theme')?.includes('dark');
-        document.querySelectorAll('img[src*="/images/social/"]').forEach(function(img) {
-            img.style.filter = isDark ? 'invert(1)' : '';
-        });
-    }
-    new MutationObserver(updateSocialIcons).observe(
-        document.documentElement, { attributes: true, attributeFilter: ['data-bs-theme'] }
-    );
-    document.addEventListener('DOMContentLoaded', updateSocialIcons);</script>
+    <script>    var s = document.createElement('style');
+    s.textContent = '[data-bs-theme*="dark"] img[src*="social"] { filter: invert(1) !important; } [data-bs-theme*="dark"] img[src*="TigerHead_BECW"] { filter: invert(1) hue-rotate(180deg) !important; } [data-bs-theme*="dark"] img[src*="Lounging_Tiger"] { filter: invert(1) hue-rotate(180deg) !important; } [data-bs-theme*="dark"] img[src*="headshots/P2000_25th_TigerHead"] { filter: invert(1) !important; }';
+    document.head.appendChild(s);</script>
   </head>
   <body class="container">
     <!-- Google Tag Manager (noscript) --> 
@@ -125,26 +118,26 @@
       <h6><a rel="tag" href="/tags/template"><span class="badge text-bg-primary rounded-pill">template</span></a></h6>
       <p></p>
     </div>
-    <div id="accordionBvQZ8" class="accordion">
+    <div id="accordionUtfbO" class="accordion">
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionBvQZ8-itemasQZt" aria-expanded="false" aria-controls="accordionBvQZ8-itemasQZt">template</button></h2>
-        <div id="accordionBvQZ8-itemasQZt" class="accordion-collapse collapse" data-bs-parent="#accordionBvQZ8">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionUtfbO-itemMLp3d" aria-expanded="false" aria-controls="accordionUtfbO-itemMLp3d">template</button></h2>
+        <div id="accordionUtfbO-itemMLp3d" class="accordion-collapse collapse" data-bs-parent="#accordionUtfbO">
           <div class="accordion-body">
             <p></p>
           </div>
         </div>
       </div>
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionBvQZ8-itemgnVzP" aria-expanded="false" aria-controls="accordionBvQZ8-itemgnVzP">If we are staying on campus, are bedding (sheets, blankets) and towels provided</button></h2>
-        <div id="accordionBvQZ8-itemgnVzP" class="accordion-collapse collapse" data-bs-parent="#accordionBvQZ8">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionUtfbO-itemrStBl" aria-expanded="false" aria-controls="accordionUtfbO-itemrStBl">If we are staying on campus, are bedding (sheets, blankets) and towels provided</button></h2>
+        <div id="accordionUtfbO-itemrStBl" class="accordion-collapse collapse" data-bs-parent="#accordionUtfbO">
           <div class="accordion-body">
             <p>If you elected the optional $30 linen rental package at registration, you will be provided with two sheets, a pillow and pillowcase, a blanket, two bath towels, and a washcloth for use during your stay. </p>
           </div>
         </div>
       </div>
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionBvQZ8-itemvEruA" aria-expanded="false" aria-controls="accordionBvQZ8-itemvEruA">Is it still possible to add products (umbrella, hats, etc) to our registration?</button></h2>
-        <div id="accordionBvQZ8-itemvEruA" class="accordion-collapse collapse" data-bs-parent="#accordionBvQZ8">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionUtfbO-itemFgH7o" aria-expanded="false" aria-controls="accordionUtfbO-itemFgH7o">Is it still possible to add products (umbrella, hats, etc) to our registration?</button></h2>
+        <div id="accordionUtfbO-itemFgH7o" class="accordion-collapse collapse" data-bs-parent="#accordionUtfbO">
           <div class="accordion-body">
             <p>You can’t add to your registration anymore, because we are busy sorting the items people have already purchased. When you get to campus, the “store” will be open you’ll be able to buy stuff on site. We’re switching over to a new infrastructure that can do mobile orders and will be our store post-Reunions </p>
           </div>

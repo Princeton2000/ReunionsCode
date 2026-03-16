@@ -67,16 +67,9 @@
     <link href="/css/fonts.css" rel="stylesheet" />
     <link href="/css/theme.css" rel="stylesheet" />
     <link href="/css/layout.css" rel="stylesheet" />
-    <script>    function updateSocialIcons() {
-        var isDark = document.documentElement.getAttribute('data-bs-theme')?.includes('dark');
-        document.querySelectorAll('img[src*="/images/social/"]').forEach(function(img) {
-            img.style.filter = isDark ? 'invert(1)' : '';
-        });
-    }
-    new MutationObserver(updateSocialIcons).observe(
-        document.documentElement, { attributes: true, attributeFilter: ['data-bs-theme'] }
-    );
-    document.addEventListener('DOMContentLoaded', updateSocialIcons);</script>
+    <script>    var s = document.createElement('style');
+    s.textContent = '[data-bs-theme*="dark"] img[src*="social"] { filter: invert(1) !important; } [data-bs-theme*="dark"] img[src*="TigerHead_BECW"] { filter: invert(1) hue-rotate(180deg) !important; } [data-bs-theme*="dark"] img[src*="Lounging_Tiger"] { filter: invert(1) hue-rotate(180deg) !important; } [data-bs-theme*="dark"] img[src*="headshots/P2000_25th_TigerHead"] { filter: invert(1) !important; }';
+    document.head.appendChild(s);</script>
   </head>
   <body class="container">
     <!-- Google Tag Manager (noscript) --> 
@@ -130,10 +123,10 @@
       <p>If you elected the optional $30 linen rental package at registration, you will be provided with two sheets, a pillow and pillowcase, a blanket, two bath towels, and a washcloth for use during your stay.</p>
       <p></p>
     </div>
-    <div id="accordionwGATE" class="accordion">
+    <div id="accordionSrnIc" class="accordion">
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionwGATE-itemdzz8U" aria-expanded="false" aria-controls="accordionwGATE-itemdzz8U">Where do I pick up/drop off my linen rentals?</button></h2>
-        <div id="accordionwGATE-itemdzz8U" class="accordion-collapse collapse" data-bs-parent="#accordionwGATE">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionSrnIc-itemaj9YM" aria-expanded="false" aria-controls="accordionSrnIc-itemaj9YM">Where do I pick up/drop off my linen rentals?</button></h2>
+        <div id="accordionSrnIc-itemaj9YM" class="accordion-collapse collapse" data-bs-parent="#accordionSrnIc">
           <div class="accordion-body">
             <p></p>
             <ul>
@@ -145,16 +138,16 @@
         </div>
       </div>
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionwGATE-itemQ8D89" aria-expanded="false" aria-controls="accordionwGATE-itemQ8D89">Are there linen rentals for on campus housing?</button></h2>
-        <div id="accordionwGATE-itemQ8D89" class="accordion-collapse collapse" data-bs-parent="#accordionwGATE">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionSrnIc-itemUv6ax" aria-expanded="false" aria-controls="accordionSrnIc-itemUv6ax">Are there linen rentals for on campus housing?</button></h2>
+        <div id="accordionSrnIc-itemUv6ax" class="accordion-collapse collapse" data-bs-parent="#accordionSrnIc">
           <div class="accordion-body">
             <p>The class is offering classmates who are staying in campus housing the opportunity to <a href="https://laundrysolutions.net/industries-served/summer-camp-linens/">rent bed linens</a> as an alternative to purchasing sheets and towels from the U-Store (which are often thrown away after the weekend, adding to textile waste and landfill usage, as many organizations do not accept donated bed linens). Princeton University is not offering linens for the 25th this year, but we felt it was important enough, for convenience and for environmental friendliness purposes, to pursue this on our own. Linens can be rented at registration. The package is $30 for the weekend, and includes two sheets, a pillow and pillowcase, a blanket, two bth towels, and a washcloth. Alternatively, you can bring pillow/sheets/towels yourself. </p>
           </div>
         </div>
       </div>
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionwGATE-itemV421X" aria-expanded="false" aria-controls="accordionwGATE-itemV421X">If I have on-campus housing, when is check out?</button></h2>
-        <div id="accordionwGATE-itemV421X" class="accordion-collapse collapse" data-bs-parent="#accordionwGATE">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionSrnIc-itemr3K51" aria-expanded="false" aria-controls="accordionSrnIc-itemr3K51">If I have on-campus housing, when is check out?</button></h2>
+        <div id="accordionSrnIc-itemr3K51" class="accordion-collapse collapse" data-bs-parent="#accordionSrnIc">
           <div class="accordion-body">
             <p>On-campus housing check-out is at noon on Sunday. Linens should be returned to the registration table at Whitman College. Please confirm that a crew member marks your items as returned. </p>
           </div>

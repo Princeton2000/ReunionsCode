@@ -69,16 +69,9 @@
     <link href="/css/fonts.css" rel="stylesheet" />
     <link href="/css/theme.css" rel="stylesheet" />
     <link href="/css/layout.css" rel="stylesheet" />
-    <script>    function updateSocialIcons() {
-        var isDark = document.documentElement.getAttribute('data-bs-theme')?.includes('dark');
-        document.querySelectorAll('img[src*="/images/social/"]').forEach(function(img) {
-            img.style.filter = isDark ? 'invert(1)' : '';
-        });
-    }
-    new MutationObserver(updateSocialIcons).observe(
-        document.documentElement, { attributes: true, attributeFilter: ['data-bs-theme'] }
-    );
-    document.addEventListener('DOMContentLoaded', updateSocialIcons);</script>
+    <script>    var s = document.createElement('style');
+    s.textContent = '[data-bs-theme*="dark"] img[src*="social"] { filter: invert(1) !important; } [data-bs-theme*="dark"] img[src*="TigerHead_BECW"] { filter: invert(1) hue-rotate(180deg) !important; } [data-bs-theme*="dark"] img[src*="Lounging_Tiger"] { filter: invert(1) hue-rotate(180deg) !important; } [data-bs-theme*="dark"] img[src*="headshots/P2000_25th_TigerHead"] { filter: invert(1) !important; }';
+    document.head.appendChild(s);</script>
   </head>
   <body class="container">
     <!-- Google Tag Manager (noscript) --> 
@@ -131,10 +124,10 @@
         <p class="text-center" style="font-weight: 600"><a target="_blank" rel="noopener noreferrer" href="/images/jacket/P2000_25th_Jacket_Sizing_Chart.pdf">While you wait, make sure it fits! Here's our measuring guide to make sure you get the perfect fit.</a></p>
       </div>
       <hr />
-      <div id="accordionucXCX" class="accordion">
+      <div id="accordionVncfh" class="accordion">
         <div class="accordion-item">
-          <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionucXCX-item5vuH2" aria-expanded="false" aria-controls="accordionucXCX-item5vuH2">Thinking about tailoring your jacket (for future Reunions)?</button></h2>
-          <div id="accordionucXCX-item5vuH2" class="accordion-collapse collapse" data-bs-parent="#accordionucXCX">
+          <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionVncfh-item4hW0x" aria-expanded="false" aria-controls="accordionVncfh-item4hW0x">Thinking about tailoring your jacket (for future Reunions)?</button></h2>
+          <div id="accordionVncfh-item4hW0x" class="accordion-collapse collapse" data-bs-parent="#accordionVncfh">
             <div class="accordion-body">
               <p>
                 <!-- If you will not be attending Reunions, email [jacket czar](mailto:p2000jackets@gmail.com) after the planning team has had a chance to recover from the weekend, but before June 5, with the subject line “LATE JACKET ORDER.”--> <strong>Pro-tip:</strong> If you’re thinking about getting your jacket tailored for future Reunions (you’ll get them when you get to Reunions this year), it’s best to pick a size that lines up with your shoulder width, as that’s the hardest thing for a tailor to change. The shoulder width should go across your back from shoulder to shoulder, not from shoulder to the bottom of your collar and then back down.</p>
@@ -147,8 +140,8 @@
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionucXCX-itemOJCr1" aria-expanded="false" aria-controls="accordionucXCX-itemOJCr1">Is the Jacket Deadline Real?</button></h2>
-          <div id="accordionucXCX-itemOJCr1" class="accordion-collapse collapse" data-bs-parent="#accordionucXCX">
+          <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionVncfh-item3lOZn" aria-expanded="false" aria-controls="accordionVncfh-item3lOZn">Is the Jacket Deadline Real?</button></h2>
+          <div id="accordionVncfh-item3lOZn" class="accordion-collapse collapse" data-bs-parent="#accordionVncfh">
             <div class="accordion-body">
               <div>
                 <p></p>
@@ -162,8 +155,8 @@
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionucXCX-itemK4IYm" aria-expanded="false" aria-controls="accordionucXCX-itemK4IYm">Can I order more than one jacket?</button></h2>
-          <div id="accordionucXCX-itemK4IYm" class="accordion-collapse collapse" data-bs-parent="#accordionucXCX">
+          <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionVncfh-itemQb81c" aria-expanded="false" aria-controls="accordionVncfh-itemQb81c">Can I order more than one jacket?</button></h2>
+          <div id="accordionVncfh-itemQb81c" class="accordion-collapse collapse" data-bs-parent="#accordionVncfh">
             <div class="accordion-body">
               <p></p>
               <ul>
@@ -175,8 +168,8 @@
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionucXCX-itemU0dBe" aria-expanded="false" aria-controls="accordionucXCX-itemU0dBe">Can I pay a little more for a rush order?</button></h2>
-          <div id="accordionucXCX-itemU0dBe" class="accordion-collapse collapse" data-bs-parent="#accordionucXCX">
+          <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionVncfh-item9sZMR" aria-expanded="false" aria-controls="accordionVncfh-item9sZMR">Can I pay a little more for a rush order?</button></h2>
+          <div id="accordionVncfh-item9sZMR" class="accordion-collapse collapse" data-bs-parent="#accordionVncfh">
             <div class="accordion-body">
               <div>
                 <p></p>
@@ -190,8 +183,8 @@
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionucXCX-itemcZcso" aria-expanded="false" aria-controls="accordionucXCX-itemcZcso">Will I still be able to order a 25th reunion jacket to wear for future events?</button></h2>
-          <div id="accordionucXCX-itemcZcso" class="accordion-collapse collapse" data-bs-parent="#accordionucXCX">
+          <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionVncfh-itemI4PYO" aria-expanded="false" aria-controls="accordionVncfh-itemI4PYO">Will I still be able to order a 25th reunion jacket to wear for future events?</button></h2>
+          <div id="accordionVncfh-itemI4PYO" class="accordion-collapse collapse" data-bs-parent="#accordionVncfh">
             <div class="accordion-body">
               <p></p>
               <ul>
@@ -203,8 +196,8 @@
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionucXCX-item2fewJ" aria-expanded="false" aria-controls="accordionucXCX-item2fewJ">Should I order a jacket for my spouse/partner?</button></h2>
-          <div id="accordionucXCX-item2fewJ" class="accordion-collapse collapse" data-bs-parent="#accordionucXCX">
+          <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionVncfh-item4A3h5" aria-expanded="false" aria-controls="accordionVncfh-item4A3h5">Should I order a jacket for my spouse/partner?</button></h2>
+          <div id="accordionVncfh-item4A3h5" class="accordion-collapse collapse" data-bs-parent="#accordionVncfh">
             <div class="accordion-body">
               <p></p>
               <ul>
@@ -215,8 +208,8 @@
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionucXCX-itemST1is" aria-expanded="false" aria-controls="accordionucXCX-itemST1is">What size jacket should I order?</button></h2>
-          <div id="accordionucXCX-itemST1is" class="accordion-collapse collapse" data-bs-parent="#accordionucXCX">
+          <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionVncfh-itemkLUQP" aria-expanded="false" aria-controls="accordionVncfh-itemkLUQP">What size jacket should I order?</button></h2>
+          <div id="accordionVncfh-itemkLUQP" class="accordion-collapse collapse" data-bs-parent="#accordionVncfh">
             <div class="accordion-body">
               <p></p>
               <ul>
@@ -229,10 +222,10 @@
         </div>
       </div>
     </div>
-    <div id="accordionp0wOG" class="accordion">
+    <div id="accordion0IOCY" class="accordion">
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionp0wOG-itemDrPR0" aria-expanded="false" aria-controls="accordionp0wOG-itemDrPR0">Thinking about tailoring your jacket (for future Reunions)?</button></h2>
-        <div id="accordionp0wOG-itemDrPR0" class="accordion-collapse collapse" data-bs-parent="#accordionp0wOG">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordion0IOCY-itemY4Y0K" aria-expanded="false" aria-controls="accordion0IOCY-itemY4Y0K">Thinking about tailoring your jacket (for future Reunions)?</button></h2>
+        <div id="accordion0IOCY-itemY4Y0K" class="accordion-collapse collapse" data-bs-parent="#accordion0IOCY">
           <div class="accordion-body">
             <p>
               <!-- If you will not be attending Reunions, email [jacket czar](mailto:p2000jackets@gmail.com) after the planning team has had a chance to recover from the weekend, but before June 5, with the subject line “LATE JACKET ORDER.”--> <strong>Pro-tip:</strong> If you’re thinking about getting your jacket tailored for future Reunions (you’ll get them when you get to Reunions this year), it’s best to pick a size that lines up with your shoulder width, as that’s the hardest thing for a tailor to change. The shoulder width should go across your back from shoulder to shoulder, not from shoulder to the bottom of your collar and then back down.</p>
@@ -245,8 +238,8 @@
         </div>
       </div>
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionp0wOG-itemn2S3B" aria-expanded="false" aria-controls="accordionp0wOG-itemn2S3B">Is the Jacket Deadline Real?</button></h2>
-        <div id="accordionp0wOG-itemn2S3B" class="accordion-collapse collapse" data-bs-parent="#accordionp0wOG">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordion0IOCY-itemwHkpw" aria-expanded="false" aria-controls="accordion0IOCY-itemwHkpw">Is the Jacket Deadline Real?</button></h2>
+        <div id="accordion0IOCY-itemwHkpw" class="accordion-collapse collapse" data-bs-parent="#accordion0IOCY">
           <div class="accordion-body">
             <div>
               <p></p>
@@ -260,8 +253,8 @@
         </div>
       </div>
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionp0wOG-itemUeLKZ" aria-expanded="false" aria-controls="accordionp0wOG-itemUeLKZ">Can I order more than one jacket?</button></h2>
-        <div id="accordionp0wOG-itemUeLKZ" class="accordion-collapse collapse" data-bs-parent="#accordionp0wOG">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordion0IOCY-itemVZI1e" aria-expanded="false" aria-controls="accordion0IOCY-itemVZI1e">Can I order more than one jacket?</button></h2>
+        <div id="accordion0IOCY-itemVZI1e" class="accordion-collapse collapse" data-bs-parent="#accordion0IOCY">
           <div class="accordion-body">
             <p></p>
             <ul>
@@ -273,8 +266,8 @@
         </div>
       </div>
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionp0wOG-itemH347c" aria-expanded="false" aria-controls="accordionp0wOG-itemH347c">Can I pay a little more for a rush order?</button></h2>
-        <div id="accordionp0wOG-itemH347c" class="accordion-collapse collapse" data-bs-parent="#accordionp0wOG">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordion0IOCY-itemOH65P" aria-expanded="false" aria-controls="accordion0IOCY-itemOH65P">Can I pay a little more for a rush order?</button></h2>
+        <div id="accordion0IOCY-itemOH65P" class="accordion-collapse collapse" data-bs-parent="#accordion0IOCY">
           <div class="accordion-body">
             <div>
               <p></p>
@@ -288,8 +281,8 @@
         </div>
       </div>
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionp0wOG-itemJg4Ya" aria-expanded="false" aria-controls="accordionp0wOG-itemJg4Ya">Will I still be able to order a 25th reunion jacket to wear for future events?</button></h2>
-        <div id="accordionp0wOG-itemJg4Ya" class="accordion-collapse collapse" data-bs-parent="#accordionp0wOG">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordion0IOCY-itemWBr9H" aria-expanded="false" aria-controls="accordion0IOCY-itemWBr9H">Will I still be able to order a 25th reunion jacket to wear for future events?</button></h2>
+        <div id="accordion0IOCY-itemWBr9H" class="accordion-collapse collapse" data-bs-parent="#accordion0IOCY">
           <div class="accordion-body">
             <p></p>
             <ul>
@@ -301,8 +294,8 @@
         </div>
       </div>
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionp0wOG-itemnsoST" aria-expanded="false" aria-controls="accordionp0wOG-itemnsoST">Should I order a jacket for my spouse/partner?</button></h2>
-        <div id="accordionp0wOG-itemnsoST" class="accordion-collapse collapse" data-bs-parent="#accordionp0wOG">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordion0IOCY-item053gO" aria-expanded="false" aria-controls="accordion0IOCY-item053gO">Should I order a jacket for my spouse/partner?</button></h2>
+        <div id="accordion0IOCY-item053gO" class="accordion-collapse collapse" data-bs-parent="#accordion0IOCY">
           <div class="accordion-body">
             <p></p>
             <ul>
@@ -313,8 +306,8 @@
         </div>
       </div>
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionp0wOG-item2XXyN" aria-expanded="false" aria-controls="accordionp0wOG-item2XXyN">What size jacket should I order?</button></h2>
-        <div id="accordionp0wOG-item2XXyN" class="accordion-collapse collapse" data-bs-parent="#accordionp0wOG">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordion0IOCY-item9vfpu" aria-expanded="false" aria-controls="accordion0IOCY-item9vfpu">What size jacket should I order?</button></h2>
+        <div id="accordion0IOCY-item9vfpu" class="accordion-collapse collapse" data-bs-parent="#accordion0IOCY">
           <div class="accordion-body">
             <p></p>
             <ul>
