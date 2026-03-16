@@ -49,14 +49,27 @@ func sizeChart(_ chart: SizeChart) -> some HTML {
 
 @MainActor
 func apparelCard(_ apparel: Apparel) -> some HTML {
-    Card(imageName: apparel.image) {
-        Text("\(apparel.description)")
-            .font(.title6)
-        if let chart = apparel.sizeChart {
-            sizeChart(chart)
+    if apparel.image.isEmpty {
+        Card {
+            Text("\(apparel.description)")
+                .font(.title6)
+            if let chart = apparel.sizeChart {
+                sizeChart(chart)
+            }
+        } header: {
+            apparel.name
         }
-    } header: {
-        apparel.name
+        .frame(maxWidth: 500)
+    } else {
+        Card(imageName: apparel.image) {
+            Text("\(apparel.description)")
+                .font(.title6)
+            if let chart = apparel.sizeChart {
+                sizeChart(chart)
+            }
+        } header: {
+            apparel.name
+        }
+        .frame(maxWidth: 500)
     }
-    .frame(maxWidth: 500)
 }

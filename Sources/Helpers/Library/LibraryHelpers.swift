@@ -38,10 +38,12 @@ func libraryRow(_ libraryEntry: LibraryEntry, includeDivider: Bool = true) -> so
     let linksWithUrls = linksWithUrlsFor(libraryEntry)
 
     return Section {
-        Image(libraryEntry.image ?? "", description: libraryEntry.title)
-            .resizable()
-            .frame(minWidth: 100, maxWidth: 300, minHeight: 150, height: 300)
-            .hint(text: libraryEntry.title ?? "")
+        if let image = libraryEntry.image, !image.isEmpty {
+            Image(image, description: libraryEntry.title)
+                .resizable()
+                .frame(minWidth: 100, maxWidth: 300, minHeight: 150, height: 300)
+                .hint(text: libraryEntry.title ?? "")
+        }
 
         Group {
             Text(libraryEntry.title ?? "")

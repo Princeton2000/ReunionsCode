@@ -1,7 +1,6 @@
 ---
 layout: Story
 tags: Class Notes, 20th Reunion, Ian Shapira, Julia Boorstin
-image: 
 title: 20th Reunion Look Back
 vimeo: 427039352
 link: 

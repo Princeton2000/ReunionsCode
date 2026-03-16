@@ -12,9 +12,14 @@ import Ignite
 struct Story: ArticlePage {
     var body: some HTML {
         // Title with optional link
-        Link(article.metadata["question"] as? String ?? article.metadata["title"] as? String ?? article.title,
-             target: article.metadata["link"] as? String ?? "#")
-            .font(.title1)
+        if let link = article.metadata["link"] as? String, !link.isEmpty {
+            Link(article.metadata["question"] as? String ?? article.metadata["title"] as? String ?? article.title,
+                 target: link)
+                .font(.title1)
+        } else {
+            Text(article.metadata["question"] as? String ?? article.metadata["title"] as? String ?? article.title)
+                .font(.title1)
+        }
 
         // Featured image
         if let image = article.image {
@@ -43,9 +48,9 @@ struct Story: ArticlePage {
         Text(article.text)
 
         // "Read more" link if external link exists
-        if article.metadata["link"] as? String != nil {
+        if let link = article.metadata["link"] as? String, !link.isEmpty {
             Text {
-                Link(target: article.metadata["link"] as? String ?? "#") {
+                Link(target: link) {
                     "Read more..."
                 }
             }

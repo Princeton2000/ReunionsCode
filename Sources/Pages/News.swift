@@ -24,9 +24,14 @@ struct News: StaticPage {
                             .horizontalAlignment(.center)
                     }
                 } header: {
-                    Link(content.metadata["title"] as? String ?? content.title, target: content.metadata["link"] as? String ?? "")
-                        .target(.newWindow)
-                        .relationship(.noOpener, .noReferrer)
+                    if let link = content.metadata["link"] as? String, !link.isEmpty {
+                        Link(content.metadata["title"] as? String ?? content.title, target: link)
+                            .target(.newWindow)
+                            .relationship(.noOpener, .noReferrer)
+                    } else {
+                        Text(content.metadata["title"] as? String ?? content.title)
+                            .fontWeight(.semibold)
+                    }
                 }
                 .width(3)
                 .margin(.bottom)

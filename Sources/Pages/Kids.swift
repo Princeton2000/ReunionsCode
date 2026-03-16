@@ -39,11 +39,12 @@ struct Kids: StaticPage {
                 .buttonSize(.large)
                 .role(.dark)
                 .padding()
-            Group {
-                Image("/images/photos/IMG_0464.jpeg.webp", description: "Tiger Cubs play Jenga at Tiger Camp")
-                    .resizable()
-                    .padding(.vertical, 20)
-            }
+				.horizontalAlignment(.center)
+            Image("/images/photos/IMG_0464.jpeg.webp", description: "Tiger Cubs play Jenga at Tiger Camp")
+                .resizable()
+                .style(.display, "block")
+                .style(.margin, "0 auto")
+                .padding(.vertical, 20)
         }
         .horizontalAlignment(.center)
         .padding(.horizontal, 20)

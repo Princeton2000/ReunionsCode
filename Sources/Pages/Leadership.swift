@@ -21,7 +21,11 @@ struct Leadership: StaticPage {
 			.sorted(by: { $0.priority < $1.priority && $0.lastName < $1.lastName }) {
                 for member in officers {
                     Card {
-                        Link(member.role, target: "mailto:\(member.email)")
+                        if member.email.isEmpty {
+                            Text(member.role)
+                        } else {
+                            Link(member.role, target: "mailto:\(member.email)")
+                        }
                     } header: {
                         if member.photo == "" {
                             Image.tiger
