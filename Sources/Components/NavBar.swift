@@ -59,7 +59,7 @@ struct NavBar: HTML {
             Link("Notes", target: Notes())
             Link("Library", target: Library())
             Link("Dues", target: Dues())
-            Link("Officers", target: Officers())
+            Link("Leadership", target: Leadership())
             Link("Constitution", target: Constitution())
             Link("AG", target: CommitteeAG())
             Link("Honoraries", target: HonoraryClassmates())

@@ -18,10 +18,7 @@ struct Leadership: StaticPage {
     var body: some HTML {
         Grid {
             if let officers = decode("leadership.json", as: [CommitteeMember].self)?
-                .sorted(by: {
-                    if $0.priority != $1.priority { return $0.priority < $1.priority }
-                    return $0.lastName < $1.lastName
-                }) {
+			.sorted(by: { $0.priority < $1.priority && $0.lastName < $1.lastName }) {
                 for member in officers {
                     Card {
                         Link(member.role, target: "mailto:\(member.email)")
