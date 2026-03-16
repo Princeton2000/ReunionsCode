@@ -17,12 +17,12 @@ struct ClassHome: StaticPage {
 
     var body: some HTML {
         Section {
-            Image("/images/logos/P2000_25th_Lounging_Tiger.svg",
-                  description: "Princeton Class of 2000 Tiger")
-                .resizable()
-                .frame(maxWidth: 300)
-                .style(.display, "block")
-                .style(.margin, "0 auto")
+//            Image("/images/logos/P2000_25th_Lounging_Tiger.svg",
+//                  description: "Princeton Class of 2000 Tiger")
+//                .resizable()
+//                .frame(maxWidth: 300)
+//                .style(.display, "block")
+//                .style(.margin, "0 auto")
             
 
             Text("Welcome to the Website of the Great Class of 2000!")
