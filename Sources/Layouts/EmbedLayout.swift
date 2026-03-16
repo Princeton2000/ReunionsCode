@@ -26,7 +26,7 @@ struct EmbedLayout: Layout {
 
             Script(code: """
                 function postHeight() {
-                    var height = document.body.scrollHeight;
+                    var height = document.body.scrollHeight + 20;
                     window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
                 }
                 window.addEventListener('load', postHeight);
