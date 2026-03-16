@@ -7,6 +7,7 @@ title: Registration is OPEN
 link: 
 lastModified: 2024-11-01 19:15
 published: true
+description: Registration for the Princeton Class of 2000 25th Reunion is now open, with details on early bird signup and the December 13 jacket deadline.
 ---
 Aughty Aught! _Aughty Aught!_ **Aughty Aught!**
 

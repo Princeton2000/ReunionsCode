@@ -10,6 +10,7 @@ import Ignite
 
 struct Constitution: StaticPage {
     var title = "Class Constitution"
+    var description = "The governing document of the Princeton Class of 2000."
 
     var body: some HTML {
         Text {

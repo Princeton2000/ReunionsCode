@@ -12,7 +12,7 @@ struct Jacket: StaticPage {
     @Environment(\.articles) var articles
 
     var title = "Jacket"
-    var description: String = "Learn about our incredible 25th jacket"
+    var description: String = "The Princeton Class of 2000 25th Reunion jacket — seersucker design with orange stripes, sizing guide, 3-D renderings, and FAQ."
     var image: URL? = URL(string: "/images/jacket/P2000_jacket_sketch.png")
 
     let jacketTestSlides = [1, 2, 3, 4, 5, 9, 10, 23, 12, 13, 14, 19, 20]

@@ -19,7 +19,7 @@ Gang – We are less than a month away from the biggest Reunions of All-Time. Th
 
 **Rider Options**
 
-The class still has room available at Rider College for just $250 for the weekend. I believe we need to give them a final count over the next week or so, and if we have extra rooms, we’re going to offer them to our satellite classes, so please get in touch with housing ASAP at [p2000.housing@gmail.com](p2000.housing@gmail.com). 
+The class still has room available at Rider College for just $250 for the weekend. I believe we need to give them a final count over the next week or so, and if we have extra rooms, we’re going to offer them to our satellite classes, so please get in touch with housing ASAP at [p2000.housing@gmail.com](mailto:p2000.housing@gmail.com). 
 
 **Classmate Rooms**
 

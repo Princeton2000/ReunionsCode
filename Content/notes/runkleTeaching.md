@@ -7,6 +7,7 @@ link: https://news.uark.edu/articles/71243/runkle-honored-with-agu-sulzman-award
 date: 2024-09-18 00:00
 lastModified: 2024-09-18
 published: true
+description: Ben Runkle '00 receives the AGU's 2024 Sulzman Award for excellence in education and mentoring in biogeosciences.
 ---
 
 Ben Runkle, associate professor of biological and agricultural engineering at the U of A, has been named the recipient of the American Geophysical Union's 2024 Sulzman Award for Scientific Excellence Through Education and Mentoring.  

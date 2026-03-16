@@ -12,6 +12,7 @@ struct Registration: StaticPage {
     @Environment(\.articles) var articles
 
     var title = "Registration"
+    var description = "Register for Princeton Class of 2000 Reunions."
 
     var body: some HTML {
         for content in articles.typed("registration").filter({ !(($0.tags ?? []).contains("walk-up")) }) {

@@ -7,6 +7,7 @@ link: https://paw.princeton.edu/article/reading-room-katherine-zoepf-00
 date: 2016-09-15 00:00
 lastModified: 2025-01-31
 published: true
+description: Journalist Katherine Zoepf '00 chronicles how young women are transforming the Arab world in her book Excellent Daughters.
 ---
 
 From the young women who helped lead anti-government protests in Egypt to the female activists fighting limited employment and driving bans, women’s lives are changing across the Middle East. Journalist Katherine Zoepf ’00 has been on the front lines of this revolution. In her recent book, *Excellent Daughters: The Secret Lives of Young Women Who Are Transforming the Arab World*, she chronicles the diverse ways that women are redefining their social roles.

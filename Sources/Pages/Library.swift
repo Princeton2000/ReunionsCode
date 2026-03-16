@@ -12,6 +12,7 @@ struct Library: StaticPage {
     @Environment(\.decode) var decode
 
     var title = "Library"
+    var description = "Books, films, and works by Princeton Class of 2000 classmates."
 
     func entriesByClassmate(_ classmate: Classmate, from entries: [LibraryEntry]) -> [LibraryEntry] {
         let classmateEntries = entries.filter({ $0.classmate == classmate })

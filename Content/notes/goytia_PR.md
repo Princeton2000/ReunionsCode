@@ -7,6 +7,7 @@ link: https://alumni.princeton.edu/stories/juan-goytia-puerto-rico-alumni
 date: 2021-06-14 00:00
 lastModified: 2021-06-14
 published: true
+description: Juan Goytia '00 channels Princeton's service mission to energize alumni engagement in Puerto Rico, inspired by the 1996 motto renewal.
 ---
 
 Every Princetonian learns about the University’s commitment to service, but for Juan Goytia and others from the Class of 2000, that mission was imprinted in a profound way. They were first-year students when Princeton marked its 250th anniversary in October 1996, a celebration that featured luminaries and a redefining of the University’s unofficial motto.

@@ -6,6 +6,7 @@ title: Two generations of NASA scientists share their love and knowledge during 
 link: template
 date: 2024-04-09 00:00
 lastModified: 2025-01-31
+description: NASA scientist Josh Pepper '00 shared his passion for space science with thousands at the Great Lakes Science Center during the 2024 solar eclipse.
 published: false
 ---
 

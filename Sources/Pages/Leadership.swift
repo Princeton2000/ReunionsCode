@@ -12,7 +12,7 @@ struct Leadership: StaticPage {
     @Environment(\.decode) var decode
 
     var title = "Class of 2000 Leadership"
-    var description: String = "Your Class Leadership"
+    var description: String = "Officers, committee chairs, and volunteers who lead the Princeton Class of 2000 in annual giving, reunions, and class life."
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
 
     var body: some HTML {

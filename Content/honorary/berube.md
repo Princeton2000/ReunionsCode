@@ -7,5 +7,6 @@ title: Carla Berube h00
 link: 
 lastModified: 2025-04-01 12:00
 published: true
+description: Princeton Women's Basketball head coach Carla Berube earned an .855 winning percentage and led electrifying NCAA tournament runs in 2022 and 2023.
 ---
 In her first five seasons as the head coach of the Princeton Women’s Basketball Team, Carla amassed an .855 winning percentage and a 44-2 record in conference play. Her teams have brought Princeton renown on the national stage, with their runs in the NCAA tournament in 2022 and 2023 electrifying our alumni community. A member of the Connecticut Women’s Basketball Hall of Fame, and the New England Basketball Hall of Fame, her commitment to her players is unparalleled and her leadership is an example to us all.

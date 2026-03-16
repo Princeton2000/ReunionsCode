@@ -12,7 +12,7 @@ struct Housing: StaticPage {
     @Environment(\.articles) var articles
 
     var title = "Housing"
-    var description: String = "Find out everything you need to know for housing."
+    var description: String = "Housing options and FAQ for Princeton Class of 2000 Reunions, including on-campus rooms, off-campus alternatives, and booking details."
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
 
     var housingArticles: [Article] {

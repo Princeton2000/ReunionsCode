@@ -12,7 +12,7 @@ struct Dues: StaticPage {
     @Environment(\.articles) var articles
 
     var title = "Class Dues"
-    var description: String = "Pay your dues…we need them!!"
+    var description: String = "Pay your Princeton Class of 2000 dues. Choose from annual, five-year, or lifetime plans to support class activities and events."
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
 
     var body: some HTML {

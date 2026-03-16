@@ -62,7 +62,7 @@ struct Princeton2000: Site {
 
     // Page configuration
     var homePage = Home()
-    var tagPage = Tags()
+    var tagPage = EmptyTagPage()
     var layout = MainLayout()
 
     // Themes (new API - separate from layout)

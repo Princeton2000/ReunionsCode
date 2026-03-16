@@ -3,6 +3,7 @@ tags: jacket, late, post-reunions
 type: faq
 question: Will I still be able to order a 25th reunion jacket to wear for future events?
 lastModified: 2024-07-19 12:00
+description: Post-Reunions jacket orders will be available at a higher cost. Email the jacket czar before June 5 with subject LATE JACKET ORDER.
 ---
 
 - Yes, you will be able to place a jacket order after Reunions. However, because these jackets will be in a smaller production run, the cost will be higher, which will also provide for shipping.

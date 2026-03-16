@@ -3,6 +3,7 @@ tags: dues
 type: dues
 title: Class Letter on Dues
 lastModified: 2024-08-07 12:00
+description: Learn why Princeton Class of 2000 dues matter, what they fund, and explore payment options including annual, five-year, and lifetime plans.
 ---
  - **What Are Class Dues and Why Are They Important?**
  - **Goals for Class Dues**

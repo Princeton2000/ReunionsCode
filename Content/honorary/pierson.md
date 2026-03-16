@@ -7,5 +7,6 @@ title: Sue W. Pierson h00
 link: 
 lastModified: 2025-04-01 12:00
 published: true
+description: University dietician Sue Pierson spent over three decades working with 50,000+ students and is an honorary member of seven Princeton classes.
 ---
 Sue became the university dietician in 1987 and found a home in the University community. Sue spent over three decades working with over 50,000 students and countless alumni. A recipient of the Alumni Council Award for Service, Sue is an honorary member of seven classes and sees Princeton as her home and alumni and students as her family. We agree.

@@ -7,6 +7,7 @@ link: https://paw.princeton.edu/article/natalie-revelle-00-promotes-global-healt
 date: 2017-09-13 00:00
 lastModified: 2025-01-31
 published: true
+description: Natalie Revelle '00 left Wall Street to broker global health deals at the Gates Foundation aimed at saving millions of children's lives.
 ---
 
 Natalie (Tran) Revelle ’00, deputy director of program-related investments for the Bill & Melinda Gates Foundation, brokers agreements that aim to save the lives of millions of children around the world — work that she finds much more rewarding than helping to put together million-dollar deals on Wall Street.

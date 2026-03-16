@@ -7,6 +7,7 @@ link: https://paw.princeton.edu/article/tiger-week-first-time-novelist-lili-anol
 date: 2015-04-22 00:00
 lastModified: 2025-01-31
 published: true
+description: Lili Anolik '00 published her debut novel Dark Rooms, a mystery and coming-of-age story set at a New England prep school.
 ---
 
 Lili Anolik ’00 has just published her debut novel, *Dark Rooms*. It is a story of “sex and murder and glamour set at a New England prep school,” as she describes it. Both a mystery and a coming-of-age story, Anolik wanted to write something that was “heavy on mood and atmospherics … sly and seductive … spooky, and [has] a fairy tale quality.”

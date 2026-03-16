@@ -7,6 +7,7 @@ link: https://paw.princeton.edu/article/qa-tristan-snell-00s-experience-taking-d
 date: 2024-03-29 00:00
 lastModified: 2025-01-31
 published: true
+description: Tristan Snell '00, former NY assistant attorney general, recounts prosecuting Donald Trump for fraud over Trump University in 2018.
 ---
 
 When Tristian Snell ’00 first began his investigation into Donald Trump’s Trump University in 2011, the former New York State assistant attorney general didn’t know whether he had a case. Six weeks into speaking with witnesses and examining evidence, and it was clear to Snell that he had a case. A big one.

@@ -7,6 +7,7 @@ title: A Paper Letter…in 2024?
 link: 
 lastModified: 2024-09-05 16:25
 published: true
+description: A paper letter catching up the Class of 2000 on 25th Reunion plans, registration details, and how to stay connected via WhatsApp.
 ---
 Dear Classmate,
 

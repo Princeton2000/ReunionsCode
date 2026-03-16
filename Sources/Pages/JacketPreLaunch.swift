@@ -12,7 +12,7 @@ struct JacketPreLaunch: StaticPage {
     @Environment(\.articles) var articles
 
     var title = "Jacket"
-    var description: String = "We're not telling…"
+    var description: String = "Preview and FAQ for the Princeton Class of 2000 25th Reunion jacket, including sizing, ordering deadlines, and tailoring tips."
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
 
     let jacketUpdateImages = (1...22).map { "/images/jacket/presentation/Slide\($0).png" }

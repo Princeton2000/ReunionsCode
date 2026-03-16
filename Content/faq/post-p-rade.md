@@ -3,6 +3,7 @@ tags: locations, p-rade
 type: faq
 question: Where do we march in the P-rade, where do we go?
 lastModified: 2024-07-19 12:00
+description: As the 25th Reunion class, we march near the head of the P-rade. Meet at Blair Arch at 1pm for the class photo before lining up.
 ---
 - As the 25th Reunion class, we will be near the head of the P-rade, right behind the Old Guard. 
 

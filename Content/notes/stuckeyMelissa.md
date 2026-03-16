@@ -7,6 +7,7 @@ link: https://paw.princeton.edu/article/melissa-stuckey-00-preserves-regional-hi
 date: 2018-09-12 00:00
 lastModified: 2025-01-31
 published: true
+description: Historian Melissa Stuckey '00 studies education in the segregated South, inspired by her mother's own Princeton admission story.
 ---
 
 When Melissa Stuckey ’00 came to Princeton, she knew from her experience in high school that she wanted to study history. But she had another reason to attend that went beyond her academic interest: Stuckey’s mother, the first in her family to graduate from college, had turned down her own Princeton admission offer for financial reasons.

@@ -12,7 +12,7 @@ struct CommitteeAG: StaticPage {
     @Environment(\.decode) var decode
 
     var title = "2025 Annual Giving Committee"
-    var description: String = "Your incredible Annual Giving Committee"
+    var description: String = "The Princeton Class of 2000 Annual Giving Committee members who lead fundraising efforts for the class and the University."
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
 
     var body: some HTML {

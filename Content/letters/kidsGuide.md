@@ -7,6 +7,7 @@ title: Kids' Guide and a chance to set a record
 link: 
 lastModified: 2025-03-28 16:45
 published: true
+description: The Class of 2000 may set a 25th Reunion attendance record. Plus a kids' and parents' guide to Reunions activities and career chats.
 ---
 
 **Class of 2000: Record Breakers?**

@@ -7,6 +7,7 @@ title: Donations & Sponsorships; Golf Carts & Transportation
 link: template
 lastModified: 2025-04-02 17:30
 published: true
+description: Information on sponsoring events or donating beverages for the 25th Reunion, plus golf cart rentals and campus transportation options.
 ---
 
 **Sponsorships & Donations**
@@ -21,7 +22,7 @@ If you will be in need of a golf cart at Reunions, the [order form is now live](
 
 Order form: [https://princeton.reunioniq.com/shop/golfcart25](https://princeton.reunioniq.com/shop/golfcart25)
 
-Questions: [golfcart@princeton.edu](golfcart@princeton.edu)
+Questions: [golfcart@princeton.edu](mailto:golfcart@princeton.edu)
 
 **Transportation Around Campus**
 

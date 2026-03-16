@@ -12,7 +12,7 @@ struct Crew: StaticPage {
     @Environment(\.decode) var decode
 
     var title = "Meet our Crew"
-    var description: String = "Our Outstanding Reunions Crew"
+    var description: String = "Meet the outstanding volunteers of the Princeton Class of 2000 25th Reunion Crew who made it all happen."
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
 
     var body: some HTML {

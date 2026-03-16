@@ -12,7 +12,7 @@ struct BidEveryCareWithdraw: StaticPage {
     @Environment(\.articles) var articles
 
     var title = "Bid Every Care Withdraw"
-    var description: String = "Learn about our theme: Bid Every Care Withdraw"
+    var description: String = "The story behind 'Bid Every Care Withdraw,' the Princeton Class of 2000 25th Reunion theme drawn from Old Nassau."
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
 
     let jacketUpdateImages = (1...22)

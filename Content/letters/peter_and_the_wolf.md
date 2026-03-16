@@ -7,6 +7,7 @@ title: Peter & The Wolf Update
 link: 
 lastModified: 2025-04-16 14:49
 published: false
+description: The Class of 1970 hosts a free Peter and the Wolf performance for kids aged 3-11 at Richardson Auditorium on Friday, May 23.
 ---
 Dear Friends,
 
@@ -18,9 +19,7 @@ Mr. Crawford will narrate the tale, accompanied by acclaimed mime Catherine Gast
 
 Following the 30-minute performance, children and adults can participate in a Q&A session with the artists, explore the workings of their instruments, and discover the art of mime as an acting tool. 
 
-This program is free. It is now open to the Classes of 1995, 2000, 2005 and 2010. Click on the hyperlink below exclusive to the Class of 2000 to get tickets.
-
-[Class of 2000](https://tickets.princeton.edu/online/seatSelect.asp?createBO::WSmap=1&BOparam::WSmap::loadBestAvailable::performance_ids=C3A55027-632B-4687-9895-ECD40473F516&BOparam::WSmap::loadBestAvailable::promocode_access_code=25ALUMPW00)
+This program is free. It is now open to the Classes of 1995, 2000, 2005 and 2010. 
 
 We suggest you act as soon as you can. Richardson has a capacity of 832. Four classes alone, 1995, 2000, 2005, and 2010, will have well more than 1500 children attending Reunions – not including their parents.  There is a limit of six seats per registrant. Where more seats are needed for larger families or grandparents, additional seats are available through the University ticketing system. Contact [tixhelp@princeton.edu](mailto:tixhelp@princeton.edu). PLEASE exercise some restraint in the number of tickets you order, so we can accommodate as many children as possible with the limited seating available. Every empty seat could be accommodating a child, so please do not order more tickets than you expect to use.
 

@@ -3,6 +3,7 @@ tags: jacket, late orders, rush orders, post-reunions
 type: faq
 question: Can I pay a little more for a rush order?
 lastModified: 2024-12-01 12:00
+description: Rush jacket orders may not arrive in time for Reunions. Order by the deadline to guarantee yours, or order after for fall delivery.
 ---
 
 - We've asked, but we truly don't know if it's possible to produce a late order in time for Reunions. The possibility may open up, but we don’t want to suggest it’s do-able for just a few dollars more, and then have you jacketless at the P-Rade. So get your order in by the deadline.

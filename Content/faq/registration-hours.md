@@ -3,6 +3,7 @@ tags: registration, check-in
 type: faq
 question: What are registration hours to check-in for our 25th?
 lastModified: 2024-07-19 12:00
+description: Check-in hours for the Princeton Class of 2000 25th Reunion at Whitman Courtyard, running Thursday through Saturday, May 22-24, 2025.
 ---
 Registration hours are: 
 - Thursday, May 22 | **Noon - 11:00 pm** 

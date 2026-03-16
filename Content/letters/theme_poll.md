@@ -7,6 +7,7 @@ title: Reunions Theme Poll
 link: 
 lastModified: 2024-08-13 21:20
 published: true
+description: The Class of 2000 shares updates on 25th Reunion jacket planning and theme selection, and invites classmates to vote on theme ideas.
 ---
 Dear ‘00 Classmates,
 

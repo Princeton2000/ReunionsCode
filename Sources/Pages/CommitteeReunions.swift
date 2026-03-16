@@ -12,7 +12,7 @@ struct CommitteeReunions: StaticPage {
     @Environment(\.decode) var decode
 
     var title = "2025 Reunions Committee"
-    var description: String = "Your incredible Reunions Committee"
+    var description: String = "The Princeton Class of 2000 Reunions Committee members who planned and organized the 25th Reunion celebration."
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
 
     var body: some HTML {

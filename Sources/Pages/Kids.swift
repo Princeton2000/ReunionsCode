@@ -10,7 +10,7 @@ import Ignite
 
 struct Kids: StaticPage {
     var title = "Kids"
-    var description: String = "What you need to know about our Kids' Schedule."
+    var description: String = "Kids' activities at Princeton Class of 2000 Reunions — bouncy slides, photo booth, movies, Tiger Camp childcare, and family events."
     var image: String? = "/images/logos/P2000_25th_Lounging_Tiger.svg"
     let kidsGuideSlides = [1, 2, 3, 4, 5, 6]
         .map({ "/images/kidsGuide/kidsGuide.\(String(format: "%03d", $0)).png" })

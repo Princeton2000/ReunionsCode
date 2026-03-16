@@ -7,6 +7,7 @@ link: https://www.dailyprincetonian.com/article/2024/07/princeton-news-adpol-reg
 date: 2024-07-29 12:29
 lastModified: 2024-07-29 12:29
 published: true
+description: Regan Crotty '00 was named Princeton's new dean of undergraduate students, bringing a decade of administrative experience to the role.
 ---
 
 The University announced on Monday, July 15 that Regan Crotty ’00 has been named as Princeton’s new dean of undergraduate students, appointed to the role in the spring. Crotty now leads the Office of the Dean of Undergraduate Students (ODUS), which is responsible for co-curricular and extracurricular aspects of student life. She brings with her a decade of experience working at Princeton in various administrative capacities and seeks to foster belonging in the student experience.

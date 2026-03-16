@@ -7,6 +7,7 @@ title: 🚨 Style Guide
 link: 
 lastModified: 2025-05-03 09:45
 published: true
+description: Jackets will be distributed on campus, not shipped. Check out the Reunions Style Guide for outfit ideas to pair with your new jacket.
 ---
 A special Saturday morning RED ALERT email! As many people have asked the question…you will receive your jacket when you get to campus. The logistics and timing around individual shipping were a little too tight for our comfort. That said, we understand that without your jacket in hand, it can be hard to know what to pack. To that end, the costumes team has put together an incredible [Reunions Style Guide](/jacket)! Think you might need to do a little shopping? Going to the Met Gala on Monday? We’ve got you covered! Check out the style guide and be ready to work (walk) the runway (P-Rade)!
 

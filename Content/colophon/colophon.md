@@ -5,6 +5,7 @@ title: Colophon
 link:
 lastModified: 2024-10-11 12:00
 published: true
+description: Technical credits for the Princeton 2000 Reunions site, including typefaces, essential apps, and the GitHub Pages hosting platform.
 ---
 
 

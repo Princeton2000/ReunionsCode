@@ -8,6 +8,7 @@ link: https://www.npr.org/2024/09/18/nx-s1-5107417/overdose-fatal-fentanyl-death
 date: 2024-09-18 00:00
 lastModified: 2024-09-18
 published: true
+description: NPR reports on a dramatic drop in U.S. overdose deaths, featuring Princeton Class of 2000 classmate Nab Dasgupta's expert commentary.
 ---
 
 NPR: U.S. overdose deaths plummet, saving thousands of lives

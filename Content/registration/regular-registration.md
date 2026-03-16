@@ -4,6 +4,7 @@ type: registration
 title: Registration is now open!
 lastModified: 2024-10-25
 published: true
+description: Registration for the Princeton Class of 2000 25th Reunion is open. All meals, a T-shirt, tote bag, bandana, and pin are included.
 ---
 Reunions runs from Thursday, May 22 - Sunday, May 25, 2025.
 

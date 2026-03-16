@@ -3,6 +3,7 @@ tags: jacket, sizing, post-reunions
 type: faq
 question: Thinking about tailoring your jacket (for future Reunions)?
 lastModified: 2024-11-20 12:00
+description: Choose a jacket size matching your shoulder width for easy tailoring later. Use our sizing guide or video to measure accurately.
 ---
 
 <!--- If you will not be attending Reunions, email [jacket czar](mailto:p2000jackets@gmail.com) after the planning team has had a chance to recover from the weekend, but before June 5, with the subject line “LATE JACKET ORDER.”-->

@@ -20,6 +20,8 @@ struct Schedule: StaticPage {
         (1, "Closing time, to quote Semisonic.\nGrab some breakfast as you head out with your memories and begin your Reunions recovery.")
     ]
 
+    var description = "Full schedule of events for Princeton Class of 2000 Reunions."
+
     var body: some HTML {
         Alert {
             Text(markdown: "This is the schedule for the Class of 2000. For a comprehensive look at *all* University events, check out the [Princeton Events App!](https://reunions.princeton.edu/app/) ")

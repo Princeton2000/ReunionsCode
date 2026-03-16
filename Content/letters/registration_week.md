@@ -7,6 +7,7 @@ title: Registration week update
 link: 
 lastModified: 2024-10-28 21:25
 published: true
+description: Registration beta testing is underway for the 25th Reunion. Jacket orders are separate and must be placed by December 13, 2024.
 ---
 Hello 2000, and welcome to WhatsApp! I am thrilled to announce that thanks to the incredible work of your Reunions Committee, we are ahead of schedule, and started beta testing registration on Thursday! I wanted to give you all a rundown so you know what to expect this week.
 

@@ -3,6 +3,7 @@ tags: registration, check-in
 type: faq
 question: What if I arrive after registration officially is closed?
 lastModified: 2025-03-03 12:00
+description: If you arrive after registration closes, a friend can pick up your room keys, but you will need to get your wristband the next morning.
 ---
 Registration hours are: 
 - Thursday, May 22 | **Noon - 11:00 pm** 

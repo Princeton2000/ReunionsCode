@@ -7,6 +7,7 @@ link: https://www.ideastream.org/community/2024-04-09/two-generations-of-nasa-sc
 date: 2024-04-09 00:00
 lastModified: 2024-04-09
 published: true
+description: NASA scientist Josh Pepper '00 shared his passion for space science with thousands at the Great Lakes Science Center during the 2024 solar eclipse.
 ---
 
 Like many of the thousands of people at the Great Lakes Science Center on Monday, eclipse glasses in hand, Josh Pepper waited patiently for the moment when all eyes shifted to the sky. He answered questions about the eclipse and science at the NASA Village at the science center. The reverence for the topic shined through his genuine smile and hearty laugh.

@@ -12,7 +12,7 @@ struct Gear: StaticPage {
     @Environment(\.decode) var decode
 
     var title = "Class Gear"
-    var description: String = "Size Charts and links to purchase Class of 2000 Gear"
+    var description: String = "Browse and purchase official Princeton Class of 2000 apparel and accessories, with size charts and ordering information."
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
 
     var body: some HTML {

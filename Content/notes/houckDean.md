@@ -7,6 +7,7 @@ link: https://paw.princeton.edu/article/andrew-houck-00-named-princeton-engineer
 date: 2025-07-08 00:00
 lastModified: 2025-07-08
 published: true
+description: Andrew Houck, Princeton Class of 2000, has been named Dean of Princeton's School of Engineering and Applied Science.
 ---
 [
 	Andrew Houck ’00 Named Princeton Engineering Dean

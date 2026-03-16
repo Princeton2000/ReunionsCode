@@ -7,5 +7,6 @@ title: Ted Borer h00
 link: 
 lastModified: 2025-04-01 12:00
 published: true
+description: Energy Plant Director Ted Borer advanced Princeton's energy systems over 30 years, including the transition to geo-exchange for carbon neutrality.
 ---
 In recognition of his remarkable contributions over 30 years as the Energy Plant Director at Princeton University. Throughout his tenure, Borer played a pivotal role in advancing Princeton’s energy systems, including the transition to geo-exchange facilities aimed at driving Princeton to carbon neutrality. His engaging way of sharing knowledge, including giving lectures, advising student projects, and providing insights to national audiences, has left a lasting impact on the university community.

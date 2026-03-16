@@ -7,6 +7,7 @@ link: https://paw.princeton.edu/article/jessica-davis-00-designs-everyday-hardwa
 date: 2019-11-20 00:00
 lastModified: 2025-01-31
 published: true
+description: Jessica Ahnert Davis '00 turned her passion for everyday design into a career, choosing art history at Princeton with a focus on architecture.
 ---
 
 Jessica Ahnert Davis ’00 always liked design that people use and interact with every day. She grew up drawing floorplans. But when she chose her concentration at Princeton, she chose art history, with a focus on architectural history, rather than architecture.

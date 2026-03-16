@@ -7,6 +7,7 @@ link: https://paw.princeton.edu/article/qa-andrew-houck-00-princetons-new-quantu
 date: 2023-10-01 00:00
 lastModified: 2024-04-09
 published: true
+description: PAW Q&A with Andrew Houck, Princeton Class of 2000, on the founding and mission of Princeton's new Quantum Science Institute.
 ---
 [
 	PAW Q&A: Andrew Houck ’00 on Princeton’s New Quantum Science Institute

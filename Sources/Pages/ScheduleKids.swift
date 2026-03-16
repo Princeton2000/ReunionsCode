@@ -20,6 +20,7 @@ struct ScheduleKids: StaticPage {
         (1, "Closing time, to quote Semisonic.\nGrab some breakfast as you head out with your memories and begin your Reunions recovery.")
     ]
     let activityFilter: [EventType] = [.movie, .childrensActivity, .communityService, .classFamily, .foodDrink]
+    var description = "Kids' activities and family events at Princeton Class of 2000 Reunions."
 
     var body: some HTML {
         if let events = decode("events.json", as: [Event].self)?.sorted(by: { $0.startDate < $1.startDate }) {

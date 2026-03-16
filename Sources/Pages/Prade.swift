@@ -12,6 +12,7 @@ struct Prade: StaticPage {
     @Environment(\.articles) var articles
 
     var title = "The one and only P-rade"
+    var description = "Everything you need to know about the P-rade at Princeton Reunions."
 
     var body: some HTML {
         for content in articles.typed("p-rade") {

@@ -4,6 +4,7 @@ type: faq
 question: Where do I pick up/drop off my linen rentals?
 lastModified: 2024-07-18 12:00
 published: true
+description: Pre-ordered linens will be in your dorm room on arrival. Return them to the Whitman College registration table at checkout.
 ---
 - If you pre-ordered linens (e.g. sheets, towels, blankets, and pillow) and are staying on-campus, they will be placed in your dorm room in advance of your arrival. When you depart, you will return your linen rentals to the registration table at Whitman College. Please confirm that a crew member marks your items as returned.  
 

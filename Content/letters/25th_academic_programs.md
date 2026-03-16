@@ -7,6 +7,7 @@ title: Pre-Reunions Book Club and Academic Programming!
 link: 
 lastModified: 2025-04-16 12:00
 published: true
+description: Pre-Reunions book club sessions, Alumni Faculty Forums, and the Millennial Lecture Series lineup for the Class of 2000 25th Reunion.
 ---
 **_In this email:_**
 - Class of 2000 Book Club!

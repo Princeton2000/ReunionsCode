@@ -7,6 +7,7 @@ link: https://paw.princeton.edu/article/tiger-week-documentary-filmmaker-elizabe
 date: 2015-07-08 00:00
 lastModified: 2025-01-31
 published: true
+description: Filmmaker Chai Vasarhelyi '00 directed Meru, a Sundance award-winning documentary following three climbers tackling the Himalayas' hardest peak.
 ---
 
 *Meru*, a Sundance Audience Award-winning white-knuckler of a documentary, follows three elite mountain climbers on their quest to conquer the 21,000-foot summit of Mount Meru, the most technically difficult peak in the Himalayas. It’s a death-defying expedition into sub-zero temperatures that involves extraordinary risks.

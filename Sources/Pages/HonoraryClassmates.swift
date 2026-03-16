@@ -12,7 +12,7 @@ struct HonoraryClassmates: StaticPage {
     @Environment(\.decode) var decode
 
     var title = "Honorary Classmates"
-    var description: String = "Our Distinguished Honorary Classmates"
+    var description: String = "Meet the distinguished honorary members of the Princeton Class of 2000, recognized for their contributions to the University and beyond."
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
 
     var body: some HTML {

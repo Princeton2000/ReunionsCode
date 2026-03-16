@@ -7,6 +7,7 @@ link:
 date: 2023-05-27 00:00
 lastModified: 2023-05-27
 published: false
+description: Economist Leah Platt Boustan '00 challenges myths about U.S. immigration using data in her Princeton Talks lecture on Streets of Gold.
 ---
 
 

@@ -7,6 +7,7 @@ link: https://www.dailyprincetonian.com/article/2021/08/princeton-athletic-direc
 date: 2021-08-26 17:19
 lastModified: 2021-08-26 17:19
 published: true
+description: John Mack '00, former Princeton track captain and four-time Ivy League 400m champion, was named Ford Family Director of Athletics in 2021.
 ---
 
 Princeton University announced on Wednesday that John Mack ’00, a former captain of the men’s track and field team, will be the next Ford Family Director of Athletics. He will officially begin his tenure on Sept. 1.

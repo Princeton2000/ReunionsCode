@@ -12,6 +12,7 @@ struct News: StaticPage {
     @Environment(\.articles) var articles
 
     var title = "News"
+    var description = "The latest news about Princeton Class of 2000 classmates."
 
     var body: some HTML {
         Section {

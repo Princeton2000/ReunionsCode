@@ -12,7 +12,7 @@ struct Colophon: StaticPage {
     @Environment(\.articles) var articles
 
     var title = "Colophon"
-    var description: String = "How our site is built."
+    var description: String = "How the Princeton Class of 2000 website is built — technology, design choices, and credits for reunions.princeton2000.org."
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
 
     var colophonArticles: [Article] {

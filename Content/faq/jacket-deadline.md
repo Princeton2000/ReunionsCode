@@ -3,6 +3,7 @@ tags: jacket, deadlines, post-reunions
 type: faq
 question: Is the Jacket Deadline Real?
 lastModified: 2024-12-13 12:00
+description: The December 13 jacket order deadline is real. Late orders will reopen after Reunions at the class store with fall delivery expected.
 ---
 
 - Is December 13 a real deadline?

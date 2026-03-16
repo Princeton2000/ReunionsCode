@@ -12,7 +12,7 @@ struct Officers: StaticPage {
     @Environment(\.decode) var decode
 
     var title = "Class of 2000 Officers"
-    var description: String = "Your Class Officers"
+    var description: String = "The elected officers of the Princeton Class of 2000, including president, vice president, secretary, and treasurer."
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
 
     var body: some HTML {

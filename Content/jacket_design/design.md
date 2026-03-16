@@ -4,6 +4,7 @@ tags: Costumes
 image: /images/jacket/P2000_jacket_sketch.png
 title: How our 25th Jacket came to life 
 lastModified: 2024-10-30 12:00
+description: The Class of 2000's 25th Reunion jacket features a custom lightweight seersucker-textured fabric in orange and black with Old Nassau lining.
 ---
 # A Reunions Jacket for the Ages
 

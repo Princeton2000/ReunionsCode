@@ -7,6 +7,7 @@ title: Time for us to Roar
 link: 
 lastModified: 2024-05-28 19:28
 published: true
+description: Recap of Reunions 2024 and a look ahead to the Class of 2000 25th Reunion in May 2025, with housing tips and volunteer signups.
 ---
 **Reunions 2024 – History!**
 

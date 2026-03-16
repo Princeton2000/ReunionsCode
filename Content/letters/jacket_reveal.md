@@ -7,6 +7,7 @@ title: Housing Update, AG, and…a JACKET FIRST LOOK
 link: template
 lastModified: 2025-03-05 16:45
 published: true
+description: First look at the 25th Reunion jacket, plus Rider University housing details, swag store items, and Tiger Camp childcare registration.
 ---
 
 Hey team – **WHOA**. I was about to send this yesterday, but our incredible costumes team told me they had something special…we've got the first pics of our jacket! Read to the bottom and get the first sneak peek!
