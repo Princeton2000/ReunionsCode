@@ -25,19 +25,6 @@ struct Jacket: StaticPage {
     }
 
     var body: some HTML {
-//        Alert {
-//            Text {
-//                Link("We're doing another run…buy a jacket now!", target: "https://tinyurl.com/2000jacket")
-//                    .target(.newWindow)
-//                    .relationship(.noOpener, .noReferrer)
-//            }
-//            .font(.title3)
-//            .fontWeight(.semibold)
-//            .horizontalAlignment(.center)
-//        }
-//        .role(.info)
-
-        Spacer()
 
         Embed(title: "Kids' Guide to Reunions", url: "/pdfs/styleGuide.pdf")
             .aspectRatio(.r16x9)

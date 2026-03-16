@@ -52,10 +52,15 @@ struct ClassHome: StaticPage {
                 Grid {
                     linkCard("Class Notes", description: "2000 in the news", target: "https://reunions.princeton2000.org/notes")
                     linkCard("Library", description: "Check out some of the incredible work by our classmates", target: "https://reunions.princeton2000.org/library")
-                    linkCard("Class Dues", description: "Support class events and the PAW", target: "https://www.princeton2000.org/memberships")
-                    linkCard("Leadership", description: "Officers and class leadership", target: "https://reunions.princeton2000.org/leadership")
-                    linkCard("Honorary Classmates", description: "Our adopted members", target: "https://reunions.princeton2000.org/honorary-classmates")
+					
+					linkCard("Honorary Classmates", description: "Our adopted members", target: "https://reunions.princeton2000.org/honorary-classmates")
+					linkCard("Leadership", description: "Officers and class leadership", target: "https://reunions.princeton2000.org/leadership")
+					
+					linkCard("Class Dues", description: "Support class events and the PAW", target: "https://www.princeton2000.org/memberships")
+					linkCard("Class Store", description: "Get exclusive Class of 2000 merch", target: "https://tinyurl.com/2000store")
+                    
                     linkCard("TigerNet", description: "Access the Forums and Alumni Directory", target: "https://tigernet.princeton.edu")
+					linkCard("Your Homepage", description: "Complete your TigerNet profile!", target: "https://tigernet.princeton.edu/login?redirect_to=%2Fpage%2Fmy-homepage")
                 }
                 .columns(2)
             }
@@ -73,7 +78,7 @@ struct ClassHome: StaticPage {
                         .all
                         .filter({ $0.type == "letters" })
                         .sorted(by: { ($0.lastModified) > ($1.lastModified) })
-                        .prefix(3) {
+                        .prefix(4) {
                         letterPreviewRow(content)
                     }
                 }
