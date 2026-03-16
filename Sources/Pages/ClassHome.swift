@@ -9,19 +9,20 @@ import Foundation
 import Ignite
 
 struct ClassHome: StaticPage {
+    @Environment(\.articles) var articles
+
     var title = "Class of 2000"
     var path = "/class-home"
     var layout: EmbedLayout { EmbedLayout() }
 
     var body: some HTML {
         Section {
-            Group {
-                Image("/images/logos/P2000_25th_Lounging_Tiger.svg",
-                      description: "Princeton Class of 2000 Tiger")
-                    .resizable()
-                    .frame(maxWidth: 300)
-					.horizontalAlignment(.center)
-            }
+            Image("/images/logos/P2000_25th_Lounging_Tiger.svg",
+                  description: "Princeton Class of 2000 Tiger")
+                .resizable()
+                .frame(maxWidth: 300)
+                .style(.display, "block")
+                .style(.margin, "0 auto")
             
 
             Text("Welcome to the Website of the Great Class of 2000!")
@@ -51,6 +52,26 @@ struct ClassHome: StaticPage {
         .columns(3)
         .padding(.horizontal, 5)
         .padding(.bottom)
+
+        Section {
+            Text("The Latest")
+                .class("tayLennon")
+                .font(.title3)
+                .fontWeight(.semibold)
+                .horizontalAlignment(.center)
+                .padding(.top)
+
+            Table {
+                for content in articles
+                    .all
+                    .filter({ $0.type == "letters" })
+                    .sorted(by: { ($0.lastModified) > ($1.lastModified) })
+                    .prefix(6) {
+                    letterPreviewRow(content)
+                }
+            }
+            .padding(.horizontal, 5)
+        }
 
         Section {
             Text {
