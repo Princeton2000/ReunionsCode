@@ -188,6 +188,12 @@
         <p class="text-center" style="padding-bottom: 20px"><a target="_top" href="https://reunions.princeton2000.org" class="btn btn-primary">Visit our Reunions site</a></p>
       </div>
     </div>
+    <script>    function postHeight() {
+        var height = document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', postHeight);
+    new ResizeObserver(postHeight).observe(document.body);</script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/ignite-core.js"></script>
   </body>

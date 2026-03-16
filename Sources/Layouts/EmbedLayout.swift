@@ -23,6 +23,15 @@ struct EmbedLayout: Layout {
 
         Body {
             content
+
+            Script(code: """
+                function postHeight() {
+                    var height = document.body.scrollHeight;
+                    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+                }
+                window.addEventListener('load', postHeight);
+                new ResizeObserver(postHeight).observe(document.body);
+            """)
         }
     }
 }
