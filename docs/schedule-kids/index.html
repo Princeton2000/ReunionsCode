@@ -64,6 +64,16 @@
     <link href="/css/fonts.css" rel="stylesheet" />
     <link href="/css/theme.css" rel="stylesheet" />
     <link href="/css/layout.css" rel="stylesheet" />
+    <script>    function updateSocialIcons() {
+        var isDark = document.documentElement.getAttribute('data-bs-theme')?.includes('dark');
+        document.querySelectorAll('img[src*="/images/social/"]').forEach(function(img) {
+            img.style.filter = isDark ? 'invert(1)' : '';
+        });
+    }
+    new MutationObserver(updateSocialIcons).observe(
+        document.documentElement, { attributes: true, attributeFilter: ['data-bs-theme'] }
+    );
+    document.addEventListener('DOMContentLoaded', updateSocialIcons);</script>
   </head>
   <body class="container">
     <!-- Google Tag Manager (noscript) --> 
@@ -757,10 +767,10 @@
         </tbody>
       </table>
       <hr />
-      <div id="accordion6Jldg" class="accordion">
+      <div id="accordionBne5x" class="accordion">
         <div class="accordion-item">
-          <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordion6Jldg-itemfKHyr" aria-expanded="false" aria-controls="accordion6Jldg-itemfKHyr">Kids, you're going to hear this stuff all weekend, might as well learn these songs now.</button></h2>
-          <div id="accordion6Jldg-itemfKHyr" class="accordion-collapse collapse" data-bs-parent="#accordion6Jldg">
+          <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionBne5x-itemR3PEz" aria-expanded="false" aria-controls="accordionBne5x-itemR3PEz">Kids, you're going to hear this stuff all weekend, might as well learn these songs now.</button></h2>
+          <div id="accordionBne5x-itemR3PEz" class="accordion-collapse collapse" data-bs-parent="#accordionBne5x">
             <div class="accordion-body">
               <!--?xml version="1.0" encoding="utf-8"?--> 
               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="120" height="22" xml:space="preserve"> 

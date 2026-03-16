@@ -13,9 +13,7 @@ a:visited {
 }
 
 a:hover {
-	color: var(--bs-black);
-/*	text-decoration: none;*/
-
+	color: var(--bs-body-color);
 }
 
 a:active {
@@ -60,6 +58,12 @@ b, strong {
 	--bs-dropdown-item-padding-y: 2rem;
 }
 
+@media (prefers-color-scheme: dark) {
+	img[src*="/images/social/"] {
+		filter: invert(1) !important;
+	}
+}
+
 [data-bs-theme*="dark"] img[src*="/images/social/"] {
-	filter: invert(1);
+	filter: invert(1) !important;
 }

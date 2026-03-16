@@ -67,6 +67,16 @@
     <link href="/css/fonts.css" rel="stylesheet" />
     <link href="/css/theme.css" rel="stylesheet" />
     <link href="/css/layout.css" rel="stylesheet" />
+    <script>    function updateSocialIcons() {
+        var isDark = document.documentElement.getAttribute('data-bs-theme')?.includes('dark');
+        document.querySelectorAll('img[src*="/images/social/"]').forEach(function(img) {
+            img.style.filter = isDark ? 'invert(1)' : '';
+        });
+    }
+    new MutationObserver(updateSocialIcons).observe(
+        document.documentElement, { attributes: true, attributeFilter: ['data-bs-theme'] }
+    );
+    document.addEventListener('DOMContentLoaded', updateSocialIcons);</script>
   </head>
   <body class="container">
     <!-- Google Tag Manager (noscript) --> 
@@ -120,10 +130,10 @@
       <p>Yes, there will be a memorial as part of the program for Friday night’s dinner at Jadwin.</p>
       <p></p>
     </div>
-    <div id="accordion8h4KB" class="accordion">
+    <div id="accordion4Ekpl" class="accordion">
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordion8h4KB-itemf7h0G" aria-expanded="false" aria-controls="accordion8h4KB-itemf7h0G">Will there be a memorial for classmates who have passed away?</button></h2>
-        <div id="accordion8h4KB-itemf7h0G" class="accordion-collapse collapse" data-bs-parent="#accordion8h4KB">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordion4Ekpl-itemQMxe9" aria-expanded="false" aria-controls="accordion4Ekpl-itemQMxe9">Will there be a memorial for classmates who have passed away?</button></h2>
+        <div id="accordion4Ekpl-itemQMxe9" class="accordion-collapse collapse" data-bs-parent="#accordion4Ekpl">
           <div class="accordion-body">
             <p>Yes, there will be a memorial as part of the program for Friday night’s dinner at Jadwin. </p>
           </div>

@@ -69,6 +69,16 @@
     <link href="/css/fonts.css" rel="stylesheet" />
     <link href="/css/theme.css" rel="stylesheet" />
     <link href="/css/layout.css" rel="stylesheet" />
+    <script>    function updateSocialIcons() {
+        var isDark = document.documentElement.getAttribute('data-bs-theme')?.includes('dark');
+        document.querySelectorAll('img[src*="/images/social/"]').forEach(function(img) {
+            img.style.filter = isDark ? 'invert(1)' : '';
+        });
+    }
+    new MutationObserver(updateSocialIcons).observe(
+        document.documentElement, { attributes: true, attributeFilter: ['data-bs-theme'] }
+    );
+    document.addEventListener('DOMContentLoaded', updateSocialIcons);</script>
   </head>
   <body class="container">
     <!-- Google Tag Manager (noscript) --> 
@@ -125,10 +135,10 @@
             </div>
             <div class="card-body">
               <h6 class="card-title">Tees will have our custom 25th graphic across the chest and be in a dark grey heather. Tri-blend jersey, super soft, with a classic modern fit.</h6>
-              <div id="accordionAVBh1" class="accordion" style="margin-bottom: 10px">
+              <div id="accordionZAgLr" class="accordion" style="margin-bottom: 10px">
                 <div class="accordion-item">
-                  <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionAVBh1-item49GKJ" aria-expanded="false" aria-controls="accordionAVBh1-item49GKJ">Size Chart</button></h2>
-                  <div id="accordionAVBh1-item49GKJ" class="accordion-collapse collapse" data-bs-parent="#accordionAVBh1">
+                  <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionZAgLr-itemcdcvA" aria-expanded="false" aria-controls="accordionZAgLr-itemcdcvA">Size Chart</button></h2>
+                  <div id="accordionZAgLr-itemcdcvA" class="accordion-collapse collapse" data-bs-parent="#accordionZAgLr">
                     <div class="accordion-body">
                       <table class="table table-striped">
                         <thead>
@@ -189,10 +199,10 @@
             </div>
             <div class="card-body">
               <h6 class="card-title">Tees will have our custom 25th graphic across the chest and be in a dark grey heather. Tri-blend jersey, super soft with stretch. Slightly tailored cut but comfy oversized fit. V-neck.</h6>
-              <div id="accordionHIPgK" class="accordion" style="margin-bottom: 10px">
+              <div id="accordiondDJws" class="accordion" style="margin-bottom: 10px">
                 <div class="accordion-item">
-                  <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionHIPgK-itemfCoZZ" aria-expanded="false" aria-controls="accordionHIPgK-itemfCoZZ">Size Chart</button></h2>
-                  <div id="accordionHIPgK-itemfCoZZ" class="accordion-collapse collapse" data-bs-parent="#accordionHIPgK">
+                  <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordiondDJws-itemKbRjT" aria-expanded="false" aria-controls="accordiondDJws-itemKbRjT">Size Chart</button></h2>
+                  <div id="accordiondDJws-itemKbRjT" class="accordion-collapse collapse" data-bs-parent="#accordiondDJws">
                     <div class="accordion-body">
                       <table class="table table-striped">
                         <thead>
@@ -243,10 +253,10 @@
             </div>
             <div class="card-body">
               <h6 class="card-title">Tees will have a unique kids custom graphic across the chest and be in a light grey heather. Gildan brand soft-style cotton blend tee. Soft feel, modern classic fit.</h6>
-              <div id="accordionLIPfj" class="accordion" style="margin-bottom: 10px">
+              <div id="accordion2ZV2Y" class="accordion" style="margin-bottom: 10px">
                 <div class="accordion-item">
-                  <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionLIPfj-itemmcDvJ" aria-expanded="false" aria-controls="accordionLIPfj-itemmcDvJ">Size Chart</button></h2>
-                  <div id="accordionLIPfj-itemmcDvJ" class="accordion-collapse collapse" data-bs-parent="#accordionLIPfj">
+                  <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordion2ZV2Y-itemHYe3z" aria-expanded="false" aria-controls="accordion2ZV2Y-itemHYe3z">Size Chart</button></h2>
+                  <div id="accordion2ZV2Y-itemHYe3z" class="accordion-collapse collapse" data-bs-parent="#accordion2ZV2Y">
                     <div class="accordion-body">
                       <table class="table table-striped">
                         <thead>
@@ -312,10 +322,10 @@
             </div>
             <div class="card-body">
               <h6 class="card-title">Tees will have a unique kids custom graphic across the chest and be in a light grey heather. Gildan brand softstyle cotton tee. Runs true to size.</h6>
-              <div id="accordionojbUJ" class="accordion" style="margin-bottom: 10px">
+              <div id="accordion7aPQb" class="accordion" style="margin-bottom: 10px">
                 <div class="accordion-item">
-                  <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionojbUJ-itemqzMML" aria-expanded="false" aria-controls="accordionojbUJ-itemqzMML">Size Chart</button></h2>
-                  <div id="accordionojbUJ-itemqzMML" class="accordion-collapse collapse" data-bs-parent="#accordionojbUJ">
+                  <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordion7aPQb-item3SCNE" aria-expanded="false" aria-controls="accordion7aPQb-item3SCNE">Size Chart</button></h2>
+                  <div id="accordion7aPQb-item3SCNE" class="accordion-collapse collapse" data-bs-parent="#accordion7aPQb">
                     <div class="accordion-body">
                       <table class="table table-striped">
                         <thead>
@@ -371,10 +381,10 @@
             </div>
             <div class="card-body">
               <h6 class="card-title">Tees will have a unique kids custom graphic across the chest and be in a light grey heather. 100% cotton Gildan brand. Tends to run a bit small.</h6>
-              <div id="accordionAewsR" class="accordion" style="margin-bottom: 10px">
+              <div id="accordion5ZFKf" class="accordion" style="margin-bottom: 10px">
                 <div class="accordion-item">
-                  <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionAewsR-itemBOB24" aria-expanded="false" aria-controls="accordionAewsR-itemBOB24">Size Chart</button></h2>
-                  <div id="accordionAewsR-itemBOB24" class="accordion-collapse collapse" data-bs-parent="#accordionAewsR">
+                  <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordion5ZFKf-itemQ7oJn" aria-expanded="false" aria-controls="accordion5ZFKf-itemQ7oJn">Size Chart</button></h2>
+                  <div id="accordion5ZFKf-itemQ7oJn" class="accordion-collapse collapse" data-bs-parent="#accordion5ZFKf">
                     <div class="accordion-body">
                       <table class="table table-striped">
                         <thead>
@@ -430,10 +440,10 @@
             </div>
             <div class="card-body">
               <h6 class="card-title">Our custom Hurrah Hurrah Hurrah class ribbon over a nylon webbing to create a D ring style belt.</h6>
-              <div id="accordionk8p1n" class="accordion" style="margin-bottom: 10px">
+              <div id="accordionwmmXt" class="accordion" style="margin-bottom: 10px">
                 <div class="accordion-item">
-                  <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionk8p1n-itemjQEhf" aria-expanded="false" aria-controls="accordionk8p1n-itemjQEhf">Size Chart</button></h2>
-                  <div id="accordionk8p1n-itemjQEhf" class="accordion-collapse collapse" data-bs-parent="#accordionk8p1n">
+                  <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionwmmXt-itemnUuds" aria-expanded="false" aria-controls="accordionwmmXt-itemnUuds">Size Chart</button></h2>
+                  <div id="accordionwmmXt-itemnUuds" class="accordion-collapse collapse" data-bs-parent="#accordionwmmXt">
                     <div class="accordion-body">
                       <table class="table table-striped">
                         <thead>

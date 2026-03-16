@@ -64,6 +64,16 @@
     <link href="/css/fonts.css" rel="stylesheet" />
     <link href="/css/theme.css" rel="stylesheet" />
     <link href="/css/layout.css" rel="stylesheet" />
+    <script>    function updateSocialIcons() {
+        var isDark = document.documentElement.getAttribute('data-bs-theme')?.includes('dark');
+        document.querySelectorAll('img[src*="/images/social/"]').forEach(function(img) {
+            img.style.filter = isDark ? 'invert(1)' : '';
+        });
+    }
+    new MutationObserver(updateSocialIcons).observe(
+        document.documentElement, { attributes: true, attributeFilter: ['data-bs-theme'] }
+    );
+    document.addEventListener('DOMContentLoaded', updateSocialIcons);</script>
   </head>
   <body class="container">
     <!-- Google Tag Manager (noscript) --> 
@@ -1120,10 +1130,10 @@
         </tbody>
       </table>
       <hr />
-      <div id="accordionha5E7" class="accordion">
+      <div id="accordionSMaZs" class="accordion">
         <div class="accordion-item">
-          <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionha5E7-itemmcEhZ" aria-expanded="false" aria-controls="accordionha5E7-itemmcEhZ">Care to get in the spirit with some reunions music?</button></h2>
-          <div id="accordionha5E7-itemmcEhZ" class="accordion-collapse collapse" data-bs-parent="#accordionha5E7">
+          <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionSMaZs-itemTkcoE" aria-expanded="false" aria-controls="accordionSMaZs-itemTkcoE">Care to get in the spirit with some reunions music?</button></h2>
+          <div id="accordionSMaZs-itemTkcoE" class="accordion-collapse collapse" data-bs-parent="#accordionSMaZs">
             <div class="accordion-body">
               <!--?xml version="1.0" encoding="utf-8"?--> 
               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="120" height="22" xml:space="preserve"> 
@@ -1175,18 +1185,18 @@
         </div>
       </div>
     </div>
-    <div id="accordionPYi6C" class="accordion">
+    <div id="accordionDiovS" class="accordion">
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionPYi6C-itemQTcSD" aria-expanded="false" aria-controls="accordionPYi6C-itemQTcSD">How can I download the Reunions Events app?</button></h2>
-        <div id="accordionPYi6C-itemQTcSD" class="accordion-collapse collapse" data-bs-parent="#accordionPYi6C">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionDiovS-itemIg6hc" aria-expanded="false" aria-controls="accordionDiovS-itemIg6hc">How can I download the Reunions Events app?</button></h2>
+        <div id="accordionDiovS-itemIg6hc" class="accordion-collapse collapse" data-bs-parent="#accordionDiovS">
           <div class="accordion-body">
             <p>The Princeton University Events app is now available for download on <a href="https://play.google.com/store/apps/details?id=com.crowdcompass.appOgVXiMBaV6">Google Play</a> and at the <a href="https://apps.apple.com/us/app/princeton-university-events/id1158002447">Apple App Store</a>. The Reunions 2025 event will initially require that you enter an email address and case-sensitive last name to unlock. You must use the same email that you used to register through the Reunion IQ site. </p>
           </div>
         </div>
       </div>
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionPYi6C-itemQpZT2" aria-expanded="false" aria-controls="accordionPYi6C-itemQpZT2">Where can I find the Reunions schedule of events?</button></h2>
-        <div id="accordionPYi6C-itemQpZT2" class="accordion-collapse collapse" data-bs-parent="#accordionPYi6C">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionDiovS-itemtY9o7" aria-expanded="false" aria-controls="accordionDiovS-itemtY9o7">Where can I find the Reunions schedule of events?</button></h2>
+        <div id="accordionDiovS-itemtY9o7" class="accordion-collapse collapse" data-bs-parent="#accordionDiovS">
           <div class="accordion-body">
             <div>
               <p>The general Reunions schedule of open events is on the <a href="https://reunions.princeton.edu/events">Reunions website</a>. The schedule will also be available to attendees in a printed program and on the Reunions Events app for smartphones.</p>

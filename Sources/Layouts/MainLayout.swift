@@ -30,6 +30,18 @@ struct MainLayout: Layout {
             MetaLink(href: "/css/fonts.css", rel: .stylesheet)
             MetaLink(href: "/css/theme.css", rel: .stylesheet)
             MetaLink(href: "/css/layout.css", rel: .stylesheet)
+            Script(code: """
+                function updateSocialIcons() {
+                    var isDark = document.documentElement.getAttribute('data-bs-theme')?.includes('dark');
+                    document.querySelectorAll('img[src*="/images/social/"]').forEach(function(img) {
+                        img.style.filter = isDark ? 'invert(1)' : '';
+                    });
+                }
+                new MutationObserver(updateSocialIcons).observe(
+                    document.documentElement, { attributes: true, attributeFilter: ['data-bs-theme'] }
+                );
+                document.addEventListener('DOMContentLoaded', updateSocialIcons);
+            """)
         }
 
         Body {

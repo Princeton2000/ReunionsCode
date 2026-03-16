@@ -28,10 +28,12 @@ struct CommitteeAG: StaticPage {
                                     Image.tiger
                                         .resizable()
                                         .frame(height: 200)
+                                        .style(.objectFit, "cover")
                                 } else {
                                     Image(member.photo, description: member.name)
                                         .resizable()
                                         .frame(height: 200)
+                                        .style(.objectFit, "cover")
                                 }
                                 Text(member.name)
                                     .fontWeight(.semibold)

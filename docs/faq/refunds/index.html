@@ -67,6 +67,16 @@
     <link href="/css/fonts.css" rel="stylesheet" />
     <link href="/css/theme.css" rel="stylesheet" />
     <link href="/css/layout.css" rel="stylesheet" />
+    <script>    function updateSocialIcons() {
+        var isDark = document.documentElement.getAttribute('data-bs-theme')?.includes('dark');
+        document.querySelectorAll('img[src*="/images/social/"]').forEach(function(img) {
+            img.style.filter = isDark ? 'invert(1)' : '';
+        });
+    }
+    new MutationObserver(updateSocialIcons).observe(
+        document.documentElement, { attributes: true, attributeFilter: ['data-bs-theme'] }
+    );
+    document.addEventListener('DOMContentLoaded', updateSocialIcons);</script>
   </head>
   <body class="container">
     <!-- Google Tag Manager (noscript) --> 
@@ -125,10 +135,10 @@
       </ul>
       <p></p>
     </div>
-    <div id="accordionz5u5o" class="accordion">
+    <div id="accordionGrJk8" class="accordion">
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionz5u5o-itemh1ckI" aria-expanded="false" aria-controls="accordionz5u5o-itemh1ckI">What is the cancellation / refund policy for the Class of 2000’s 25th Reunion?</button></h2>
-        <div id="accordionz5u5o-itemh1ckI" class="accordion-collapse collapse" data-bs-parent="#accordionz5u5o">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionGrJk8-itemVMqtc" aria-expanded="false" aria-controls="accordionGrJk8-itemVMqtc">What is the cancellation / refund policy for the Class of 2000’s 25th Reunion?</button></h2>
+        <div id="accordionGrJk8-itemVMqtc" class="accordion-collapse collapse" data-bs-parent="#accordionGrJk8">
           <div class="accordion-body">
             <p></p>
             <ul>
