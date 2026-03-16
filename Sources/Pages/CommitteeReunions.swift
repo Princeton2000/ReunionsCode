@@ -19,7 +19,12 @@ struct CommitteeReunions: StaticPage {
         Table {
             if let committee = decode("leadership.json", as: [CommitteeMember].self)?
                 .filter({ $0.priority < 3 && $0.priority > 0 })
-                .sorted(by: { $0.priority < $1.priority && $0.role < $1.role && $0.lastName < $1.lastName && $0.firstName < $1.firstName }) {
+                .sorted(by: {
+                    if $0.priority != $1.priority { return $0.priority < $1.priority }
+                    if $0.role != $1.role { return $0.role < $1.role }
+                    if $0.lastName != $1.lastName { return $0.lastName < $1.lastName }
+                    return $0.firstName < $1.firstName
+                }) {
                 for members in committee.batched(into: 3) {
                     Row {
                         for member in members {
