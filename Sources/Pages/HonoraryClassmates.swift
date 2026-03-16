@@ -22,7 +22,7 @@ struct HonoraryClassmates: StaticPage {
                     Section {
                         Card {
                             Text {
-                                Link("\(member.description)", target: "/honorary/\(member.lastName.lowercased())")
+                                Link("\(member.description)", target: "/honorary/\(member.lastName.lowercased())/")
                                     .target(.newWindow)
                                     .relationship(.noOpener, .noReferrer)
                             }

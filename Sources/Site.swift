@@ -71,7 +71,7 @@ struct Princeton2000: Site {
 
     // Static pages (renamed from 'pages')
     var staticPages: [any StaticPage] {
-        News()
+//        News()
         Library()
         Notes()
         Registration()

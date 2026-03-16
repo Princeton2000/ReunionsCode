@@ -6,7 +6,7 @@ alt: The Whitman Arches
 title: Peter & The Wolf Update
 link: 
 lastModified: 2025-04-16 14:49
-published: false
+published: true
 description: The Class of 1970 hosts a free Peter and the Wolf performance for kids aged 3-11 at Richardson Auditorium on Friday, May 23.
 ---
 Dear Friends,

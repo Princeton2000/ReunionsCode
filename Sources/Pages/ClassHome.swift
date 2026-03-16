@@ -50,11 +50,11 @@ struct ClassHome: StaticPage {
                     .padding(.top)
 
                 Grid {
-                    linkCard("Class Notes", description: "2000 in the news", target: "https://reunions.princeton2000.org/notes")
-                    linkCard("Library", description: "Check out some of the incredible work by our classmates", target: "https://reunions.princeton2000.org/library")
+                    linkCard("Class Notes", description: "2000 in the news", target: "https://reunions.princeton2000.org/notes/")
+                    linkCard("Library", description: "Check out some of the incredible work by our classmates", target: "https://reunions.princeton2000.org/library/")
 					
 					linkCard("Honorary Classmates", description: "Our adopted members", target: "https://reunions.princeton2000.org/honorary-classmates")
-					linkCard("Leadership", description: "Officers and class leadership", target: "https://reunions.princeton2000.org/leadership")
+					linkCard("Leadership", description: "Officers and class leadership", target: "https://reunions.princeton2000.org/leadership/")
 					
 					linkCard("Class Dues", description: "Support class events and the PAW", target: "https://www.princeton2000.org/memberships")
 					linkCard("Class Store", description: "Get exclusive Class of 2000 merch", target: "https://tinyurl.com/2000store")

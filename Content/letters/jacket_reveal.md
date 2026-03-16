@@ -14,7 +14,7 @@ Hey team – **WHOA**. I was about to send this yesterday, but our incredible co
 
 **How can we help you?**
 
-As you can imagine, there are a lot of threads coming together over the next couple of months (77 days). I’m planning on sending out a timeline so you know key dates and when to expect to hear from us, but I may not be capturing everything that’s on your mind. We have a [FAQ](https://reunions.princeton2000.org/faq/) page in place, and while we’re keeping it updated, I really want to make sure we’re addressing whatever it will take to get you in particular on campus for Reunions. If anything’s got you on the fence, or if you’re wavering in any way, PLEASE GET IN TOUCH. Our class has earned this Reunion, and WE WANT TO SEE YOU there. If you have an idea that might just be cool (should we have an “arrivals board” to coordinate flights/rides?) GET IN TOUCH!
+As you can imagine, there are a lot of threads coming together over the next couple of months (77 days). I’m planning on sending out a timeline so you know key dates and when to expect to hear from us, but I may not be capturing everything that’s on your mind. We have a [FAQ](https://reunions.princeton2000.org/faq) page in place, and while we’re keeping it updated, I really want to make sure we’re addressing whatever it will take to get you in particular on campus for Reunions. If anything’s got you on the fence, or if you’re wavering in any way, PLEASE GET IN TOUCH. Our class has earned this Reunion, and WE WANT TO SEE YOU there. If you have an idea that might just be cool (should we have an “arrivals board” to coordinate flights/rides?) GET IN TOUCH!
 
 [Annual Giving – March Participation Challenge!](https://agchallenge.princeton.edu)
 

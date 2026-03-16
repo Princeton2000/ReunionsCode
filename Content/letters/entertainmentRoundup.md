@@ -39,7 +39,7 @@ We had planned on using Princeton 2000 wallbanners as part of our Reunions HQ de
 
 **Peter & The Wolf Reminder**
 
-The Class of 1970 has arranged for a performance of Peter & The Wolf by the American Classical Orchestra for Friday, May 23 at 2:45pm. So far almost 500 people have signed up! While the performance is free, it is ticketed. You can reserve your spot here, and learn more information [here](https://reunions.princeton2000.org/letters/peter_and_the_wolf/).
+The Class of 1970 has arranged for a performance of Peter & The Wolf by the American Classical Orchestra for Friday, May 23 at 2:45pm. So far almost 500 people have signed up! While the performance is free, it is ticketed. You can reserve your spot here, and learn more information [here](https://reunions.princeton2000.org/letters/peter_and_the_wolf).
 
 **Class Yearbook is coming!**
 
