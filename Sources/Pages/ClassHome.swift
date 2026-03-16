@@ -41,37 +41,48 @@ struct ClassHome: StaticPage {
         }
         .padding(.top)
 
-        Grid {
-            linkCard("Class Notes", description: "Updates from classmates", target: "https://reunions.princeton2000.org/notes")
-            linkCard("Library", description: "Photos, videos, and archives", target: "https://reunions.princeton2000.org/library")
-            linkCard("Class Dues", description: "Support class events and the PAW", target: "https://www.princeton2000.org/memberships")
-            linkCard("Leadership", description: "Officers and class leadership", target: "https://reunions.princeton2000.org/leadership")
-            linkCard("Honorary Classmates", description: "Our adopted members", target: "https://reunions.princeton2000.org/honorary-classmates")
-            linkCard("TigerNet", description: "Access the Forums and Alumni Directory", target: "https://tigernet.princeton.edu")
-        }
-        .columns(3)
-        .padding(.horizontal, 5)
-        .padding(.bottom)
-
         Section {
-            Text("The Latest")
-                .class("tayLennon")
-                .font(.title3)
-                .fontWeight(.semibold)
-                .horizontalAlignment(.center)
-                .padding(.top)
+            Section {
+                Text("Links")
+                    .class("tayLennon")
+                    .font(.title3)
+                    .fontWeight(.semibold)
+                    .padding(.top)
 
-            Table {
-                for content in articles
-                    .all
-                    .filter({ $0.type == "letters" })
-                    .sorted(by: { ($0.lastModified) > ($1.lastModified) })
-                    .prefix(6) {
-                    letterPreviewRow(content)
+                Grid {
+                    linkCard("Class Notes", description: "Updates from classmates", target: "https://reunions.princeton2000.org/notes")
+                    linkCard("Library", description: "Photos, videos, and archives", target: "https://reunions.princeton2000.org/library")
+                    linkCard("Class Dues", description: "Support class events and the PAW", target: "https://www.princeton2000.org/memberships")
+                    linkCard("Leadership", description: "Officers and class leadership", target: "https://reunions.princeton2000.org/leadership")
+                    linkCard("Honorary Classmates", description: "Our adopted members", target: "https://reunions.princeton2000.org/honorary-classmates")
+                    linkCard("TigerNet", description: "Access the Forums and Alumni Directory", target: "https://tigernet.princeton.edu")
+                }
+                .columns(2)
+            }
+            .width(8)
+
+            Section {
+                Text("The Latest")
+                    .class("tayLennon")
+                    .font(.title3)
+                    .fontWeight(.semibold)
+                    .padding(.top)
+
+                Table {
+                    for content in articles
+                        .all
+                        .filter({ $0.type == "letters" })
+                        .sorted(by: { ($0.lastModified) > ($1.lastModified) })
+                        .prefix(3) {
+                        letterPreviewRow(content)
+                    }
                 }
             }
-            .padding(.horizontal, 5)
+            .width(4)
         }
+        .class("row")
+        .padding(.horizontal, 5)
+        .padding(.bottom)
 
         Section {
             Text {
