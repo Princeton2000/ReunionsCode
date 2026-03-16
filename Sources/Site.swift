@@ -56,7 +56,8 @@ struct Princeton2000: Site {
             url: "https://reunions.princeton2000.org/images/rss.png",
             width: 144,
             height: 152
-        )
+        ),
+        contentTypes: ["letters"]
     )
 
     // Page configuration
@@ -95,6 +96,7 @@ struct Princeton2000: Site {
         Colophon()
         Dues()
         Constitution()
+        ClassHome()
     }
 
     // Article pages (renamed from 'layouts', type changed from ContentPage)

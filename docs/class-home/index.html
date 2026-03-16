@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en" data-light-theme="princeton-light-light" data-dark-theme="princeton-dark-dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Princeton 2000" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>Class of 2000 | Princeton 2000</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://reunions.princeton2000.org/class-home" rel="canonical" />
+    <script>(function() {
+    function getThemePreference() {
+        return localStorage.getItem('custom-theme') || 'auto';
+    }
+
+    function applyTheme(themeID) {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const lightThemeID = document.documentElement.getAttribute('data-light-theme') || 'light';
+        const darkThemeID = document.documentElement.getAttribute('data-dark-theme') || 'dark';
+        const actualThemeID = themeID === 'auto' ? (prefersDark ? darkThemeID : lightThemeID) : themeID;
+
+        document.documentElement.setAttribute('data-bs-theme', actualThemeID);
+        document.documentElement.setAttribute('data-theme-state', themeID);
+    }
+
+    function applySyntaxTheme() {
+        const syntaxTheme = getComputedStyle(document.documentElement)
+            .getPropertyValue('--syntax-highlight-theme').trim().replace(/"/g, '');
+
+        if (!syntaxTheme) return;
+
+        document.querySelectorAll('link[data-highlight-theme]').forEach(link => {
+            link.setAttribute('disabled', 'disabled');
+        });
+
+        const themeLink = document.querySelector(`link[data-highlight-theme="${syntaxTheme}"]`);
+        if (themeLink) {
+            themeLink.removeAttribute('disabled');
+        }
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const currentTheme = getThemePreference();
+        if (currentTheme === 'auto') {
+            applyTheme('auto');
+            applySyntaxTheme();
+        }
+    });
+
+    const savedTheme = getThemePreference();
+    applyTheme(savedTheme);
+    applySyntaxTheme();
+})();
+</script>
+    <meta property="og:site_name" content="Reunions 2025" />
+    <meta property="og:title" content="Class of 2000" />
+    <meta name="twitter:title" content="Class of 2000" />
+    <meta property="og:url" content="https://reunions.princeton2000.org/class-home" />
+    <meta name="twitter:domain" content="reunions.princeton2000.org" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+    <link href="/css/fonts.css" rel="stylesheet" />
+    <link href="/css/theme.css" rel="stylesheet" />
+    <link href="/css/layout.css" rel="stylesheet" />
+    <script>    var s = document.createElement('style');
+    s.textContent = '[data-bs-theme*="dark"] img[src*="Lounging_Tiger"] { filter: invert(1) hue-rotate(180deg) !important; }';
+    document.head.appendChild(s);</script>
+  </head>
+  <body class="container">
+    <div class="ig-main-content">
+      <div style="padding-top: 20px">
+        <img src="/images/logos/P2000_25th_Lounging_Tiger.svg" alt="Princeton Class of 2000 Tiger" class="img-fluid text-center" style="max-width: 300px; display: block" />
+        <h1 class="tayLennon text-center" style="font-weight: 600; padding-top: 20px">Welcome to the Website of the Great Class of 2000!</h1>
+        <p class="text-center" style="padding-left: 5px; padding-right: 5px; padding-bottom: 20px">We are a volunteer organization run by and for the Princeton undergraduate Class of 2000. Enabled by the Trustees of Princeton University, our mission is to deepen the connections that our classmates have with each other, with the University, with other Classes, and with the community.</p>
+      </div>
+      <div class="row justify-content-center row-cols-1 row-cols-md-3" style="padding-left: 5px; padding-right: 5px; padding-bottom: 20px">
+        <div class="col align-self-center g-3">
+          <div class="card" style="margin-bottom: 20px">
+            <div class="card-header">
+              <a target="_top" href="https://reunions.princeton2000.org/notes">Class Notes</a>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Updates from classmates</p>
+            </div>
+          </div>
+        </div>
+        <div class="col align-self-center g-3">
+          <div class="card" style="margin-bottom: 20px">
+            <div class="card-header">
+              <a target="_top" href="https://reunions.princeton2000.org/library">Library</a>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Photos, videos, and archives</p>
+            </div>
+          </div>
+        </div>
+        <div class="col align-self-center g-3">
+          <div class="card" style="margin-bottom: 20px">
+            <div class="card-header">
+              <a target="_top" href="https://www.princeton2000.org/memberships">Class Dues</a>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Support class events and the PAW</p>
+            </div>
+          </div>
+        </div>
+        <div class="col align-self-center g-3">
+          <div class="card" style="margin-bottom: 20px">
+            <div class="card-header">
+              <a target="_top" href="https://reunions.princeton2000.org/leadership">Leadership</a>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Officers and class leadership</p>
+            </div>
+          </div>
+        </div>
+        <div class="col align-self-center g-3">
+          <div class="card" style="margin-bottom: 20px">
+            <div class="card-header">
+              <a target="_top" href="https://reunions.princeton2000.org/honorary-classmates">Honorary Classmates</a>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Our adopted members</p>
+            </div>
+          </div>
+        </div>
+        <div class="col align-self-center g-3">
+          <div class="card" style="margin-bottom: 20px">
+            <div class="card-header">
+              <a target="_top" href="https://tigernet.princeton.edu">TigerNet</a>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Access the Forums and Alumni Directory</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="text-center" style="padding-bottom: 20px"><a target="_top" href="https://reunions.princeton2000.org" class="btn btn-primary">Visit our Reunions site</a></p>
+      </div>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>
