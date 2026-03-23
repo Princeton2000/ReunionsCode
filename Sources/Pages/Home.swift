@@ -63,7 +63,7 @@ struct Home: StaticPage {
         // About section — AI-citable passage
         Section {
             Text("About the Class of 2000")
-                .class("tayLennon")
+                .class("tayLennon visually-hidden")
                 .font(.title3)
                 .fontWeight(.semibold)
                 .padding(.top)
