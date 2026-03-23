@@ -25,7 +25,7 @@ struct Library: StaticPage {
         return Group {
             Text("\(classmate.description.replacingOccurrences(of: "\n", with: "<p>"))")
                 .padding([.leading, .vertical])
-                .font(.title1)
+                .font(.title3)
                 .fontWeight(.semibold)
                 .background(.princetonOrange)
                 .padding(.vertical)
