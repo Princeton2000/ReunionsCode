@@ -60,7 +60,14 @@ b, strong {
 
 [data-bs-theme*="dark"] img[src*="/images/social/"],
 [data-bs-theme*="dark"] img[src*="Amazon_logo"],
-[data-bs-theme*="dark"] img[src*="bookshop"] {
+[data-bs-theme*="dark"] img[src*="Amazon_Prime_Video_logo"],
+[data-bs-theme*="dark"] img[src*="AmazonMusicLogo"],
+[data-bs-theme*="dark"] img[src*="apple_music_logo"],
+[data-bs-theme*="dark"] img[src*="Apple_TV_logo"],
+[data-bs-theme*="dark"] img[src*="bandcamp_logo"],
+[data-bs-theme*="dark"] img[src*="bookshop"],
+[data-bs-theme*="dark"] img[src*="Disney+_logo"],
+[data-bs-theme*="dark"] img[src*="ParamountPlus_logo"] {
 	filter: invert(1);
 }
 
