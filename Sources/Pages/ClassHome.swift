@@ -31,10 +31,20 @@ struct ClassHome: StaticPage {
                 .fontWeight(.semibold)
                 .horizontalAlignment(.center)
                 .padding(.top)
-
+			Alert {
+				Text {
+					Link("Reunions 2026 is May 21-24…come back soon to register!", target: "https://princeton.reunioniq.com/go/2026/satellite10-35")
+						.target(.newWindow)
+						.relationship(.noOpener, .noReferrer)
+				}
+				.fontWeight(.semibold)
+				.horizontalAlignment(.center)
+			}
+			.role(.info)
+			.padding()
             Text {
                 "We are a volunteer organization run by and for the Princeton undergraduate Class of 2000. Enabled by the Trustees of Princeton University, our mission is to deepen the connections that our classmates have with each other, with the University, with other Classes, and with the community."
-            }
+			}.hidden()
             .horizontalAlignment(.center)
             .padding(.horizontal, 5)
             .padding(.bottom)
@@ -51,7 +61,7 @@ struct ClassHome: StaticPage {
 
                 Grid {
                     linkCard("Class Notes", description: "2000 in the news", target: "https://reunions.princeton2000.org/notes/")
-                    linkCard("Library", description: "Check out some of the incredible work by our classmates", target: "https://reunions.princeton2000.org/library/")
+                    linkCard("Library", description: "Check out the incredible work of our classmates", target: "https://reunions.princeton2000.org/library/")
 					
 					linkCard("Honorary Classmates", description: "Our adopted members", target: "https://reunions.princeton2000.org/honorary-classmates")
 					linkCard("Leadership", description: "Officers and class leadership", target: "https://reunions.princeton2000.org/leadership/")
