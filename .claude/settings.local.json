@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(swift build:*)",
+      "Bash(swift run:*)",
+      "Bash(find:*)",
+      "Bash(git checkout:*)",
+      "Bash(git push:*)",
+      "Bash(swift package:*)",
+      "Bash(swift test:*)",
+      "Bash(git:*)",
+      "Bash(GIT_SEQUENCE_EDITOR=\"sed -i '''' ''s/^pick /reword /g''\" git rebase:*)",
+      "Bash(open:*)",
+      "Bash(python3:*)",
+      "Bash(gh api:*)",
+      "Bash(do:*)",
+      "WebFetch(domain:blog.justinpurnell.com)",
+      "WebFetch(domain:purns.tumblr.com)",
+      "Bash(curl:*)",
+      "mcp__geoseo__analyze_ai_crawler_access"
+    ]
+  }
+}

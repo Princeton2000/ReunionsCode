@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/jpurnell/Ignite.git",
       "state" : {
-        "branch" : "fix/merge-copy-assets",
-        "revision" : "746c2a1f842812509f1e3e4c6ac334c8f25868ab"
+        "branch" : "feature/structured-data",
+        "revision" : "d3a9a59f604a4af95c8e4638276fe12abd18e454"
       }
     },
     {

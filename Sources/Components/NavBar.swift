@@ -29,14 +29,14 @@ struct NavBar: HTML {
         _ message: String = "PRINCETON 2000",
         _ fontFamily: FontFamily = .princetonMonticello
     ) -> String {
-        return "<h3 style=\"font-family: \(fontFamily.rawValue); font-size: calc(1.2rem + .5vw); color: #EE7F2D; line-height: 2rem; margin-bottom: 0rem; text-align: center;\">\(message)</h3>"
+        return "<div style=\"font-family: \(fontFamily.rawValue); font-size: calc(1.2rem + .5vw); color: #EE7F2D; line-height: 2rem; margin-bottom: 0rem; text-align: center;\">\(message)</div>"
     }
 
     func kicker(
         _ message: String = "BID EVERY CARE WITHDRAW",
         _ fontFamily: FontFamily = .princetonMonticello
     ) -> String {
-        "<h6 style=\"font-family: \(fontFamily.rawValue); font-size: calc(0.55rem + 0.5vw); color: var(--bs-body-color); line-height: 1rem; padding: 0em; margin-bottom: 0rem; letter-spacing: .10rem;\">\(message)</h6>"
+        "<div style=\"font-family: \(fontFamily.rawValue); font-size: calc(0.55rem + 0.5vw); color: var(--bs-body-color); line-height: 1rem; padding: 0em; margin-bottom: 0rem; letter-spacing: .10rem;\">\(message)</div>"
     }
 
     func navBarString(logo: String, _ header: String, _ kicker: String) -> String {

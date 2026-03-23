@@ -35,6 +35,42 @@ struct MainLayout: Layout {
                 s.textContent = '[data-bs-theme*=\"dark\"] img[src*=\"social\"] { filter: invert(1) !important; } [data-bs-theme*=\"dark\"] img[src*=\"TigerHead_BECW\"] { filter: invert(1) hue-rotate(180deg) !important; } [data-bs-theme*=\"dark\"] img[src*=\"Lounging_Tiger\"] { filter: invert(1) hue-rotate(180deg) !important; } [data-bs-theme*=\"dark\"] img[src*=\"headshots/P2000_25th_TigerHead\"] { filter: invert(1) !important; }';
                 document.head.appendChild(s);
             """)
+
+            // Structured data (JSON-LD)
+            StructuredData.organization(
+                name: "Princeton Class of 2000",
+                url: "https://reunions.princeton2000.org",
+                description: "Official website of the Princeton University Class of 2000, organizing reunions, class activities, and community engagement since 2000.",
+                foundingDate: "2000-06-06",
+                sameAs: socialLinkList.map(\.link),
+                parentOrganization: (name: "Princeton University", url: "https://www.princeton.edu")
+            )
+
+            StructuredData.webSite(
+                name: "Princeton Class of 2000",
+                url: "https://reunions.princeton2000.org",
+                description: "Official site of the Princeton University Class of 2000 — reunions, class notes, and alumni engagement."
+            )
+
+            StructuredData.breadcrumbs()
+
+            StructuredData.article(
+                publisher: "Princeton Class of 2000",
+                publisherURL: "https://reunions.princeton2000.org"
+            )
+
+            if page.url.path == "/" || page.url.path.isEmpty {
+                StructuredData.event(
+                    name: "Princeton Class of 2000 — 26th Reunion",
+                    startDate: "2026-05-24",
+                    endDate: "2026-05-27",
+                    locationName: "Princeton University",
+                    locality: "Princeton",
+                    region: "NJ",
+                    postalCode: "08544",
+                    organizer: (name: "Princeton Class of 2000", url: "https://reunions.princeton2000.org")
+                )
+            }
         }
 
         Body {
