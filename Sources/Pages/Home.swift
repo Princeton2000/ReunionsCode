@@ -60,10 +60,10 @@ struct Home: StaticPage {
         .class("row")
         .padding(.horizontal, 5)
 
-        // About section — AI-citable passage
+        // About section — AI-citable passage (visually hidden, accessible to scrapers)
         Section {
             Text("About the Class of 2000")
-                .class("tayLennon visually-hidden")
+                .class("tayLennon")
                 .font(.title3)
                 .fontWeight(.semibold)
                 .padding(.top)
@@ -80,6 +80,7 @@ struct Home: StaticPage {
             class communications, and community service initiatives.
             """)
         }
+        .class("visually-hidden")
         .padding(.horizontal, 5)
 
     }
