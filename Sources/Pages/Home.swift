@@ -19,16 +19,27 @@ struct Home: StaticPage {
 
     var body: some HTML {
         Text(title).font(.title1).class("visually-hidden")
-        if Date() < reunionsEndDate.date ?? Date() {
-            Section {
-                Group {
-                    Include("countdown.js")
-                        .horizontalAlignment(.center)
-                }
-                .horizontalAlignment(.center)
-            }
-            .padding(.horizontal, 5)
-        }
+//        if Date() < reunionsEndDate.date ?? Date() {
+//            Section {
+//                Group {
+//                    Include("countdown.js")
+//                        .horizontalAlignment(.center)
+//                }
+//                .horizontalAlignment(.center)
+//            }
+//            .padding(.horizontal, 5)
+//        }
+		Alert {
+			Text {
+				Link("Reunions 2026 is May 21-24…come back soon to register!", target: "https://princeton.reunioniq.com/go/2026/satellite10-35")
+					.target(.newWindow)
+					.relationship(.noOpener, .noReferrer)
+			}
+			.fontWeight(.semibold)
+			.horizontalAlignment(.center)
+		}
+		.role(.info)
+		.padding()
         Section {
             Section {
                 Text("Our 25th Reunion")

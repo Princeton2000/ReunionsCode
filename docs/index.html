@@ -70,7 +70,7 @@
     <link href="/css/theme.css" rel="stylesheet" />
     <link href="/css/layout.css" rel="stylesheet" />
     <script>    var s = document.createElement('style');
-    s.textContent = '[data-bs-theme*="dark"] img[src*="social"] { filter: invert(1) !important; } [data-bs-theme*="dark"] img[src*="TigerHead_BECW"] { filter: invert(1) hue-rotate(180deg) !important; } [data-bs-theme*="dark"] img[src*="Lounging_Tiger"] { filter: invert(1) hue-rotate(180deg) !important; } [data-bs-theme*="dark"] img[src*="headshots/P2000_25th_TigerHead"] { filter: invert(1) !important; }';
+    s.textContent = '[data-bs-theme*="dark"] img[src*="social"] { filter: invert(1) !important; } [data-bs-theme*="dark"] img[src*="TigerHead_BECW"] { filter: invert(1) hue-rotate(180deg) !important; } [data-bs-theme*="dark"] img[src*="Lounging_Tiger"] { filter: invert(1) hue-rotate(180deg) !important; } [data-bs-theme*="dark"] img[src*="headshots/P2000_25th_TigerHead"] { filter: invert(1) !important; } [data-bs-theme*="dark"] img[src*="apple_music_logo"] { filter: invert(1) !important; } [data-bs-theme*="dark"] img[src*="AmazonMusicLogo"] { filter: invert(1) !important; } [data-bs-theme*="dark"] img[src*="Amazon_logo"] { filter: invert(1) !important; } [data-bs-theme*="dark"] img[src*="Amazon_Prime_Video_logo"] { filter: invert(1) !important; } [data-bs-theme*="dark"] img[src*="Apple_TV_logo"] { filter: invert(1) !important; } [data-bs-theme*="dark"] img[src*="bandcamp_logo"] { filter: invert(1) !important; } [data-bs-theme*="dark"] img[src*="bookshop"] { filter: invert(1) !important; } [data-bs-theme*="dark"] img[src*="Disney"] { filter: invert(1) !important; } [data-bs-theme*="dark"] img[src*="ParamountPlus"] { filter: invert(1) !important; }';
     document.head.appendChild(s);</script>
     <script type="application/ld+json">
 {
@@ -155,7 +155,6 @@
           <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="navbar-nav mb-2 mb-md-0 col justify-content-end">
-              <li class="nav-item"><a href="https://tinyurl.com/2000jacket" class="nav-link text-nowrap">Jacket</a></li>
               <li class="nav-item"><a href="https://tinyurl.com/2000store" class="nav-link text-nowrap">Store</a></li>
               <li class="nav-item"><a href="/notes/" class="nav-link text-nowrap">Notes</a></li>
               <li class="nav-item"><a href="/library/" class="nav-link text-nowrap">Library</a></li>
@@ -183,39 +182,8 @@
     </header>
     <div class="ig-main-content">
       <h1 class="visually-hidden">P2000 – Reunions 2026</h1>
-      <div style="padding-left: 5px; padding-right: 5px">
-        <!-- Display the countdown timer in an element --> 
-        <p id="demo"></p> 
-        <script>
-// Set the date we're counting down to
-var countDownDate = new Date("May 22, 2025 12:00:00").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = "Reunions 2025 is only " + days + " days " + hours + " hours "
-  + minutes + " minutes " + seconds + " seconds away!";
-
-  // If the count down is finished, write some text
-  if (distance < 0) {
-	clearInterval(x);
-	document.getElementById("demo").innerHTML = "IT'S ON";
-  }
-}, 1000);
-</script> 
+      <div class="alert alert-info" style="padding: 20px">
+        <p class="text-center" style="font-weight: 600"><a target="_blank" rel="noopener noreferrer" href="https://princeton.reunioniq.com/go/2026/satellite10-35">Reunions 2026 is May 21-24…come back soon to register!</a></p>
       </div>
       <div class="row" style="padding-left: 5px; padding-right: 5px">
         <div class="col-md-8">

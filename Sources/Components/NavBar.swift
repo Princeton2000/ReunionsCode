@@ -54,7 +54,7 @@ struct NavBar: HTML {
                 kicker("Bid Every Care Withdraw", .tayLennon)
             )
         ) {
-            Link("Jacket", target: "https://tinyurl.com/2000jacket")
+//            Link("Jacket", target: "https://tinyurl.com/2000jacket")
             Link("Store", target: "https://tinyurl.com/2000store")
             Link("Notes", target: Notes())
             Link("Library", target: Library())
