@@ -15,6 +15,7 @@ struct Prade: StaticPage {
     var description = "Everything you need to know about the P-rade at Princeton Reunions."
 
     var body: some HTML {
+        Text(title).font(.title1).class("visually-hidden")
         for content in articles.typed("p-rade") {
             Text(content.text)
         }

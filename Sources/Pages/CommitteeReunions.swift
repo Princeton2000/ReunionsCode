@@ -16,6 +16,7 @@ struct CommitteeReunions: StaticPage {
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
 
     var body: some HTML {
+        Text(title).font(.title1).class("visually-hidden")
         Table {
             if let committee = decode("leadership.json", as: [CommitteeMember].self)?
                 .filter({ $0.priority < 3 && $0.priority > 0 })

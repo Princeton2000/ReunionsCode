@@ -15,6 +15,7 @@ struct Notes: StaticPage {
     var description = "Notes and profiles about Princeton Class of 2000 classmates."
 
     var body: some HTML {
+        Text(title).font(.title1).class("visually-hidden")
         Section {
             for content in articles.typed("notes").sorted(by: { $0.date > $1.date }) {
                 Section {

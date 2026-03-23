@@ -25,6 +25,7 @@ struct JacketPreLaunch: StaticPage {
     }
 
     var body: some HTML {
+        Text(title).font(.title1).class("visually-hidden")
         Alert {
             Text("They're working on it!")
                 .fontWeight(.semibold)

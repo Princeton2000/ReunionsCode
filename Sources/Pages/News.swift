@@ -15,6 +15,7 @@ struct News: StaticPage {
     var description = "The latest news about Princeton Class of 2000 classmates."
 
     var body: some HTML {
+        Text(title).font(.title1).class("visually-hidden")
         Section {
             for content in articles.typed("news") {
                 Card {

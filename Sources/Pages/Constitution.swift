@@ -13,6 +13,7 @@ struct Constitution: StaticPage {
     var description = "The governing document of the Princeton Class of 2000."
 
     var body: some HTML {
+        Text(title).font(.title1).class("visually-hidden")
         Text {
             Link("Class Constitution", target: "/constitution/constitution.pdf")
                 .target(.newWindow)

@@ -16,6 +16,7 @@ struct Crew: StaticPage {
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
 
     var body: some HTML {
+        Text(title).font(.title1).class("visually-hidden")
         if let crewMembers = decode("crew.json", as: [CrewMember].self) {
             Section {
                 for member in crewMembers.sorted(by: <) {

@@ -15,6 +15,7 @@ struct Registration: StaticPage {
     var description = "Register for Princeton Class of 2000 Reunions."
 
     var body: some HTML {
+        Text(title).font(.title1).class("visually-hidden")
         for content in articles.typed("registration").filter({ !(($0.tags ?? []).contains("walk-up")) }) {
             Text(content.text)
                 .padding([.leading, .trailing])

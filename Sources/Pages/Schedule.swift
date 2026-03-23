@@ -23,6 +23,7 @@ struct Schedule: StaticPage {
     var description = "Full schedule of events for Princeton Class of 2000 Reunions."
 
     var body: some HTML {
+        Text(title).font(.title1).class("visually-hidden")
         Alert {
             Text(markdown: "This is the schedule for the Class of 2000. For a comprehensive look at *all* University events, check out the [Princeton Events App!](https://reunions.princeton.edu/app/) ")
                 .fontWeight(.semibold)

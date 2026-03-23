@@ -18,6 +18,7 @@ struct Home: StaticPage {
     var reunionsEndDate = DateComponents(calendar: .autoupdatingCurrent, timeZone: .autoupdatingCurrent, year: 2026, month: 5, day: 27, hour: 10, minute: 0, second: 0)
 
     var body: some HTML {
+        Text(title).font(.title1).class("visually-hidden")
         if Date() < reunionsEndDate.date ?? Date() {
             Section {
                 Group {

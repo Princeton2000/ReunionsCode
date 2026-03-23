@@ -16,6 +16,7 @@ struct HonoraryClassmates: StaticPage {
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
 
     var body: some HTML {
+        Text(title).font(.title1).class("visually-hidden")
         if let honoraryClassmates = decode("honoraryClassmate.json", as: [HonoraryClassmate].self) {
             Section {
                 for member in honoraryClassmates.sorted(by: <) {

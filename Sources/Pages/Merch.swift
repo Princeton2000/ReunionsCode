@@ -16,6 +16,7 @@ struct Merch: StaticPage {
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
 
     var body: some HTML {
+        Text(title).font(.title1).class("visually-hidden")
         Grid {
             if let apparel = decode("apparel.json", as: [Apparel].self)?.sorted(by: { $0.priority < $1.priority }) {
                 for item in apparel {

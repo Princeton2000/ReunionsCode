@@ -22,6 +22,7 @@ struct Housing: StaticPage {
     }
 
     var body: some HTML {
+        Text(title).font(.title1).class("visually-hidden")
         Accordion {
             for content in housingArticles {
                 Item(content.metadata["question"] as? String ?? content.title) {

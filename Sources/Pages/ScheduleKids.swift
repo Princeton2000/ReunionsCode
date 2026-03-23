@@ -23,6 +23,7 @@ struct ScheduleKids: StaticPage {
     var description = "Kids' activities and family events at Princeton Class of 2000 Reunions."
 
     var body: some HTML {
+        Text(title).font(.title1).class("visually-hidden")
         if let events = decode("events.json", as: [Event].self)?.sorted(by: { $0.startDate < $1.startDate }) {
             for day in dayBlurbs {
                 if events.filter({ $0.startComponents.weekday == day.0 }).count > 0 {

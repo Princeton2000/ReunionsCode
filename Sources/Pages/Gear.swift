@@ -16,6 +16,7 @@ struct Gear: StaticPage {
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
 
     var body: some HTML {
+        Text(title).font(.title1).class("visually-hidden")
         Alert {
             Text(markdown: "The store is currently **closed** while we transition to a new infrastrucure. Browse though – you will be able to buy all of this whe you get to campus and afterwards on our brand new store.")
                 .fontWeight(.semibold)
