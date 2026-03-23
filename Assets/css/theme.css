@@ -59,7 +59,8 @@ b, strong {
 }
 
 [data-bs-theme*="dark"] img[src*="/images/social/"],
-[data-bs-theme*="dark"] img[src*="/images/library/"] {
+[data-bs-theme*="dark"] img[src*="Amazon_logo"],
+[data-bs-theme*="dark"] img[src*="bookshop"] {
 	filter: invert(1);
 }
 
