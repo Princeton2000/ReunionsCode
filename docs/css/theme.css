@@ -58,7 +58,8 @@ b, strong {
 	--bs-dropdown-item-padding-y: 2rem;
 }
 
-[data-bs-theme*="dark"] img[src*="/images/social/"] {
+[data-bs-theme*="dark"] img[src*="/images/social/"],
+[data-bs-theme*="dark"] img[src*="/images/library/"] {
 	filter: invert(1);
 }
 
