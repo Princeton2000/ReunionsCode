@@ -5,11 +5,8 @@
     <desc>Created with Sketch.</desc>
     <defs>
 	 	<style>
-		:root { --color: #00FF00; }
-		@media (prefers-color-scheme: light) { :root { --color: #000000; } }
-		@media (prefers-color-scheme: dark) { :root { --color: #BBBBBB; } }
 		path {
-			fill: var(--color);
+			fill: #000000;
 			stroke: none;
 		}
 	 	</style>
