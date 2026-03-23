@@ -50,7 +50,7 @@ struct Home: StaticPage {
                         .all
                         .filter({ $0.type == "notes" || $0.type == "letters" })
                         .sorted(by: { ($0.lastModified ?? Date.distantPast) > ($1.lastModified ?? Date.distantPast) })
-                        .prefix(6) {
+                        .prefix(5) {
                         letterPreviewRow(content)
                     }
                 }
