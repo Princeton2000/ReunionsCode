@@ -1,5 +1,5 @@
 ---
-tags: jacket, late, post-reunions
+tags: jacket,post-reunions
 type: faq
 question: Will I still be able to order a 25th reunion jacket to wear for future events?
 lastModified: 2024-07-19 12:00

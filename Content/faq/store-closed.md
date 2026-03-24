@@ -1,5 +1,5 @@
 ---
-tags: template, store, registration
+tags: store, registration, check-in
 type: faq
 question: Is it still possible to add products (umbrella, hats, etc) to our registration?
 lastModified: 2025-05-19 12:00

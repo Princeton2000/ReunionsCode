@@ -21,7 +21,8 @@ struct Copyright: HTML {
         .style(.font, "1rem/4.0")
 
         Text {
-            "Created with "
+            Link("Privacy", target: "/privacy/")
+            " · Created with "
             Link("Ignite", target: "https://github.com/twostraws/Ignite")
         }
         .font(.title6)

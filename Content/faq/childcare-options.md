@@ -1,5 +1,5 @@
 ---
-tags: children, childcare
+tags: children
 type: faq
 question: Is there childcare available?
 lastModified: 2024-07-19 12:00

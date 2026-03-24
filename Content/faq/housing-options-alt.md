@@ -1,5 +1,5 @@
 ---
-tags: housing, alternatives
+tags: housing
 type: faq
 question: What are my options if I don't get on-campus housing?
 lastModified: 2024-07-19

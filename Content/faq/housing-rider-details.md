@@ -1,5 +1,5 @@
 ---
-tags: housing, alternatives, rider
+tags: housing
 type: faq
 question: What are the details for Rider housing?
 lastModified: 2024-07-19

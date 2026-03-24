@@ -1,5 +1,5 @@
 ---
-tags: jacket, multiple, post-reunions
+tags: jacket, post-reunions, store
 type: faq
 question: Should I order a jacket for my spouse/partner?
 lastModified: 2024-12-01 12:00

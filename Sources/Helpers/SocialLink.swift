@@ -20,5 +20,7 @@ public let socialLinkList: [SocialLink] = [
     SocialLink(site: "Mastodon", logoImage: "mastodon", link: "https://mastodon.social/@princeton2000"),
     SocialLink(site: "Threads", logoImage: "threads", link: "https://www.threads.net/@princetonclassof2000"),
     SocialLink(site: "Facebook", logoImage: "facebook", link: "https://www.facebook.com/groups/409748576503353/"),
+    SocialLink(site: "YouTube", logoImage: "youtube", link: "https://www.youtube.com/@Princeton_2000"),
+    SocialLink(site: "Reddit", logoImage: "reddit", link: "https://www.reddit.com/r/Princeton2000/"),
     SocialLink(site: "Twitter", logoImage: "twitter", link: "https://twitter.com/pton00")
 ]

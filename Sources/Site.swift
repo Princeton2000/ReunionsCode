@@ -97,6 +97,8 @@ struct Princeton2000: Site {
         Dues()
         Constitution()
         ClassHome()
+        Privacy()
+        FAQ()
     }
 
     // Article pages (renamed from 'layouts', type changed from ContentPage)

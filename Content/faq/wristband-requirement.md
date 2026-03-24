@@ -1,5 +1,5 @@
 ---
-tags: on-campus, headquarters, wristbands, policy
+tags: on-campus, headquarters, wristbands, P-rade
 type: faq
 question: Do I need a wristband to attend the P-rade?
 lastModified: 2024-07-19 12:00

@@ -1,5 +1,5 @@
 ---
-tags: template
+tags: linens, housing
 type: faq
 question: If we are staying on campus, are bedding (sheets, blankets) and towels provided
 lastModified: 2024-07-19 12:00

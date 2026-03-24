@@ -1,5 +1,5 @@
 ---
-tags: jacket, deadlines, post-reunions
+tags: jacket, post-reunions
 type: faq
 question: Is the Jacket Deadline Real?
 lastModified: 2024-12-13 12:00

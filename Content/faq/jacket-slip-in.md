@@ -1,5 +1,5 @@
 ---
-tags: jacket, late orders, rush orders, post-reunions
+tags: jacket, store, post-reunions
 type: faq
 question: Can I pay a little more for a rush order?
 lastModified: 2024-12-01 12:00

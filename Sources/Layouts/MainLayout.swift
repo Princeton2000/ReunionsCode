@@ -37,14 +37,25 @@ struct MainLayout: Layout {
             """)
 
             // Structured data (JSON-LD)
-            StructuredData.organization(
-                name: "Princeton Class of 2000",
-                url: "https://reunions.princeton2000.org",
-                description: "Official website of the Princeton University Class of 2000, organizing reunions, class activities, and community engagement since 2000.",
-                foundingDate: "2000-06-06",
-                sameAs: socialLinkList.map(\.link),
-                parentOrganization: (name: "Princeton University", url: "https://www.princeton.edu")
-            )
+            StructuredData("Organization", properties: [
+                "name": "Princeton Class of 2000",
+                "url": "https://reunions.princeton2000.org",
+                "description": "Official website of the Princeton University Class of 2000, organizing reunions, class activities, and community engagement since 2000.",
+                "foundingDate": "2000-06-06",
+                "sameAs": socialLinkList.map(\.link),
+                "knowsAbout": ["Princeton University", "Alumni Relations", "Class Reunions"],
+                "contactPoint": [
+                    "@type": "ContactPoint",
+                    "contactType": "alumni relations",
+                    "email": "social+web@princeton2000.org",
+                    "url": "https://reunions.princeton2000.org/officers/"
+                ] as [String: Any],
+                "parentOrganization": [
+                    "@type": "Organization",
+                    "name": "Princeton University",
+                    "url": "https://www.princeton.edu"
+                ] as [String: Any]
+            ] as [String: Any])
 
             StructuredData.webSite(
                 name: "Princeton Class of 2000",
