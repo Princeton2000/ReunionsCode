@@ -4,6 +4,7 @@ type: faq
 question: Where can I order my jacket?
 lastModified: 2024-10-25 12:00
 published: false
+description: Order your Princeton Class of 2000 25th Reunion jacket online. Includes a link to the sizing guide and video measuring instructions.
 ---
 
 - [Right here!](https://princeton.reunioniq.com/shop/classof00)

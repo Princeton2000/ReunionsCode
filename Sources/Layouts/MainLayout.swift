@@ -84,9 +84,14 @@ struct MainLayout: Layout {
                 )
             }
 
-            // FAQPage schema on the FAQ page
+            // FAQPage schema — full set on /faq/, scoped subset on other pages
             if page.url.path.contains("faq") {
                 faqPageSchema()
+            } else {
+                let pageFAQs = faqsForCurrentPage()
+                if !pageFAQs.isEmpty {
+                    faqPageSchema(from: pageFAQs)
+                }
             }
         }
 
@@ -139,9 +144,17 @@ struct MainLayout: Layout {
         }
     }
 
-    // FAQPage JSON-LD schema from all FAQ articles
-    private func faqPageSchema() -> StructuredData {
-        let faqArticles = articles.typed("faq").filter { $0.metadata["question"] != nil }
+    // FAQs matching the current page title by tag
+    private func faqsForCurrentPage() -> [Article] {
+        let pageTitleLower = page.title.lowercased()
+        return articles.typed("faq").filter { article in
+            article.tags?.map { $0.lowercased() }.contains(pageTitleLower) ?? false
+        }.sorted { ($0.tags?.first ?? "") < ($1.tags?.first ?? "") }
+    }
+
+    // FAQPage JSON-LD schema — all FAQs (for /faq/) or a scoped subset
+    private func faqPageSchema(from subset: [Article]? = nil) -> StructuredData {
+        let faqArticles = subset ?? articles.typed("faq").filter { $0.metadata["question"] != nil }
         let qaEntries: [[String: Any]] = faqArticles.compactMap { faq in
             guard let question = faq.metadata["question"] as? String else { return nil }
             return [
@@ -161,10 +174,7 @@ struct MainLayout: Layout {
     // Helper to generate FAQ accordion based on current page
     @HTMLBuilder
     private func faqAccordion() -> some HTML {
-        let pageTitleLower = page.title.lowercased()
-        let filteredFAQs = articles.typed("faq").filter { article in
-            article.tags?.map { $0.lowercased() }.contains(pageTitleLower) ?? false
-        }.sorted { ($0.tags?.first ?? "") < ($1.tags?.first ?? "") }
+        let filteredFAQs = faqsForCurrentPage()
 
         if !filteredFAQs.isEmpty {
             Accordion {

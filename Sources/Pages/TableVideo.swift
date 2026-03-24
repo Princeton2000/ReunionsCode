@@ -10,7 +10,7 @@ import Ignite
 
 struct TableVideo: StaticPage {
     var title = "Keep It Fun"
-    var description = "Fun moments from Princeton Class of 2000."
+    var description = "Watch fun highlights and video moments from the Princeton Class of 2000 Reunions, featuring classmates celebrating together on campus."
 
     var body: some HTML {
         Image("/images/banners_adam.jpg", description: "Pally")

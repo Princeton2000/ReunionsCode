@@ -4,6 +4,7 @@ type: faq
 question: What are the details for Rider housing?
 lastModified: 2024-07-19
 published: false 12:00
+description: Details on Rider College housing for the Princeton Class of 2000 25th Reunion, including room amenities, linens, check-in times, and shuttle info.
 ---
 - All rooms, regardless of location, are student housing (ie. they do not come furnished with anything except a bed, dresser, closet, desk, and chair). They do not have trash cans or amenities like bathroom toiletries, etc.
 

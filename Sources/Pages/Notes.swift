@@ -12,7 +12,7 @@ struct Notes: StaticPage {
     @Environment(\.articles) var articles
 
     var title = "Class Notes"
-    var description = "Notes and profiles about Princeton Class of 2000 classmates."
+    var description = "Read class notes and profiles featuring Princeton Class of 2000 classmates — career updates, personal milestones, and alumni stories."
 
     var body: some HTML {
         Text(title).font(.title1).class("visually-hidden")

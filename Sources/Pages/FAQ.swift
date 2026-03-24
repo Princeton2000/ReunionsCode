@@ -11,7 +11,7 @@ import Ignite
 struct FAQ: StaticPage {
     @Environment(\.articles) var articles
 
-    var title = "FAQ"
+    var title = "Frequently Asked Questions"
     var description: String = "Frequently asked questions about Princeton Class of 2000 reunions — registration, housing, jackets, transportation, and more."
     var path = "faq"
 

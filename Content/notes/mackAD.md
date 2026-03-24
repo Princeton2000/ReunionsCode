@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, John Mack
 image: /images/news/mackJohn.jpg
-title: John Mack ’00, former track and field athlete, to become athletic director
+title: John Mack | Aug 26, 2021
+headline: John Mack ‘00, former track and field athlete, to become athletic director
 link: https://www.dailyprincetonian.com/article/2021/08/princeton-athletic-director-john-mack-track-and-field-alumni
 date: 2021-08-26 17:19
 lastModified: 2021-08-26 17:19

@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Juan Goytia
 image: /images/news/GoytiaJuan.webp
-title: Juan Goytia ’00 has Puerto Rico alumni abuzz
+title: Juan Goytia | Jun 14, 2021
+headline: Juan Goytia ‘00 has Puerto Rico alumni abuzz
 link: https://alumni.princeton.edu/stories/juan-goytia-puerto-rico-alumni
 date: 2021-06-14 00:00
 lastModified: 2021-06-14

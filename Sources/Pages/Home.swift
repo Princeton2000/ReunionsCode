@@ -11,8 +11,8 @@ import Ignite
 struct Home: StaticPage {
     @Environment(\.articles) var articles
 
-    var title = "Princeton Class of 2000 – Reunions Home Page"
-    var description: String = "Princeton University Class of 2000 — Our 26th Reunion will be this May 24-27, 2026, as guests of the Class of 2001. Registration, housing, schedule, and class news at reunions.princeton2000.org."
+    var title = "Reunions Home"
+    var description: String = "Princeton Class of 2000 Reunions — join us May 24-27, 2026 for our 26th Reunion. Find the schedule, registration, housing, and news."
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
     var reunionsStartDate = DateComponents(calendar: .autoupdatingCurrent, timeZone: .autoupdatingCurrent, year: 2026, month: 5, day: 24, hour: 12, minute: 0, second: 0)
     var reunionsEndDate = DateComponents(calendar: .autoupdatingCurrent, timeZone: .autoupdatingCurrent, year: 2026, month: 5, day: 27, hour: 10, minute: 0, second: 0)

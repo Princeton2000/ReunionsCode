@@ -3,6 +3,7 @@ tags: on-campus, transportation
 type: faq
 question: What transportation will be available on-campus?
 lastModified: 2024-07-19 12:00
+description: On-campus transportation options during Princeton Reunions, including TigerTransit buses, trolleys, electric shuttles, and Tiger Tracker for the Class of 2000.
 ---
 - ADA-accessible TigerTransit buses will operate continuously on the perimeter of campus during Reunions.
 

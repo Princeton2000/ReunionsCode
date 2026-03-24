@@ -3,6 +3,7 @@ tags: sustainability
 type: faq
 question: What is the 25th Reunion doing to be more sustainable?
 lastModified: 2024-07-19 12:00
+description: Princeton Class of 2000 sustainability initiatives for the 25th Reunion, including reusable cups, eco-friendly swag, smart menus, and carbon offsets.
 ---
 Generating meaningful impact means a multi-pronged approach. Our class is striving to be more green on multiple fronts.
 

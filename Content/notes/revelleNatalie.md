@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Natalie Tran Revelle
 image: /images/news/revelleNatalie.webp
-title: Natalie Revelle ’00 Promotes Global Health
+title: Natalie Revelle | Sep 13, 2017
+headline: Natalie Revelle ‘00 Promotes Global Health
 link: https://paw.princeton.edu/article/natalie-revelle-00-promotes-global-health
 date: 2017-09-13 00:00
 lastModified: 2025-01-31

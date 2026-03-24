@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Chai Vasarhelyi
 image: /images/news/vasarhelyiChai.webp
-title: PAW Tiger of the Week: Documentary Filmmaker Elizabeth Chai Vasarhelyi ’00
+title: Chai Vasarhelyi | Jul 08, 2015
+headline: Documentary Filmmaker Elizabeth Chai Vasarhelyi ‘00
 link: https://paw.princeton.edu/article/tiger-week-documentary-filmmaker-elizabeth-chai-vasarhelyi-00
 date: 2015-07-08 00:00
 lastModified: 2025-01-31

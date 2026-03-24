@@ -4,6 +4,7 @@ type: registration
 title: Registration is now open.
 lastModified: 2024-09-27
 published: false
+description: A history of Princeton Reunions themes by class and year, including the Princeton Class of 2000 themes for their 5th and 25th Reunions.
 ---
 Shared by the University – some Princeton-related Reunions themes from over the years
 

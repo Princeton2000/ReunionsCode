@@ -3,7 +3,7 @@ layout: Email
 tags: Class Letter
 image: /images/photos/IMG_0464.jpeg.webp
 alt: The Whitman Arches
-title: Kids' Guide and a chance to set a record
+title: Kids' Guide…and maybe a record
 link: 
 lastModified: 2025-03-28 16:45
 published: true

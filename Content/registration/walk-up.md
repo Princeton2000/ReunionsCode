@@ -4,6 +4,7 @@ type: registration
 title: Walk-up registration is now open.
 lastModified: 2024-07-19
 published: false
+description: Walk-up registration details and pricing for the Princeton Class of 2000 25th Reunion, including full weekend and Saturday-only rates.
 ---
 - Walk-up registration is now open. Scan the QR code signs at HQ or go directly to the registration site to pre-register.
 - Some swag will not be available for late registrants.

@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Stella Daily
 image: /images/news/dailyStella.webp
-title: Crossword Constructors Are Mostly Male. Here’s How We Fix That.
+title: Stella Daily | Jun 24, 2020
+headline: Crossword Constructors Are Mostly Male. Here’s How We Fix That.
 link: https://paw.princeton.edu/article/crossword-constructors-are-mostly-male-heres-how-we-fix
 date: 2020-06-24 00:00
 lastModified: 2025-01-31

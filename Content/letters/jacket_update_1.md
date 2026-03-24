@@ -3,7 +3,7 @@ layout: Email
 tags: Class Letter
 image: /images/logos/P2000_25th_TigerHead_BECW_300x300.png
 alt: Bid Every Care Withdraw
-title: Get your jacket…Now that's a big deal!
+title: Get your jacket!
 link: 
 lastModified: 2024-12-01 18:01
 published: true

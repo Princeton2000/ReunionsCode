@@ -3,6 +3,7 @@ tags: on-campus, transportation
 type: faq
 question: Are there ADA-accessible options if I don't get a golf cart?
 lastModified: 2025-04-02 12:00
+description: ADA-accessible transportation options at Princeton Reunions, including TigerTransit buses, trolley service, and van reservations for the Class of 2000.
 ---
 - ADA-accessible TigerTransit buses will operate continuously on the perimeter of campus during Reunions.
 

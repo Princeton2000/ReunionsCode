@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Will Staples
 image: /images/news/staplesWill.webp
-title: Will Staples ’00 Presents Tough Facts About Wildlife Conservation Through Fiction
+title: Will Staples | Apr 12, 2021
+headline: Will Staples ‘00 Presents Tough Facts About Wildlife Conservation Through Fiction
 link: https://paw.princeton.edu/article/will-staples-00-presents-tough-facts-about-wildlife-conservation-through-fiction
 date: 2021-04-12 00:00
 lastModified: 2025-01-31

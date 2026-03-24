@@ -3,7 +3,7 @@ layout: Email
 tags: Class Letters
 image: /images/jacket/reveal/interior_preview.png
 alt: Interior shot of our jacket
-title: Housing Update, AG, and…a JACKET FIRST LOOK
+title: JACKET FIRST LOOK
 link: template
 lastModified: 2025-03-05 16:45
 published: true

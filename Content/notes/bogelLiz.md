@@ -2,11 +2,13 @@
 layout: Story
 tags: Class Notes, Elizabeth Bogel
 image: /images/news/bogelLiz.webp
-title: Dr. Elizabeth Ryan ’00 is on the front lines battling the opioid epidemic
+title: Elizabeth Bogel | May 05, 2019
+headline: Dr. Elizabeth Ryan ‘00 is on the front lines battling the opioid epidemic
 link: https://paw.princeton.edu/article/compassionate-realist
 date: 2019-05-05 00:00
 lastModified: 2025-01-31
 published: true
+description: Princeton Class of 2000 classmate Dr. Elizabeth Ryan treats patients on the front lines of the opioid epidemic at the REACH clinic in Ithaca, NY.
 ---
 
 ON A TYPICALLY BUSY MONDAY MORNING, Dr. Elizabeth Ryan ’00 sees a long line of patients at the REACH clinic in downtown Ithaca, N.Y. 

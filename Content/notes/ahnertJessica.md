@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Jessica Ahnert Davis
 image: /images/news/ahnertJessica.webp
-title: Jessica Davis ’00 Designs Everyday Hardware With an Eye for Beauty
+title: Jessica Davis | Nov 20, 2019
+headline: Jessica Davis ‘00 Designs Everyday Hardware With an Eye for Beauty
 link: https://paw.princeton.edu/article/jessica-davis-00-designs-everyday-hardware-eye-beauty
 date: 2019-11-20 00:00
 lastModified: 2025-01-31

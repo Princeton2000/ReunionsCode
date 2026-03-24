@@ -12,7 +12,7 @@ struct Library: StaticPage {
     @Environment(\.decode) var decode
 
     var title = "Library"
-    var description = "Books, films, and works by Princeton Class of 2000 classmates."
+    var description = "Explore books, films, music, and creative works published by Princeton Class of 2000 classmates across a wide range of genres and fields."
 
     func entriesByClassmate(_ classmate: Classmate, from entries: [LibraryEntry]) -> [LibraryEntry] {
         let classmateEntries = entries.filter({ $0.classmate == classmate })
@@ -44,6 +44,7 @@ struct Library: StaticPage {
     }
 
     var body: some HTML {
+        Text(title).font(.title1).class("visually-hidden")
         Include("styleInjection.html")
 
         if let entries = decode("library.json", as: [LibraryEntry].self) {

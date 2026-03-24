@@ -12,7 +12,7 @@ struct Registration: StaticPage {
     @Environment(\.articles) var articles
 
     var title = "Registration"
-    var description = "Register for Princeton Class of 2000 Reunions."
+    var description = "Register for Princeton Class of 2000 Reunions — find pricing, deadlines, and everything you need to sign up for the celebration."
 
     var body: some HTML {
         Text(title).font(.title1).class("visually-hidden")

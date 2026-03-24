@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Melissa Stuckey
 image: /images/news/stuckeyMelissa.webp
-title: Melissa Stuckey ’00 Preserves Regional History and Stories of Education in the Segregated South
+title: Melissa Stuckey | Sep 12, 2018
+headline: Melissa Stuckey ‘00 Preserves Regional History and Stories of Education in the Segregated South
 link: https://paw.princeton.edu/article/melissa-stuckey-00-preserves-regional-history-and-stories-education-segregated-south
 date: 2018-09-12 00:00
 lastModified: 2025-01-31

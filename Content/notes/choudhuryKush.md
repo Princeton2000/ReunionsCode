@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Kush Choudhury
 image: /images/news/choudhuryKush.webp
-title: PAWcast: Kush Choudhury ’00 on Journalism in India
+title: Kush Choudhury | Jan 07, 2020
+headline: PAWcast: Kush Choudhury ‘00 on Journalism in India
 link: https://paw.princeton.edu/podcasts/pawcast-kush-choudhury-00-journalism-india
 date: 2020-01-07 00:00
 lastModified: 2025-01-31

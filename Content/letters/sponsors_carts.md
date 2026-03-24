@@ -3,7 +3,7 @@ layout: Email
 tags: Class Letters
 image: /images/photos/99hqfence.jpeg
 alt: 
-title: Donations & Sponsorships; Golf Carts & Transportation
+title: Donations & Sponsorships
 link: template
 lastModified: 2025-04-02 17:30
 published: true

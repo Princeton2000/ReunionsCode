@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Millennium Lecture Series, Leah Platt
 vimeo: 794923039
-title: MLS 2023: Streets of Gold: America’s Untold Story of Immigrant Success
+title: Leah Platt | May 27, 2023
+headline: MLS 2023: Streets of Gold: America’s Untold Story of Immigrant Success
 link: 
 date: 2023-05-27 00:00
 lastModified: 2023-05-27

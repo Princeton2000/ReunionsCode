@@ -3,6 +3,7 @@ tags: jacket, sizing, post-reunions
 type: faq
 question: What size jacket should I order?
 lastModified: 2024-10-25 12:00
+description: Sizing guide and tips for ordering your Princeton Class of 2000 25th Reunion jacket, including a video how-to and measurement advice.
 ---
 
 - Glad you asked!! You can see our sizing guide [here](/images/jacket/P2000_25th_Jacket_Sizing_Chart.pdf), or [check out our video how-to](https://youtube.com/shorts/OZ3EhH3GHaY). Best to have a tailor take your measurements, but anyone can help!

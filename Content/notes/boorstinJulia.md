@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Julia Boorstin
 image: /images/news/boorstinJulia.webp
-title: Julia Boorstin ’00 on Women Who Lead
+title: Julia Boorstin | Oct 24, 2022
+headline: Julia Boorstin ‘00 on Women Who Lead
 link: https://paw.princeton.edu/article/julia-boorstin-00-women-who-lead
 date: 2022-10-24 00:00
 lastModified: 2025-01-31

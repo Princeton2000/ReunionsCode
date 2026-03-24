@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Lili Holodnak
 image: /images/news/holodnakLili.webp
-title: PAW Tiger of the Week: First-time Novelist Lili Anolik ’00
+title: Lili Holodnak | Apr 22, 2015
+headline: PAW Tiger of the Week: First-time Novelist Lili Anolik ‘00
 link: https://paw.princeton.edu/article/tiger-week-first-time-novelist-lili-anolik-00
 date: 2015-04-22 00:00
 lastModified: 2025-01-31

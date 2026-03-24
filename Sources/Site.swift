@@ -39,7 +39,7 @@ public func deployment() -> SiteLocation {
 
 struct Princeton2000: Site {
     var name = "Reunions 2025"
-    var titleSuffix = " | Princeton 2000"
+    var titleSuffix = " | Princeton Class of 2000"
     var description: String? = "Bid Every Care Withdraw: Princeton's Class of 2000 celebrates its 26th Reunion, May 24-27, 2026"
 
     var language: Language = .english

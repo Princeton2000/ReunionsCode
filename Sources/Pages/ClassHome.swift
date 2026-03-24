@@ -12,6 +12,7 @@ struct ClassHome: StaticPage {
     @Environment(\.articles) var articles
 
     var title = "Class of 2000"
+    var description: String = "Welcome to the Princeton Class of 2000 — your hub for class news, upcoming events, alumni links, reunions info, and dues information."
     var path = "/class-home"
     var layout: EmbedLayout { EmbedLayout() }
 

@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Mo Rocca
 image: /images/news/roccaMo.jpg
-title: Mason Rocca ’00 Honored for Pro Basketball Career in Italy
+title: Mo Rocca | Jun 05, 2024
+headline: Mason Rocca ‘00 Honored for Pro Basketball Career in Italy
 link: https://paw.princeton.edu/article/mason-rocca-00-honored-pro-basketball-career-italy
 date: 2024-06-05 00:00
 lastModified: 2025-01-31

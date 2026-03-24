@@ -4,6 +4,7 @@ type: registration
 title: Registration is now open.
 lastModified: 2024-07-19
 published: false
+description: Register now for the Princeton Class of 2000 25th Reunion. Early registration ensures access to all swag, including the commemorative jacket.
 ---
 - Registration will open Nov 1. [Pre-registration will be here.](https://princeton.reunioniq.com/go/2025/2000)
 - Some swag will not be available for late registrants.

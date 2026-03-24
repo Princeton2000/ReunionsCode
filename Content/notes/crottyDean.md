@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Regan Crotty
 image: /images/news/crottyRegan.jpg
-title: Regan Crotty ’00 named new Dean of Undergraduate Students
+title: Regan Crotty | Jul 29, 2024
+headline: Regan Crotty ‘00 named new Dean of Undergraduate Students
 link: https://www.dailyprincetonian.com/article/2024/07/princeton-news-adpol-regan-crotty-named-new-princeton-dean-of-undergraduate-students-odus
 date: 2024-07-29 12:29
 lastModified: 2024-07-29 12:29

@@ -12,7 +12,7 @@ struct Prade: StaticPage {
     @Environment(\.articles) var articles
 
     var title = "The one and only P-rade"
-    var description = "Everything you need to know about the P-rade at Princeton Reunions."
+    var description = "Everything you need to know about the P-rade at Princeton Reunions — the iconic march of alumni through campus led by the oldest class."
 
     var body: some HTML {
         Text(title).font(.title1).class("visually-hidden")

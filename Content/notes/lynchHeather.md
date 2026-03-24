@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Heather Lynch
 image: /images/news/lynchHeather.webp
-title: Tiger Profile: Heather Lynch ’00
+title: Heather Lynch | Mar 20, 2013
+headline: Tiger Profile: Heather Lynch ‘00
 link: https://paw.princeton.edu/article/tiger-profile-heather-lynch-00
 date: 2013-03-20 00:00
 lastModified: 2025-01-31

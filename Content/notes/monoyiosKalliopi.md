@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Kalliopi Monoyios
 image: /images/news/monoyiosKalliopi.webp
-title: Artist Kalliopi Monoyios ’00 Explores Complex Relationship With Plastics
+title: Kalliopi Monoyios | Feb 19, 2020
+headline: Artist Kalliopi Monoyios ‘00 Explores Complex Relationship With Plastics
 link: https://paw.princeton.edu/article/artist-kalliopi-monoyios-00-explores-complex-relationship-plastics
 date: 2020-02-19 00:00
 lastModified: 2025-01-31

@@ -19,7 +19,7 @@ struct ScheduleMovies: StaticPage {
         (7, "Join us for a special class brunch and our class photo, then show off your new jacket and flair in the P-rade!\nWe have added Alumni Faculty Forums with panelists from the Class of 2000 to our schedule.")
     ]
     let activityFilter: [EventType] = [.movie]
-    var description = "Movie screenings at Princeton Class of 2000 Reunions."
+    var description = "Browse the movie screening schedule for Princeton Class of 2000 Reunions, with showtimes and details for films throughout the weekend."
 
     var body: some HTML {
         Text(title).font(.title1).class("visually-hidden")

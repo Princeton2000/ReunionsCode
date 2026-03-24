@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Bettina Korek
 image: /images/news/korekBettina.webp
-title: Bettina Korek ’00: Art and Life
+title: Bettina Korek | Jan 21, 2016
+headline: Bettina Korek ‘00: Art and Life
 link: https://paw.princeton.edu/article/bettina-korek-00-art-and-life
 date: 2016-01-21 00:00
 lastModified: 2025-01-31

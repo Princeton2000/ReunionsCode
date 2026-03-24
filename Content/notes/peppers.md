@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Eclipse, Josh Pepper
 image: /images/news/peppers.webp
-title: Two generations of NASA scientists share their love and knowledge during eclipse
+title: Josh Pepper | Apr 09, 2024
+headline: Two generations of NASA scientists share their love and knowledge during eclipse
 link: https://www.ideastream.org/community/2024-04-09/two-generations-of-nasa-scientists-share-their-love-and-their-knowledge-during-eclipse
 date: 2024-04-09 00:00
 lastModified: 2024-04-09

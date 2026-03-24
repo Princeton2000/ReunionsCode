@@ -10,7 +10,7 @@ import Ignite
 
 struct Privacy: StaticPage {
     var title = "Privacy"
-    var description: String = "Privacy practices for the Princeton Class of 2000 reunions website — what data we collect and how we use it."
+    var description: String = "Privacy practices for the Princeton Class of 2000 reunions website — what data we collect, how cookies work, and how we protect your info."
 
     var body: some HTML {
         Text(title).font(.title1)

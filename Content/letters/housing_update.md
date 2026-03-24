@@ -7,6 +7,7 @@ title: Reunions Survey & Housing Update
 link: 
 lastModified: 2024-07-09 21:19
 published: false
+description: Princeton Class of 2000 25th Reunion housing update covering on-campus rooms, local hotel blocks, Rider College, and Airbnb rental options.
 ---
 **Class Survey**
 

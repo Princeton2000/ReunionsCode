@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Jane Biondi
 image: /images/news/biondiJane.webp
-title: Frank Biondi ’66 and Jane Biondi Munna ’00 Share Lessons from the Life of an Entertainment CEO
+title: Jane Biondi | Sep 26, 2022
+headline: Frank Biondi ‘66 and Jane Biondi Munna ‘00 Share Lessons from the Life of an Entertainment CEO
 link: https://paw.princeton.edu/article/frank-biondi-66-and-jane-biondi-munna-00-share-lessons-life-entertainment-ceo
 date: 2022-09-26 00:00
 lastModified: 2025-01-31

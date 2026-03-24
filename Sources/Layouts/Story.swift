@@ -11,13 +11,16 @@ import Ignite
 
 struct Story: ArticlePage {
     var body: some HTML {
-        // Title with optional link
+        // Title — always render as semantic <h1>
+        // Prefer headline (full article title) over title (short SEO title)
         if let link = article.metadata["link"] as? String, !link.isEmpty {
-            Link(article.metadata["question"] as? String ?? article.metadata["title"] as? String ?? article.title,
-                 target: link)
-                .font(.title1)
+            Text {
+                Link(article.metadata["headline"] as? String ?? article.metadata["question"] as? String ?? article.title,
+                     target: link)
+            }
+            .font(.title1)
         } else {
-            Text(article.metadata["question"] as? String ?? article.metadata["title"] as? String ?? article.title)
+            Text(article.metadata["headline"] as? String ?? article.metadata["question"] as? String ?? article.title)
                 .font(.title1)
         }
 

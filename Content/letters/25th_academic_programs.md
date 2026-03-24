@@ -3,7 +3,7 @@ layout: Email
 tags: Class Letter
 image: https://m.media-amazon.com/images/I/71XKLtAVq7L._SL1500_.jpg
 alt: The Whitman Arches
-title: Pre-Reunions Book Club and Academic Programming!
+title: Pre-Reunions Book Club!
 link: 
 lastModified: 2025-04-16 12:00
 published: true

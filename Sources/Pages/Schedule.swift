@@ -20,7 +20,7 @@ struct Schedule: StaticPage {
         (1, "Closing time, to quote Semisonic.\nGrab some breakfast as you head out with your memories and begin your Reunions recovery.")
     ]
 
-    var description = "Full schedule of events for Princeton Class of 2000 Reunions."
+    var description = "View the full schedule of events for Princeton Class of 2000 Reunions, including meals, parties, panels, and family activities."
 
     var body: some HTML {
         Text(title).font(.title1).class("visually-hidden")

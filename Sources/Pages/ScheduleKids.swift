@@ -20,7 +20,7 @@ struct ScheduleKids: StaticPage {
         (1, "Closing time, to quote Semisonic.\nGrab some breakfast as you head out with your memories and begin your Reunions recovery.")
     ]
     let activityFilter: [EventType] = [.movie, .childrensActivity, .communityService, .classFamily, .foodDrink]
-    var description = "Kids' activities and family events at Princeton Class of 2000 Reunions."
+    var description = "Find kids activities and family-friendly events at Princeton Class of 2000 Reunions, including games, movies, and supervised programming."
 
     var body: some HTML {
         Text(title).font(.title1).class("visually-hidden")

@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Tristan Snell
 image: /images/news/snellTristan.webp
-title: PAW Q&A: Tristan Snell ’00’s Experience Taking Down Trump
+title: Tristan Snell | Mar 29, 2024
+headline: Tristan Snell ‘00’s Experience Taking Down Trump
 link: https://paw.princeton.edu/article/qa-tristan-snell-00s-experience-taking-down-trump
 date: 2024-03-29 00:00
 lastModified: 2025-01-31

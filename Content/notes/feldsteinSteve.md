@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Steve Feldstein
 image: /images/news/feldsteinSteve.webp
-title: Steven Feldstein ’00 Delves Into Digital Repression
+title: Steve Feldstein | Apr 21, 2021
+headline: Steven Feldstein ‘00 Delves Into Digital Repression
 link: https://paw.princeton.edu/article/steven-feldstein-00-delves-digital-repression
 date: 2021-04-21 00:00
 lastModified: 2025-01-31

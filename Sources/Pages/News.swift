@@ -12,7 +12,7 @@ struct News: StaticPage {
     @Environment(\.articles) var articles
 
     var title = "News"
-    var description = "The latest news about Princeton Class of 2000 classmates."
+    var description = "Stay up to date with the latest news, achievements, and stories about Princeton Class of 2000 classmates and alumni activities."
 
     var body: some HTML {
         Text(title).font(.title1).class("visually-hidden")

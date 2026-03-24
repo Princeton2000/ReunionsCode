@@ -10,7 +10,7 @@ import Ignite
 
 struct Constitution: StaticPage {
     var title = "Class Constitution"
-    var description = "The governing document of the Princeton Class of 2000."
+    var description = "Read the full text of the governing constitution of the Princeton Class of 2000, outlining class bylaws, officer roles, and elections."
 
     var body: some HTML {
         Text(title).font(.title1).class("visually-hidden")

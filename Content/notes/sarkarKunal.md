@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Kunal Sarkar
 image: /images/news/sarkarKunal.webp
-title: Kunal Sarkar ’00 and Mike Scanlon ’01: A Gym for Your Brain?
+title: Kunal Sarkar | Jan 21, 2016
+headline: Kunal Sarkar ‘00 and Mike Scanlon ‘01: A Gym for Your Brain?
 link: https://paw.princeton.edu/article/kunal-sarkar-00-and-mike-scanlon-01-gym-your-brain
 date: 2016-01-21 00:00
 lastModified: 2025-01-31

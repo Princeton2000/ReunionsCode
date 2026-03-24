@@ -2,7 +2,8 @@
 layout: Story
 tags: Class Notes, Katherine Zoepf
 image: /images/news/zoepfKatherine.webp
-title: Reading Room: Katherine Zoepf ’00: Small Changes Add Up For Arab Women
+title: Katherine Zoepf | Sep 15, 2016
+headline: Katherine Zoepf ‘00: Small Changes Add Up For Arab Women
 link: https://paw.princeton.edu/article/reading-room-katherine-zoepf-00
 date: 2016-09-15 00:00
 lastModified: 2025-01-31
