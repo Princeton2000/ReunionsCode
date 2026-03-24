@@ -40,6 +40,7 @@ struct MainLayout: Layout {
             StructuredData("Organization", properties: [
                 "name": "Princeton Class of 2000",
                 "url": "https://reunions.princeton2000.org",
+                "logo": "https://reunions.princeton2000.org/images/logos/P2000_25th_TigerHead_BECW.svg",
                 "description": "Official website of the Princeton University Class of 2000, organizing reunions, class activities, and community engagement since 2000.",
                 "foundingDate": "2000-06-06",
                 "sameAs": socialLinkList.map(\.link),
@@ -81,6 +82,11 @@ struct MainLayout: Layout {
                     postalCode: "08544",
                     organizer: (name: "Princeton Class of 2000", url: "https://reunions.princeton2000.org")
                 )
+            }
+
+            // FAQPage schema on the FAQ page
+            if page.url.path.contains("faq") {
+                faqPageSchema()
             }
         }
 
@@ -131,6 +137,25 @@ struct MainLayout: Layout {
             // Footer
             Copyright()
         }
+    }
+
+    // FAQPage JSON-LD schema from all FAQ articles
+    private func faqPageSchema() -> StructuredData {
+        let faqArticles = articles.typed("faq").filter { $0.metadata["question"] != nil }
+        let qaEntries: [[String: Any]] = faqArticles.compactMap { faq in
+            guard let question = faq.metadata["question"] as? String else { return nil }
+            return [
+                "@type": "Question",
+                "name": question,
+                "acceptedAnswer": [
+                    "@type": "Answer",
+                    "text": faq.text
+                ] as [String: Any]
+            ] as [String: Any]
+        }
+        return StructuredData("FAQPage", properties: [
+            "mainEntity": qaEntries
+        ] as [String: Any])
     }
 
     // Helper to generate FAQ accordion based on current page

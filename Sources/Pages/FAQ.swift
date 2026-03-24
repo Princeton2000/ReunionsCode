@@ -39,9 +39,9 @@ struct FAQ: StaticPage {
     }
 
     var body: some HTML {
-        Text(title).font(.title1)
+        Text("Frequently Asked Questions").font(.title1)
 
-        Text("Find answers to common questions about reunions, organized by topic.")
+        Text("Find answers to common questions about Princeton Class of 2000 reunions — registration, housing, the P-rade, and more.")
             .margin(.bottom, 20)
 
         for tag in sortedTags {
