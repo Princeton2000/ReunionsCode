@@ -1,6 +1,6 @@
 ---
 layout: Story
-tags: Class Notes, Stephanie Ramos, Tiffany Madigan, Alexis Moses, Mike Nixon
+tags: Class Notes, Rachael Levine, Stephanie Ramos, Tiffany Madigan, Alexis Moses, Mike Nixon, Kevin White, Bryan Schreier, Jim Simmons, Julia Boorstin, Dave Bordeau, Campbell MacColl, Tizgel High, Class Reunion Awards
 image: /images/news/ag-dinner-madigan_ramos_moses_2100x_030226.jpg
 title: Annual Giving celebrates volunteer achievements
 link: https://alumni.princeton.edu/stories/annual-giving-celebrates-volunteer-achievements-helm-award
