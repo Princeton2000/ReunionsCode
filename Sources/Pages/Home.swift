@@ -31,7 +31,7 @@ struct Home: StaticPage {
 //        }
 		Alert {
 			Text {
-				Link("Reunions 2026 is May 21-24…come back soon to register!", target: "https://princeton.reunioniq.com/go/2026/satellite10-35")
+				Link("Reunions 2026 is May 21-24…Register now!", target: "https://princeton.reunioniq.com/go/2026/satellite10-35")
 					.target(.newWindow)
 					.relationship(.noOpener, .noReferrer)
 			}
