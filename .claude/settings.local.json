@@ -19,7 +19,8 @@
       "WebFetch(domain:blog.justinpurnell.com)",
       "WebFetch(domain:purns.tumblr.com)",
       "Bash(curl:*)",
-      "mcp__geoseo__analyze_ai_crawler_access"
+      "mcp__geoseo__analyze_ai_crawler_access",
+      "Bash(hugo:*)"
     ]
   }
 }
