@@ -1,7 +1,7 @@
 ---
 layout: Story
 tags: Class Letters
-image:
+image: /images/class/class_photo_25th.JPG
 alt: 
 title: Reunions - Last-minute notes
 link: https://princeton.reunioniq.com/go/2026/satellite10-35
