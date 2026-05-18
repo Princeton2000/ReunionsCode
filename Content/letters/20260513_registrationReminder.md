@@ -1,7 +1,7 @@
 ---
 layout: Story
 tags: Class Letters
-image:
+image: /images/class/class_photo_25th.JPG
 alt: 
 title: Reunions Roundup
 link: https://princeton-class-of-2000.square.site/
