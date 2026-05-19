@@ -53,9 +53,9 @@ struct Princeton2000: Site {
         contentCount: 20,
         path: "/feed.rss",
         image: FeedConfiguration.FeedImage(
-            url: "https://reunions.princeton2000.org/images/rss.png",
+            url: "https://reunions.princeton2000.org/images/logosP2000_25th_TigerHead_BECW_60x60.png",
             width: 144,
-            height: 152
+            height: 144
         ),
         contentTypes: ["letters"]
     )
