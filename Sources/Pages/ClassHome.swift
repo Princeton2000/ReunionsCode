@@ -33,23 +33,25 @@ struct ClassHome: StaticPage {
                 .fontWeight(.semibold)
                 .horizontalAlignment(.center)
                 .padding(.top)
-			Alert {
-				if let url = reunion.registrationLink {
-					Text {
-						Link(reunion.callToAction, target: url)
-							.target(.newWindow)
-							.relationship(.noOpener, .noReferrer)
-					}
-					.fontWeight(.semibold)
-					.horizontalAlignment(.center)
-				} else {
-					Text(reunion.callToAction)
+			if reunion.showsBanner {
+				Alert {
+					if let url = reunion.registrationLink {
+						Text {
+							Link(reunion.callToAction, target: url)
+								.target(.newWindow)
+								.relationship(.noOpener, .noReferrer)
+						}
 						.fontWeight(.semibold)
 						.horizontalAlignment(.center)
+					} else {
+						Text(reunion.callToAction)
+							.fontWeight(.semibold)
+							.horizontalAlignment(.center)
+					}
 				}
+				.role(.info)
+				.padding()
 			}
-			.role(.info)
-			.padding()
             Text {
                 "We are a volunteer organization run by and for the Princeton undergraduate Class of 2000. Enabled by the Trustees of Princeton University, our mission is to deepen the connections that our classmates have with each other, with the University, with other Classes, and with the community."
 			}.hidden()

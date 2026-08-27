@@ -91,9 +91,9 @@ struct MainLayout: Layout {
             // Navigation
             NavBar()
 
-            // Reunion Alert (only show before reunions end). Links only once
-            // registration is open; otherwise it's a plain announcement.
-            if reunion.isUpcoming {
+            // Reunion Alert: hidden until the announcement date, gone once reunions end.
+            // Links only once registration is open; otherwise a plain announcement.
+            if reunion.showsBanner {
                 Alert {
                     if let url = reunion.registrationLink {
                         Text {

@@ -29,8 +29,17 @@ struct Reunion: Sendable {
     /// Class-specific registration link for this Reunion.
     var registrationURL: String
 
-    /// Whether registration has opened. Drives "Register now" vs. "come back soon" copy.
-    var registrationIsOpen: Bool
+    /// When the site-wide banner starts appearing.
+    ///
+    /// There's no point advertising a reunion that's still most of a year out, so the banner
+    /// stays hidden until this date and then turns itself on. Being a date rather than a flag
+    /// means nobody has to remember to switch it — the same reason the dates below are the
+    /// only thing worth editing.
+    var announcementBegins: DateComponents
+
+    /// When registration opens. Until then the banner announces rather than sells:
+    /// no "Register Now!", and no link to a page that isn't live.
+    var registrationOpens: DateComponents
 
     // MARK: - The one value to edit
 
@@ -49,7 +58,18 @@ struct Reunion: Sendable {
             hour: 10, minute: 0, second: 0
         ),
         registrationURL: "https://princeton.reunioniq.com/go/2027/satellite10-35",
-        registrationIsOpen: false
+        announcementBegins: DateComponents(
+            calendar: .current,
+            timeZone: TimeZone(identifier: "America/New_York"),
+            year: 2027, month: 3, day: 1,
+            hour: 0, minute: 0, second: 0
+        ),
+        registrationOpens: DateComponents(
+            calendar: .current,
+            timeZone: TimeZone(identifier: "America/New_York"),
+            year: 2027, month: 3, day: 1,
+            hour: 0, minute: 0, second: 0
+        )
     )
 }
 
@@ -64,8 +84,18 @@ extension Reunion {
     /// The calendar year of the Reunion, e.g. 2027.
     var year: Int { start.year ?? 0 }
 
-    /// True until the Reunion ends. Gates the registration banner.
+    /// True until the Reunion ends.
     var isUpcoming: Bool { Date() < endDate }
+
+    var announcementDate: Date { announcementBegins.date ?? Date(timeIntervalSince1970: 0) }
+
+    var registrationOpensDate: Date { registrationOpens.date ?? Date(timeIntervalSince1970: 0) }
+
+    /// Whether registration has opened yet.
+    var registrationIsOpen: Bool { Date() >= registrationOpensDate }
+
+    /// Whether the site-wide banner should render: announced, and not yet over.
+    var showsBanner: Bool { Date() >= announcementDate && isUpcoming }
 
     var startISO8601: String { startDate.asISO8601 }
 
