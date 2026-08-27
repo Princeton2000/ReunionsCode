@@ -38,9 +38,9 @@ public func deployment() -> SiteLocation {
 // MARK: - Site Definition
 
 struct Princeton2000: Site {
-    var name = "Reunions 2025"
+    var name = Reunion.upcoming.yearLabel
     var titleSuffix = " | Princeton Class of 2000"
-    var description: String? = "Bid Every Care Withdraw: Princeton's Class of 2000 celebrates its 27th Reunion, May 20-23, 2027"
+    var description: String? = "Bid Every Care Withdraw: Princeton's Class of 2000 celebrates its \(Reunion.upcoming.title), \(Reunion.upcoming.dateRange)"
 
     var language: Language = .english
     var url = URL(string: deployment().rawValue)!

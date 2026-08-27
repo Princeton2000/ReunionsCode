@@ -15,6 +15,7 @@ struct ClassHome: StaticPage {
     var description: String = "Welcome to the Princeton Class of 2000 — your hub for class news, upcoming events, alumni links, reunions info, and dues information."
     var path = "/class-home"
     var layout: EmbedLayout { EmbedLayout() }
+    let reunion = Reunion.upcoming
 
     var body: some HTML {
         Section {
@@ -34,7 +35,7 @@ struct ClassHome: StaticPage {
                 .padding(.top)
 			Alert {
 				Text {
-					Link("Reunions 2027 is May 20-23…come back soon to register!", target: "https://princeton.reunioniq.com/go/2027/satellite10-35")
+					Link(reunion.callToAction, target: reunion.registrationURL)
 						.target(.newWindow)
 						.relationship(.noOpener, .noReferrer)
 				}

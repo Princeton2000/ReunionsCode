@@ -12,18 +12,7 @@ struct MainLayout: Layout {
     @Environment(\.articles) var articles
     @Environment(\.page) var page
 
-    var reunionsStartDate = DateComponents(
-        calendar: .current,
-		timeZone: .init(abbreviation: "EST"),
-        year: 2027, month: 5, day: 20,
-        hour: 12, minute: 0, second: 0
-    )
-    var reunionsEndDate = DateComponents(
-        calendar: .autoupdatingCurrent,
-        timeZone: TimeZone(identifier: "EST"),
-        year: 2027, month: 5, day: 23,
-        hour: 2, minute: 0, second: 0
-    )
+    let reunion = Reunion.upcoming
 
     var body: some Document {
         Head {
@@ -73,9 +62,9 @@ struct MainLayout: Layout {
 
             if page.url.path == "/" || page.url.path.isEmpty {
                 StructuredData.event(
-                    name: "Princeton Class of 2000 — 27th Reunion",
-					startDate: "\(reunionsStartDate.date?.asISO8601 ?? "2027-05-20")",
-                    endDate: "\(reunionsEndDate.date?.asISO8601 ?? "2027-05-23")",
+                    name: reunion.eventName,
+                    startDate: reunion.startISO8601,
+                    endDate: reunion.endISO8601,
                     locationName: "Princeton University",
                     locality: "Princeton",
                     region: "NJ",
@@ -103,10 +92,10 @@ struct MainLayout: Layout {
             NavBar()
 
             // Registration Alert (only show before reunions end)
-            if Date() < reunionsEndDate.date ?? Date() {
+            if reunion.isUpcoming {
                 Alert {
                     Text {
-                        Link("Reunions 2027 is May 20-23 – Register Now!", target: "https://princeton.reunioniq.com/go/2027/satellite10-35")
+                        Link(reunion.callToAction, target: reunion.registrationURL)
                             .target(.newWindow)
                             .relationship(.noOpener, .noReferrer)
                     }
