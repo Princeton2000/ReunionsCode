@@ -7,7 +7,6 @@
 
 import Ignite
 
-@MainActor
 func musicEmbed(teaserText: String) -> Accordion {
     Accordion {
         Item("\(teaserText)") {

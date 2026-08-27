@@ -33,7 +33,6 @@
 		entry.links.filter { $0.url != nil }
 	}
 
-	@MainActor
 	func libraryRow(_ libraryEntry: LibraryEntry, includeDivider: Bool = true) -> some HTML {
 		let linksWithUrls = linksWithUrlsFor(libraryEntry)
 
@@ -107,7 +106,6 @@
 		libraryEntry.links.filter { $0.url != nil }
 	}
 
-	@MainActor
 	func streamingEmbed(for link: LibraryLink, entry: LibraryEntry) -> some HTML {
 		Group {
 			if link.source == .appleMusic, let url = entry.links.first(where: { $0.source == .appleMusic })?.url {
@@ -136,7 +134,6 @@
 		}
 	}
 
-	@MainActor
 	func linkButton(for link: LibraryLink, entry: LibraryEntry) -> some HTML {
 		Group {
 			if link.source == .bandcamp {
@@ -209,7 +206,6 @@
 		}
 	}
 
-	@MainActor
 	func libraryMusicRow(_ libraryEntry: LibraryEntry) -> some HTML {
 		let streamingLinks = musicStreamingLinks(libraryEntry)
 		let allLinks = linksWithUrl(libraryEntry)

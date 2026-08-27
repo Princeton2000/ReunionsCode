@@ -12,10 +12,10 @@ struct Home: StaticPage {
     @Environment(\.articles) var articles
 
     var title = "Reunions Home"
-    var description: String = "Princeton Class of 2000 Reunions — join us May 24-27, 2026 for our 26th Reunion. Find the schedule, registration, housing, and news."
+    var description: String = "Princeton Class of 2000 Reunions — join us May 20-23, 2027 for our 27th Reunion. Find the schedule, registration, housing, and news."
     var image: URL? = URL(string: "/images/logos/P2000_25th_Lounging_Tiger.svg")
-    var reunionsStartDate = DateComponents(calendar: .autoupdatingCurrent, timeZone: .autoupdatingCurrent, year: 2026, month: 5, day: 24, hour: 12, minute: 0, second: 0)
-    var reunionsEndDate = DateComponents(calendar: .autoupdatingCurrent, timeZone: .autoupdatingCurrent, year: 2026, month: 5, day: 27, hour: 10, minute: 0, second: 0)
+    var reunionsStartDate = DateComponents(calendar: .autoupdatingCurrent, timeZone: .autoupdatingCurrent, year: 2027, month: 5, day: 20, hour: 12, minute: 0, second: 0)
+    var reunionsEndDate = DateComponents(calendar: .autoupdatingCurrent, timeZone: .autoupdatingCurrent, year: 2027, month: 5, day: 23, hour: 10, minute: 0, second: 0)
 
     var body: some HTML {
         Text(title).font(.title1).class("visually-hidden")
@@ -31,7 +31,7 @@ struct Home: StaticPage {
 //        }
 		Alert {
 			Text {
-				Link("Reunions 2026 is May 21-24…Register now!", target: "https://princeton.reunioniq.com/go/2026/satellite10-35")
+				Link("Reunions 2027 is May 20-23…Register now!", target: "https://princeton.reunioniq.com/go/2027/satellite10-35")
 					.target(.newWindow)
 					.relationship(.noOpener, .noReferrer)
 			}
@@ -61,7 +61,7 @@ struct Home: StaticPage {
                     for content in articles
                         .all
                         .filter({ $0.type == "notes" || $0.type == "letters" })
-                        .sorted(by: { ($0.lastModified ?? Date.distantPast) > ($1.lastModified ?? Date.distantPast) })
+                        .sorted(by: { $0.lastModified > $1.lastModified })
                         .prefix(5) {
                         letterPreviewRow(content)
                     }
@@ -84,7 +84,7 @@ struct Home: StaticPage {
             degrees on June 6, 2000. Under the motto "Bid Every Care Withdraw" — drawn from the university \
             anthem *Old Nassau* — the class has maintained one of Princeton's most active alumni communities \
             for over 25 years. The class organizes major reunions every five years on the Princeton campus \
-            in Princeton, New Jersey, with the 26th Reunion scheduled for May 24 through May 27, 2026. \
+            in Princeton, New Jersey, with the 27th Reunion scheduled for May 20 through May 24, 2027. \
             Class activities include annual giving campaigns, regional events in cities across the United \
             States, a class column published in the *Princeton Alumni Weekly*, and an active social media \
             presence. The class is governed by elected officers and supported by volunteer committees covering \

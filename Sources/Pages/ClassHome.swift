@@ -34,7 +34,7 @@ struct ClassHome: StaticPage {
                 .padding(.top)
 			Alert {
 				Text {
-					Link("Reunions 2026 is May 21-24…come back soon to register!", target: "https://princeton.reunioniq.com/go/2026/satellite10-35")
+					Link("Reunions 2027 is May 20-23…come back soon to register!", target: "https://princeton.reunioniq.com/go/2027/satellite10-35")
 						.target(.newWindow)
 						.relationship(.noOpener, .noReferrer)
 				}

@@ -19,7 +19,6 @@ struct Library: StaticPage {
         return classmateEntries.filter({ $0.title != nil }).sorted(by: { $0.date > $1.date })
     }
 
-    @MainActor
     func classmateSection(_ classmate: Classmate, entries: [LibraryEntry]) -> some HTML {
         let classmateEntries = entriesByClassmate(classmate, from: entries)
         return Group {

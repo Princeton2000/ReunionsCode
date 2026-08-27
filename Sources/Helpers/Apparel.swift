@@ -23,7 +23,6 @@ struct SizeChart: Codable {
     let rows: [[String]]
 }
 
-@MainActor
 func sizeChart(_ chart: SizeChart) -> some HTML {
     Accordion {
         Item(chart.title) {
@@ -47,7 +46,6 @@ func sizeChart(_ chart: SizeChart) -> some HTML {
     .margin(.bottom, 10)
 }
 
-@MainActor
 func apparelCard(_ apparel: Apparel) -> some HTML {
     if apparel.image.isEmpty {
         Card {

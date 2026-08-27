@@ -7,7 +7,6 @@
 
 import Ignite
 
-@MainActor
 func letterPreviewRow(_ content: Article) -> Row {
     Row {
         if let image = content.image {

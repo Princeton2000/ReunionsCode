@@ -44,7 +44,7 @@ struct Privacy: StaticPage {
         We may update this privacy statement from time to time. Any changes will be \
         reflected on this page.
 
-        *Last updated: March 2026*
+        *Last updated: March 2027*
         """)
     }
 }

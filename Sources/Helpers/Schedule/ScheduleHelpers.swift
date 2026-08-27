@@ -8,7 +8,6 @@
 import Foundation
 import Ignite
 
-@MainActor
 func dailyBlock(_ events: [Event], dayNumber: Int, blurb: String) -> Group {
     let d = DateFormatter()
     d.dateFormat = "cccc"
@@ -45,7 +44,6 @@ func dailyBlock(_ events: [Event], dayNumber: Int, blurb: String) -> Group {
     }
 }
 
-@MainActor
 func eventRow(_ events: [Event], day value: Int) -> [Row] {
     var rows: [Row] = []
     for event in events.filter({ $0.startComponents.weekday == value }) {

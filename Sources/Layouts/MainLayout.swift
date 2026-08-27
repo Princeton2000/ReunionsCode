@@ -13,16 +13,16 @@ struct MainLayout: Layout {
     @Environment(\.page) var page
 
     var reunionsStartDate = DateComponents(
-        calendar: .autoupdatingCurrent,
-        timeZone: .autoupdatingCurrent,
-        year: 2025, month: 5, day: 22,
+        calendar: .current,
+		timeZone: .init(abbreviation: "EST"),
+        year: 2027, month: 5, day: 20,
         hour: 12, minute: 0, second: 0
     )
     var reunionsEndDate = DateComponents(
         calendar: .autoupdatingCurrent,
-        timeZone: .autoupdatingCurrent,
-        year: 2025, month: 5, day: 24,
-        hour: 10, minute: 0, second: 0
+        timeZone: TimeZone(identifier: "EST"),
+        year: 2027, month: 5, day: 23,
+        hour: 2, minute: 0, second: 0
     )
 
     var body: some Document {
@@ -73,9 +73,9 @@ struct MainLayout: Layout {
 
             if page.url.path == "/" || page.url.path.isEmpty {
                 StructuredData.event(
-                    name: "Princeton Class of 2000 — 26th Reunion",
-                    startDate: "2026-05-24",
-                    endDate: "2026-05-27",
+                    name: "Princeton Class of 2000 — 27th Reunion",
+					startDate: "\(reunionsStartDate.date?.asISO8601 ?? "2027-05-20")",
+                    endDate: "\(reunionsEndDate.date?.asISO8601 ?? "2027-05-23")",
                     locationName: "Princeton University",
                     locality: "Princeton",
                     region: "NJ",
@@ -106,7 +106,7 @@ struct MainLayout: Layout {
             if Date() < reunionsEndDate.date ?? Date() {
                 Alert {
                     Text {
-                        Link("Reunions is May 22-25, 2025 – Register Now!", target: "https://princeton.reunioniq.com/go/2025/2000")
+                        Link("Reunions 2027 is May 20-23 – Register Now!", target: "https://princeton.reunioniq.com/go/2027/satellite10-35")
                             .target(.newWindow)
                             .relationship(.noOpener, .noReferrer)
                     }
