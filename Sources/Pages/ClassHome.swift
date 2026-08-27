@@ -34,13 +34,19 @@ struct ClassHome: StaticPage {
                 .horizontalAlignment(.center)
                 .padding(.top)
 			Alert {
-				Text {
-					Link(reunion.callToAction, target: reunion.registrationURL)
-						.target(.newWindow)
-						.relationship(.noOpener, .noReferrer)
+				if let url = reunion.registrationLink {
+					Text {
+						Link(reunion.callToAction, target: url)
+							.target(.newWindow)
+							.relationship(.noOpener, .noReferrer)
+					}
+					.fontWeight(.semibold)
+					.horizontalAlignment(.center)
+				} else {
+					Text(reunion.callToAction)
+						.fontWeight(.semibold)
+						.horizontalAlignment(.center)
 				}
-				.fontWeight(.semibold)
-				.horizontalAlignment(.center)
 			}
 			.role(.info)
 			.padding()

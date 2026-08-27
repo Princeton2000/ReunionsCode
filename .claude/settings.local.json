@@ -54,7 +54,8 @@
       "Bash(./deploy.sh --dry-run --skip-build)",
       "Bash(./deploy.sh --stage-only --skip-build -m \"Update reunion dates to May 20-23, 2027; repin Ignite after force-push; adopt Sendable isolation\")",
       "Bash(./deploy.sh --stage-only --skip-build -m \"Derive all reunion dates and copy from a single Reunion.upcoming value\")",
-      "Bash(./deploy.sh --stage-only --skip-build -m \"Derive nav Reunions dropdown label from Reunion.upcoming\")"
+      "Bash(./deploy.sh --stage-only --skip-build -m \"Derive nav Reunions dropdown label from Reunion.upcoming\")",
+      "Bash(./deploy.sh --stage-only --skip-build -m \"Remove duplicate home banner; don't link registration until it opens\")"
     ]
   }
 }

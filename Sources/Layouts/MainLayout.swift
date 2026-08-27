@@ -91,17 +91,25 @@ struct MainLayout: Layout {
             // Navigation
             NavBar()
 
-            // Registration Alert (only show before reunions end)
+            // Reunion Alert (only show before reunions end). Links only once
+            // registration is open; otherwise it's a plain announcement.
             if reunion.isUpcoming {
                 Alert {
-                    Text {
-                        Link(reunion.callToAction, target: reunion.registrationURL)
-                            .target(.newWindow)
-                            .relationship(.noOpener, .noReferrer)
+                    if let url = reunion.registrationLink {
+                        Text {
+                            Link(reunion.callToAction, target: url)
+                                .target(.newWindow)
+                                .relationship(.noOpener, .noReferrer)
+                        }
+                        .font(.title4)
+                        .fontWeight(.semibold)
+                        .horizontalAlignment(.center)
+                    } else {
+                        Text(reunion.callToAction)
+                            .font(.title4)
+                            .fontWeight(.semibold)
+                            .horizontalAlignment(.center)
                     }
-                    .font(.title4)
-                    .fontWeight(.semibold)
-                    .horizontalAlignment(.center)
                 }
                 .role(.secondary)
             }

@@ -28,17 +28,8 @@ struct Home: StaticPage {
 //            }
 //            .padding(.horizontal, 5)
 //        }
-		Alert {
-			Text {
-				Link(reunion.callToAction, target: reunion.registrationURL)
-					.target(.newWindow)
-					.relationship(.noOpener, .noReferrer)
-			}
-			.fontWeight(.semibold)
-			.horizontalAlignment(.center)
-		}
-		.role(.info)
-		.padding()
+        // The reunion banner comes from MainLayout, which wraps every page — a second
+        // copy here would stack a duplicate on the home page.
         Section {
             Section {
                 Text("Our 25th Reunion")

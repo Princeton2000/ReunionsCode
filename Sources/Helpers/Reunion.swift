@@ -49,7 +49,7 @@ struct Reunion: Sendable {
             hour: 10, minute: 0, second: 0
         ),
         registrationURL: "https://princeton.reunioniq.com/go/2027/satellite10-35",
-        registrationIsOpen: true
+        registrationIsOpen: false
     )
 }
 
@@ -117,10 +117,20 @@ extension Reunion {
     }
 
     /// "Reunions 2027 is May 20-23 – Register Now!", or the pre-registration variant.
+    ///
+    /// Only the open variant should be hyperlinked — see `registrationLink`.
     var callToAction: String {
         registrationIsOpen
             ? "\(yearLabel) is \(dayRange) – Register Now!"
-            : "\(yearLabel) is \(dayRange)…come back soon to register!"
+            : "\(yearLabel) is \(dayRange) – registration opens soon"
+    }
+
+    /// The registration URL, but only once registration is actually open.
+    ///
+    /// Before then the banner is an announcement, not a call to action: sending people to a
+    /// registration page that isn't live yet is worse than showing them plain text.
+    var registrationLink: String? {
+        registrationIsOpen ? registrationURL : nil
     }
 
     private static func ordinalSuffix(_ value: Int) -> String {
