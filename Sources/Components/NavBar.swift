@@ -63,7 +63,7 @@ struct NavBar: HTML {
             Link("Constitution", target: Constitution())
             Link("AG", target: CommitteeAG())
             Link("Honoraries", target: HonoraryClassmates())
-            Dropdown("Reunions 2025") {
+            Dropdown(Reunion.upcoming.yearLabel) {
                 Link("Registration", target: Registration())
                 Link("Housing", target: Housing())
                 Link("Schedule", target: Schedule())
