@@ -90,7 +90,10 @@
 				if includeDivider {
 					Divider()
 				} else {
-					Spacer()
+					// Last entry for this classmate: a bare Spacer() renders as `mt-auto`,
+					// which collapses to nothing outside a flex container, leaving the links
+					// flush against the next classmate's header. Use real vertical space.
+					Spacer(size: 20)
 				}
 			}
 		}

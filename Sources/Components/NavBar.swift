@@ -63,7 +63,10 @@ struct NavBar: HTML {
             Link("Constitution", target: Constitution())
             Link("AG", target: CommitteeAG())
             Link("Honoraries", target: HonoraryClassmates())
-            Dropdown(Reunion.upcoming.yearLabel) {
+            // Labelled for the reunion this menu's pages actually describe (2025),
+            // not the upcoming one — these are the 25th Reunion's registration,
+            // housing, schedule, and jacket pages until that content is refreshed.
+            Dropdown("Reunions 2025") {
                 Link("Registration", target: Registration())
                 Link("Housing", target: Housing())
                 Link("Schedule", target: Schedule())
