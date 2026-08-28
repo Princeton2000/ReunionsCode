@@ -67,7 +67,7 @@ struct Reunion: Sendable {
         registrationOpens: DateComponents(
             calendar: .current,
             timeZone: TimeZone(identifier: "America/New_York"),
-            year: 2027, month: 3, day: 1,
+            year: 2027, month: 4, day: 15,
             hour: 0, minute: 0, second: 0
         )
     )
