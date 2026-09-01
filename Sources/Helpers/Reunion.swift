@@ -116,16 +116,16 @@ extension Reunion {
 
     private func day(_ components: DateComponents) -> Int { components.day ?? 0 }
 
-    /// "27th"
+    /// "XXth"
     var ordinalLabel: String { "\(ordinal)\(Self.ordinalSuffix(ordinal))" }
 
-    /// "27th Reunion"
+    /// "XXth Reunion"
     var title: String { "\(ordinalLabel) Reunion" }
 
-    /// "Princeton Class of 2000 — 27th Reunion"
+    /// "Princeton Class of 2000 — XXth Reunion"
     var eventName: String { "Princeton Class of 2000 — \(title)" }
 
-    /// "Reunions 2027"
+    /// "Reunions 20XX"
     var yearLabel: String { "Reunions \(year)" }
 
     /// "May 20-23", spanning months when needed ("May 30 - June 2").
@@ -138,15 +138,15 @@ extension Reunion {
         return "\(startMonth) \(day(start)) - \(endMonth) \(day(end))"
     }
 
-    /// "May 20-23, 2027"
+    /// "May 20-23, 20XX"
     var dateRange: String { "\(dayRange), \(year)" }
 
-    /// "May 20 through May 23, 2027" — for prose.
+    /// "May 20 through May 23, 20XX" — for prose.
     var longDateRange: String {
         "\(monthName(startDate)) \(day(start)) through \(monthName(endDate)) \(day(end)), \(year)"
     }
 
-    /// "Reunions 2027 is May 20-23 – Register Now!", or the pre-registration variant.
+    /// "Reunions 20XX is May 20-23 – Register Now!", or the pre-registration variant.
     ///
     /// Only the open variant should be hyperlinked — see `registrationLink`.
     var callToAction: String {
