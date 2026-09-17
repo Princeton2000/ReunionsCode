@@ -32,13 +32,20 @@ struct Reunion: Sendable {
     /// When the site-wide banner starts appearing.
     ///
     /// There's no point advertising a reunion that's still most of a year out, so the banner
-    /// stays hidden until this date and then turns itself on. Being a date rather than a flag
-    /// means nobody has to remember to switch it — the same reason the dates below are the
-    /// only thing worth editing.
+    /// stays hidden until this date.
+    ///
+    /// **This is evaluated at build time, not in the browser.** `Date()` resolves during
+    /// `ignite build` and the result is baked into static HTML — there is no JavaScript on
+    /// the page checking the clock. Passing the date changes nothing until someone rebuilds
+    /// and deploys. Being a date rather than a flag means no *code edit* is needed, not that
+    /// the site updates itself.
     var announcementBegins: DateComponents
 
     /// When registration opens. Until then the banner announces rather than sells:
     /// no "Register Now!", and no link to a page that isn't live.
+    ///
+    /// Build-time, same as `announcementBegins` — a deploy on or after this date is what
+    /// actually publishes the live link.
     var registrationOpens: DateComponents
 
     // MARK: - The one value to edit
@@ -91,10 +98,14 @@ extension Reunion {
 
     var registrationOpensDate: Date { registrationOpens.date ?? Date(timeIntervalSince1970: 0) }
 
-    /// Whether registration has opened yet.
+    /// Whether registration had opened **as of the moment this site was built**.
     var registrationIsOpen: Bool { Date() >= registrationOpensDate }
 
     /// Whether the site-wide banner should render: announced, and not yet over.
+    ///
+    /// Frozen at build time. The published page shows whatever this evaluated to during the
+    /// last `ignite build`, so the site must be rebuilt and redeployed for a state change to
+    /// reach visitors.
     var showsBanner: Bool { Date() >= announcementDate && isUpcoming }
 
     var startISO8601: String { startDate.asISO8601 }

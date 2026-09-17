@@ -60,8 +60,19 @@ prose), `ClassHome` (banner).
 - `announcementBegins` **2027-03-01** — banner appears
 - `registrationOpens` **2027-04-15** — "Register Now!" and the live link appear
 
-Banner states, all date-driven, nothing to flip by hand:
-hidden → announce (plain text) → register (linked) → hidden after the end date.
+Banner states: hidden → announce (plain text) → register (linked) → hidden after the end
+date.
+
+> **These are build-time conditions, not runtime behaviour.** `Date()` is evaluated by
+> Swift during `ignite build` and the result is baked into static HTML — there is no
+> JavaScript on the page checking the clock. **A state change requires a rebuild and
+> deploy.** If nobody deploys between now and 2027-03-01, the banner never appears; if
+> nobody rebuilds after 2027-04-15, the live link never publishes. The dates remove the
+> need for a *code edit*, not the need for a deploy.
+>
+> Practically: any deploy for any other reason after those dates picks up the change.
+> Worth a calendar reminder for **2027-03-01** and **2027-04-15** to deploy even if
+> nothing else changed.
 
 ### Why it exists
 
@@ -123,9 +134,13 @@ Build is **0 errors / 0 warnings**.
 
 ## Open questions for the user
 
-- **Is April 15, 2027 the real registration open date?** It's currently a date-driven
-  switch, so the live "Register Now!" link turns itself on that day. If it's wrong, a
-  link goes live pointing at a page that isn't.
+- **Is April 15, 2027 the real registration open date?** The first deploy on or after
+  that date publishes a live "Register Now!" link. If the date is wrong, that link points
+  at a page that isn't open yet.
+- **Should the banner transitions be automated?** Today they need a manual deploy (see
+  above). Options: calendar reminders and deploy by hand; a scheduled CI build that
+  rebuilds and pushes on a cron; or moving the check client-side into JavaScript. The
+  first is simplest and matches how this site is already maintained.
 - **Banner wording** — "registration opens soon" is a placeholder. A named month is a
   one-line change.
 - **Staging is crawlable.** `deployment()` returns `.production` unconditionally, so the
