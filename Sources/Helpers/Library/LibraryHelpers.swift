@@ -33,7 +33,7 @@
 		entry.links.filter { $0.url != nil }
 	}
 
-	func libraryRow(_ libraryEntry: LibraryEntry, includeDivider: Bool = true) -> some HTML {
+func libraryRow(_ libraryEntry: LibraryEntry, includeDivider: Bool = true) -> some HTML {
 		let linksWithUrls = linksWithUrlsFor(libraryEntry)
 
 		return Section {
